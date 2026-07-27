@@ -48,7 +48,8 @@ export function App() {
 
   const [selectedMember, setSelectedMember] = useState<Member | null>(null);
 
-  // Compute total linked bills in current filtered view
+  const isFiltered = searchQuery.trim() !== '' || selectedState !== 'All' || selectedConstituency !== 'All' || selectedCategory !== 'All';
+
   const totalLinkedBills = filteredMembers.reduce((sum, m) => sum + m.totalBills, 0);
   const activeCount = filteredMembers.filter(m => m.sponsoredCount > 0).length;
 
@@ -164,6 +165,7 @@ export function App() {
                   filteredCount={filteredMembers.length}
                   totalLinkedBills={totalLinkedBills}
                   activeCount={activeCount}
+                  isFiltered={isFiltered}
                 />
 
                 {/* Performance Leaderboard Section */}
@@ -174,10 +176,12 @@ export function App() {
                 />
 
                 {/* Government / Executive Bills Section */}
-                <ExecutiveBillsAccordion
-                  chamber={chamber}
-                  bills={data.executiveBills || []}
-                />
+                {!isFiltered && (
+                  <ExecutiveBillsAccordion
+                    chamber={chamber}
+                    bills={data.executiveBills || []}
+                  />
+                )}
 
                 {/* Pagination Controls Top */}
                 <Pagination

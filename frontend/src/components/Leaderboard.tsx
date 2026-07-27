@@ -62,7 +62,7 @@ export const Leaderboard: React.FC<LeaderboardProps> = ({
               }`}
             >
               <Trophy className="w-3.5 h-3.5" />
-              <span>Top 20 Performers</span>
+              <span>Top {top20.length} Performer{top20.length !== 1 ? 's' : ''}</span>
             </button>
             <button
               onClick={() => setActiveTab('least')}
@@ -73,7 +73,7 @@ export const Leaderboard: React.FC<LeaderboardProps> = ({
               }`}
             >
               <TrendingDown className="w-3.5 h-3.5" />
-              <span>Least 20 Performers</span>
+              <span>Least {least20.length} Performer{least20.length !== 1 ? 's' : ''}</span>
             </button>
           </div>
 

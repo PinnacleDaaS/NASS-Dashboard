@@ -41,9 +41,9 @@ export const LegislatorCard: React.FC<LegislatorCardProps> = ({
               <h3 className="font-extrabold text-base truncate text-white leading-snug">
                 {member.name}
               </h3>
-              {member.officialName && member.officialName !== member.name && (
-                <p className="text-xs text-white/80 truncate font-medium">
-                  {member.officialName}
+              {member.party && (
+                <p className="text-xs text-white/80 truncate font-semibold uppercase tracking-wider">
+                  {member.party}
                 </p>
               )}
             </div>

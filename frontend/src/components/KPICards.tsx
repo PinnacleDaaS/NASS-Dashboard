@@ -8,6 +8,7 @@ interface KPICardsProps {
   filteredCount: number;
   totalLinkedBills: number;
   activeCount: number;
+  isFiltered: boolean;
 }
 
 export const KPICards: React.FC<KPICardsProps> = ({
@@ -15,13 +16,14 @@ export const KPICards: React.FC<KPICardsProps> = ({
   stats,
   filteredCount,
   totalLinkedBills,
-  activeCount
+  activeCount,
+  isFiltered
 }) => {
   const isHouse = chamber === 'house';
   const labelMember = isHouse ? 'Reps' : 'Senators';
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 my-6">
+    <div className={`grid grid-cols-1 sm:grid-cols-2 gap-4 my-6 ${isFiltered ? 'lg:grid-cols-3' : 'lg:grid-cols-4'}`}>
       
       {/* Card 1: Members Shown */}
       <div className={`relative overflow-hidden rounded-2xl p-5 text-white shadow-lg transition-transform duration-200 hover:-translate-y-0.5 ${
@@ -89,27 +91,29 @@ export const KPICards: React.FC<KPICardsProps> = ({
         </div>
       </div>
 
-      {/* Card 4: Executive Bills */}
-      <div className={`relative overflow-hidden rounded-2xl p-5 text-white shadow-lg transition-transform duration-200 hover:-translate-y-0.5 ${
-        isHouse
-          ? 'bg-gradient-to-br from-emerald-800 via-emerald-700 to-green-600 shadow-emerald-950/20'
-          : 'bg-gradient-to-br from-amber-800 via-amber-700 to-yellow-600 shadow-amber-950/20'
-      }`}>
-        <div className="flex items-center justify-between">
-          <span className="text-xs font-bold uppercase tracking-wider text-white/80">
-            Executive Bills
-          </span>
-          <div className="p-2 rounded-xl bg-white/10 backdrop-blur-md">
-            <Landmark className="w-5 h-5 text-white" />
+      {/* Card 4: Executive Bills (hidden when filtered) */}
+      {!isFiltered && (
+        <div className={`relative overflow-hidden rounded-2xl p-5 text-white shadow-lg transition-transform duration-200 hover:-translate-y-0.5 ${
+          isHouse
+            ? 'bg-gradient-to-br from-emerald-800 via-emerald-700 to-green-600 shadow-emerald-950/20'
+            : 'bg-gradient-to-br from-amber-800 via-amber-700 to-yellow-600 shadow-amber-950/20'
+        }`}>
+          <div className="flex items-center justify-between">
+            <span className="text-xs font-bold uppercase tracking-wider text-white/80">
+              Executive Bills
+            </span>
+            <div className="p-2 rounded-xl bg-white/10 backdrop-blur-md">
+              <Landmark className="w-5 h-5 text-white" />
+            </div>
+          </div>
+          <div className="mt-3 text-3xl sm:text-4xl font-extrabold tracking-tight">
+            {stats?.executiveBillCount ?? 0}
+          </div>
+          <div className="mt-1 text-xs text-white/70">
+            Government-sponsored
           </div>
         </div>
-        <div className="mt-3 text-3xl sm:text-4xl font-extrabold tracking-tight">
-          {stats?.executiveBillCount ?? 0}
-        </div>
-        <div className="mt-1 text-xs text-white/70">
-          Government-sponsored
-        </div>
-      </div>
+      )}
 
     </div>
   );
