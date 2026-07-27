@@ -45,59 +45,23 @@ export function useData(chamber: Chamber) {
     setCurrentPage(1);
   }, [chamber]);
 
-  // Reset constituency when state changes
+  // Reset constituency & category when state changes
   useEffect(() => {
     setSelectedConstituency('All');
+    setSelectedCategory('All');
     setCurrentPage(1);
   }, [selectedState]);
+
+  // Reset category when constituency changes
+  useEffect(() => {
+    setSelectedCategory('All');
+    setCurrentPage(1);
+  }, [selectedConstituency]);
 
   // Reset page when search query changes
   useEffect(() => {
     setCurrentPage(1);
   }, [searchQuery]);
-
-  // Filtered members calculation
-  const filteredMembers = useMemo(() => {
-    if (!data || !data.members) return [];
-
-    return data.members.filter(m => {
-      // 1. Text Search (name or officialName)
-      if (searchQuery.trim()) {
-        const query = searchQuery.toLowerCase().trim();
-        const matchName = m.name.toLowerCase().includes(query);
-        const matchOfficial = m.officialName.toLowerCase().includes(query);
-        if (!matchName && !matchOfficial) return false;
-      }
-
-      // 2. State Filter
-      if (selectedState !== 'All' && m.state !== selectedState) {
-        return false;
-      }
-
-      // 3. Constituency Filter
-      if (selectedConstituency !== 'All' && m.constituency !== selectedConstituency) {
-        return false;
-      }
-
-      // 4. Category Filter (check if member has any bill with the selected category)
-      if (selectedCategory !== 'All') {
-        const allBills = [...m.sponsoredBills, ...m.cosponsoredBills];
-        const hasCategory = allBills.some(b => b.category === selectedCategory);
-        if (!hasCategory) return false;
-      }
-
-      return true;
-    });
-  }, [data, searchQuery, selectedState, selectedConstituency, selectedCategory]);
-
-  // Paginated members calculation
-  const totalItems = filteredMembers.length;
-  const totalPages = Math.max(1, Math.ceil(totalItems / pageSize));
-  
-  const paginatedMembers = useMemo(() => {
-    const start = (currentPage - 1) * pageSize;
-    return filteredMembers.slice(start, start + pageSize);
-  }, [filteredMembers, currentPage, pageSize]);
 
   // Available constituencies for selected state
   const availableConstituencies = useMemo(() => {
@@ -110,17 +74,50 @@ export function useData(chamber: Chamber) {
     return data.constituencies[selectedState] || [];
   }, [data, selectedState]);
 
-  // Available categories from all members' bills
+  // Members filtered by search + state + constituency (excludes category — used for cascading category options)
+  const membersBeforeCategory = useMemo(() => {
+    if (!data || !data.members) return [];
+    return data.members.filter(m => {
+      if (searchQuery.trim()) {
+        const q = searchQuery.toLowerCase().trim();
+        if (!m.name.toLowerCase().includes(q) && !m.officialName.toLowerCase().includes(q))
+          return false;
+      }
+      if (selectedState !== 'All' && m.state !== selectedState) return false;
+      if (selectedConstituency !== 'All' && m.constituency !== selectedConstituency) return false;
+      return true;
+    });
+  }, [data, searchQuery, selectedState, selectedConstituency]);
+
+  // Available categories — cascades from state/constituency/search
   const availableCategories = useMemo(() => {
     if (!data || !data.members) return [];
     const cats = new Set<string>();
-    data.members.forEach(m => {
+    membersBeforeCategory.forEach(m => {
       [...m.sponsoredBills, ...m.cosponsoredBills].forEach(b => {
         if (b.category) cats.add(b.category);
       });
     });
     return Array.from(cats).sort();
-  }, [data]);
+  }, [membersBeforeCategory]);
+
+  // Filtered members — applies all filters including category
+  const filteredMembers = useMemo(() => {
+    if (selectedCategory === 'All') return membersBeforeCategory;
+    return membersBeforeCategory.filter(m => {
+      const allBills = [...m.sponsoredBills, ...m.cosponsoredBills];
+      return allBills.some(b => b.category === selectedCategory);
+    });
+  }, [membersBeforeCategory, selectedCategory]);
+
+  // Paginated members calculation
+  const totalItems = filteredMembers.length;
+  const totalPages = Math.max(1, Math.ceil(totalItems / pageSize));
+  
+  const paginatedMembers = useMemo(() => {
+    const start = (currentPage - 1) * pageSize;
+    return filteredMembers.slice(start, start + pageSize);
+  }, [filteredMembers, currentPage, pageSize]);
 
   const clearFilters = () => {
     setSearchQuery('');

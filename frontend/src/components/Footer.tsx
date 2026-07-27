@@ -47,8 +47,9 @@ export const Footer: React.FC<FooterProps> = ({ chamber, lastUpdated = 'July 27,
         </div>
 
         {/* Right: Creators Attribution */}
-        <div className="flex items-center gap-1 font-semibold text-slate-700 dark:text-slate-300">
-          <Code2 className="w-3.5 h-3.5 text-indigo-500" />
+        <div className="flex items-center gap-1.5 font-semibold text-slate-700 dark:text-slate-300">
+          <Code2 className={`w-3.5 h-3.5 ${accentIcon}`} />
+          <span>Dashboard by</span>
           <strong className="text-slate-900 dark:text-white font-extrabold">
             Joshua Akintayo
           </strong>
