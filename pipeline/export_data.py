@@ -2,6 +2,7 @@ import os
 import json
 import re
 import pandas as pd
+import csv
 from datetime import datetime
 from pathlib import Path
 
@@ -73,6 +74,85 @@ def normalize_senate_sponsor_name(name):
     key = normalize_person_name(name)
     return SENATE_SPONSOR_NAME_MAP.get(key, key)
 
+def clean_display_name(name):
+    """Convert 'Sen. Adebule, Idiat Oluranti' -> 'Sen. Adebule Idiat Oluranti' (remove comma)"""
+    name = str(name).strip()
+    match = re.match(r'^([A-Za-z]+\.?\s*)([^,]+),\s*(.+)$', name)
+    if match:
+        prefix = match.group(1).strip()
+        last = match.group(2).strip()
+        rest = match.group(3).strip()
+        return f"{prefix} {last} {rest}"
+    return name
+
+def load_cleaned_bills():
+    """Load bills from the full cleaned CSV (37 columns) instead of Excel files."""
+    path = os.path.join(DATA_DIR, 'plac_10th_assembly_bills_cleaned.csv')
+    if not os.path.exists(path):
+        print(f"[Warning] Cleaned bills CSV not found at '{path}'")
+        return None
+
+    b_df = pd.read_csv(path, encoding='utf-8-sig', dtype=str, keep_default_na=False)
+    b_df.columns = b_df.columns.str.strip()
+
+    required = ['bill_id', 'bill_number', 'title', 'category', 'originating_chamber',
+                'date_first_reading', 'date_second_reading', 'committee',
+                'timeline_history', 'primary_sponsor_name', 'sponsors_full_details',
+                'sponsors_names', 'pdf_initial_bill', 'pdf_passed_bill',
+                'pdf_signed_act', 'pdf_committee_report']
+    for col in required:
+        if col not in b_df.columns:
+            b_df[col] = ''
+
+    b_df['third_reading_status'] = b_df['timeline_history'].apply(extract_third_reading_status)
+    b_df['passed_third_reading'] = b_df['third_reading_status'].apply(has_passed_third_reading)
+    return b_df
+
+def format_bill_obj(b_row):
+    """Format a bill row (Series or dict) into JSON output format."""
+    return {
+        "billId": str(b_row.get('bill_id', '')),
+        "billNumber": str(b_row.get('bill_number', '')),
+        "title": str(b_row.get('title', '')),
+        "category": str(b_row.get('category', '')),
+        "dateFirstReading": format_date_str(b_row.get('date_first_reading', '')),
+        "dateSecondReading": format_date_str(b_row.get('date_second_reading', '')),
+        "committee": str(b_row.get('committee', '')),
+        "thirdReadingStatus": str(b_row.get('third_reading_status', '')),
+        "passedThirdReading": bool(b_row.get('passed_third_reading', False)),
+        "primarySponsor": clean_display_name(str(b_row.get('primary_sponsor_name', ''))),
+        "sponsorsDetails": str(b_row.get('sponsors_full_details', '')),
+        "pdfInitialBill": str(b_row.get('pdf_initial_bill', '')),
+        "pdfPassedBill": str(b_row.get('pdf_passed_bill', '')),
+        "pdfSignedAct": str(b_row.get('pdf_signed_act', '')),
+        "pdfCommitteeReport": str(b_row.get('pdf_committee_report', ''))
+    }
+
+def build_party_lookup(chamber_type):
+    """Build a dict mapping normalized member name -> party from the sponsors CSV."""
+    path = os.path.join(DATA_DIR, 'plac_10th_assembly_bills_sponsors.csv')
+    lookup = {}
+    if not os.path.exists(path):
+        return lookup
+
+    df = pd.read_csv(path)
+    df.columns = df.columns.str.strip()
+    df = df[df['chamber_type'].str.strip().str.lower() == str(chamber_type).lower()]
+    if df.empty:
+        return lookup
+
+    if str(chamber_type).lower() == 'senate':
+        df['norm'] = df['sponsor_name'].apply(normalize_senate_sponsor_name)
+    else:
+        df['norm'] = df['sponsor_name'].apply(normalize_house_sponsor_name)
+
+    for _, row in df.iterrows():
+        key = str(row['norm']).strip()
+        party = str(row['sponsor_party']).strip()
+        if key and party and key not in lookup:
+            lookup[key] = party
+    return lookup
+
 def extract_third_reading_status(timeline_history):
     match = re.search(r'Third Reading/Concurrence \(([^)]*)\)', str(timeline_history))
     if not match:
@@ -129,13 +209,12 @@ def load_bill_sponsors_data(chamber_type):
 def build_house_data():
     print("[+] Exporting House of Representatives data...")
     house_members_path = os.path.join(DATA_DIR, 'house_of_reps_master_final.xlsx')
-    house_bills_path = os.path.join(DATA_DIR, 'cleaned_house_bills_final.xlsx')
 
-    if not os.path.exists(house_members_path) or not os.path.exists(house_bills_path):
-        print("[Warning] House source files missing!")
+    if not os.path.exists(house_members_path):
+        print("[Warning] House members source file missing!")
         return
 
-    m_df = pd.read_excel(house_members_path, sheet_name='in').iloc[:360]
+    m_df = pd.read_excel(house_members_path, sheet_name='in')
     m_df.columns = m_df.columns.str.strip()
     m_df = m_df.rename(columns={
         'House of rep member': 'rep_name',
@@ -149,7 +228,6 @@ def build_house_data():
         m_df['image_url'] = ''
     m_df['image_url'] = m_df['image_url'].fillna('').astype(str)
 
-    # Overrides from app.py
     override_image = """data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUSExIVFRUXFRUVFxYWFRUVFxcVFRUXFhcVFRUYHSggGBolHRUVITEhJSkrLi4vFx8zODMsNygtLisBCgoKDg0OFRAQGC8dHSItLS0tLS0tLS0tKy0tLSstLS0tKy0tLS0tKy0tLSsrLS0uKy0rLS0tKy0tLS0tLS0tLf/AABEIAOEA4AMBIgACEQEDEQH/xAAcAAABBQEBAQ~~~~~~~~"""
     mask1 = m_df['rep_name'].astype(str).str.strip().str.lower().str.contains('adetunji abidemi olusoji', na=False)
     mask2 = m_df['official_name'].astype(str).str.strip().str.lower().str.contains('adetunji abidemi olusoji', na=False)
@@ -166,16 +244,34 @@ def build_house_data():
     m_df['rep_key'] = m_df['rep_name'].apply(normalize_person_name)
     m_df['official_key'] = m_df['official_name'].apply(normalize_person_name)
 
-    # Bills Data
-    b_df = pd.read_excel(house_bills_path, sheet_name='in')
-    b_df.columns = b_df.columns.str.strip()
-    for col in ['bill_id', 'title', 'date_first_reading', 'date_second_reading', 'timeline_history', 'primary_sponsor_name', 'sponsors_names', 'sponsors_full_details', 'committee']:
-        if col not in b_df.columns:
-            b_df[col] = ''
-        b_df[col] = b_df[col].fillna('').astype(str)
+    # Bills Data from cleaned CSV
+    all_bills = load_cleaned_bills()
+    if all_bills is None:
+        print("[Warning] No cleaned bills CSV available, falling back to Excel")
+        house_bills_path = os.path.join(DATA_DIR, 'cleaned_house_bills_final.xlsx')
+        if not os.path.exists(house_bills_path):
+            print("[Error] No fallback bills source found!")
+            return
+        b_df = pd.read_excel(house_bills_path, sheet_name='in')
+        b_df.columns = b_df.columns.str.strip()
+        for col in ['bill_id', 'title', 'date_first_reading', 'date_second_reading', 'timeline_history', 'primary_sponsor_name', 'sponsors_names', 'sponsors_full_details', 'committee']:
+            if col not in b_df.columns:
+                b_df[col] = ''
+            b_df[col] = b_df[col].fillna('').astype(str)
+        b_df['third_reading_status'] = b_df['timeline_history'].apply(extract_third_reading_status)
+        b_df['passed_third_reading'] = b_df['third_reading_status'].apply(has_passed_third_reading)
+        for c in ['bill_number', 'category', 'pdf_initial_bill', 'pdf_passed_bill', 'pdf_signed_act', 'pdf_committee_report']:
+            b_df[c] = ''
+    else:
+        b_df = all_bills[all_bills['originating_chamber'].str.strip().str.upper() == 'HOUSE'].copy()
+        if b_df.empty:
+            b_df = all_bills[all_bills['originating_chamber'].str.strip().str.upper() == 'HOUSE OF REPRESENTATIVES'].copy()
 
-    b_df['third_reading_status'] = b_df['timeline_history'].apply(extract_third_reading_status)
-    b_df['passed_third_reading'] = b_df['third_reading_status'].apply(has_passed_third_reading)
+    # Identify and separate executive bills
+    exec_mask = b_df['primary_sponsor_name'].astype(str).str.strip().str.lower().str.contains('executive', na=False)
+    executive_bills_df = b_df[exec_mask].copy()
+    b_df = b_df[~exec_mask].copy()
+
     b_df['sponsor_key'] = b_df['primary_sponsor_name'].apply(normalize_house_sponsor_name)
 
     sponsor_table = load_bill_sponsors_data('House')
@@ -187,6 +283,9 @@ def build_house_data():
     else:
         b_df['sponsor_keys'] = b_df['sponsors_names'].apply(lambda x: [normalize_house_sponsor_name(n) for n in str(x).split(';') if n])
         b_df['cosponsor_keys'] = b_df['sponsor_keys'].apply(lambda k: k[1:] if len(k) > 1 else [])
+
+    # Build party lookup
+    party_lookup = build_party_lookup('House')
 
     # Process members and their linked bills
     members_list = []
@@ -205,6 +304,13 @@ def build_house_data():
 
         keys = {row.get('rep_key', ''), row.get('official_key', '')} - {''}
 
+        # Look up party
+        party = ''
+        for k in keys:
+            if k in party_lookup:
+                party = party_lookup[k]
+                break
+
         # Find sponsored bills
         sponsored_mask = b_df['sponsor_key'].isin(keys)
         sponsored_bills_df = b_df[sponsored_mask]
@@ -212,19 +318,6 @@ def build_house_data():
         # Find co-sponsored bills
         cosponsored_mask = b_df['cosponsor_keys'].apply(lambda c_keys: bool(keys.intersection(set(c_keys))))
         cosponsored_bills_df = b_df[cosponsored_mask & (~sponsored_mask)]
-
-        def format_bill_obj(b_row):
-            return {
-                "billId": str(b_row.get('bill_id', '')),
-                "title": str(b_row.get('title', '')),
-                "dateFirstReading": format_date_str(b_row.get('date_first_reading', '')),
-                "dateSecondReading": format_date_str(b_row.get('date_second_reading', '')),
-                "committee": str(b_row.get('committee', '')),
-                "thirdReadingStatus": str(b_row.get('third_reading_status', '')),
-                "passedThirdReading": bool(b_row.get('passed_third_reading', False)),
-                "primarySponsor": str(b_row.get('primary_sponsor_name', '')),
-                "sponsorsDetails": str(b_row.get('sponsors_full_details', ''))
-            }
 
         sponsored_bills = [format_bill_obj(r) for _, r in sponsored_bills_df.iterrows()]
         cosponsored_bills = [format_bill_obj(r) for _, r in cosponsored_bills_df.iterrows()]
@@ -236,7 +329,6 @@ def build_house_data():
         passed_count = sum(1 for b in sponsored_bills if b['passedThirdReading'])
         conversion_rate = round((passed_count / total_sponsored) * 100) if total_sponsored > 0 else 0
 
-        # Calculate first and latest bill dates
         all_dates = []
         for b in sponsored_bills + cosponsored_bills:
             if b['dateFirstReading']:
@@ -249,6 +341,7 @@ def build_house_data():
             "id": m_id,
             "name": name,
             "officialName": official_name,
+            "party": party,
             "state": state,
             "constituency": constituency,
             "imageUrl": image_url,
@@ -263,12 +356,13 @@ def build_house_data():
             "latestBillDate": latest_date
         })
 
-    # Stats & Leaderboards
+    executive_bills = [format_bill_obj(r) for _, r in executive_bills_df.iterrows()]
+    executive_bill_count = len(executive_bills)
+
     total_members = len(members_list)
     members_with_bills = sum(1 for m in members_list if m['totalBills'] > 0)
     total_unique_bills = len(b_df)
 
-    # Sort members by total bills for leaderboards
     members_with_linked = [m for m in members_list if m['totalBills'] > 0]
     members_with_linked_sorted = sorted(members_with_linked, key=lambda x: x['totalBills'], reverse=True)
 
@@ -276,6 +370,7 @@ def build_house_data():
         return {
             "id": m['id'],
             "name": m['name'],
+            "party": m.get('party', ''),
             "state": m['state'],
             "constituency": m['constituency'],
             "billCount": m['totalBills'],
@@ -298,12 +393,14 @@ def build_house_data():
         "stats": {
             "totalMembers": total_members,
             "totalBills": total_unique_bills,
-            "membersWithBills": members_with_bills
+            "membersWithBills": members_with_bills,
+            "executiveBillCount": executive_bill_count
         },
         "leaderboards": {
             "top20": top_20,
             "least20": least_20
         },
+        "executiveBills": executive_bills,
         "states": states_list,
         "constituencies": constituencies_dict
     }
@@ -321,15 +418,14 @@ def build_house_data():
 def build_senate_data():
     print("[+] Exporting Senate data...")
     senate_members_path = os.path.join(DATA_DIR, 'senators_full_joined(in) (1).csv')
-    senate_bills_path = os.path.join(DATA_DIR, 'cleaned_hreps_bills_final.xlsx')
 
-    if not os.path.exists(senate_members_path) or not os.path.exists(senate_bills_path):
-        print("[Warning] Senate source files missing!")
+    if not os.path.exists(senate_members_path):
+        print("[Warning] Senate members source file missing!")
         return
 
     m_df = pd.read_csv(senate_members_path)
     m_df.columns = m_df.columns.str.strip()
-    m_df = m_df[m_df['By (Senator)'].astype(str).str.strip().str.lower() != 'executive'].iloc[:109]
+    m_df = m_df[m_df['By (Senator)'].astype(str).str.strip().str.lower() != 'executive']
     m_df = m_df.rename(columns={
         'By (Senator)': 'senator_name',
         'Official Name': 'official_name',
@@ -344,16 +440,32 @@ def build_senate_data():
     m_df['senator_key'] = m_df['senator_name'].apply(normalize_person_name)
     m_df['official_key'] = m_df['official_name'].apply(normalize_person_name)
 
-    # Bills Data
-    b_df = pd.read_excel(senate_bills_path, sheet_name='in')
-    b_df.columns = b_df.columns.str.strip()
-    for col in ['bill_id', 'title', 'date_first_reading', 'date_second_reading', 'timeline_history', 'primary_sponsor_name', 'sponsors_names', 'sponsors_full_details', 'committee']:
-        if col not in b_df.columns:
-            b_df[col] = ''
-        b_df[col] = b_df[col].fillna('').astype(str)
+    # Bills Data from cleaned CSV
+    all_bills = load_cleaned_bills()
+    if all_bills is None:
+        print("[Warning] No cleaned bills CSV available, falling back to Excel")
+        senate_bills_path = os.path.join(DATA_DIR, 'cleaned_hreps_bills_final.xlsx')
+        if not os.path.exists(senate_bills_path):
+            print("[Error] No fallback bills source found!")
+            return
+        b_df = pd.read_excel(senate_bills_path, sheet_name='in')
+        b_df.columns = b_df.columns.str.strip()
+        for col in ['bill_id', 'title', 'date_first_reading', 'date_second_reading', 'timeline_history', 'primary_sponsor_name', 'sponsors_names', 'sponsors_full_details', 'committee']:
+            if col not in b_df.columns:
+                b_df[col] = ''
+            b_df[col] = b_df[col].fillna('').astype(str)
+        b_df['third_reading_status'] = b_df['timeline_history'].apply(extract_third_reading_status)
+        b_df['passed_third_reading'] = b_df['third_reading_status'].apply(has_passed_third_reading)
+        for c in ['bill_number', 'category', 'pdf_initial_bill', 'pdf_passed_bill', 'pdf_signed_act', 'pdf_committee_report']:
+            b_df[c] = ''
+    else:
+        b_df = all_bills[all_bills['originating_chamber'].str.strip().str.upper() == 'SENATE'].copy()
 
-    b_df['third_reading_status'] = b_df['timeline_history'].apply(extract_third_reading_status)
-    b_df['passed_third_reading'] = b_df['third_reading_status'].apply(has_passed_third_reading)
+    # Identify and separate executive bills
+    exec_mask = b_df['primary_sponsor_name'].astype(str).str.strip().str.lower().str.contains('executive', na=False)
+    executive_bills_df = b_df[exec_mask].copy()
+    b_df = b_df[~exec_mask].copy()
+
     b_df['sponsor_key'] = b_df['primary_sponsor_name'].apply(normalize_senate_sponsor_name)
 
     sponsor_table = load_bill_sponsors_data('Senate')
@@ -365,6 +477,9 @@ def build_senate_data():
     else:
         b_df['sponsor_keys'] = b_df['sponsors_names'].apply(lambda x: [normalize_senate_sponsor_name(n) for n in str(x).split(';') if n])
         b_df['cosponsor_keys'] = b_df['sponsor_keys'].apply(lambda k: k[1:] if len(k) > 1 else [])
+
+    # Build party lookup
+    party_lookup = build_party_lookup('Senate')
 
     members_list = []
     districts_by_state = {}
@@ -382,6 +497,13 @@ def build_senate_data():
 
         keys = {row.get('senator_key', ''), row.get('official_key', '')} - {''}
 
+        # Look up party
+        party = ''
+        for k in keys:
+            if k in party_lookup:
+                party = party_lookup[k]
+                break
+
         # Find sponsored bills
         sponsored_mask = b_df['sponsor_key'].isin(keys)
         sponsored_bills_df = b_df[sponsored_mask]
@@ -389,19 +511,6 @@ def build_senate_data():
         # Find co-sponsored bills
         cosponsored_mask = b_df['cosponsor_keys'].apply(lambda c_keys: bool(keys.intersection(set(c_keys))))
         cosponsored_bills_df = b_df[cosponsored_mask & (~sponsored_mask)]
-
-        def format_bill_obj(b_row):
-            return {
-                "billId": str(b_row.get('bill_id', '')),
-                "title": str(b_row.get('title', '')),
-                "dateFirstReading": format_date_str(b_row.get('date_first_reading', '')),
-                "dateSecondReading": format_date_str(b_row.get('date_second_reading', '')),
-                "committee": str(b_row.get('committee', '')),
-                "thirdReadingStatus": str(b_row.get('third_reading_status', '')),
-                "passedThirdReading": bool(b_row.get('passed_third_reading', False)),
-                "primarySponsor": str(b_row.get('primary_sponsor_name', '')),
-                "sponsorsDetails": str(b_row.get('sponsors_full_details', ''))
-            }
 
         sponsored_bills = [format_bill_obj(r) for _, r in sponsored_bills_df.iterrows()]
         cosponsored_bills = [format_bill_obj(r) for _, r in cosponsored_bills_df.iterrows()]
@@ -425,8 +534,9 @@ def build_senate_data():
             "id": m_id,
             "name": name,
             "officialName": official_name,
+            "party": party,
             "state": state,
-            "constituency": district,  # Frontend uses constituency field generically for district
+            "constituency": district,
             "imageUrl": image_url,
             "sponsoredBills": sponsored_bills,
             "cosponsoredBills": cosponsored_bills,
@@ -439,7 +549,9 @@ def build_senate_data():
             "latestBillDate": latest_date
         })
 
-    # Stats & Leaderboards
+    executive_bills = [format_bill_obj(r) for _, r in executive_bills_df.iterrows()]
+    executive_bill_count = len(executive_bills)
+
     total_members = len(members_list)
     members_with_bills = sum(1 for m in members_list if m['totalBills'] > 0)
     total_unique_bills = len(b_df)
@@ -451,6 +563,7 @@ def build_senate_data():
         return {
             "id": m['id'],
             "name": m['name'],
+            "party": m.get('party', ''),
             "state": m['state'],
             "constituency": m['constituency'],
             "billCount": m['totalBills'],
@@ -473,12 +586,14 @@ def build_senate_data():
         "stats": {
             "totalMembers": total_members,
             "totalBills": total_unique_bills,
-            "membersWithBills": members_with_bills
+            "membersWithBills": members_with_bills,
+            "executiveBillCount": executive_bill_count
         },
         "leaderboards": {
             "top20": top_20,
             "least20": least_20
         },
+        "executiveBills": executive_bills,
         "states": states_list,
         "constituencies": districts_dict
     }
@@ -492,4 +607,6 @@ def build_senate_data():
 if __name__ == "__main__":
     build_house_data()
     build_senate_data()
-    print("[+] Data export pipeline finished successfully!")
+    print("[+] Data export finished. Now processing images...")
+    os.system(f'py "{os.path.join(PROJECT_ROOT, "pipeline", "process_images.py")}"')
+    print("[+] Full pipeline finished successfully!")

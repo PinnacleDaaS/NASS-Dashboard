@@ -10,10 +10,11 @@ export function useData(chamber: Chamber) {
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [selectedState, setSelectedState] = useState<string>('All');
   const [selectedConstituency, setSelectedConstituency] = useState<string>('All');
+  const [selectedCategory, setSelectedCategory] = useState<string>('All');
 
   // Pagination states
   const [currentPage, setCurrentPage] = useState<number>(1);
-  const [pageSize, setPageSize] = useState<number>(25);
+  const [pageSize, setPageSize] = useState<number>(24);
 
   // Fetch JSON data when chamber changes
   useEffect(() => {
@@ -40,6 +41,7 @@ export function useData(chamber: Chamber) {
     setSearchQuery('');
     setSelectedState('All');
     setSelectedConstituency('All');
+    setSelectedCategory('All');
     setCurrentPage(1);
   }, [chamber]);
 
@@ -77,9 +79,16 @@ export function useData(chamber: Chamber) {
         return false;
       }
 
+      // 4. Category Filter (check if member has any bill with the selected category)
+      if (selectedCategory !== 'All') {
+        const allBills = [...m.sponsoredBills, ...m.cosponsoredBills];
+        const hasCategory = allBills.some(b => b.category === selectedCategory);
+        if (!hasCategory) return false;
+      }
+
       return true;
     });
-  }, [data, searchQuery, selectedState, selectedConstituency]);
+  }, [data, searchQuery, selectedState, selectedConstituency, selectedCategory]);
 
   // Paginated members calculation
   const totalItems = filteredMembers.length;
@@ -101,10 +110,23 @@ export function useData(chamber: Chamber) {
     return data.constituencies[selectedState] || [];
   }, [data, selectedState]);
 
+  // Available categories from all members' bills
+  const availableCategories = useMemo(() => {
+    if (!data || !data.members) return [];
+    const cats = new Set<string>();
+    data.members.forEach(m => {
+      [...m.sponsoredBills, ...m.cosponsoredBills].forEach(b => {
+        if (b.category) cats.add(b.category);
+      });
+    });
+    return Array.from(cats).sort();
+  }, [data]);
+
   const clearFilters = () => {
     setSearchQuery('');
     setSelectedState('All');
     setSelectedConstituency('All');
+    setSelectedCategory('All');
     setCurrentPage(1);
   };
 
@@ -119,6 +141,9 @@ export function useData(chamber: Chamber) {
     selectedConstituency,
     setSelectedConstituency,
     availableConstituencies,
+    selectedCategory,
+    setSelectedCategory,
+    availableCategories,
     filteredMembers,
     paginatedMembers,
     totalItems,

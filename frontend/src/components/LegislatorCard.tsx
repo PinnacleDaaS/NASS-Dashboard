@@ -73,6 +73,13 @@ export const LegislatorCard: React.FC<LegislatorCardProps> = ({
               <div className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-medium border ${badgeBg} max-w-full truncate`}>
                 <span className="truncate">{member.constituency || 'N/A'}</span>
               </div>
+
+              {/* Party Badge */}
+              {member.party && (
+                <div className="inline-flex items-center px-2.5 py-1 rounded-lg text-xs font-bold bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-200 max-w-full truncate">
+                  {member.party}
+                </div>
+              )}
             </div>
           </div>
 

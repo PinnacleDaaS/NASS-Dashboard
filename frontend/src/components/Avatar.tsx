@@ -10,14 +10,12 @@ interface AvatarProps {
 export const Avatar: React.FC<AvatarProps> = ({ src, name, className = 'w-16 h-16' }) => {
   const [error, setError] = useState(false);
 
-  // Compute image src
   const getImageSrc = () => {
     if (!src || error) return null;
     const trimmed = src.trim();
-    if (trimmed.startsWith('data:') || trimmed.startsWith('http://') || trimmed.startsWith('https://')) {
+    if (trimmed.startsWith('data:') || trimmed.startsWith('http://') || trimmed.startsWith('https://') || trimmed.startsWith('/')) {
       return trimmed;
     }
-    // Handle raw base64 string
     if (trimmed.length > 50) {
       return `data:image/jpeg;base64,${trimmed}`;
     }

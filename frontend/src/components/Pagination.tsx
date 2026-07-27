@@ -1,7 +1,9 @@
 import React from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { Chamber } from '../types';
 
 interface PaginationProps {
+  chamber: Chamber;
   currentPage: number;
   totalPages: number;
   pageSize: number;
@@ -11,6 +13,7 @@ interface PaginationProps {
 }
 
 export const Pagination: React.FC<PaginationProps> = ({
+  chamber,
   currentPage,
   totalPages,
   pageSize,
@@ -22,6 +25,7 @@ export const Pagination: React.FC<PaginationProps> = ({
 
   const startItem = (currentPage - 1) * pageSize + 1;
   const endItem = Math.min(currentPage * pageSize, totalItems);
+  const label = chamber === 'house' ? 'Reps' : 'Senators';
 
   return (
     <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 my-6 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-4">
@@ -29,7 +33,7 @@ export const Pagination: React.FC<PaginationProps> = ({
       {/* Items Count & Page Size Picker */}
       <div className="flex items-center gap-4 text-xs font-medium text-slate-500 dark:text-slate-400">
         <span>
-          Showing <strong className="text-slate-900 dark:text-white">{startItem}–{endItem}</strong> of <strong className="text-slate-900 dark:text-white">{totalItems}</strong>
+          Showing <strong className="text-slate-900 dark:text-white">{startItem}–{endItem}</strong> of <strong className="text-slate-900 dark:text-white">{totalItems} {label}</strong>
         </span>
 
         <div className="flex items-center gap-2">
@@ -39,7 +43,7 @@ export const Pagination: React.FC<PaginationProps> = ({
             onChange={e => onPageSizeChange(Number(e.target.value))}
             className="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg text-xs font-bold text-slate-800 dark:text-slate-200 focus:outline-none"
           >
-            {[10, 25, 50, 100].map(sz => (
+            {[12, 24, 36, 60].map(sz => (
               <option key={sz} value={sz}>
                 {sz}
               </option>

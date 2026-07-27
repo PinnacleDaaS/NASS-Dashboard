@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { Chamber, Member } from './types';
 import { useTheme } from './hooks/useTheme';
 import { useData } from './hooks/useData';
@@ -7,6 +7,7 @@ import { Header } from './components/Header';
 import { Sidebar } from './components/Sidebar';
 import { KPICards } from './components/KPICards';
 import { Leaderboard } from './components/Leaderboard';
+import { ExecutiveBillsAccordion } from './components/ExecutiveBillsAccordion';
 import { LegislatorGrid } from './components/LegislatorGrid';
 import { Pagination } from './components/Pagination';
 import { BillDetailsModal } from './components/BillDetailsModal';
@@ -31,6 +32,9 @@ export function App() {
     selectedConstituency,
     setSelectedConstituency,
     availableConstituencies,
+    selectedCategory,
+    setSelectedCategory,
+    availableCategories,
     filteredMembers,
     paginatedMembers,
     totalItems,
@@ -48,6 +52,37 @@ export function App() {
   const totalLinkedBills = filteredMembers.reduce((sum, m) => sum + m.totalBills, 0);
   const activeCount = filteredMembers.filter(m => m.sponsoredCount > 0).length;
 
+  // Dynamic leaderboard from filtered results
+  const leaderboardTop20 = useMemo(() => {
+    const sorted = [...filteredMembers].sort((a, b) => b.totalBills - a.totalBills);
+    return sorted.slice(0, 20).map((m, i) => ({
+      id: m.id,
+      name: m.name,
+      party: m.party,
+      state: m.state,
+      constituency: m.constituency,
+      billCount: m.totalBills,
+      sponsoredCount: m.sponsoredCount,
+      cosponsoredCount: m.cosponsoredCount,
+      conversionRate: 0
+    }));
+  }, [filteredMembers]);
+
+  const leaderboardLeast20 = useMemo(() => {
+    const sorted = [...filteredMembers].sort((a, b) => a.totalBills - b.totalBills);
+    return sorted.slice(0, 20).map((m, i) => ({
+      id: m.id,
+      name: m.name,
+      party: m.party,
+      state: m.state,
+      constituency: m.constituency,
+      billCount: m.totalBills,
+      sponsoredCount: m.sponsoredCount,
+      cosponsoredCount: m.cosponsoredCount,
+      conversionRate: 0
+    }));
+  }, [filteredMembers]);
+
   return (
     <div className="min-h-screen flex flex-col bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors duration-300">
       
@@ -59,8 +94,11 @@ export function App() {
         onThemeToggle={toggleTheme}
         isSidebarCollapsed={isSidebarCollapsed}
         onToggleSidebar={() => {
-          setIsSidebarCollapsed(!isSidebarCollapsed);
-          setIsMobileSidebarOpen(!isMobileSidebarOpen);
+          if (window.innerWidth < 1024) {
+            setIsMobileSidebarOpen(prev => !prev);
+          } else {
+            setIsSidebarCollapsed(prev => !prev);
+          }
         }}
       />
 
@@ -78,6 +116,9 @@ export function App() {
           onConstituencyChange={setSelectedConstituency}
           statesList={data?.states || []}
           constituenciesList={availableConstituencies}
+          selectedCategory={selectedCategory}
+          onCategoryChange={setSelectedCategory}
+          categoriesList={availableCategories}
           onClearFilters={clearFilters}
           isCollapsed={isSidebarCollapsed}
           onToggleCollapse={() => setIsSidebarCollapsed(true)}
@@ -126,16 +167,21 @@ export function App() {
                 />
 
                 {/* Performance Leaderboard Section */}
-                {data.leaderboards && (
-                  <Leaderboard
-                    chamber={chamber}
-                    top20={data.leaderboards.top20}
-                    least20={data.leaderboards.least20}
-                  />
-                )}
+                <Leaderboard
+                  chamber={chamber}
+                  top20={leaderboardTop20}
+                  least20={leaderboardLeast20}
+                />
+
+                {/* Government / Executive Bills Section */}
+                <ExecutiveBillsAccordion
+                  chamber={chamber}
+                  bills={data.executiveBills || []}
+                />
 
                 {/* Pagination Controls Top */}
                 <Pagination
+                  chamber={chamber}
                   currentPage={currentPage}
                   totalPages={totalPages}
                   pageSize={pageSize}
@@ -154,6 +200,7 @@ export function App() {
 
                 {/* Pagination Controls Bottom */}
                 <Pagination
+                  chamber={chamber}
                   currentPage={currentPage}
                   totalPages={totalPages}
                   pageSize={pageSize}
@@ -167,7 +214,7 @@ export function App() {
           </main>
 
           {/* Slim Single-Line Footer */}
-          <Footer lastUpdated={data?.lastUpdated || 'July 27, 2026'} />
+          <Footer chamber={chamber} lastUpdated={data?.lastUpdated || 'July 27, 2026'} />
 
         </div>
 

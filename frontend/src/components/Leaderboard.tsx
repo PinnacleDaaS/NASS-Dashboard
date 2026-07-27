@@ -119,9 +119,16 @@ export const Leaderboard: React.FC<LeaderboardProps> = ({
                   <div className="flex items-center gap-3 min-w-0">
                     {rankBadge}
                     <div className="min-w-0">
-                      <h4 className="font-extrabold text-sm text-slate-900 dark:text-white truncate">
-                        {entry.name}
-                      </h4>
+                      <div className="flex items-center gap-2">
+                        <h4 className="font-extrabold text-sm text-slate-900 dark:text-white truncate">
+                          {entry.name}
+                        </h4>
+                        {entry.party && (
+                          <span className="px-1.5 py-0.5 rounded text-[10px] font-extrabold bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 flex-shrink-0">
+                            {entry.party}
+                          </span>
+                        )}
+                      </div>
                       <p className="text-[11px] text-slate-500 dark:text-slate-400 truncate">
                         {entry.state} • {entry.constituency}
                       </p>

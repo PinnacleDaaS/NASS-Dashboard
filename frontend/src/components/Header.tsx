@@ -35,8 +35,8 @@ export const Header: React.FC<HeaderProps> = ({
             title={isSidebarCollapsed ? 'Expand Filter Sidebar' : 'Collapse Filter Sidebar'}
             className="p-2 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-all cursor-pointer shadow-sm hover:scale-105"
           >
-            {isSidebarCollapsed ? (
-              <PanelLeftOpen className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />
+             {isSidebarCollapsed ? (
+              <PanelLeftOpen className={`w-5 h-5 ${isHouse ? 'text-emerald-600 dark:text-emerald-400' : 'text-rose-600 dark:text-rose-400'}`} />
             ) : (
               <PanelLeftClose className="w-5 h-5" />
             )}
@@ -69,8 +69,8 @@ export const Header: React.FC<HeaderProps> = ({
             }`}
           >
             <Building2 className="w-4 h-4" />
-            <span className="hidden xs:inline">House of Reps</span>
-            <span className="xs:hidden">House</span>
+            <span className="hidden sm:inline">House of Reps</span>
+            <span className="sm:hidden">House</span>
           </button>
           <button
             onClick={() => onChamberChange('senate')}

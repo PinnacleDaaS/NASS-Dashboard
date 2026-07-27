@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Member, Bill, Chamber } from '../types';
-import { X, FileText, Calendar, CheckCircle2, Clock, Users, Building } from 'lucide-react';
+import { Avatar } from './Avatar';
+import { X, FileText, Calendar, CheckCircle2, Clock, Users, Building, ExternalLink, Tag } from 'lucide-react';
 
 interface BillDetailsModalProps {
   member: Member | null;
@@ -35,20 +36,28 @@ export const BillDetailsModal: React.FC<BillDetailsModalProps> = ({
             ? 'bg-gradient-to-r from-emerald-800 via-emerald-700 to-green-600'
             : 'bg-gradient-to-r from-rose-900 via-rose-800 to-red-600'
         }`}>
-          <div>
-            <div className="flex items-center gap-2">
-              <span className="px-2.5 py-0.5 rounded-full text-xs font-extrabold uppercase bg-white/20 backdrop-blur-sm tracking-wider">
-                {member.state} • {member.constituency}
-              </span>
+          <div className="flex items-start gap-4">
+            <Avatar src={member.imageUrl} name={member.name} className="w-14 h-14 flex-shrink-0 border-2 border-white/30" />
+            <div>
+              <div className="flex items-center gap-2 flex-wrap">
+                <span className="px-2.5 py-0.5 rounded-full text-xs font-extrabold uppercase bg-white/20 backdrop-blur-sm tracking-wider">
+                  {member.state} • {member.constituency}
+                </span>
+                {member.party && (
+                  <span className="px-2.5 py-0.5 rounded-full text-xs font-extrabold bg-white/20 backdrop-blur-sm">
+                    {member.party}
+                  </span>
+                )}
+              </div>
+              <h2 className="text-2xl font-extrabold mt-2 text-white">
+                {member.name}
+              </h2>
+              {member.officialName && (
+                <p className="text-xs text-white/80 mt-0.5 font-medium">
+                  Official: {member.officialName}
+                </p>
+              )}
             </div>
-            <h2 className="text-2xl font-extrabold mt-2 text-white">
-              {member.name}
-            </h2>
-            {member.officialName && (
-              <p className="text-xs text-white/80 mt-0.5 font-medium">
-                Official: {member.officialName}
-              </p>
-            )}
           </div>
 
           <button
@@ -100,11 +109,19 @@ export const BillDetailsModal: React.FC<BillDetailsModalProps> = ({
                 key={bill.billId || i}
                 className="bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/70 rounded-2xl p-5 hover:border-slate-300 dark:hover:border-slate-600 transition-all shadow-sm space-y-3"
               >
-                {/* Header: Bill ID & Status Badge */}
+                {/* Header: Bill Number, Category & Status Badge */}
                 <div className="flex flex-wrap items-center justify-between gap-2">
-                  <span className="px-3 py-1 rounded-lg text-xs font-mono font-bold bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-200">
-                    {bill.billId || `Bill #${i + 1}`}
-                  </span>
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="px-3 py-1 rounded-lg text-xs font-mono font-bold bg-slate-900 dark:bg-slate-100 text-white dark:text-slate-900">
+                      {bill.billNumber || `#${i + 1}`}
+                    </span>
+                    {bill.category && (
+                      <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 border border-indigo-500/20">
+                        <Tag className="w-3 h-3" />
+                        {bill.category}
+                      </span>
+                    )}
+                  </div>
 
                   {/* Third Reading Badge */}
                   {bill.passedThirdReading ? (
@@ -162,6 +179,42 @@ export const BillDetailsModal: React.FC<BillDetailsModalProps> = ({
                       <Users className="w-3.5 h-3.5 text-slate-400" />
                       <span>Primary Sponsor: <strong className="text-slate-800 dark:text-slate-200">{bill.primarySponsor}</strong></span>
                     </div>
+                  )}
+                </div>
+
+                {/* PDF Links */}
+                <div className="flex flex-wrap gap-2 pt-1">
+                  {bill.pdfInitialBill && (
+                    <a href={bill.pdfInitialBill} target="_blank" rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 hover:bg-emerald-500/20 transition-all">
+                      <FileText className="w-3.5 h-3.5" />
+                      Initial Bill
+                      <ExternalLink className="w-3 h-3" />
+                    </a>
+                  )}
+                  {bill.pdfPassedBill && (
+                    <a href={bill.pdfPassedBill} target="_blank" rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-blue-500/10 text-blue-600 dark:text-blue-400 border border-blue-500/20 hover:bg-blue-500/20 transition-all">
+                      <FileText className="w-3.5 h-3.5" />
+                      Passed Bill
+                      <ExternalLink className="w-3 h-3" />
+                    </a>
+                  )}
+                  {bill.pdfSignedAct && (
+                    <a href={bill.pdfSignedAct} target="_blank" rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-amber-500/10 text-amber-600 dark:text-amber-400 border border-amber-500/20 hover:bg-amber-500/20 transition-all">
+                      <FileText className="w-3.5 h-3.5" />
+                      Signed Act
+                      <ExternalLink className="w-3 h-3" />
+                    </a>
+                  )}
+                  {bill.pdfCommitteeReport && (
+                    <a href={bill.pdfCommitteeReport} target="_blank" rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-purple-500/10 text-purple-600 dark:text-purple-400 border border-purple-500/20 hover:bg-purple-500/20 transition-all">
+                      <FileText className="w-3.5 h-3.5" />
+                      Committee Report
+                      <ExternalLink className="w-3 h-3" />
+                    </a>
                   )}
                 </div>
 

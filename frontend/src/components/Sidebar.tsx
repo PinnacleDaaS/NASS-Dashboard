@@ -10,8 +10,11 @@ interface SidebarProps {
   onStateChange: (state: string) => void;
   selectedConstituency: string;
   onConstituencyChange: (c: string) => void;
+  selectedCategory: string;
+  onCategoryChange: (c: string) => void;
   statesList: string[];
   constituenciesList: string[];
+  categoriesList: string[];
   onClearFilters: () => void;
   isCollapsed: boolean;
   onToggleCollapse: () => void;
@@ -27,8 +30,11 @@ export const Sidebar: React.FC<SidebarProps> = ({
   onStateChange,
   selectedConstituency,
   onConstituencyChange,
+  selectedCategory,
+  onCategoryChange,
   statesList = [],
   constituenciesList = [],
+  categoriesList = [],
   onClearFilters,
   isCollapsed,
   onToggleCollapse,
@@ -37,7 +43,9 @@ export const Sidebar: React.FC<SidebarProps> = ({
 }) => {
   const isHouse = chamber === 'house';
   const labelConstituency = isHouse ? 'Constituency' : 'District';
-  const hasActiveFilters = searchQuery !== '' || selectedState !== 'All' || selectedConstituency !== 'All';
+  const accentRing = isHouse ? 'focus:ring-emerald-500/50' : 'focus:ring-rose-500/50';
+  const accentIcon = isHouse ? 'text-emerald-500' : 'text-rose-500';
+  const hasActiveFilters = searchQuery !== '' || selectedState !== 'All' || selectedConstituency !== 'All' || selectedCategory !== 'All';
 
   const sidebarInner = (
     <div className="flex flex-col h-full space-y-6 p-6">
@@ -45,7 +53,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
       {/* Sidebar Header */}
       <div className="flex items-center justify-between pb-4 border-b border-slate-200 dark:border-slate-800">
         <div className="flex items-center gap-2">
-          <Filter className="w-4 h-4 text-emerald-500" />
+          <Filter className={`w-4 h-4 ${accentIcon}`} />
           <h2 className="text-sm font-extrabold uppercase tracking-wider text-slate-900 dark:text-white">
             Filter Navigation
           </h2>
@@ -84,7 +92,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
             value={searchQuery}
             onChange={e => onSearchChange(e.target.value)}
             placeholder={`Search ${isHouse ? 'Member' : 'Senator'}...`}
-            className="w-full pl-9 pr-8 py-2.5 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700/80 rounded-xl text-xs font-medium text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 transition-all"
+            className={`w-full pl-9 pr-8 py-2.5 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700/80 rounded-xl text-xs font-medium text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 ${accentRing} transition-all`}
           />
           {searchQuery && (
             <button
@@ -106,7 +114,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
           <select
             value={selectedState}
             onChange={e => onStateChange(e.target.value)}
-            className="w-full px-3 py-2.5 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700/80 rounded-xl text-xs font-medium text-slate-800 dark:text-slate-200 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 transition-all appearance-none cursor-pointer"
+            className="w-full px-3 py-2.5 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700/80 rounded-xl text-xs font-medium text-slate-800 dark:text-slate-200 focus:outline-none focus:ring-2 ${accentRing} transition-all appearance-none cursor-pointer"
           >
             <option value="All">All States</option>
             {statesList.map(st => (
@@ -130,7 +138,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
           <select
             value={selectedConstituency}
             onChange={e => onConstituencyChange(e.target.value)}
-            className="w-full px-3 py-2.5 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700/80 rounded-xl text-xs font-medium text-slate-800 dark:text-slate-200 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 transition-all appearance-none cursor-pointer"
+            className="w-full px-3 py-2.5 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700/80 rounded-xl text-xs font-medium text-slate-800 dark:text-slate-200 focus:outline-none focus:ring-2 ${accentRing} transition-all appearance-none cursor-pointer"
           >
             <option value="All">All {labelConstituency}s</option>
             {constituenciesList.map(c => (
@@ -145,7 +153,31 @@ export const Sidebar: React.FC<SidebarProps> = ({
         </div>
       </div>
 
-      {/* 4. Reset Filters Button */}
+      {/* 4. Category Filter Dropdown */}
+      <div className="space-y-2">
+        <label className="text-xs font-extrabold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+          Filter by Category
+        </label>
+        <div className="relative">
+          <select
+            value={selectedCategory}
+            onChange={e => onCategoryChange(e.target.value)}
+            className="w-full px-3 py-2.5 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700/80 rounded-xl text-xs font-medium text-slate-800 dark:text-slate-200 focus:outline-none focus:ring-2 ${accentRing} transition-all appearance-none cursor-pointer"
+          >
+            <option value="All">All Categories</option>
+            {categoriesList.map(cat => (
+              <option key={cat} value={cat}>
+                {cat}
+              </option>
+            ))}
+          </select>
+          <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none text-slate-400">
+            <Filter className="w-3.5 h-3.5" />
+          </div>
+        </div>
+      </div>
+
+      {/* 5. Reset Filters Button */}
       {hasActiveFilters && (
         <button
           onClick={() => {
@@ -162,27 +194,35 @@ export const Sidebar: React.FC<SidebarProps> = ({
     </div>
   );
 
-  if (isCollapsed) return null;
-
   return (
     <>
       {/* Desktop Collapsible Sidebar */}
-      <aside className="hidden lg:block w-72 flex-shrink-0 bg-white dark:bg-slate-900 border-r border-slate-200 dark:border-slate-800 sticky top-16 h-[calc(100vh-4rem)] overflow-y-auto transition-all duration-300">
-        {sidebarInner}
-      </aside>
+      {!isCollapsed && (
+        <aside className="hidden lg:block w-72 flex-shrink-0 bg-white dark:bg-slate-900 border-r border-slate-200 dark:border-slate-800 sticky top-16 h-[calc(100vh-4rem)] overflow-y-auto transition-all duration-300">
+          {sidebarInner}
+        </aside>
+      )}
 
       {/* Mobile Slide-Out Drawer */}
-      {isOpenMobile && (
-        <div className="lg:hidden fixed inset-0 z-50 flex">
-          <div
-            className="fixed inset-0 bg-slate-950/70 backdrop-blur-sm animate-fadeIn"
-            onClick={onCloseMobile}
-          />
-          <div className="relative w-80 max-w-full bg-white dark:bg-slate-900 h-full shadow-2xl z-10 overflow-y-auto">
-            {sidebarInner}
-          </div>
+      <div
+        className={`lg:hidden fixed inset-0 z-50 flex transition-all duration-300 ease-in-out ${
+          isOpenMobile
+            ? 'visible opacity-100'
+            : 'invisible opacity-0 pointer-events-none'
+        }`}
+      >
+        <div
+          className="fixed inset-0 bg-slate-950/70 backdrop-blur-sm transition-opacity duration-300"
+          onClick={onCloseMobile}
+        />
+        <div
+          className={`relative w-80 max-w-full bg-white dark:bg-slate-900 h-full shadow-2xl z-10 overflow-y-auto transition-transform duration-300 ease-in-out ${
+            isOpenMobile ? 'translate-x-0' : '-translate-x-full'
+          }`}
+        >
+          {sidebarInner}
         </div>
-      )}
+      </div>
     </>
   );
 };
