@@ -1,0 +1,239 @@
+{
+  "message": "Bill fetched successfully",
+  "data": {
+    "id": "12b05694-8f43-48a0-b9cf-d7525042ac5f",
+    "bill_no": "HB 205",
+    "title": "1999 Constitution (Alteration) Bill, 2023",
+    "category_id": "71a19b4e-b988-495b-b6b6-0af8bb23f908",
+    "status": "AWAITING ASSENT",
+    "concurrence": "NOT STARTED",
+    "harmonization": "NOT STARTED",
+    "assembly_id": "ab46f8dd-5cc9-44c9-94e0-66da0fc128e0",
+    "seat": "HOUSE",
+    "bill_upload": null,
+    "bill_upload_passed": null,
+    "bill_upload_act": null,
+    "bill_upload_report": null,
+    "published": 1,
+    "transmitted_at": null,
+    "re_transmitted_at": null,
+    "committee_id": null,
+    "consolidated_into": null,
+    "bill_is_act": 0,
+    "bill_analysis": null,
+    "bill_content": null,
+    "created_at": "2024-07-01T09:53:14.000000Z",
+    "updated_at": "2024-08-20T07:10:35.000000Z",
+    "senate_sponsors": [],
+    "house_sponsors": [
+      {
+        "id": "f90dbf0f-a9fb-4ec6-9593-a44cc499eec6",
+        "title": "Hon",
+        "name": "Ugochinyere Onyinye Ikeagwuonu",
+        "constituency": "Ideato North/Ideato South",
+        "passport": "1713973228_9066.jpeg",
+        "state_id": "76327318-decb-4c19-9318-8f23b70883fd",
+        "party_id": "8d095f40-b9c8-4a5d-9e12-1c572142f054",
+        "assembly_id": "ab46f8dd-5cc9-44c9-94e0-66da0fc128e0",
+        "created_at": "2024-04-24T15:40:28.000000Z",
+        "updated_at": "2024-04-24T15:40:28.000000Z",
+        "pivot": {
+          "bill_id": "12b05694-8f43-48a0-b9cf-d7525042ac5f",
+          "house_of_rep_id": "f90dbf0f-a9fb-4ec6-9593-a44cc499eec6",
+          "created_at": "2024-08-20T07:10:35.000000Z",
+          "updated_at": "2024-08-20T07:10:35.000000Z",
+          "co_sponsor": 0
+        },
+        "party": {
+          "id": "8d095f40-b9c8-4a5d-9e12-1c572142f054",
+          "title": "Peoples Democratic Party",
+          "acronym": "PDP",
+          "created_at": "2024-01-23T07:01:24.000000Z",
+          "updated_at": "2024-01-23T07:01:24.000000Z"
+        },
+        "state": {
+          "id": "76327318-decb-4c19-9318-8f23b70883fd",
+          "title": "Imo",
+          "created_at": "2024-01-29T10:51:35.000000Z",
+          "updated_at": "2024-01-29T10:51:35.000000Z"
+        },
+        "principal_officer": null
+      }
+    ],
+    "stages": [
+      {
+        "id": "bebd57b4-bc52-4c84-b3aa-2fa0858a64f0",
+        "title": "First Reading",
+        "subtitle": "First Reading",
+        "order": 1,
+        "color_code": "#b2d5f5",
+        "status": "ACTIVE",
+        "general": 0,
+        "stage_type": "REGULAR",
+        "created_at": "2024-01-23T06:46:27.000000Z",
+        "updated_at": "2024-03-15T10:44:03.000000Z",
+        "pivot": {
+          "bill_id": "12b05694-8f43-48a0-b9cf-d7525042ac5f",
+          "stage_id": "bebd57b4-bc52-4c84-b3aa-2fa0858a64f0",
+          "created_at": "2024-08-20T07:10:35.000000Z",
+          "updated_at": "2024-08-20T07:10:35.000000Z",
+          "occurred_on": null,
+          "current": 2,
+          "occurred_in_house_on": "2023-07-25",
+          "occurred_in_senate_on": null
+        }
+      },
+      {
+        "id": "1d085ea4-d991-40ad-b139-910f7ca0f9a7",
+        "title": "Second Reading",
+        "subtitle": "Second Reading",
+        "order": 2,
+        "color_code": "#f9b453",
+        "status": "ACTIVE",
+        "general": 0,
+        "stage_type": "REGULAR",
+        "created_at": "2024-01-23T06:47:09.000000Z",
+        "updated_at": "2024-01-23T06:47:09.000000Z",
+        "pivot": {
+          "bill_id": "12b05694-8f43-48a0-b9cf-d7525042ac5f",
+          "stage_id": "1d085ea4-d991-40ad-b139-910f7ca0f9a7",
+          "created_at": "2024-08-20T07:10:35.000000Z",
+          "updated_at": "2024-08-20T07:10:35.000000Z",
+          "occurred_on": null,
+          "current": 0,
+          "occurred_in_house_on": null,
+          "occurred_in_senate_on": null
+        }
+      },
+      {
+        "id": "b82c093f-dd96-43eb-bef3-911d9c9c7d8f",
+        "title": "Committee Assignment",
+        "subtitle": "Committee & Public Hearing",
+        "order": 3,
+        "color_code": "#f4e376",
+        "status": "ACTIVE",
+        "general": 0,
+        "stage_type": "REGULAR",
+        "created_at": "2024-01-23T06:48:18.000000Z",
+        "updated_at": "2024-01-23T06:48:18.000000Z",
+        "pivot": {
+          "bill_id": "12b05694-8f43-48a0-b9cf-d7525042ac5f",
+          "stage_id": "b82c093f-dd96-43eb-bef3-911d9c9c7d8f",
+          "created_at": "2024-08-20T07:10:35.000000Z",
+          "updated_at": "2024-08-20T07:10:35.000000Z",
+          "occurred_on": null,
+          "current": 0,
+          "occurred_in_house_on": null,
+          "occurred_in_senate_on": null
+        }
+      },
+      {
+        "id": "8167e75c-a589-422a-937f-237fb485434f",
+        "title": "Report",
+        "subtitle": "Commitee Report",
+        "order": 4,
+        "color_code": "#dbf556",
+        "status": "ACTIVE",
+        "general": 0,
+        "stage_type": "REGULAR",
+        "created_at": "2024-01-23T06:49:28.000000Z",
+        "updated_at": "2024-01-23T06:49:28.000000Z",
+        "pivot": {
+          "bill_id": "12b05694-8f43-48a0-b9cf-d7525042ac5f",
+          "stage_id": "8167e75c-a589-422a-937f-237fb485434f",
+          "created_at": "2024-08-20T07:10:35.000000Z",
+          "updated_at": "2024-08-20T07:10:35.000000Z",
+          "occurred_on": null,
+          "current": 0,
+          "occurred_in_house_on": null,
+          "occurred_in_senate_on": null
+        }
+      },
+      {
+        "id": "e6c2f104-de52-4788-a20e-0fd10b396d55",
+        "title": "Third Reading/Concurrence",
+        "subtitle": "Third Reading",
+        "order": 5,
+        "color_code": "#cbf877",
+        "status": "ACTIVE",
+        "general": 0,
+        "stage_type": "REGULAR",
+        "created_at": "2024-01-23T06:52:22.000000Z",
+        "updated_at": "2024-07-18T04:08:49.000000Z",
+        "pivot": {
+          "bill_id": "12b05694-8f43-48a0-b9cf-d7525042ac5f",
+          "stage_id": "e6c2f104-de52-4788-a20e-0fd10b396d55",
+          "created_at": "2024-08-20T07:10:35.000000Z",
+          "updated_at": "2024-08-20T07:10:35.000000Z",
+          "occurred_on": null,
+          "current": 0,
+          "occurred_in_house_on": null,
+          "occurred_in_senate_on": null
+        }
+      },
+      {
+        "id": "da2909c0-0924-426e-966d-c55f665c8aac",
+        "title": "Harmonization",
+        "subtitle": "Harmonization Committee",
+        "order": 6,
+        "color_code": "#b4f467",
+        "status": "ACTIVE",
+        "general": 1,
+        "stage_type": "HARMONIZATION",
+        "created_at": "2024-01-23T06:54:22.000000Z",
+        "updated_at": "2024-04-01T02:31:00.000000Z",
+        "pivot": {
+          "bill_id": "12b05694-8f43-48a0-b9cf-d7525042ac5f",
+          "stage_id": "da2909c0-0924-426e-966d-c55f665c8aac",
+          "created_at": "2024-08-20T07:10:35.000000Z",
+          "updated_at": "2024-08-20T07:10:35.000000Z",
+          "occurred_on": null,
+          "current": 0,
+          "occurred_in_house_on": null,
+          "occurred_in_senate_on": null
+        }
+      },
+      {
+        "id": "40eaaf1c-a19a-4b1c-9201-29926fc5a29d",
+        "title": "Assent",
+        "subtitle": "Assent",
+        "order": 8,
+        "color_code": "#84c473",
+        "status": "ACTIVE",
+        "general": 1,
+        "stage_type": "ASSENT",
+        "created_at": "2024-01-23T06:55:17.000000Z",
+        "updated_at": "2024-04-29T04:00:26.000000Z",
+        "pivot": {
+          "bill_id": "12b05694-8f43-48a0-b9cf-d7525042ac5f",
+          "stage_id": "40eaaf1c-a19a-4b1c-9201-29926fc5a29d",
+          "created_at": "2024-08-20T07:10:35.000000Z",
+          "updated_at": "2024-08-20T07:10:35.000000Z",
+          "occurred_on": null,
+          "current": 0,
+          "occurred_in_house_on": null,
+          "occurred_in_senate_on": null
+        }
+      }
+    ],
+    "assembly": {
+      "id": "ab46f8dd-5cc9-44c9-94e0-66da0fc128e0",
+      "title": "10th Assembly",
+      "period_start": "2023-06-13",
+      "period_end": "2027-06-13",
+      "status": "ACTIVE",
+      "created_at": "2024-01-23T06:43:52.000000Z",
+      "updated_at": "2024-01-23T06:43:52.000000Z"
+    },
+    "category": {
+      "id": "71a19b4e-b988-495b-b6b6-0af8bb23f908",
+      "title": "Constitution",
+      "created_at": "2024-08-20T07:07:38.000000Z",
+      "updated_at": "2024-08-20T07:07:38.000000Z"
+    },
+    "committee": null,
+    "infographics": [],
+    "bills_consolidated_from": [],
+    "bill_consolidated_into": null
+  }
+}
