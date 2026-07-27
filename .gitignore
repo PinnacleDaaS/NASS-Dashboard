@@ -30,3 +30,6 @@ desktop.ini
 .env
 .env.local
 .env.production
+
+data/
+*.xlsx
