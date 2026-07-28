@@ -6703,8 +6703,8 @@
       "name": "Sen Joel Onowakpo Thomas",
       "officialName": "TBD",
       "party": "APC",
-      "state": "TBD",
-      "constituency": "TBD",
+      "state": "Delta",
+      "constituency": "Delta South",
       "imageUrl": "/data/legislator_images/53.jpg",
       "sponsoredBills": [
         {
@@ -16366,7 +16366,6 @@
     "Plateau",
     "Rivers",
     "Sokoto",
-    "TBD",
     "Taraba",
     "Yobe",
     "Zamfara"
@@ -16470,7 +16469,8 @@
     ],
     "Delta": [
       "Delta Central",
-      "Delta North"
+      "Delta North",
+      "Delta South"
     ],
     "Katsina": [
       "Katsina Central",

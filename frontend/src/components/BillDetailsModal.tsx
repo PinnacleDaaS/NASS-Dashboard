@@ -52,11 +52,6 @@ export const BillDetailsModal: React.FC<BillDetailsModalProps> = ({
               <h2 className="text-2xl font-extrabold mt-2 text-white">
                 {member.name}
               </h2>
-              {member.officialName && (
-                <p className="text-xs text-white/80 mt-0.5 font-medium">
-                  Official: {member.officialName}
-                </p>
-              )}
             </div>
           </div>
 

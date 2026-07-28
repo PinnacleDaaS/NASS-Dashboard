@@ -2817,7 +2817,7 @@
       "party": "APC",
       "state": "Ogun",
       "constituency": "Ikenne/Sagamu/Remo North",
-      "imageUrl": "https://remotv.com.ng/wp-content/uploads/2025/03/IMG-20250313-WA0005.jpg",
+      "imageUrl": "/data/legislator_images/24.jpg",
       "sponsoredBills": [
         {
           "billId": "5c685b41-5c6b-4f77-8de9-ed7fe3efd84d",
@@ -27562,7 +27562,7 @@
       "name": "Hon Mohammed Jamilu Katsina",
       "officialName": "Mohammed Jamilu Katsina",
       "party": "PDP",
-      "state": "TBD",
+      "state": "Katsina",
       "constituency": "Katsina",
       "imageUrl": "/data/legislator_images/196.jpg",
       "sponsoredBills": [
@@ -31720,7 +31720,7 @@
       "name": "Hon Ozurigbo Ugonna",
       "officialName": "Ozurigbo Ugonna",
       "party": "APC",
-      "state": "TBD",
+      "state": "Imo",
       "constituency": "Nkwerre/Nwangele/Isu/Njaba",
       "imageUrl": "/data/legislator_images/230.jpg",
       "sponsoredBills": [
@@ -43413,7 +43413,7 @@
         "id": "196",
         "name": "Hon Mohammed Jamilu Katsina",
         "party": "PDP",
-        "state": "TBD",
+        "state": "Katsina",
         "constituency": "Katsina",
         "billCount": 1,
         "sponsoredCount": 1,
@@ -44353,7 +44353,6 @@
     "Plateau",
     "Rivers",
     "Sokoto",
-    "TBD",
     "Taraba",
     "Yobe",
     "Zamfara"
@@ -44627,6 +44626,7 @@
       "Ideato North/Ideato South",
       "Mbaitoli/Ikeduru",
       "Nkwerre/Isu/Nwangele/Njaba",
+      "Nkwerre/Nwangele/Isu/Njaba",
       "Ohaji/Egbema/Oguta/Oru West",
       "Onuimo/Okigwe/Isiala Mbano",
       "Orlu/Orsu/Oru East",
