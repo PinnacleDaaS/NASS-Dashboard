@@ -12,12 +12,12 @@ jobs:
       contents: write
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 1
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.11'
           cache: 'pip'
@@ -28,7 +28,7 @@ jobs:
           pip install -r pipeline/requirements.txt
 
       - name: Restore scraper cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         id: scraper-cache
         with:
           path: data/temp_bills_cache.json
