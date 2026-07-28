@@ -27,6 +27,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r pipeline/requirements.txt
 
+      - name: Restore scraper cache
+        uses: actions/cache@v4
+        id: scraper-cache
+        with:
+          path: data/temp_bills_cache.json
+          key: nass-scraper-cache-v1
+
       - name: Run full pipeline
         run: python pipeline/run_pipeline.py
 
