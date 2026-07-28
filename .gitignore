@@ -31,5 +31,8 @@ desktop.ini
 .env.local
 .env.production
 
-data/
-*.xlsx
+# Pipeline temp/cache (regenerated each run)
+data/temp_*
+data/plac_10th_assembly_bills.csv
+data/plac_10th_assembly_bills_updated.csv
+data/plac_10th_assembly_bills_cleaned.csv

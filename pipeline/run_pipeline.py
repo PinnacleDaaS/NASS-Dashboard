@@ -19,7 +19,7 @@ def main():
     print("🚀 Starting Master NASS Data Pipeline Orchestrator...")
     
     # 1. Scrape PLAC Bills API (resumable / refresh mode)
-    run_step("1. Live Scrape PLAC API", [sys.executable, os.path.join(PIPELINE_DIR, "scrape_plac_bills.py"), "--refresh"])
+    run_step("1. Live Scrape PLAC API", [sys.executable, os.path.join(PIPELINE_DIR, "scrape_plac_bills.py")])
 
     # 2. Clean Scraped Bills Cache
     run_step("2. Clean Bills Cache", [sys.executable, os.path.join(PIPELINE_DIR, "clean_plac_bills.py")])

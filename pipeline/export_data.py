@@ -608,5 +608,5 @@ if __name__ == "__main__":
     build_house_data()
     build_senate_data()
     print("[+] Data export finished. Now processing images...")
-    os.system(f'py "{os.path.join(PROJECT_ROOT, "pipeline", "process_images.py")}"')
+    os.system(f'{sys.executable} "{os.path.join(PROJECT_ROOT, "pipeline", "process_images.py")}"')
     print("[+] Full pipeline finished successfully!")

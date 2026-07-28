@@ -322,7 +322,7 @@ def main():
     print(f"[+] Server has {total_items} bills across {total_pages} total pages.")
 
     # Check for refresh flag in arguments
-    force_refresh = "--refresh" in sys.argv or "--force-refresh" in sys.argv or "-f" in sys.argv or True
+    force_refresh = "--refresh" in sys.argv or "--force-refresh" in sys.argv or "-f" in sys.argv
 
     # Load cache for resumable scraping
     cache = load_cache()
