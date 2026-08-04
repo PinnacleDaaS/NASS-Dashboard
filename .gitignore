@@ -36,3 +36,6 @@ data/temp_*
 data/plac_10th_assembly_bills.csv
 data/plac_10th_assembly_bills_updated.csv
 data/plac_10th_assembly_bills_cleaned.csv
+
+# Local image scratch/test files
+frontend/public/data/legislator_images/test_*

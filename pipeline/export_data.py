@@ -9,7 +9,23 @@ from pathlib import Path
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(PROJECT_ROOT, "data")
 PUBLIC_DATA_DIR = os.path.join(PROJECT_ROOT, "frontend", "public", "data")
+IMAGES_DIR = os.path.join(PUBLIC_DATA_DIR, "legislator_images")
 os.makedirs(PUBLIC_DATA_DIR, exist_ok=True)
+
+LEGACY_IMAGE_RE = re.compile(r'^/data/legislator_images/(?:\d+|senate_\d+)\.jpg(?:\?.*)?$')
+
+def resolve_member_image(image_url, candidate_filename):
+    """Use the name-matched photo when available; fall back to the source URL.
+
+    Only replaces legacy numbered image paths (/data/legislator_images/N.jpg or
+    senate_N.jpg). Explicit overrides (base64 data URLs, remote URLs, or already
+    mapped house_rep_/senate_member_ paths) are always kept as-is.
+    """
+    if not candidate_filename or not os.path.exists(os.path.join(IMAGES_DIR, candidate_filename)):
+        return image_url
+    if image_url and not LEGACY_IMAGE_RE.match(image_url):
+        return image_url
+    return f"/data/legislator_images/{candidate_filename}"
 
 # ----------------------------------------------------
 # Name Normalization & Hardcoded Maps
@@ -214,7 +230,10 @@ def build_house_data():
         print("[Warning] House members source file missing!")
         return
 
-    m_df = pd.read_excel(house_members_path, sheet_name='in')
+    try:
+        m_df = pd.read_excel(house_members_path, sheet_name='in')
+    except ValueError:
+        m_df = pd.read_excel(house_members_path, sheet_name=0)
     m_df.columns = m_df.columns.str.strip()
     m_df = m_df.rename(columns={
         'House of rep member': 'rep_name',
@@ -297,7 +316,10 @@ def build_house_data():
         official_name = str(row.get('official_name', '')).strip()
         state = str(row.get('state', '')).strip()
         constituency = str(row.get('constituency', '')).strip()
-        image_url = str(row.get('image_url', '')).strip()
+        image_url = resolve_member_image(
+            str(row.get('image_url', '')).strip(),
+            f"house_rep_{idx + 1}.jpg"
+        )
 
         if state and constituency and state.lower() != 'tbd':
             constituencies_by_state.setdefault(state, set()).add(constituency)
@@ -490,7 +512,10 @@ def build_senate_data():
         official_name = str(row.get('official_name', '')).strip()
         state = str(row.get('state', '')).strip()
         district = str(row.get('district', '')).strip()
-        image_url = str(row.get('image_url', '')).strip()
+        image_url = resolve_member_image(
+            str(row.get('image_url', '')).strip(),
+            f"senate_member_{idx + 1}.jpg"
+        )
 
         if state and district and state.lower() != 'tbd':
             districts_by_state.setdefault(state, set()).add(district)
@@ -607,6 +632,4 @@ def build_senate_data():
 if __name__ == "__main__":
     build_house_data()
     build_senate_data()
-    print("[+] Data export finished. Now processing images...")
-    os.system(f'{sys.executable} "{os.path.join(PROJECT_ROOT, "pipeline", "process_images.py")}"')
-    print("[+] Full pipeline finished successfully!")
+    print("[+] Data export finished successfully!")

@@ -5,6 +5,11 @@ import os
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PIPELINE_DIR = os.path.join(PROJECT_ROOT, "pipeline")
 
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+
 def run_step(name, command):
     print(f"\n==================================================")
     print(f"▶ Step: {name}")

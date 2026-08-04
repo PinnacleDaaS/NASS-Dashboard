@@ -47,7 +47,8 @@ export const Avatar: React.FC<AvatarProps> = ({ src, name, className = 'w-16 h-1
       alt={name}
       onError={() => setError(true)}
       loading="lazy"
-      className={`${className} rounded-full object-cover border-2 border-slate-700 dark:border-slate-600 shadow-md`}
+      className={`${className} rounded-full object-cover [object-position:center_20%] border-2 border-slate-700 dark:border-slate-600 shadow-md`}
     />
   );
 };
+
