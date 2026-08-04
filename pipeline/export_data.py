@@ -3,6 +3,7 @@ import json
 import re
 import pandas as pd
 import csv
+import requests
 from datetime import datetime
 from pathlib import Path
 
@@ -89,6 +90,111 @@ def normalize_house_sponsor_name(name):
 def normalize_senate_sponsor_name(name):
     key = normalize_person_name(name)
     return SENATE_SPONSOR_NAME_MAP.get(key, key)
+
+# ----------------------------------------------------
+# PLAC Members API Party Fallback
+# ----------------------------------------------------
+
+PLAC_API_BASE = "https://admin.placbillstrack.org/api"
+
+# Member names (as written in the source files) that do not match their PLAC
+# API entry without help: typo'd / abbreviated / alternate-name variants.
+# Keys are token-sorted (see lookup_api_party), values are the API entry names.
+PARTY_NAME_ALIASES = {
+    'ahmed ningi': 'abdul ningi',
+    'allwell haacho onyeosh': 'allwell heacho onyesoh',
+    'attah thaddeus': 'thaddeus atta',
+    'george oluwande': 'george olawande',
+    'muhhammad muktar': 'muhammed mukhtar',
+    'ozigi tijani': 'muhammed ozigi',
+}
+
+_api_members_cache = None
+
+
+def _tokenize_person_name(name):
+    """Lowercase, strip honorifics, join apostrophes (sa'ad -> saad), keep single a-z tokens."""
+    name = str(name).lower()
+    name = re.sub(r'\b(senator|sen|hon|rt|dr|mr|mrs|ms|prof|chief|alhaji|alh|engr|arc|barr)\b\.?', ' ', name)
+    name = name.replace("'", '')
+    return set(re.findall(r'[a-z]+', name))
+
+
+def load_plac_api_members():
+    """Fetch PLAC members (with party) from the API. Lazy-cached per run.
+    Returns a list of {'name','state','chamber','party'} dicts, or [] if the API is unreachable."""
+    global _api_members_cache
+    if _api_members_cache is not None:
+        return _api_members_cache
+    members = []
+    try:
+        r = requests.get(f"{PLAC_API_BASE}/members", timeout=20)
+        r.raise_for_status()
+        states = {}
+        try:
+            sr = requests.get(f"{PLAC_API_BASE}/states", timeout=15)
+            sr.raise_for_status()
+            states = {s['id']: s['title'] for s in sr.json().get('data', [])}
+        except Exception:
+            pass
+        for m in r.json().get('data', []):
+            title = str(m.get('title') or '').strip().lower()
+            members.append({
+                'name': str(m.get('name', '')),
+                'state': states.get(m.get('state_id'), ''),
+                'chamber': 'senate' if title in ('sen', 'sen.') else 'house',
+                'party': str((m.get('party') or {}).get('acronym', '')).strip().upper(),
+            })
+    except Exception as e:
+        print(f"[Warning] PLAC members API unavailable; party fallback skipped: {e}")
+    _api_members_cache = members
+    return members
+
+
+def lookup_api_party(member_name, member_state, chamber):
+    """Best-effort party lookup against PLAC's members API.
+
+    Matching order: alias map -> exact token match -> state-constrained token
+    Jaccard (>= 0.4 with >= 2 shared tokens, ambiguity-guarded). Returns the
+    party acronym, or '' if no confident match is found.
+    """
+    members = load_plac_api_members()
+    if not members:
+        return ''
+    tokens = _tokenize_person_name(member_name)
+    if not tokens:
+        return ''
+    alias = PARTY_NAME_ALIASES.get(' '.join(sorted(tokens)))
+    if alias:
+        tokens = _tokenize_person_name(alias)
+
+    candidates = [m for m in members if m['chamber'] == chamber]
+
+    # 1) Exact token match (any state)
+    for m in candidates:
+        if _tokenize_person_name(m['name']) == tokens:
+            return m['party']
+
+    # 2) State-constrained fuzzy match
+    st_candidates = [m for m in candidates if m['state'].lower() == str(member_state).strip().lower()]
+    if not st_candidates:
+        return ''
+    scored = []
+    for m in st_candidates:
+        m_tokens = _tokenize_person_name(m['name'])
+        shared = len(tokens & m_tokens)
+        union = len(tokens | m_tokens)
+        if union:
+            scored.append((shared / union, shared, m))
+    scored.sort(key=lambda x: (-x[0], -x[1]))
+    if not scored:
+        return ''
+    score, shared, best = scored[0]
+    if score < 0.4 or shared < 2:
+        return ''
+    if len(scored) > 1 and scored[1][0] >= score - 0.1:
+        return ''
+    return best['party']
 
 def clean_display_name(name):
     """Convert 'Sen. Adebule, Idiat Oluranti' -> 'Sen. Adebule Idiat Oluranti' (remove comma)"""
@@ -332,6 +438,8 @@ def build_house_data():
             if k in party_lookup:
                 party = party_lookup[k]
                 break
+        if not party:
+            party = lookup_api_party(name, state, 'house')
 
         # Find sponsored bills
         sponsored_mask = b_df['sponsor_key'].isin(keys)
@@ -528,6 +636,8 @@ def build_senate_data():
             if k in party_lookup:
                 party = party_lookup[k]
                 break
+        if not party:
+            party = lookup_api_party(name, state, 'senate')
 
         # Find sponsored bills
         sponsored_mask = b_df['sponsor_key'].isin(keys)
