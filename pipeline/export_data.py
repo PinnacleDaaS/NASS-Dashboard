@@ -92,14 +92,14 @@ def normalize_senate_sponsor_name(name):
     return SENATE_SPONSOR_NAME_MAP.get(key, key)
 
 # ----------------------------------------------------
-# PLAC Members API Party Fallback
+# PLAC Members API Fallback (party + TBD state/district)
 # ----------------------------------------------------
 
 PLAC_API_BASE = "https://admin.placbillstrack.org/api"
 
 # Member names (as written in the source files) that do not match their PLAC
 # API entry without help: typo'd / abbreviated / alternate-name variants.
-# Keys are token-sorted (see lookup_api_party), values are the API entry names.
+# Keys are token-sorted (see _match_api_member), values are the API entry names.
 PARTY_NAME_ALIASES = {
     'ahmed ningi': 'abdul ningi',
     'allwell haacho onyeosh': 'allwell heacho onyesoh',
@@ -121,8 +121,8 @@ def _tokenize_person_name(name):
 
 
 def load_plac_api_members():
-    """Fetch PLAC members (with party) from the API. Lazy-cached per run.
-    Returns a list of {'name','state','chamber','party'} dicts, or [] if the API is unreachable."""
+    """Fetch PLAC members (with party, state, senatorial zone) from the API.
+    Lazy-cached per run. Returns a list of dicts, or [] if the API is unreachable."""
     global _api_members_cache
     if _api_members_cache is not None:
         return _api_members_cache
@@ -142,28 +142,29 @@ def load_plac_api_members():
             members.append({
                 'name': str(m.get('name', '')),
                 'state': states.get(m.get('state_id'), ''),
+                'zone': str(m.get('senatorial_zone') or '').strip(),
                 'chamber': 'senate' if title in ('sen', 'sen.') else 'house',
                 'party': str((m.get('party') or {}).get('acronym', '')).strip().upper(),
             })
     except Exception as e:
-        print(f"[Warning] PLAC members API unavailable; party fallback skipped: {e}")
+        print(f"[Warning] PLAC members API unavailable; party/state fallback skipped: {e}")
     _api_members_cache = members
     return members
 
 
-def lookup_api_party(member_name, member_state, chamber):
-    """Best-effort party lookup against PLAC's members API.
+def _match_api_member(member_name, member_state, chamber):
+    """Match a member to their PLAC API entry.
 
     Matching order: alias map -> exact token match -> state-constrained token
     Jaccard (>= 0.4 with >= 2 shared tokens, ambiguity-guarded). Returns the
-    party acronym, or '' if no confident match is found.
+    matched API member dict, or None if no confident match is found.
     """
     members = load_plac_api_members()
     if not members:
-        return ''
+        return None
     tokens = _tokenize_person_name(member_name)
     if not tokens:
-        return ''
+        return None
     alias = PARTY_NAME_ALIASES.get(' '.join(sorted(tokens)))
     if alias:
         tokens = _tokenize_person_name(alias)
@@ -173,12 +174,12 @@ def lookup_api_party(member_name, member_state, chamber):
     # 1) Exact token match (any state)
     for m in candidates:
         if _tokenize_person_name(m['name']) == tokens:
-            return m['party']
+            return m
 
     # 2) State-constrained fuzzy match
     st_candidates = [m for m in candidates if m['state'].lower() == str(member_state).strip().lower()]
     if not st_candidates:
-        return ''
+        return None
     scored = []
     for m in st_candidates:
         m_tokens = _tokenize_person_name(m['name'])
@@ -188,13 +189,39 @@ def lookup_api_party(member_name, member_state, chamber):
             scored.append((shared / union, shared, m))
     scored.sort(key=lambda x: (-x[0], -x[1]))
     if not scored:
-        return ''
+        return None
     score, shared, best = scored[0]
     if score < 0.4 or shared < 2:
-        return ''
+        return None
     if len(scored) > 1 and scored[1][0] >= score - 0.1:
+        return None
+    return best
+
+
+def lookup_api_party(member_name, member_state, chamber):
+    """Best-effort party lookup against PLAC's members API. Returns '' if no match."""
+    m = _match_api_member(member_name, member_state, chamber)
+    return m['party'] if m else ''
+
+
+def _title_case_zone(zone):
+    """'DELTA SOUTH' -> 'Delta South'; normalizes en-dashes to hyphens."""
+    if not zone:
         return ''
-    return best['party']
+    return ' '.join(w.capitalize() if w.isalpha() else w
+                    for w in str(zone).replace('\u2013', '-').split())
+
+
+def backfill_member_api(member_name, member_state, chamber):
+    """Fill missing/TBD state and (for senators) district from the PLAC API.
+
+    Returns (state, district) where each is '' when the source value is fine
+    or no confident API match exists.
+    """
+    m = _match_api_member(member_name, member_state, chamber)
+    if not m:
+        return '', ''
+    return m.get('state', ''), _title_case_zone(m.get('zone', ''))
 
 def clean_display_name(name):
     """Convert 'Sen. Adebule, Idiat Oluranti' -> 'Sen. Adebule Idiat Oluranti' (remove comma)"""
@@ -427,6 +454,12 @@ def build_house_data():
             f"house_rep_{idx + 1}.jpg"
         )
 
+        # Backfill missing/TBD state from the PLAC members API
+        if not state or state.lower() == 'tbd':
+            api_state, _ = backfill_member_api(name, state, 'house')
+            if api_state:
+                state = api_state
+
         if state and constituency and state.lower() != 'tbd':
             constituencies_by_state.setdefault(state, set()).add(constituency)
 
@@ -624,6 +657,16 @@ def build_senate_data():
             str(row.get('image_url', '')).strip(),
             f"senate_member_{idx + 1}.jpg"
         )
+
+        # Backfill missing/TBD state and district from the PLAC members API
+        if (not state or state.lower() == 'tbd') or (not district or district.lower() == 'tbd'):
+            api_state, api_district = backfill_member_api(name, state, 'senate')
+            if not state or state.lower() == 'tbd':
+                if api_state:
+                    state = api_state
+            if not district or district.lower() == 'tbd':
+                if api_district:
+                    district = api_district
 
         if state and district and state.lower() != 'tbd':
             districts_by_state.setdefault(state, set()).add(district)

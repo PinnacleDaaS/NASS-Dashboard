@@ -20,7 +20,7 @@ for m in h_json['members']:
             print(f"Name: {m['name']} | State: {m.get('state')} | Const: {m.get('constituency')} | imageUrl: {m.get('imageUrl')}")
 
 print("\n=== CHECKING ROOT EXCEL house_of_reps_master_final.xlsx ===")
-df_root = pd.read_excel('house_of_reps_master_final.xlsx')
+df_root = pd.read_excel('data/house_of_reps_master_final.xlsx')
 for idx, row in df_root.iterrows():
     rname = str(row.get('House of rep member', ''))
     oname = str(row.get('Official Name', ''))

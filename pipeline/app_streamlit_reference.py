@@ -1,4 +1,4 @@
-﻿import streamlit as st
+import streamlit as st
 import pandas as pd
 from pathlib import Path
 import base64
@@ -11,7 +11,7 @@ def parse_bill_date(series):
 
 @st.cache_data
 def load_house_data(file_mtime=None):
-    path = Path('house_of_reps_master_final.xlsx')
+    path = Path('data/house_of_reps_master_final.xlsx')
     df = pd.read_excel(path, sheet_name='in')
     df.columns = df.columns.str.strip()
     df = df.rename(columns={
@@ -100,7 +100,7 @@ def load_house_bills_data():
 
 @st.cache_data
 def load_senate_data():
-    path = Path('senators_full_joined(in) (1).csv')
+    path = Path('data/senators_full_joined(in) (1).csv')
     df = pd.read_csv(path)
     df.columns = df.columns.str.strip()
     df = df.rename(columns={
@@ -1260,7 +1260,7 @@ if chamber == 'House of Reps':
     st.title('House of Representatives Members Dashboard')
     st.write('Browse House of Representatives members with their details and images from the master House dataset.')
 
-    house_data_path = Path('house_of_reps_master_final.xlsx')
+    house_data_path = Path('data/house_of_reps_master_final.xlsx')
     house_df = load_house_data(house_data_path.stat().st_mtime)
     house_bills_df = load_house_bills_data()
 

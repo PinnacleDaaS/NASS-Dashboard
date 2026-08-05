@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "August 04, 2026",
+  "lastUpdated": "August 05, 2026",
   "members": [
     {
       "id": "2",
@@ -6697,10 +6697,10 @@
     {
       "id": "52",
       "name": "Sen Joel Onowakpo Thomas",
-      "officialName": "APC",
+      "officialName": "Joel Onowakpo Thomas",
       "party": "APC",
-      "state": "TBD",
-      "constituency": "TBD",
+      "state": "Delta",
+      "constituency": "Delta South",
       "imageUrl": "/data/legislator_images/senate_member_52.jpg",
       "sponsoredBills": [
         {
@@ -16250,7 +16250,6 @@
     "Plateau",
     "Rivers",
     "Sokoto",
-    "TBD",
     "Taraba",
     "Yobe",
     "Zamfara"
@@ -16352,7 +16351,8 @@
     ],
     "Delta": [
       "Delta Central",
-      "Delta North"
+      "Delta North",
+      "Delta South"
     ],
     "Katsina": [
       "Katsina Central",

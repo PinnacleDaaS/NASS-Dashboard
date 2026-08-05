@@ -2,10 +2,10 @@ import os
 import json
 import pandas as pd
 
-HOUSE_EXCEL_ROOT = r"c:\Users\Joshua Akintayo\Downloads\PLAC\nass-dashboard\house_of_reps_master_final.xlsx"
+HOUSE_EXCEL_ROOT = r"c:\Users\Joshua Akintayo\Downloads\PLAC\nass-dashboard\data\house_of_reps_master_final.xlsx"
 HOUSE_EXCEL_DATA = r"c:\Users\Joshua Akintayo\Downloads\PLAC\nass-dashboard\data\house_of_reps_master_final.xlsx"
 
-SENATE_CSV_ROOT = r"c:\Users\Joshua Akintayo\Downloads\PLAC\nass-dashboard\senators_full_joined(in) (1).csv"
+SENATE_CSV_ROOT = r"c:\Users\Joshua Akintayo\Downloads\PLAC\nass-dashboard\data\senators_full_joined(in) (1).csv"
 SENATE_CSV_DATA = r"c:\Users\Joshua Akintayo\Downloads\PLAC\nass-dashboard\data\senators_full_joined(in) (1).csv"
 
 HOUSE_JSON = r"c:\Users\Joshua Akintayo\Downloads\PLAC\nass-dashboard\frontend\public\data\house.json"

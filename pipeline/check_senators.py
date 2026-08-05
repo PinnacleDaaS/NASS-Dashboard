@@ -14,7 +14,7 @@ for m in s_json['members']:
             print(f"Name: {m['name']} | State: {m.get('state')} | Dist: {m.get('constituency')} | imageUrl: {m.get('imageUrl')}")
 
 print("\n=== CHECKING ROOT CSV senators_full_joined(in) (1).csv ===")
-df_sen = pd.read_csv('senators_full_joined(in) (1).csv')
+df_sen = pd.read_csv('data/senators_full_joined(in) (1).csv')
 for idx, row in df_sen.iterrows():
     rname = str(row.get('By (Senator)', ''))
     oname = str(row.get('Official Name', ''))

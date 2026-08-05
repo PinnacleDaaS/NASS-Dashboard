@@ -3,7 +3,7 @@ import json
 import pandas as pd
 
 print("=== CHECKING HOUSE OF REPS ALIGNMENT ===")
-df_h = pd.read_excel('house_of_reps_master_final.xlsx')
+df_h = pd.read_excel('data/house_of_reps_master_final.xlsx')
 with open('nass-dashboard/frontend/public/data/house.json', 'r', encoding='utf-8') as f:
     h_json = json.load(f)
 
@@ -29,7 +29,7 @@ print(f"Total House Mismatches by Index: {h_mismatches} / {min(len(df_h), len(h_
 
 
 print("\n=== CHECKING SENATE ALIGNMENT ===")
-df_s = pd.read_csv('senators_full_joined(in) (1).csv')
+df_s = pd.read_csv('data/senators_full_joined(in) (1).csv')
 with open('nass-dashboard/frontend/public/data/senate.json', 'r', encoding='utf-8') as f:
     s_json = json.load(f)
 

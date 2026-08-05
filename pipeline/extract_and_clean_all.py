@@ -8,8 +8,8 @@ import pandas as pd
 from PIL import Image, ImageEnhance, ImageFilter, ImageDraw, ImageFont
 
 ROOT_DIR = r"c:\Users\Joshua Akintayo\Downloads\PLAC"
-HOUSE_EXCEL_ROOT = os.path.join(ROOT_DIR, "house_of_reps_master_final.xlsx")
-SENATE_CSV_ROOT = os.path.join(ROOT_DIR, "senators_full_joined(in) (1).csv")
+HOUSE_EXCEL_ROOT = os.path.join(ROOT_DIR, 'data/house_of_reps_master_final.xlsx')
+SENATE_CSV_ROOT = os.path.join(ROOT_DIR, 'data/senators_full_joined(in) (1).csv')
 
 DEST_IMG_DIR = os.path.join(ROOT_DIR, "nass-dashboard", "frontend", "public", "data", "legislator_images")
 HOUSE_JSON = os.path.join(ROOT_DIR, "nass-dashboard", "frontend", "public", "data", "house.json")
