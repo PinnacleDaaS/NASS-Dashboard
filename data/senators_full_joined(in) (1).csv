@@ -1,116 +1,121 @@
-SenatorID,By (Senator),Official Name,State,District,Images
-1,Executive,TBD,TBD,TBD,/data/legislator_images/senate_1.jpg?v=7
-2,Sen Abba Moro,PDP,Benue,Benue South,/data/legislator_images/senate_2.jpg?v=7
-4,Sen Abdulrahman Kawu Suleiman,APC ,Kano,Kano South,/data/legislator_images/senate_3.jpg?v=7
-137,Sen Adamu Aliero,APC,Kebbi ,Kebbi Central,/data/legislator_images/senate_4.jpg?v=7
-5,Sen Adaramodu Adeyemi Raphael,APC,Ekiti,Ekiti south,/data/legislator_images/senate_5.jpg?v=7
-6,Sen Adebule Idiat Oluranti,APC ,Lagos,Lagos West,/data/legislator_images/senate_6.jpg?v=7
-7,Sen Adeniyi Adegbonmire,APC,Ondo,Ondo Central,/data/legislator_images/senate_7.jpg?v=7
-8,Sen Adetokunbo Mukhail Abiru,APC,Lagos,Lagos-East,/data/legislator_images/senate_8.jpg?v=7
-3,Sen Ahmed Ningi,PDP,Bauchi,Bauchi Central,/data/legislator_images/senate_9.jpg?v=7
-9,Sen Akintunde Yunus Abiodun,APC,Oyo,Oyo Central,/data/legislator_images/senate_10.jpg?v=7
-10,Sen Akpoti-Uduaghan Natasha,PDP,Kogi,Kogi Central,/data/legislator_images/senate_11.jpg?v=7
-11,Sen Aliu Wadada Ahmed,APC,Nassarawa,Nassarawa West,/data/legislator_images/senate_12.jpg?v=7
-12,Sen Aliyu Magatakarda Wamakko,APC,Sokoto,Sokoto North,/data/legislator_images/senate_13.jpg?v=7
-13,Sen Alli Sharafadeen Abiodun,APC ,Oyo ,Oyo South,/data/legislator_images/senate_14.jpg?v=7
-14,Sen. Allwell Haacho Onyeosh,APC,Rivers,Rivers East,/data/legislator_images/senate_15.jpg?v=7
-15,Sen Aminu Iya Abbas,APC,Adamawa,Adamawa Central,/data/legislator_images/senate_16.jpg?v=7
-16,Sen Ani Anthony Okorie,APC,Ebonyi,Ebonyi South,/data/legislator_images/senate_17.jpg?v=7
-17,Sen Ashiru Oyelola Yisa,APC,Kwara,Kwara South,/data/legislator_images/senate_18.jpg?v=7
-18,Sen Asuquo Ekpenyong,APC,Cross River ,Cross River South,/data/legislator_images/senate_19.jpg?v=7
-19,Sen Augustine Okwudiri Akobundu,ADC,Abia,Abia Central,/data/legislator_images/senate_20.jpg?v=7
-20,Sen Babangida Hussaini,APC,Jigawa,North West,/data/legislator_images/senate_21.jpg?v=7
-21,Sen Banigo Ipalibo Harry,PDP,Rivers,Rivers West,/data/legislator_images/senate_22.jpg?v=7
-22,Sen Barau Jibrin,APC,Kano,Kano North,/data/legislator_images/senate_23.jpg?v=7
-23,Sen Barinada Barry Mpigi,APC,Rivers,Rivers South East,/data/legislator_images/senate_24.jpg?v=7
-25,Sen Benson Agadaga,APC,Bayelsa,Bayelsa East,/data/legislator_images/senate_25.jpg?v=7
-24,Sen Binos Dauda Yaroe,ADC,Adamawa,Adamawa South,/data/legislator_images/senate_26.jpg?v=7
-26,Sen Buhari Abdulfatai Omotayo,APC,Oyo,Oyo North,/data/legislator_images/senate_27.jpg?v=7
-127,Sen Omueya Dafinone Edeh,APC,Delta,Delta Central,/data/legislator_images/senate_28.jpg?v=7
-136,Sen Dandutse Muntari Mohammed ,APC,Katsina,Katsina South,/data/legislator_images/senate_29.jpg?v=7
-27,Sen Danjuma Goje Mohammed,APC,Gombe,Gombe Central,/data/legislator_images/senate_30.jpg?v=7
-28,Sen David Jimkuta,APC,Taraba,Taraba South,/data/legislator_images/senate_31.jpg?v=7
-29,Sen Diket Satso Plang,APC ,Plateau,Plateau Central,/data/legislator_images/senate_32.jpg?v=7
-30,Sen Emmanuel Udende Menga,APC ,Benue,Benue North East,/data/legislator_images/senate_33.jpg?v=7
-31,Sen Enyinnaya Harcourt Abaribe,LP,Abia,Abia South,/data/legislator_images/senate_34.jpg?v=7
-32,Sen Etim Bassey Aniekan,APC,Akwa Ibom,Akwa Ibom North-East,/data/legislator_images/senate_35.jpg?v=7
-33,Sen Eze Kenneth Emeka,APC,Ebonyi,Ebonyi Central,/data/legislator_images/senate_36.jpg?v=7
-34,Sen Ezenwa Francis Onyewuchi,APC,Imo,Imo East,/data/legislator_images/senate_37.jpg?v=7
-35,Sen Francis Adenigba Fadahunsi,APC,Osun,Osun East,/data/legislator_images/senate_38.jpg?v=7
-36,Sen Garba Musa Maidoki,APC ,Kebbi,Kebbi South,/data/legislator_images/senate_39.jpg?v=7
-37,Sen Godswill Akpabio,APC,Akwa Ibom,Akwa Ibom North-West,/data/legislator_images/senate_40.jpg?v=7
-38,Sen Ibrahim Dankwambo,PDP,Gombe,Gombe North,/data/legislator_images/senate_41.jpg?v=7
-39,Sen Ibrahim Jimoh Folorunsho,APC,Ondo,Ondo South,/data/legislator_images/senate_42.jpg?v=7
-40,Sen Ibrahim Mohammed Bomai,APC,Yobe,Yobe South,/data/legislator_images/senate_43.jpg?v=7
-42,Sen Ikra Aliyu Bilbis,APC,Zamfara,Zamfara Central,/data/legislator_images/senate_44.jpg?v=7
-43,Sen Imasuen Neda Bernards,APC,Edo,Edo South,/data/legislator_images/senate_45.jpg?v=7
-44,Sen Ipinsagba Emmanuel Olajide,APC,Ondo,Ondo North,/data/legislator_images/senate_46.jpg?v=7
-45,Sen Ireti Heebah Kingibe,ADC,Federal Capital Territory,FCT,/data/legislator_images/senate_47.jpg?v=7
-46,Sen Ishaku Elisha Cliff Abbo,LP,Adamawa,Adamawa North,/data/legislator_images/senate_48.jpg?v=7
-47,Sen Izunaso Osita Bonaventure,APC ,Imo,imo west,/data/legislator_images/senate_49.jpg?v=7
-48,Sen Jarigbe Agom Jarigbe,APC,Cross River,Cross River North,/data/legislator_images/senate_50.jpg?v=7
-49,Sen Jibrin Isah,APC,Kogi,Kogi East,/data/legislator_images/senate_51.jpg?v=7
-50,Sen Joel Onowakpo Thomas,Joel Onowakpo Thomas,Delta,Delta South,/data/legislator_images/senate_52.jpg?v=7
-128,Sen Joseph Ikpea,APC,Edo ,Edo Central,/data/legislator_images/senate_53.jpg?v=7
-51,Sen Justus Olugbenga Daniel,APC ,Ogun,Ogun East,/data/legislator_images/senate_54.jpg?v=7
-123,Sen Kaila Dahuwa Samaila ,APC,Bauchi ,Bauchi North,/data/legislator_images/senate_55.jpg?v=7
-52,Sen Kaka Shehu Lawan,APC,Borno,Borno Central,/data/legislator_images/senate_56.jpg?v=7
-53,Sen Kelvin Chukwu,APC,Enugu,Enugu East,/data/legislator_images/senate_57.jpg?v=7
-54,Sen Khalid Ibrahim Mustapha,PDP,Kaduna,Kaduna North,/data/legislator_images/senate_58.jpg?v=7
-55,Sen Konbowei Benson Friday,APC,Bayelsa,Bayelsa Central,/data/legislator_images/senate_59.jpg?v=7
-56,Sen Lawal Adamu Usman,ADC,Kaduna,Kaduna Central,/data/legislator_images/senate_60.jpg?v=7
-57,Sen Mallam-madori Ahmed Abdulhamid,APC ,Jigawa,North East,/data/legislator_images/senate_61.jpg?v=7
-58,Sen Manu Haruna,APC,Taraba,Taraba Central,/data/legislator_images/senate_62.jpg?v=7
-59,Sen Michael Opeyemi Bamidele,APC,Ekiti,Ekiti Central,/data/legislator_images/senate_63.jpg?v=7
-60,Sen Mohammad Adamu Mainasara Aliero,APC,Kebbi,Kebbi Central,/data/legislator_images/senate_64.jpg?v=7
-61,Sen Mohammed Ali Ndume,APC,Borno,Borno South,/data/legislator_images/senate_65.jpg?v=7
-63,Sen Mohammed Sani Musa,APC,Niger,Niger East,/data/legislator_images/senate_66.jpg?v=7
-64,Sen Mohammed Tahir Monguno,APC,Borno,Borno North,/data/legislator_images/senate_67.jpg?v=7
-65,Sen Nasiru Sani Zangon Daura,APC,Katsina,Katsina North,/data/legislator_images/senate_68.jpg?v=7
-66,Sen Ndubueze Patrick Chinwuba,APC,Imo,Imo North,/data/legislator_images/senate_69.jpg?v=7
-67,Sen Ned Munir Nwoko,APC,Delta,Delta North,/data/legislator_images/senate_70.jpg?v=7
-69,Sen Ohere Abubakar,APC,Kogi,Kogi Central,/data/legislator_images/senate_71.jpg?v=7
-70,Sen Okechukwu Ezea,LP,Enugu,Enugu North,/data/legislator_images/senate_72.jpg?v=7
-71,Sen Olalere Oyewumi,PDP,Osun,Osun West,/data/legislator_images/senate_73.jpg?v=7
-72,Sen Oluwole Fadeyi Olubiyi,PDP,Osun,Osun Central,/data/legislator_images/senate_74.jpg?v=7
-73,Sen Oluwole Fasuyi Cyril,APC ,Ekiti,Ekiti North,/data/legislator_images/senate_75.jpg?v=7
-74,Sen Onawo Mohammed Ogoshi,APM,Nassarawa,Nassarawa South,/data/legislator_images/senate_76.jpg?v=7
-75,Sen Onyekachi Nwaebonyi,APC,Ebonyi,Ebonyi North,/data/legislator_images/senate_77.jpg?v=7
-76,Sen Orji Uzor Kalu,APC,Abia,Abia North,/data/legislator_images/senate_78.jpg?v=7
-77,Sen Oshiomhole Adams Aliyu,APC,Edo ,Edo North,/data/legislator_images/senate_79.jpg?v=7
-78,Sen Osita Ngwu,APC,Enugu,Enugu West,/data/legislator_images/senate_80.jpg?v=7
-79,Sen Rufai Hanga,NDC,Kano,Kano Central,/data/legislator_images/senate_81.jpg?v=7
-80,Sen Sadiq Suleiman Umar,APC,Kwara,Kwara North,/data/legislator_images/senate_82.jpg?v=7
-81,Sen Saliu Mustapha,APC ,Kwara,Kwara Central,/data/legislator_images/senate_83.jpg?v=7
-82,Sen Sani Abubakar Bello,APC ,Niger,Niger North,/data/legislator_images/senate_84.jpg?v=7
-83,Sen Seriake Henry Dickson,NDC,Bayelsa,Bayelsa West,/data/legislator_images/senate_85.jpg?v=7
-84,Sen Shuaibu Isa Lau,APC,Taraba,Taraba North,/data/legislator_images/senate_86.jpg?v=7
-85,Sen Simon Bako Lalong,APC ,Plateau,Plateau South,/data/legislator_images/senate_87.jpg?v=7
-86,Sen Solomon Adeola Olamilekan,APC,Ogun,Ogun West,/data/legislator_images/senate_88.jpg?v=7
-87,Sen Sunday Katung,APC,Kaduna,Kaduna South,/data/legislator_images/senate_89.jpg?v=7
-88,Sen Sunday Steve Karimi,APC,Kogi,Kogi West,/data/legislator_images/senate_90.jpg?v=7
-89,Sen Tambuwal Waziri Aminu,ADC,Sokoto,Sokoto South,/data/legislator_images/senate_91.jpg?v=7
-90,Sen Tony Nwoye,NDC,Anambra,Anambra North,/data/legislator_images/senate_92.jpg?v=7
-91,Sen Umar Shehu Buba,PRP,Bauchi,Bauchi South,/data/legislator_images/senate_93.jpg?v=7
-92,Sen Victor Umeh Chukwuoyelu,NDC,Anambra,Anambra Central,/data/legislator_images/senate_94.jpg?v=7
-93,Sen Wasiu Sanni Eshilokun,APC,Lagos,Lagos Central,/data/legislator_images/senate_95.jpg?v=7
-94,Sen Williams Eteng Jonah,APC,Cross River,Cross River Central,/data/legislator_images/senate_96.jpg?v=7
-95,Sen Yahaya Abubakar Abdullahi,APC,Kebbi,Kebbi North,/data/legislator_images/senate_97.jpg?v=7
-96,Sen Yau Sahabi Alhaji,APC ,Zamfara,Zamfara North,/data/legislator_images/senate_98.jpg?v=7
-97,Sen Yohanna Amos Kumai,PDP,Adamawa,Adamawa North,/data/legislator_images/senate_99.jpg?v=7
-98,Sen Zam Titus Tartenger,APC,Benue ,Benue Northeast,/data/legislator_images/senate_100.jpg?v=7
-134,Sen.  Abdulaziz Yar'Adua,APC,Katsina,Katsina Central,/data/legislator_images/senate_101.jpg?v=7
-99,Sen. Abdulaziz Yari,APC ,Zamfara,Zamfara West,/data/legislator_images/senate_102.jpg?v=7
-100,Sen. Afolabi Salisu,APC,Ogun,Ogun Central,/data/legislator_images/senate_103.jpg?v=7
-116,Sen. Ahmad Ibrahim Lawan,APC ,Yobe,Yobe North ,/data/legislator_images/senate_104.jpg?v=7
-103,Sen. Anthony Siyako Yaro,PDP,Gombe,Gombe South,/data/legislator_images/senate_105.jpg?v=7
-105,Sen. Ekong Sampson,APC,Akwa Ibom,Akwa Ibom South,/data/legislator_images/senate_106.jpg?v=7
-107,Sen. Ibrahim Lamido,ADC,Sokoto,Sokoto East,/data/legislator_images/senate_107.jpg?v=7
-109,Sen. Justus Olugbenga Daniel,APC,Ogun,Ogun East,/data/legislator_images/senate_108.jpg?v=7
-133,Sen. Kawu Sumaila  Abdulrahman,APC,Kano,Kano South,/data/legislator_images/senate_109.jpg?v=7
-132,Sen. Khabeeb Mustapha,PDP,Jigawa,jigawa South,/data/legislator_images/senate_110.jpg?v=7
-111,Sen. Mustapha Musa,APC,Yobe,Yobe East,/data/legislator_images/senate_111.jpg?v=7
-117,Sen. Nwachukwu Emmanuel,APGA,Anambra ,Anambra South,/data/legislator_images/senate_112.jpg?v=7
-113,Sen. Pam Dachungyang,APC,Plateau,Plateau North,/data/legislator_images/senate_113.jpg?v=7
-118,Sen. Peter Ndalikali Jiya,PDP,Niger,Niger South,/data/legislator_images/senate_114.jpg?v=7
-114,Sen. Samaila Dahuwa Kaila,APC,Bauchi,Bauchi North,/data/legislator_images/senate_115.jpg?v=7
+﻿SenatorID,By (Senator),Official Name,State,District,Images
+1,Executive,TBD,TBD,TBD,
+2,Sen Abba Moro,PDP,Benue,Benue South,
+134,Sen.  Abdulaziz Yar'Adua,APC,Katsina,Katsina Central,
+99,Sen. Abdulaziz Yari,APC ,Zamfara,Zamfara West,/data/legislator_images/sen_abdulaziz_yari.jpg?v=11
+4,Sen Abdulrahman Kawu Suleiman,APC ,Kano,Kano South,/data/legislator_images/sen_abdulrahman_kawu_suleiman.jpg?v=11
+137,Sen Adamu Aliero,APC,Kebbi ,Kebbi Central,
+5,Sen Adaramodu Adeyemi Raphael,APC,Ekiti,Ekiti south,/data/legislator_images/sen_adaramodu_adeyemi_raphael.jpg?v=11
+6,Sen Adebule Idiat Oluranti,APC ,Lagos,Lagos West,/data/legislator_images/sen_adebule_idiat_oluranti.jpg?v=11
+7,Sen Adeniyi Adegbonmire,APC,Ondo,Ondo Central,/data/legislator_images/sen_adeniyi_adegbonmire.jpg?v=11
+8,Sen Adetokunbo Mukhail Abiru,APC,Lagos,Lagos-East,/data/legislator_images/sen_adetokunbo_mukhail_abiru.jpg?v=11
+100,Sen. Afolabi Salisu,APC,Ogun,Ogun Central,/data/legislator_images/sen_afolabi_salisu.jpg?v=11
+116,Sen. Ahmad Ibrahim Lawan,APC ,Yobe,Yobe North ,/data/legislator_images/sen_ahmad_ibrahim_lawan.jpg?v=11
+3,Sen Ahmed Ningi,PDP,Bauchi,Bauchi Central,/data/legislator_images/sen_ahmed_ningi.jpg?v=11
+9,Sen Akintunde Yunus Abiodun,APC,Oyo,Oyo Central,/data/legislator_images/sen_akintunde_yunus_abiodun.jpg?v=11
+10,Sen Akpoti-Uduaghan Natasha,PDP,Kogi,Kogi Central,/data/legislator_images/sen_akpoti_uduaghan_natasha.jpg?v=11
+11,Sen Aliu Wadada Ahmed,APC,Nassarawa,Nassarawa West,/data/legislator_images/sen_aliu_wadada_ahmed.jpg?v=11
+12,Sen Aliyu Magatakarda Wamakko,APC,Sokoto,Sokoto North,/data/legislator_images/sen_aliyu_magatakarda_wamakko.jpg?v=11
+13,Sen Alli Sharafadeen Abiodun,APC ,Oyo ,Oyo South,/data/legislator_images/sen_alli_sharafadeen_abiodun.jpg?v=11
+14,Sen. Allwell Haacho Onyeosh,APC,Rivers,Rivers East,/data/legislator_images/sen_allwell_haacho_onyeosh.jpg?v=11
+15,Sen Aminu Iya Abbas,APC,Adamawa,Adamawa Central,/data/legislator_images/sen_aminu_iya_abbas.jpg?v=11
+16,Sen Ani Anthony Okorie,APC,Ebonyi,Ebonyi South,
+103,Sen. Anthony Siyako Yaro,PDP,Gombe,Gombe South,/data/legislator_images/sen_anthony_siyako_yaro.jpg?v=11
+17,Sen Ashiru Oyelola Yisa,APC,Kwara,Kwara South,
+18,Sen Asuquo Ekpenyong,APC,Cross River ,Cross River South,/data/legislator_images/sen_asuquo_ekpenyong.jpg?v=11
+19,Sen Augustine Okwudiri Akobundu,ADC,Abia,Abia Central,/data/legislator_images/sen_augustine_okwudiri_akobundu.jpg?v=11
+20,Sen Babangida Hussaini,APC,Jigawa,North West,/data/legislator_images/sen_babangida_hussaini.jpg?v=11
+21,Sen Banigo Ipalibo Harry,PDP,Rivers,Rivers West,/data/legislator_images/sen_banigo_ipalibo_harry.jpg?v=11
+22,Sen Barau Jibrin,APC,Kano,Kano North,/data/legislator_images/sen_barau_jibrin.jpg?v=11
+23,Sen Barinada Barry Mpigi,APC,Rivers,Rivers South East,/data/legislator_images/sen_barinada_barry_mpigi.jpg?v=11
+25,Sen Benson Agadaga,APC,Bayelsa,Bayelsa East,/data/legislator_images/sen_benson_agadaga.jpg?v=11
+24,Sen Binos Dauda Yaroe,ADC,Adamawa,Adamawa South,/data/legislator_images/sen_binos_dauda_yaroe.jpg?v=11
+26,Sen Buhari Abdulfatai Omotayo,APC,Oyo,Oyo North,/data/legislator_images/sen_buhari_abdulfatai_omotayo.jpg?v=11
+136,Sen Dandutse Muntari Mohammed ,APC,Katsina,Katsina South,/data/legislator_images/sen_dandutse_muntari_mohammed.jpg?v=11
+27,Sen Danjuma Goje Mohammed,APC,Gombe,Gombe Central,/data/legislator_images/sen_danjuma_goje_mohammed.jpg?v=11
+138,Sen Darlington Nwokocha,Darlington Nwokocha,Abia,Abia Central,/data/legislator_images/sen_darlington_nwokocha.jpg?v=11
+28,Sen David Jimkuta,APC,Taraba,Taraba South,/data/legislator_images/sen_david_jimkuta.jpg?v=11
+140,Sen David Umahi,David Umahi,Ebonyi,Ebonyi South,/data/legislator_images/sen_david_umahi.jpg?v=11
+29,Sen Diket Satso Plang,APC ,Plateau,Plateau Central,/data/legislator_images/sen_diket_satso_plang.jpg?v=11
+105,Sen. Ekong Sampson,APC,Akwa Ibom,Akwa Ibom South,
+30,Sen Emmanuel Udende Menga,APC ,Benue,Benue North East,/data/legislator_images/sen_emmanuel_udende_menga.jpg?v=11
+31,Sen Enyinnaya Harcourt Abaribe,LP,Abia,Abia South,/data/legislator_images/sen_enyinnaya_harcourt_abaribe.jpg?v=11
+32,Sen Etim Bassey Aniekan,APC,Akwa Ibom,Akwa Ibom North-East,/data/legislator_images/sen_etim_bassey_aniekan.jpg?v=11
+33,Sen Eze Kenneth Emeka,APC,Ebonyi,Ebonyi Central,/data/legislator_images/sen_eze_kenneth_emeka.jpg?v=11
+34,Sen Ezenwa Francis Onyewuchi,APC,Imo,Imo East,/data/legislator_images/sen_ezenwa_francis_onyewuchi.jpg?v=11
+35,Sen Francis Adenigba Fadahunsi,APC,Osun,Osun East,/data/legislator_images/sen_francis_adenigba_fadahunsi.jpg?v=11
+36,Sen Garba Musa Maidoki,APC ,Kebbi,Kebbi South,/data/legislator_images/sen_garba_musa_maidoki.jpg?v=11
+106,Sen. Godiya Akwashiki,Godiya Akwashiki,Nasarawa,Nassarawa North,/data/legislator_images/sen_godiya_akwashiki.jpg?v=11
+37,Sen Godswill Akpabio,APC,Akwa Ibom,Akwa Ibom North-West,
+38,Sen Ibrahim Dankwambo,PDP,Gombe,Gombe North,/data/legislator_images/sen_ibrahim_dankwambo.jpg?v=11
+39,Sen Ibrahim Jimoh Folorunsho,APC,Ondo,Ondo South,/data/legislator_images/sen_ibrahim_jimoh_folorunsho.jpg?v=11
+107,Sen. Ibrahim Lamido,ADC,Sokoto,Sokoto East,
+40,Sen Ibrahim Mohammed Bomai,APC,Yobe,Yobe South,/data/legislator_images/sen_ibrahim_mohammed_bomai.jpg?v=11
+41,Sen Ifeanyi Patrick Ubah,Ifeanyi Patrick Ubah,Anambra,Anambra South,/data/legislator_images/sen_ifeanyi_patrick_ubah.jpg?v=11
+42,Sen Ikra Aliyu Bilbis,APC,Zamfara,Zamfara Central,/data/legislator_images/sen_ikra_aliyu_bilbis.jpg?v=11
+43,Sen Imasuen Neda Bernards,APC,Edo,Edo South,
+44,Sen Ipinsagba Emmanuel Olajide,APC,Ondo,Ondo North,/data/legislator_images/sen_ipinsagba_emmanuel_olajide.jpg?v=11
+45,Sen Ireti Heebah Kingibe,ADC,Federal Capital Territory,FCT,/data/legislator_images/sen_ireti_heebah_kingibe.jpg?v=11
+46,Sen Ishaku Elisha Cliff Abbo,LP,Adamawa,Adamawa North,/data/legislator_images/sen_ishaku_elisha_cliff_abbo.jpg?v=11
+47,Sen Izunaso Osita Bonaventure,APC ,Imo,imo west,/data/legislator_images/sen_izunaso_osita_bonaventure.jpg?v=11
+48,Sen Jarigbe Agom Jarigbe,APC,Cross River,Cross River North,/data/legislator_images/sen_jarigbe_agom_jarigbe.jpg?v=11
+49,Sen Jibrin Isah,APC,Kogi,Kogi East,/data/legislator_images/sen_jibrin_isah.jpg?v=11
+50,Sen Joel Onowakpo Thomas,Joel Onowakpo Thomas,Delta,Delta South,/data/legislator_images/sen_joel_onowakpo_thomas.jpg?v=11
+128,Sen Joseph Ikpea,APC,Edo ,Edo Central,
+51,Sen Justus Olugbenga Daniel,APC ,Ogun,Ogun East,/data/legislator_images/sen_justus_olugbenga_daniel.jpg?v=11
+109,Sen. Justus Olugbenga Daniel,APC,Ogun,Ogun East,/data/legislator_images/sen_justus_olugbenga_daniel.jpg?v=11
+123,Sen Kaila Dahuwa Samaila ,APC,Bauchi ,Bauchi North,/data/legislator_images/sen_kaila_dahuwa_samaila.jpg?v=11
+52,Sen Kaka Shehu Lawan,APC,Borno,Borno Central,/data/legislator_images/sen_kaka_shehu_lawan.jpg?v=11
+133,Sen. Kawu Sumaila  Abdulrahman,APC,Kano,Kano South,/data/legislator_images/sen_kawu_sumaila_abdulrahman.jpg?v=11
+53,Sen Kelvin Chukwu,APC,Enugu,Enugu East,/data/legislator_images/sen_kelvin_chukwu.jpg?v=11
+132,Sen. Khabeeb Mustapha,PDP,Jigawa,jigawa South,
+54,Sen Khalid Ibrahim Mustapha,PDP,Kaduna,Kaduna North,/data/legislator_images/sen_khalid_ibrahim_mustapha.jpg?v=11
+55,Sen Konbowei Benson Friday,APC,Bayelsa,Bayelsa Central,
+56,Sen Lawal Adamu Usman,ADC,Kaduna,Kaduna Central,/data/legislator_images/sen_lawal_adamu_usman.jpg?v=11
+57,Sen Mallam-madori Ahmed Abdulhamid,APC ,Jigawa,North East,/data/legislator_images/sen_mallam_madori_ahmed_abdulhamid.jpg?v=11
+58,Sen Manu Haruna,APC,Taraba,Taraba Central,
+59,Sen Michael Opeyemi Bamidele,APC,Ekiti,Ekiti Central,/data/legislator_images/sen_michael_opeyemi_bamidele.jpg?v=11
+60,Sen Mohammad Adamu Mainasara Aliero,APC,Kebbi,Kebbi Central,
+61,Sen Mohammed Ali Ndume,APC,Borno,Borno South,/data/legislator_images/sen_mohammed_ali_ndume.jpg?v=11
+63,Sen Mohammed Sani Musa,APC,Niger,Niger East,
+64,Sen Mohammed Tahir Monguno,APC,Borno,Borno North,/data/legislator_images/sen_mohammed_tahir_monguno.jpg?v=11
+139,Sen Monday Okpebholo,Monday Okpebholo,Edo,Edo Central,/data/legislator_images/sen_monday_okpebholo.jpg?v=11
+111,Sen. Mustapha Musa,APC,Yobe,Yobe East,/data/legislator_images/sen_mustapha_musa.jpg?v=11
+65,Sen Nasiru Sani Zangon Daura,APC,Katsina,Katsina North,/data/legislator_images/sen_nasiru_sani_zangon_daura.jpg?v=11
+66,Sen Ndubueze Patrick Chinwuba,APC,Imo,Imo North,/data/legislator_images/sen_ndubueze_patrick_chinwuba.jpg?v=11
+67,Sen Ned Munir Nwoko,APC,Delta,Delta North,/data/legislator_images/sen_ned_munir_nwoko.jpg?v=11
+117,Sen. Nwachukwu Emmanuel,APGA,Anambra ,Anambra South,
+69,Sen Ohere Abubakar,APC,Kogi,Kogi Central,/data/legislator_images/sen_ohere_abubakar.jpg?v=11
+70,Sen Okechukwu Ezea,LP,Enugu,Enugu North,/data/legislator_images/sen_okechukwu_ezea.jpg?v=11
+71,Sen Olalere Oyewumi,PDP,Osun,Osun West,/data/legislator_images/sen_olalere_oyewumi.jpg?v=11
+72,Sen Oluwole Fadeyi Olubiyi,PDP,Osun,Osun Central,/data/legislator_images/sen_oluwole_fadeyi_olubiyi.jpg?v=11
+73,Sen Oluwole Fasuyi Cyril,APC ,Ekiti,Ekiti North,
+127,Sen Omueya Dafinone Edeh,APC,Delta,Delta Central,/data/legislator_images/sen_omueya_dafinone_edeh.jpg?v=11
+74,Sen Onawo Mohammed Ogoshi,APM,Nassarawa,Nassarawa South,/data/legislator_images/sen_onawo_mohammed_ogoshi.jpg?v=11
+75,Sen Onyekachi Nwaebonyi,APC,Ebonyi,Ebonyi North,
+76,Sen Orji Uzor Kalu,APC,Abia,Abia North,/data/legislator_images/sen_orji_uzor_kalu.jpg?v=11
+77,Sen Oshiomhole Adams Aliyu,APC,Edo ,Edo North,
+78,Sen Osita Ngwu,APC,Enugu,Enugu West,
+113,Sen. Pam Dachungyang,APC,Plateau,Plateau North,
+118,Sen. Peter Ndalikali Jiya,PDP,Niger,Niger South,/data/legislator_images/sen_peter_ndalikali_jiya.jpg?v=11
+79,Sen Rufai Hanga,NDC,Kano,Kano Central,
+80,Sen Sadiq Suleiman Umar,APC,Kwara,Kwara North,
+81,Sen Saliu Mustapha,APC ,Kwara,Kwara Central,/data/legislator_images/sen_saliu_mustapha.jpg?v=11
+114,Sen. Samaila Dahuwa Kaila,APC,Bauchi,Bauchi North,/data/legislator_images/sen_samaila_dahuwa_kaila.jpg?v=11
+82,Sen Sani Abubakar Bello,APC ,Niger,Niger North,/data/legislator_images/sen_sani_abubakar_bello.jpg?v=11
+83,Sen Seriake Henry Dickson,NDC,Bayelsa,Bayelsa West,/data/legislator_images/sen_seriake_henry_dickson.jpg?v=11
+84,Sen Shuaibu Isa Lau,APC,Taraba,Taraba North,
+85,Sen Simon Bako Lalong,APC ,Plateau,Plateau South,
+86,Sen Solomon Adeola Olamilekan,APC,Ogun,Ogun West,/data/legislator_images/sen_solomon_adeola_olamilekan.jpg?v=11
+87,Sen Sunday Katung,APC,Kaduna,Kaduna South,
+88,Sen Sunday Steve Karimi,APC,Kogi,Kogi West,/data/legislator_images/sen_sunday_steve_karimi.jpg?v=11
+89,Sen Tambuwal Waziri Aminu,ADC,Sokoto,Sokoto South,/data/legislator_images/sen_tambuwal_waziri_aminu.jpg?v=11
+90,Sen Tony Nwoye,NDC,Anambra,Anambra North,/data/legislator_images/sen_tony_nwoye.jpg?v=11
+91,Sen Umar Shehu Buba,PRP,Bauchi,Bauchi South,
+92,Sen Victor Umeh Chukwuoyelu,NDC,Anambra,Anambra Central,/data/legislator_images/sen_victor_umeh_chukwuoyelu.jpg?v=11
+93,Sen Wasiu Sanni Eshilokun,APC,Lagos,Lagos Central,/data/legislator_images/sen_wasiu_sanni_eshilokun.jpg?v=11
+94,Sen Williams Eteng Jonah,APC,Cross River,Cross River Central,/data/legislator_images/sen_williams_eteng_jonah.jpg?v=11
+95,Sen Yahaya Abubakar Abdullahi,APC,Kebbi,Kebbi North,/data/legislator_images/sen_yahaya_abubakar_abdullahi.jpg?v=11
+96,Sen Yau Sahabi Alhaji,APC ,Zamfara,Zamfara North,/data/legislator_images/sen_yau_sahabi.jpg?v=11
+97,Sen Yohanna Amos Kumai,PDP,Adamawa,Adamawa North,
+98,Sen Zam Titus Tartenger,APC,Benue ,Benue Northeast,

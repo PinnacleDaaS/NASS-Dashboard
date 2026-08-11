@@ -16,17 +16,15 @@ os.makedirs(PUBLIC_DATA_DIR, exist_ok=True)
 LEGACY_IMAGE_RE = re.compile(r'^/data/legislator_images/(?:\d+|senate_\d+)\.jpg(?:\?.*)?$')
 
 def resolve_member_image(image_url, candidate_filename):
-    """Use the name-matched photo when available; fall back to the source URL.
-
-    Only replaces legacy numbered image paths (/data/legislator_images/N.jpg or
-    senate_N.jpg). Explicit overrides (base64 data URLs, remote URLs, or already
-    mapped house_rep_/senate_member_ paths) are always kept as-is.
+    """Name-keyed photo (sen_<slug>.jpg / rep_<slug>.jpg) wins when the file
+    exists; otherwise keep explicit overrides (base64 data URLs, remote URLs);
+    otherwise blank (initials avatar fallback in Avatar.tsx).
     """
-    if not candidate_filename or not os.path.exists(os.path.join(IMAGES_DIR, candidate_filename)):
-        return image_url
+    if candidate_filename and os.path.exists(os.path.join(IMAGES_DIR, candidate_filename)):
+        return f"/data/legislator_images/{candidate_filename}?v=4"
     if image_url and not LEGACY_IMAGE_RE.match(image_url):
         return image_url
-    return f"/data/legislator_images/{candidate_filename}"
+    return ''
 
 # ----------------------------------------------------
 # Name Normalization & Hardcoded Maps
@@ -111,6 +109,132 @@ PARTY_NAME_ALIASES = {
 
 _api_members_cache = None
 
+PARTY_ACRONYMS = {'APC', 'PDP', 'LP', 'YPP', 'SDP', 'NNPP', 'APGA', 'ADC', 'PRP', 'ACCORD', 'NDC', 'TBD'}
+
+# ------------------------------------------------------------------
+# Verified current-party overrides (10th Assembly defections).
+# Keys are normalized member names (normalize_person_name), values the
+# party as of Aug 2026, researched from public news reports:
+#   - Natasha Akpoti-Uduaghan: SDP -> PDP (Nov 2023; PDP candidate for 2027)
+#   - Ifeanyi Ubah: YPP -> APC (Jan 2024)
+#   - Jul 2025 (Punch): Fadahunsi, Olubiyi, Aniekan Bassey, Ekong (PDP -> APC)
+#   - Nov 2025 (Telegraph): Katung (PDP -> APC)
+#   - Mar 2026 (Telegraph/Guardian): Yohanna, Iya Abbas, Bilbis (PDP -> APC);
+#     Abaribe, Akobundu, Tambuwal, Yaroe, Lawal Usman, Onawo, Kingibe (-> ADC);
+#     12 House members (Guardian 13 Mar 2026)
+#   - Mar-May 2026 (TheCable/Leadership): Umeh, Nwoye, Hanga, Dickson (-> NDC);
+#     Oyewumi (-> Accord, Mar 2026); Osun reps (-> Accord, Mar 2026)
+#   - Jun 2026 (Vanguard/Punch): Maidoki (APC -> ADC)
+# PLAC's members API lags behind several of these changes, so the
+# overrides are applied last and always win.
+# ------------------------------------------------------------------
+PARTY_OVERRIDES = {
+    # Senate
+    'akpoti uduaghan natasha': 'PDP',
+    'ifeanyi patrick ubah': 'APC',
+    'francis adenigba fadahunsi': 'APC',
+    'oluwole fadeyi olubiyi': 'APC',
+    'etim bassey aniekan': 'APC',
+    'ekong sampson': 'APC',
+    'sunday katung': 'APC',
+    'yohanna amos kumai': 'APC',
+    'aminu iya abbas': 'APC',
+    'ikra aliyu bilbis': 'APC',
+    'enyinnaya harcourt abaribe': 'ADC',
+    'augustine okwudiri akobundu': 'ADC',
+    'binos dauda yaroe': 'ADC',
+    'onawo mohammed ogoshi': 'ADC',
+    'ireti heebah kingibe': 'ADC',
+    'victor umeh chukwuoyelu': 'NDC',
+    'tony nwoye': 'NDC',
+    'rufai hanga': 'NDC',
+    'seriake henry dickson': 'NDC',
+    'olalere oyewumi': 'ACCORD',
+    'garba musa maidoki': 'ADC',
+    # House of Representatives
+    'james barka': 'APC',
+    'kwamoti bitrus laori': 'APC',
+    'zakaria dauda nyampa': 'APC',
+    'kobis thimnu': 'APC',
+    'midala usman balami': 'APC',
+    'mohammed saidu bargaja': 'APC',
+    'afam ogene': 'ADC',
+    'aniekwe peter': 'ADC',
+    'obiageli lillian orogbu': 'ADC',
+    'jesse okey joe onuakachi': 'ADC',
+    'murphy osaro omoruyi': 'ADC',
+    'akanni clement ademola': 'ACCORD',
+    'morufu adewale adebayo': 'ACCORD',
+    'bamidele salam': 'ACCORD',
+    'adetunji abidemi olusoji': 'ACCORD',
+    'lukman mudashiru': 'ACCORD',
+    'oladebo lanre olomololaye': 'ACCORD',
+    'mansur musa': 'APC',
+    # --- Members absent from the PLAC API (researched individually) ---
+    # Senate
+    'khabeeb mustapha': 'PDP',  # jigawastate.gov.ng
+    'nwachukwu emmanuel': 'APGA',  # Anambra South by-election (Aug 2025), suc. late Ubah
+    # House
+    'abubakar baba zango': 'ADC',  # APC -> ADC (Jun 2026, Ripples/Blackbox)
+    'peter ifeanyi uzokwe': 'YPP',  # Nnewi North/South/Ekwusigo
+    'gwacham maureen': 'APGA',  # Oyi/Ayamelum
+    'bala rabilu': 'PRP',  # APC -> PRP (Jun 2026, Ripples/Blackbox)
+    'regina akume': 'APC',  # Gboko/Tarka
+    'nwobasi joseph': 'APC',  # Ezza North/Ishielu; APGA 2023 -> APC (2025)
+    'emmanuel uguru': 'APC',  # Abakaliki/Izzi
+    'omosede igbinedion': 'APC',  # Ovia/Owan
+    'biodun omoleye': 'APC',  # Ijero/Ekiti West/Efon
+    'martins oke': 'PDP',  # Igbo-Etiti/Uzo-Uwani
+    'dennis nnamdi agbo': 'LP',  # Igbo-Eze North/Udenu
+    'dahiru madawaki': 'PDP',  # Dutse/Kiyawa
+    'mukhtar rabiu garki': 'APC',  # Babura/Garki (Aug 2025 by-election winner)
+    'mukhtar zakari chawai': 'APC',  # Kauru (Wikipedia delegation page)
+    'dankawu idris': 'APC',  # Kumbotso (Kano); NNPP -> APC (Mar 2026, Punch/Channels)
+    'sani lawal garki': 'APC',  # Zango/Baure
+    'sani danlami': 'APC',  # Katsina Central
+    'mohammad aminu ibrahim': 'APC',  # MalumFashi/Kafur
+    'gowon paul': 'APC',  # Bassa/Dekina
+    'aguye suleiman danladi': 'APC',  # Lokoja/Kogi
+    'ibrahim mohammed': 'APC',  # Birnin Kebbi/Kalgo/Bunza; PDP -> APC (Mar 2026)
+    'salisu koko': 'APC',  # Koko-Besse/Maiyama; PDP -> APC (Feb 2025)
+    'sani yakubu noma': 'ADC',  # Argungu/Augie; PDP -> ADC (Apr 2026, Sahara)
+    'abubakar abdul buba abubakar': 'APC',  # Chanchaga; PDP -> APC (Apr 2026, Sahara)
+    'baraje yusuf kure': 'APC',  # Bosso/Paikoro
+    'omirin emmanuel olusanya': 'APC',  # Atakumosa/Ilesa; PDP -> APC (Jul 2025, Guardian)
+    'vincent bulus venman': 'APC',  # Langtang North/South
+    'umezuruike manuchim': 'ADC',  # Port Harcourt I; LP -> APC (Dec 2025) -> ADC (Apr 2026)
+    'mani maishinko katami': 'ADC',  # Binji/Silame; PDP -> ADC (Mar 2026, Punch/Channels)
+    'umar yusuf yabo': 'ADC',  # Yabo/Shagari; PDP -> ADC (Mar 2026, Punch/Channels)
+    'hassan abubakar': 'APC',  # Sokoto North/South (Hassan Bala Abubakar)
+    'yakubu sani': 'APC',  # Tangaza/Gudu (Yakubu Sani Alhaji; 'alhaji' stripped as honorific)
+    'hassan jakduwa kaikaku': 'APC',  # Bade/Jakusko; PDP -> APC (Apr 2026, Daily Post)
+    'mathew donatus': 'APC',  # Kaura; LP 2023 -> APC (Dec 2024)
+    'abdullahi tijjani gwarzo': 'APC',  # Gwarzo/Kabo
+    'el rasheed abdullahi': 'ADC',  # Dukku/Nafada (Gombe); APC -> ADC (Jun 2026, Blackbox)
+    'david fuoh': 'PDP',  # Gashaka/Kurmi/Sardauna (Taraba); APC -> PDP (Apr 2026, Sahara)
+}
+
+
+def apply_party_override(member_name, party):
+    """Apply a researched party override for the member (always wins)."""
+    key = normalize_person_name(member_name)
+    return PARTY_OVERRIDES.get(key, party)
+
+
+def _clean_official_name(name, official):
+    """The source 'Official Name' column holds party acronyms for most senators.
+    Fall back to the member name with the honorific stripped when the column
+    value is empty or looks like a party/placeholder."""
+    official = str(official or '').strip()
+    if official.upper() in PARTY_ACRONYMS or not official:
+        return re.sub(r'^(senator|sen)\.?\s+', '', str(name).strip(), flags=re.I)
+    return official
+
+
+def member_image_slug(name):
+    """Name-keyed photo slug, e.g. 'sen_mohammed_ali_ndume' / 'rep_abass_adekunle_adeogun'."""
+    return re.sub(r'[^a-z0-9_]+', '', normalize_person_name(name).replace(' ', '_')) or 'member'
+
 
 def _tokenize_person_name(name):
     """Lowercase, strip honorifics, join apostrophes (sa'ad -> saad), keep single a-z tokens."""
@@ -145,6 +269,7 @@ def load_plac_api_members():
                 'zone': str(m.get('senatorial_zone') or '').strip(),
                 'chamber': 'senate' if title in ('sen', 'sen.') else 'house',
                 'party': str((m.get('party') or {}).get('acronym', '')).strip().upper(),
+                'passport': str(m.get('passport') or '').strip(),
             })
     except Exception as e:
         print(f"[Warning] PLAC members API unavailable; party/state fallback skipped: {e}")
@@ -451,7 +576,7 @@ def build_house_data():
         constituency = str(row.get('constituency', '')).strip()
         image_url = resolve_member_image(
             str(row.get('image_url', '')).strip(),
-            f"house_rep_{idx + 1}.jpg"
+            f"rep_{member_image_slug(name)}.jpg"
         )
 
         # Backfill missing/TBD state from the PLAC members API
@@ -473,6 +598,7 @@ def build_house_data():
                 break
         if not party:
             party = lookup_api_party(name, state, 'house')
+        party = apply_party_override(name, party)
 
         # Find sponsored bills
         sponsored_mask = b_df['sponsor_key'].isin(keys)
@@ -650,12 +776,12 @@ def build_senate_data():
     for idx, row in m_df.iterrows():
         m_id = str(idx + 1)
         name = str(row.get('senator_name', '')).strip()
-        official_name = str(row.get('official_name', '')).strip()
+        official_name = _clean_official_name(name, row.get('official_name', ''))
         state = str(row.get('state', '')).strip()
         district = str(row.get('district', '')).strip()
         image_url = resolve_member_image(
             str(row.get('image_url', '')).strip(),
-            f"senate_member_{idx + 1}.jpg"
+            f"sen_{member_image_slug(name)}.jpg"
         )
 
         # Backfill missing/TBD state and district from the PLAC members API
@@ -681,6 +807,7 @@ def build_senate_data():
                 break
         if not party:
             party = lookup_api_party(name, state, 'senate')
+        party = apply_party_override(name, party)
 
         # Find sponsored bills
         sponsored_mask = b_df['sponsor_key'].isin(keys)

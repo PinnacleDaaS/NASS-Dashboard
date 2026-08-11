@@ -39,3 +39,8 @@ data/plac_10th_assembly_bills_cleaned.csv
 
 # Local image scratch/test files
 frontend/public/data/legislator_images/test_*
+
+# Image audit caches (re-downloadable; reports are committed)
+data/image_audit/passports/
+data/image_audit/base64/
+data/image_audit/

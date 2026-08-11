@@ -4,29 +4,12 @@
     {
       "id": "2",
       "name": "Sen Abba Moro",
-      "officialName": "PDP",
+      "officialName": "Abba Moro",
       "party": "PDP",
       "state": "Benue",
       "constituency": "Benue South",
-      "imageUrl": "/data/legislator_images/senate_member_2.jpg",
+      "imageUrl": "/data/legislator_images/sen_abba_moro.jpg?v=4",
       "sponsoredBills": [
-        {
-          "billId": "b956e875-7c19-438a-b386-9ae2b672710d",
-          "billNumber": "SB 411",
-          "title": "Agricultural Harvest and Processing Zone (Establishment) Bill, 2024",
-          "category": "Agriculture",
-          "dateFirstReading": "2024-04-30",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Abba Moro",
-          "sponsorsDetails": "Abba Moro (PDP, Benue)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
         {
           "billId": "c04f7eda-262a-4272-98d7-9fbc69155d8b",
           "billNumber": "SB 212",
@@ -37,6 +20,23 @@
           "committee": "Agricultural Colleges and Institutions",
           "thirdReadingStatus": "Senate: 2024-07-23",
           "passedThirdReading": true,
+          "primarySponsor": "Abba Moro",
+          "sponsorsDetails": "Abba Moro (PDP, Benue)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "b956e875-7c19-438a-b386-9ae2b672710d",
+          "billNumber": "SB 411",
+          "title": "Agricultural Harvest and Processing Zone (Establishment) Bill, 2024",
+          "category": "Agriculture",
+          "dateFirstReading": "2024-04-30",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
           "primarySponsor": "Abba Moro",
           "sponsorsDetails": "Abba Moro (PDP, Benue)",
           "pdfInitialBill": "",
@@ -226,12 +226,152 @@
     },
     {
       "id": "3",
+      "name": "Sen.  Abdulaziz Yar'Adua",
+      "officialName": "Abdulaziz Yar'Adua",
+      "party": "APC",
+      "state": "Katsina",
+      "constituency": "Katsina Central",
+      "imageUrl": "/data/legislator_images/sen_abdulaziz_yar_adua.jpg?v=4",
+      "sponsoredBills": [
+        {
+          "billId": "64f7b1e5-bdad-4763-a830-cb68fbf02796",
+          "billNumber": "SB 791",
+          "title": "Armed Forces Act (Repeal & Re-enactment) Bill, 2025",
+          "category": "Armed Forces and National Security",
+          "dateFirstReading": "2025-05-15",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Yar\u2019adua Abdulaziz Musa",
+          "sponsorsDetails": "Sen. Yar\u2019adua, Abdulaziz Musa (APC, Katsina)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "225947a6-42d5-49ba-841d-97eb3a74ec37",
+          "billNumber": "SB 773",
+          "title": "Armed Forces Trust Fund (Establishment) Bill, 2025",
+          "category": "Armed Forces and National Security",
+          "dateFirstReading": "2025-05-06",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Yar\u2019adua Abdulaziz Musa",
+          "sponsorsDetails": "Sen. Yar\u2019adua, Abdulaziz Musa (APC, Katsina)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "a5a75e6d-87fa-4e02-a4fe-f1fa24c5ca76",
+          "billNumber": "SB 412",
+          "title": "Electoral Act 2022 (Amendment) Bill, 2024",
+          "category": "Elections",
+          "dateFirstReading": "2024-05-15",
+          "dateSecondReading": "2025-03-13",
+          "committee": "Electoral Matters",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Yar\u2019adua Abdulaziz Musa",
+          "sponsorsDetails": "Sen. Yar\u2019adua, Abdulaziz Musa (APC, Katsina)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "9e421651-4cfc-4f90-aaa7-1e6dbdc32db5",
+          "billNumber": "SB 759",
+          "title": "National Health Act (Amendment) Bill, 2025",
+          "category": "Health",
+          "dateFirstReading": "2025-03-26",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Yar\u2019adua Abdulaziz Musa",
+          "sponsorsDetails": "Sen. Yar\u2019adua, Abdulaziz Musa (APC, Katsina)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "23cfc277-98cd-443e-ab91-80004b012819",
+          "billNumber": "SB 402",
+          "title": "Nationwide Toll Bill, 2024",
+          "category": "Infrastructure and Public Works",
+          "dateFirstReading": "2024-03-20",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Yar\u2019adua Abdulaziz Musa",
+          "sponsorsDetails": "Sen. Yar\u2019adua, Abdulaziz Musa (APC, Katsina)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        }
+      ],
+      "cosponsoredBills": [],
+      "totalBills": 5,
+      "sponsoredCount": 5,
+      "cosponsoredCount": 0,
+      "conversionRate": 0,
+      "billsPassed": 0,
+      "firstBillDate": "2024-03-20",
+      "latestBillDate": "2025-05-15"
+    },
+    {
+      "id": "4",
+      "name": "Sen. Abdulaziz Yari",
+      "officialName": "Abdulaziz Yari",
+      "party": "APC",
+      "state": "Zamfara",
+      "constituency": "Zamfara West",
+      "imageUrl": "/data/legislator_images/sen_abdulaziz_yari.jpg?v=4",
+      "sponsoredBills": [
+        {
+          "billId": "1a98acc9-d067-436b-9ccb-cce673b86509",
+          "billNumber": "SB 926",
+          "title": "National Assets and Infrastructure Agency (Establishment) Bill, 2025",
+          "category": "Infrastructure and Public Works",
+          "dateFirstReading": "2025-12-10",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Abdulaziz Yari",
+          "sponsorsDetails": "Sen. Abdulaziz Yari (APC, Zamfara)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        }
+      ],
+      "cosponsoredBills": [],
+      "totalBills": 1,
+      "sponsoredCount": 1,
+      "cosponsoredCount": 0,
+      "conversionRate": 0,
+      "billsPassed": 0,
+      "firstBillDate": "2025-12-10",
+      "latestBillDate": "2025-12-10"
+    },
+    {
+      "id": "5",
       "name": "Sen Abdulrahman Kawu Suleiman",
-      "officialName": "APC",
+      "officialName": "Abdulrahman Kawu Suleiman",
       "party": "NNPP",
       "state": "Kano",
       "constituency": "Kano South",
-      "imageUrl": "/data/legislator_images/senate_member_3.jpg",
+      "imageUrl": "/data/legislator_images/sen_abdulrahman_kawu_suleiman.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "6f5f6cee-c7b1-455e-b5c7-7e7657c047dd",
@@ -346,13 +486,13 @@
       "latestBillDate": "2025-11-12"
     },
     {
-      "id": "4",
+      "id": "6",
       "name": "Sen Adamu Aliero",
-      "officialName": "APC",
+      "officialName": "Adamu Aliero",
       "party": "PDP",
       "state": "Kebbi",
       "constituency": "Kebbi Central",
-      "imageUrl": "/data/legislator_images/senate_member_4.jpg",
+      "imageUrl": "/data/legislator_images/sen_adamu_aliero.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -364,13 +504,13 @@
       "latestBillDate": ""
     },
     {
-      "id": "5",
+      "id": "7",
       "name": "Sen Adaramodu Adeyemi Raphael",
-      "officialName": "APC",
+      "officialName": "Adaramodu Adeyemi Raphael",
       "party": "APC",
       "state": "Ekiti",
       "constituency": "Ekiti south",
-      "imageUrl": "/data/legislator_images/senate_member_5.jpg",
+      "imageUrl": "/data/legislator_images/sen_adaramodu_adeyemi_raphael.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "78a9116e-88c7-4bd1-8eb2-fbd5410550e2",
@@ -434,13 +574,13 @@
       "latestBillDate": "2025-05-27"
     },
     {
-      "id": "6",
+      "id": "8",
       "name": "Sen Adebule Idiat Oluranti",
-      "officialName": "APC",
+      "officialName": "Adebule Idiat Oluranti",
       "party": "APC",
       "state": "Lagos",
       "constituency": "Lagos West",
-      "imageUrl": "/data/legislator_images/senate_member_6.jpg",
+      "imageUrl": "/data/legislator_images/sen_adebule_idiat_oluranti.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "1ba8ebcf-9c0f-4d60-ac2a-281cc5556d90",
@@ -674,13 +814,13 @@
       "latestBillDate": "2026-06-04"
     },
     {
-      "id": "7",
+      "id": "9",
       "name": "Sen Adeniyi Adegbonmire",
-      "officialName": "APC",
+      "officialName": "Adeniyi Adegbonmire",
       "party": "APC",
       "state": "Ondo",
       "constituency": "Ondo Central",
-      "imageUrl": "/data/legislator_images/senate_member_7.jpg",
+      "imageUrl": "/data/legislator_images/sen_adeniyi_adegbonmire.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "9d051a47-5b60-4c57-a10f-5979dbf74718",
@@ -778,13 +918,13 @@
       "latestBillDate": "2924-05-22"
     },
     {
-      "id": "8",
+      "id": "10",
       "name": "Sen Adetokunbo Mukhail Abiru",
-      "officialName": "APC",
+      "officialName": "Adetokunbo Mukhail Abiru",
       "party": "APC",
       "state": "Lagos",
       "constituency": "Lagos-East",
-      "imageUrl": "/data/legislator_images/senate_member_8.jpg",
+      "imageUrl": "/data/legislator_images/sen_adetokunbo_mukhail_abiru.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "b21aa268-d644-4d2e-9edc-2eb8c74e2c3c",
@@ -1086,13 +1226,66 @@
       "latestBillDate": "2025-11-18"
     },
     {
-      "id": "9",
-      "name": "Sen Ahmed Ningi",
-      "officialName": "PDP",
-      "party": "PDP",
-      "state": "Bauchi",
-      "constituency": "Bauchi Central",
-      "imageUrl": "/data/legislator_images/senate_member_9.jpg",
+      "id": "11",
+      "name": "Sen. Afolabi Salisu",
+      "officialName": "Afolabi Salisu",
+      "party": "APC",
+      "state": "Ogun",
+      "constituency": "Ogun Central",
+      "imageUrl": "/data/legislator_images/sen_afolabi_salisu.jpg?v=4",
+      "sponsoredBills": [
+        {
+          "billId": "5ecdb82a-9291-4541-b1f4-c6c8d9ba6bff",
+          "billNumber": "SB 498",
+          "title": "National Digital Economy and E-Governance Bill, 2024",
+          "category": "Digital Economy",
+          "dateFirstReading": "2024-07-04",
+          "dateSecondReading": "2025-07-08",
+          "committee": "ICT and Cybercrimes",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Afolabi Salisu",
+          "sponsorsDetails": "Sen. Afolabi Salisu (APC, Ogun)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "de874467-79a0-4b3b-b14e-01ed28a7c54f",
+          "billNumber": "SB 258",
+          "title": "Nigeria National Internship and unemployment Benefits Scheme Bill, 2023",
+          "category": "Labour and Employment",
+          "dateFirstReading": "2023-11-14",
+          "dateSecondReading": "2023-05-08",
+          "committee": "Employment, Labour and Productivity",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Afolabi Salisu",
+          "sponsorsDetails": "Sen. Afolabi Salisu (APC, Ogun)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        }
+      ],
+      "cosponsoredBills": [],
+      "totalBills": 2,
+      "sponsoredCount": 2,
+      "cosponsoredCount": 0,
+      "conversionRate": 0,
+      "billsPassed": 0,
+      "firstBillDate": "2023-11-14",
+      "latestBillDate": "2024-07-04"
+    },
+    {
+      "id": "12",
+      "name": "Sen. Ahmad Ibrahim Lawan",
+      "officialName": "Ahmad Ibrahim Lawan",
+      "party": "APC",
+      "state": "Yobe",
+      "constituency": "Yobe North",
+      "imageUrl": "/data/legislator_images/sen_ahmad_ibrahim_lawan.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -1104,13 +1297,31 @@
       "latestBillDate": ""
     },
     {
-      "id": "10",
+      "id": "13",
+      "name": "Sen Ahmed Ningi",
+      "officialName": "Ahmed Ningi",
+      "party": "PDP",
+      "state": "Bauchi",
+      "constituency": "Bauchi Central",
+      "imageUrl": "/data/legislator_images/sen_ahmed_ningi.jpg?v=4",
+      "sponsoredBills": [],
+      "cosponsoredBills": [],
+      "totalBills": 0,
+      "sponsoredCount": 0,
+      "cosponsoredCount": 0,
+      "conversionRate": 0,
+      "billsPassed": 0,
+      "firstBillDate": "",
+      "latestBillDate": ""
+    },
+    {
+      "id": "14",
       "name": "Sen Akintunde Yunus Abiodun",
-      "officialName": "APC",
+      "officialName": "Akintunde Yunus Abiodun",
       "party": "APC",
       "state": "Oyo",
       "constituency": "Oyo Central",
-      "imageUrl": "/data/legislator_images/senate_member_10.jpg",
+      "imageUrl": "/data/legislator_images/sen_akintunde_yunus_abiodun.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "a74af071-9a48-4b80-8a80-732f1df82f58",
@@ -1225,13 +1436,13 @@
       "latestBillDate": "2026-03-11"
     },
     {
-      "id": "11",
+      "id": "15",
       "name": "Sen Akpoti-Uduaghan Natasha",
-      "officialName": "PDP",
-      "party": "SDP",
+      "officialName": "Akpoti-Uduaghan Natasha",
+      "party": "PDP",
       "state": "Kogi",
       "constituency": "Kogi Central",
-      "imageUrl": "/data/legislator_images/senate_member_11.jpg",
+      "imageUrl": "/data/legislator_images/sen_akpoti_uduaghan_natasha.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "933fc78b-2c1c-4bc4-ad3e-18bcee42ffa9",
@@ -1312,13 +1523,13 @@
       "latestBillDate": "2025-02-20"
     },
     {
-      "id": "12",
+      "id": "16",
       "name": "Sen Aliu Wadada Ahmed",
-      "officialName": "APC",
+      "officialName": "Aliu Wadada Ahmed",
       "party": "APC",
       "state": "Nassarawa",
       "constituency": "Nassarawa West",
-      "imageUrl": "/data/legislator_images/senate_member_12.jpg",
+      "imageUrl": "/data/legislator_images/sen_aliu_wadada_ahmed.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "4286c3b9-2c37-4978-ba1b-0c16882b4189",
@@ -1484,13 +1695,13 @@
       "latestBillDate": "2025-12-09"
     },
     {
-      "id": "13",
+      "id": "17",
       "name": "Sen Aliyu Magatakarda Wamakko",
-      "officialName": "APC",
+      "officialName": "Aliyu Magatakarda Wamakko",
       "party": "APC",
       "state": "Sokoto",
       "constituency": "Sokoto North",
-      "imageUrl": "/data/legislator_images/senate_member_13.jpg",
+      "imageUrl": "/data/legislator_images/sen_aliyu_magatakarda_wamakko.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "17f873e9-6748-446f-8a42-bcaafac10809",
@@ -1571,13 +1782,13 @@
       "latestBillDate": "2025-07-22"
     },
     {
-      "id": "14",
+      "id": "18",
       "name": "Sen Alli Sharafadeen Abiodun",
-      "officialName": "APC",
+      "officialName": "Alli Sharafadeen Abiodun",
       "party": "APC",
       "state": "Oyo",
       "constituency": "Oyo South",
-      "imageUrl": "/data/legislator_images/senate_member_14.jpg",
+      "imageUrl": "/data/legislator_images/sen_alli_sharafadeen_abiodun.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "7af1efc2-3603-4c3c-a3b5-db7c730cf876",
@@ -1597,9 +1808,9 @@
           "pdfCommitteeReport": ""
         },
         {
-          "billId": "7f20cdbc-b677-4eca-a327-5dea0ff4cebd",
-          "billNumber": "SB 734",
-          "title": "Agricultural Research Council of Nigeria Act (Amendment) Bill, 2025",
+          "billId": "f9906392-a568-48ec-a375-5a2c7c533af8",
+          "billNumber": "SB 444",
+          "title": "Agricultural Research Council Of Nigeria, (Amendment) Bill, 2025 Afashio, Edo State",
           "category": "Agriculture",
           "dateFirstReading": "2025-07-09",
           "dateSecondReading": "2025-07-09",
@@ -1614,9 +1825,9 @@
           "pdfCommitteeReport": ""
         },
         {
-          "billId": "f9906392-a568-48ec-a375-5a2c7c533af8",
-          "billNumber": "SB 444",
-          "title": "Agricultural Research Council Of Nigeria, (Amendment) Bill, 2025 Afashio, Edo State",
+          "billId": "7f20cdbc-b677-4eca-a327-5dea0ff4cebd",
+          "billNumber": "SB 734",
+          "title": "Agricultural Research Council of Nigeria Act (Amendment) Bill, 2025",
           "category": "Agriculture",
           "dateFirstReading": "2025-07-09",
           "dateSecondReading": "2025-07-09",
@@ -1675,13 +1886,13 @@
       "latestBillDate": "2025-07-22"
     },
     {
-      "id": "15",
+      "id": "19",
       "name": "Sen. Allwell Haacho Onyeosh",
-      "officialName": "APC",
+      "officialName": "Allwell Haacho Onyeosh",
       "party": "PDP",
       "state": "Rivers",
       "constituency": "Rivers East",
-      "imageUrl": "/data/legislator_images/senate_member_15.jpg",
+      "imageUrl": "/data/legislator_images/sen_allwell_haacho_onyeosh.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -1693,13 +1904,13 @@
       "latestBillDate": ""
     },
     {
-      "id": "16",
+      "id": "20",
       "name": "Sen Aminu Iya Abbas",
-      "officialName": "APC",
-      "party": "PDP",
+      "officialName": "Aminu Iya Abbas",
+      "party": "APC",
       "state": "Adamawa",
       "constituency": "Adamawa Central",
-      "imageUrl": "/data/legislator_images/senate_member_16.jpg",
+      "imageUrl": "/data/legislator_images/sen_aminu_iya_abbas.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "64f1e8f4-11a9-41d5-83b2-7d47352644e9",
@@ -1882,13 +2093,13 @@
       "latestBillDate": "2025-05-15"
     },
     {
-      "id": "17",
+      "id": "21",
       "name": "Sen Ani Anthony Okorie",
-      "officialName": "APC",
+      "officialName": "Ani Anthony Okorie",
       "party": "APC",
       "state": "Ebonyi",
       "constituency": "Ebonyi South",
-      "imageUrl": "/data/legislator_images/senate_member_17.jpg",
+      "imageUrl": "/data/legislator_images/sen_ani_anthony_okorie.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "50cfaf71-9cae-4f81-acf7-13fca656bc95",
@@ -2003,13 +2214,100 @@
       "latestBillDate": "2026-03-12"
     },
     {
-      "id": "18",
+      "id": "22",
+      "name": "Sen. Anthony Siyako Yaro",
+      "officialName": "Anthony Siyako Yaro",
+      "party": "APC",
+      "state": "Gombe",
+      "constituency": "Gombe South",
+      "imageUrl": "/data/legislator_images/sen_anthony_siyako_yaro.jpg?v=4",
+      "sponsoredBills": [
+        {
+          "billId": "d97aef85-76c3-4aa0-b968-d5d85c95809f",
+          "billNumber": "SB 297",
+          "title": "Agricultural Research Council Act (Amendment) Bill, 2023",
+          "category": "Agriculture",
+          "dateFirstReading": "2023-12-12",
+          "dateSecondReading": "2024-10-17",
+          "committee": "Agriculture Production Services and Rural Development",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Anthony Siyako Yaro",
+          "sponsorsDetails": "Sen. Anthony Siyako Yaro (APC, Gombe)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "de740fd7-b008-40fb-9f67-bbe1f44b8132",
+          "billNumber": "SB 297.",
+          "title": "Federal College of Agriculture and Animal Husbandry (Establishment) Bill, 2024",
+          "category": "Agriculture",
+          "dateFirstReading": "2023-02-07",
+          "dateSecondReading": "2024-10-17",
+          "committee": "Tertiary",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Anthony Siyako Yaro",
+          "sponsorsDetails": "Sen. Anthony Siyako Yaro (APC, Gombe)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "8cc379c8-bcec-47fe-b588-d2b57b1267bb",
+          "billNumber": "SB 384",
+          "title": "Federal College of Medical Sciences and Laboratory Technology (Establishment) Bill, 2024",
+          "category": "Health",
+          "dateFirstReading": "2024-03-13",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Anthony Siyako Yaro",
+          "sponsorsDetails": "Sen. Anthony Siyako Yaro (APC, Gombe)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "6676b5e7-4e0c-4d58-af62-0fb2b4a05677",
+          "billNumber": "SB 866",
+          "title": "Federal Medical Centres Act (Amendment) Bill, 2025",
+          "category": "Health",
+          "dateFirstReading": "2025-06-26",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Anthony Siyako Yaro",
+          "sponsorsDetails": "Sen. Anthony Siyako Yaro (APC, Gombe)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        }
+      ],
+      "cosponsoredBills": [],
+      "totalBills": 4,
+      "sponsoredCount": 4,
+      "cosponsoredCount": 0,
+      "conversionRate": 0,
+      "billsPassed": 0,
+      "firstBillDate": "2023-02-07",
+      "latestBillDate": "2025-06-26"
+    },
+    {
+      "id": "23",
       "name": "Sen Ashiru Oyelola Yisa",
-      "officialName": "APC",
+      "officialName": "Ashiru Oyelola Yisa",
       "party": "APC",
       "state": "Kwara",
       "constituency": "Kwara South",
-      "imageUrl": "/data/legislator_images/senate_member_18.jpg",
+      "imageUrl": "/data/legislator_images/sen_ashiru_oyelola_yisa.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "72e43fe8-a644-4584-9692-332bde8002e1",
@@ -2124,13 +2422,13 @@
       "latestBillDate": "2025-05-14"
     },
     {
-      "id": "19",
+      "id": "24",
       "name": "Sen Asuquo Ekpenyong",
-      "officialName": "APC",
+      "officialName": "Asuquo Ekpenyong",
       "party": "APC",
       "state": "Cross River",
       "constituency": "Cross River South",
-      "imageUrl": "/data/legislator_images/senate_member_19.jpg",
+      "imageUrl": "/data/legislator_images/sen_asuquo_ekpenyong.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "9dfa1876-2eff-4357-8fec-ee314ad8c4a4",
@@ -2427,7 +2725,7 @@
           "title": "South South Development Commission (Establishment) Bill, 2024",
           "category": "Government Operations and Institutions",
           "dateFirstReading": "2024-02-22",
-          "dateSecondReading": "2003-10-24",
+          "dateSecondReading": "0024-10-03",
           "committee": "Special Duties",
           "thirdReadingStatus": "Senate: 2024-10-24",
           "passedThirdReading": true,
@@ -2483,13 +2781,13 @@
       "latestBillDate": "2026-06-04"
     },
     {
-      "id": "20",
+      "id": "25",
       "name": "Sen Augustine Okwudiri Akobundu",
-      "officialName": "ADC",
+      "officialName": "Augustine Okwudiri Akobundu",
       "party": "ADC",
       "state": "Abia",
       "constituency": "Abia Central",
-      "imageUrl": "/data/legislator_images/senate_member_20.jpg",
+      "imageUrl": "/data/legislator_images/sen_augustine_okwudiri_akobundu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "e423fd07-a342-4c41-ad5e-b7a953aee16b",
@@ -2570,13 +2868,13 @@
       "latestBillDate": "2024-12-03"
     },
     {
-      "id": "21",
+      "id": "26",
       "name": "Sen Babangida Hussaini",
-      "officialName": "APC",
+      "officialName": "Babangida Hussaini",
       "party": "APC",
       "state": "Jigawa",
       "constituency": "North West",
-      "imageUrl": "/data/legislator_images/senate_member_21.jpg",
+      "imageUrl": "/data/legislator_images/sen_babangida_hussaini.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "af42e6cf-9aa8-46b6-be12-d413b5c56703",
@@ -2759,13 +3057,13 @@
       "latestBillDate": "2026-06-11"
     },
     {
-      "id": "22",
+      "id": "27",
       "name": "Sen Banigo Ipalibo Harry",
-      "officialName": "PDP",
+      "officialName": "Banigo Ipalibo Harry",
       "party": "PDP",
       "state": "Rivers",
       "constituency": "Rivers West",
-      "imageUrl": "/data/legislator_images/senate_member_22.jpg",
+      "imageUrl": "/data/legislator_images/sen_banigo_ipalibo_harry.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "9f40d7d1-2034-4bf1-8e23-432582073581",
@@ -2773,23 +3071,6 @@
           "title": "Compulsory Treatment and Care of Victims of Gunshots Act (Amendment) Bill, 2023",
           "category": "Health",
           "dateFirstReading": "2023-11-28",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Banigo Ipalibo Harry",
-          "sponsorsDetails": "Sen. Banigo, Ipalibo Harry (PDP, Rivers)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "6a849935-efbe-4d35-8275-0235383d2ff4",
-          "billNumber": "SB 876",
-          "title": "Cybercrimes (Prohibition & Prevention) Act (Amendment) Bill, 2025",
-          "category": "Cybersecurity",
-          "dateFirstReading": "2025-08-07",
           "dateSecondReading": "",
           "committee": "Not Yet Referred",
           "thirdReadingStatus": "Not Started",
@@ -2826,6 +3107,23 @@
           "dateFirstReading": "2025-02-18",
           "dateSecondReading": "2025-11-11",
           "committee": "Customs, Excise and Tariff",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Banigo Ipalibo Harry",
+          "sponsorsDetails": "Sen. Banigo, Ipalibo Harry (PDP, Rivers)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "6a849935-efbe-4d35-8275-0235383d2ff4",
+          "billNumber": "SB 876",
+          "title": "Cybercrimes (Prohibition & Prevention) Act (Amendment) Bill, 2025",
+          "category": "Cybersecurity",
+          "dateFirstReading": "2025-08-07",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
           "thirdReadingStatus": "Not Started",
           "passedThirdReading": false,
           "primarySponsor": "Sen. Banigo Ipalibo Harry",
@@ -3067,13 +3365,13 @@
       "latestBillDate": "2026-06-04"
     },
     {
-      "id": "23",
+      "id": "28",
       "name": "Sen Barau Jibrin",
-      "officialName": "APC",
+      "officialName": "Barau Jibrin",
       "party": "APC",
       "state": "Kano",
       "constituency": "Kano North",
-      "imageUrl": "/data/legislator_images/senate_member_23.jpg",
+      "imageUrl": "/data/legislator_images/sen_barau_jibrin.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "eccea269-4584-4a20-b3e2-973ff38c9059",
@@ -3749,13 +4047,13 @@
       "latestBillDate": "2026-06-11"
     },
     {
-      "id": "24",
+      "id": "29",
       "name": "Sen Barinada Barry Mpigi",
-      "officialName": "APC",
+      "officialName": "Barinada Barry Mpigi",
       "party": "PDP",
       "state": "Rivers",
       "constituency": "Rivers South East",
-      "imageUrl": "/data/legislator_images/senate_member_24.jpg",
+      "imageUrl": "/data/legislator_images/sen_barinada_barry_mpigi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "724827f7-76c5-47c0-a866-a47a38010ee6",
@@ -3887,13 +4185,13 @@
       "latestBillDate": "2025-05-15"
     },
     {
-      "id": "25",
+      "id": "30",
       "name": "Sen Benson Agadaga",
-      "officialName": "APC",
+      "officialName": "Benson Agadaga",
       "party": "PDP",
       "state": "Bayelsa",
       "constituency": "Bayelsa East",
-      "imageUrl": "/data/legislator_images/senate_member_25.jpg",
+      "imageUrl": "/data/legislator_images/sen_benson_agadaga.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "02af8eb4-5137-4f36-b6f5-4af1573f6492",
@@ -3957,13 +4255,13 @@
       "latestBillDate": "2026-06-11"
     },
     {
-      "id": "26",
+      "id": "31",
       "name": "Sen Binos Dauda Yaroe",
-      "officialName": "ADC",
+      "officialName": "Binos Dauda Yaroe",
       "party": "ADC",
       "state": "Adamawa",
       "constituency": "Adamawa South",
-      "imageUrl": "/data/legislator_images/senate_member_26.jpg",
+      "imageUrl": "/data/legislator_images/sen_binos_dauda_yaroe.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "8db5ed34-10a0-438c-9630-60bc7f6a2736",
@@ -4095,13 +4393,13 @@
       "latestBillDate": "2025-12-02"
     },
     {
-      "id": "27",
+      "id": "32",
       "name": "Sen Buhari Abdulfatai Omotayo",
-      "officialName": "APC",
+      "officialName": "Buhari Abdulfatai Omotayo",
       "party": "APC",
       "state": "Oyo",
       "constituency": "Oyo North",
-      "imageUrl": "/data/legislator_images/senate_member_27.jpg",
+      "imageUrl": "/data/legislator_images/sen_buhari_abdulfatai_omotayo.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "a17ffb0a-8f87-4e41-90c1-97e2aa7183cb",
@@ -4233,100 +4531,13 @@
       "latestBillDate": "2025-05-22"
     },
     {
-      "id": "28",
-      "name": "Sen Omueya Dafinone Edeh",
-      "officialName": "APC",
-      "party": "APC",
-      "state": "Delta",
-      "constituency": "Delta Central",
-      "imageUrl": "/data/legislator_images/senate_member_28.jpg",
-      "sponsoredBills": [
-        {
-          "billId": "e894edc4-63e4-4f8f-8abc-032ccd490744",
-          "billNumber": "SB 846",
-          "title": "Chartered Institute of Planning of Nigeria (Establishment) Bill, 2025",
-          "category": "Professional Bodies",
-          "dateFirstReading": "2025-06-25",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Omueya Dafinone Edeh",
-          "sponsorsDetails": "Sen. Omueya Dafinone Edeh (APC, Delta)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "995aa53e-e419-429f-bf21-17405f357248",
-          "billNumber": "SB 899",
-          "title": "Federal Universities of Agriculture Act (Amendment) Bill, 2025",
-          "category": "Agriculture",
-          "dateFirstReading": "2025-07-22",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Omueya Dafinone Edeh",
-          "sponsorsDetails": "Sen. Omueya Dafinone Edeh (APC, Delta)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "81ce4b4a-b9f1-42c7-847e-c87ae2909c53",
-          "billNumber": "SB 269",
-          "title": "Federal University of Education Isiokolo Delta State (Establishment) Bill, 2023",
-          "category": "Education",
-          "dateFirstReading": "2023-11-22",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Omueya Dafinone Edeh",
-          "sponsorsDetails": "Sen. Omueya Dafinone Edeh (APC, Delta)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "35cbb798-5296-430d-b599-bdf8e09427ad",
-          "billNumber": "SB 722",
-          "title": "Nigerian Digital Sovereignty and Fair Data Compensation Bill, 2025",
-          "category": "Digital Economy",
-          "dateFirstReading": "2025-02-20",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Omueya Dafinone Edeh",
-          "sponsorsDetails": "Sen. Omueya Dafinone Edeh (APC, Delta)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        }
-      ],
-      "cosponsoredBills": [],
-      "totalBills": 4,
-      "sponsoredCount": 4,
-      "cosponsoredCount": 0,
-      "conversionRate": 0,
-      "billsPassed": 0,
-      "firstBillDate": "2023-11-22",
-      "latestBillDate": "2025-07-22"
-    },
-    {
-      "id": "29",
+      "id": "33",
       "name": "Sen Dandutse Muntari Mohammed",
-      "officialName": "APC",
+      "officialName": "Dandutse Muntari Mohammed",
       "party": "APC",
       "state": "Katsina",
       "constituency": "Katsina South",
-      "imageUrl": "/data/legislator_images/senate_member_29.jpg",
+      "imageUrl": "/data/legislator_images/sen_dandutse_muntari_mohammed.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "125e74ab-1e20-4e60-888e-43bd2c4c8a0b",
@@ -4407,13 +4618,13 @@
       "latestBillDate": "2025-02-19"
     },
     {
-      "id": "30",
+      "id": "34",
       "name": "Sen Danjuma Goje Mohammed",
-      "officialName": "APC",
+      "officialName": "Danjuma Goje Mohammed",
       "party": "APC",
       "state": "Gombe",
       "constituency": "Gombe Central",
-      "imageUrl": "/data/legislator_images/senate_member_30.jpg",
+      "imageUrl": "/data/legislator_images/sen_danjuma_goje_mohammed.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "cf7cd9a8-6cc5-452a-8641-b2e5a21e82d0",
@@ -4477,13 +4688,66 @@
       "latestBillDate": "2025-11-18"
     },
     {
-      "id": "31",
+      "id": "35",
+      "name": "Sen Darlington Nwokocha",
+      "officialName": "Darlington Nwokocha",
+      "party": "LP",
+      "state": "Abia",
+      "constituency": "Abia Central",
+      "imageUrl": "/data/legislator_images/sen_darlington_nwokocha.jpg?v=4",
+      "sponsoredBills": [
+        {
+          "billId": "556dff57-dad8-4253-91b3-b2768e8e021e",
+          "billNumber": "SB 145",
+          "title": "Central Bank of Nigeria Act (Amendment) Bill, 2023",
+          "category": "Banking and Finance",
+          "dateFirstReading": "2023-10-10",
+          "dateSecondReading": "2023-10-25",
+          "committee": "Banking, Insurance and Other Financial Institutions",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Nwokocha Darlington",
+          "sponsorsDetails": "Sen. Nwokocha, Darlington (LP, Abia)",
+          "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1746437454_SB145.pdf",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "24f90681-cc81-45e3-baca-bf5f69853912",
+          "billNumber": "SB 63",
+          "title": "Nigeria Postal Service Bill, 2023",
+          "category": "Public Service",
+          "dateFirstReading": "2023-07-27",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Nwokocha Darlington",
+          "sponsorsDetails": "Sen. Nwokocha, Darlington (LP, Abia)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        }
+      ],
+      "cosponsoredBills": [],
+      "totalBills": 2,
+      "sponsoredCount": 2,
+      "cosponsoredCount": 0,
+      "conversionRate": 0,
+      "billsPassed": 0,
+      "firstBillDate": "2023-07-27",
+      "latestBillDate": "2023-10-10"
+    },
+    {
+      "id": "36",
       "name": "Sen David Jimkuta",
-      "officialName": "APC",
+      "officialName": "David Jimkuta",
       "party": "APC",
       "state": "Taraba",
       "constituency": "Taraba South",
-      "imageUrl": "/data/legislator_images/senate_member_31.jpg",
+      "imageUrl": "/data/legislator_images/sen_david_jimkuta.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "93898d47-6daf-44f6-8bfc-86ec14a6f0b9",
@@ -4564,13 +4828,49 @@
       "latestBillDate": "2025-03-26"
     },
     {
-      "id": "32",
+      "id": "37",
+      "name": "Sen David Umahi",
+      "officialName": "David Umahi",
+      "party": "APC",
+      "state": "Ebonyi",
+      "constituency": "Ebonyi South",
+      "imageUrl": "/data/legislator_images/sen_david_umahi.jpg?v=4",
+      "sponsoredBills": [
+        {
+          "billId": "a6df9ebe-b1e3-4e90-9462-84900abe2797",
+          "billNumber": "SB 57",
+          "title": "Nigeria Building and Road Research Institute Bill, 2023",
+          "category": "Infrastructure and Public Works",
+          "dateFirstReading": "2023-08-01",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. David Umahi",
+          "sponsorsDetails": "Sen. David Umahi (APC, Ebonyi); Onyekachi Nwaebonyi (APC, Ebonyi)",
+          "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1746431637_SB57.pdf",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        }
+      ],
+      "cosponsoredBills": [],
+      "totalBills": 1,
+      "sponsoredCount": 1,
+      "cosponsoredCount": 0,
+      "conversionRate": 0,
+      "billsPassed": 0,
+      "firstBillDate": "2023-08-01",
+      "latestBillDate": "2023-08-01"
+    },
+    {
+      "id": "38",
       "name": "Sen Diket Satso Plang",
-      "officialName": "APC",
+      "officialName": "Diket Satso Plang",
       "party": "APC",
       "state": "Plateau",
       "constituency": "Plateau Central",
-      "imageUrl": "/data/legislator_images/senate_member_32.jpg",
+      "imageUrl": "/data/legislator_images/sen_diket_satso_plang.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "dca7a20e-da94-4538-be2d-538c385a52b9",
@@ -4685,13 +4985,117 @@
       "latestBillDate": "2025-12-03"
     },
     {
-      "id": "33",
+      "id": "39",
+      "name": "Sen. Ekong Sampson",
+      "officialName": "Ekong Sampson",
+      "party": "APC",
+      "state": "Akwa Ibom",
+      "constituency": "Akwa Ibom South",
+      "imageUrl": "/data/legislator_images/sen_ekong_sampson.jpg?v=4",
+      "sponsoredBills": [
+        {
+          "billId": "c4573c1a-261b-41d1-9058-ff7537ddc0de",
+          "billNumber": "SB 714",
+          "title": "Child Rights Act (Amendment) Bill, 2025",
+          "category": "Children",
+          "dateFirstReading": "2025-02-18",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Se n Ekong Sampson",
+          "sponsorsDetails": "Sen, Ekong Sampson (PDP, Akwa Ibom)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "8a54c615-3a4c-4000-9837-e1e4a6b894eb",
+          "billNumber": "SB 530",
+          "title": "Federal Medical Centres Act (Amendment) Bill, 2024",
+          "category": "Health",
+          "dateFirstReading": "2024-07-17",
+          "dateSecondReading": "2024-10-22",
+          "committee": "Health Secondary & Tertiary",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Se n Ekong Sampson",
+          "sponsorsDetails": "Sen, Ekong Sampson (PDP, Akwa Ibom)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "f0e9efe5-7dcd-4276-ba83-272feb4c5656",
+          "billNumber": "SB 486",
+          "title": "Federal University of Medical Sciences Eket, Akwa-Ibom State (Establishment) Bill, 2024",
+          "category": "Education",
+          "dateFirstReading": "2024-09-26",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Se n Ekong Sampson",
+          "sponsorsDetails": "Sen, Ekong Sampson (PDP, Akwa Ibom)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "6e8e48dd-5e2c-4e82-b461-91edc1a623c8",
+          "billNumber": "SB 395",
+          "title": "Federal University of Technology, Ikot Abasi, Akwa-Ibom State (Establishment) Bill, 2024",
+          "category": "Education",
+          "dateFirstReading": "2024-03-14",
+          "dateSecondReading": "2024-10-17",
+          "committee": "Tertiary Institutions and TETFund",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Se n Ekong Sampson",
+          "sponsorsDetails": "Sen, Ekong Sampson (PDP, Akwa Ibom)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "8e51e647-78d4-4f9b-86e2-48c8fe172de6",
+          "billNumber": "SB 451",
+          "title": "Nigerian Mineral Development Corporation (Establishment) Bill, 2024",
+          "category": "Oil, Gas, and Solid Minerals",
+          "dateFirstReading": "2024-05-16",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Se n Ekong Sampson",
+          "sponsorsDetails": "Sen, Ekong Sampson (PDP, Akwa Ibom)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        }
+      ],
+      "cosponsoredBills": [],
+      "totalBills": 5,
+      "sponsoredCount": 5,
+      "cosponsoredCount": 0,
+      "conversionRate": 0,
+      "billsPassed": 0,
+      "firstBillDate": "2024-03-14",
+      "latestBillDate": "2025-02-18"
+    },
+    {
+      "id": "40",
       "name": "Sen Emmanuel Udende Menga",
-      "officialName": "APC",
+      "officialName": "Emmanuel Udende Menga",
       "party": "APC",
       "state": "Benue",
       "constituency": "Benue North East",
-      "imageUrl": "/data/legislator_images/senate_member_33.jpg",
+      "imageUrl": "/data/legislator_images/sen_emmanuel_udende_menga.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "bc2edebf-e277-493e-a9a6-03614381aaf2",
@@ -4806,13 +5210,13 @@
       "latestBillDate": "2025-06-26"
     },
     {
-      "id": "34",
+      "id": "41",
       "name": "Sen Enyinnaya Harcourt Abaribe",
-      "officialName": "LP",
+      "officialName": "Enyinnaya Harcourt Abaribe",
       "party": "ADC",
       "state": "Abia",
       "constituency": "Abia South",
-      "imageUrl": "/data/legislator_images/senate_member_34.jpg",
+      "imageUrl": "/data/legislator_images/sen_enyinnaya_harcourt_abaribe.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "e295a5eb-462c-4574-a3d4-5a2e25e60b81",
@@ -4944,13 +5348,13 @@
       "latestBillDate": "2025-12-10"
     },
     {
-      "id": "35",
+      "id": "42",
       "name": "Sen Etim Bassey Aniekan",
-      "officialName": "APC",
-      "party": "PDP",
+      "officialName": "Etim Bassey Aniekan",
+      "party": "APC",
       "state": "Akwa Ibom",
       "constituency": "Akwa Ibom North-East",
-      "imageUrl": "/data/legislator_images/senate_member_35.jpg",
+      "imageUrl": "/data/legislator_images/sen_etim_bassey_aniekan.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "a8a0c1e1-8247-4b5f-872b-29ec0b486f30",
@@ -5082,13 +5486,13 @@
       "latestBillDate": "2025-12-16"
     },
     {
-      "id": "36",
+      "id": "43",
       "name": "Sen Eze Kenneth Emeka",
-      "officialName": "APC",
+      "officialName": "Eze Kenneth Emeka",
       "party": "APC",
       "state": "Ebonyi",
       "constituency": "Ebonyi Central",
-      "imageUrl": "/data/legislator_images/senate_member_36.jpg",
+      "imageUrl": "/data/legislator_images/sen_eze_kenneth_emeka.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "8a42e8d3-865a-4162-a91a-fb7176698c49",
@@ -5152,13 +5556,13 @@
       "latestBillDate": "2024-10-03"
     },
     {
-      "id": "37",
+      "id": "44",
       "name": "Sen Ezenwa Francis Onyewuchi",
-      "officialName": "APC",
+      "officialName": "Ezenwa Francis Onyewuchi",
       "party": "LP",
       "state": "Imo",
       "constituency": "Imo East",
-      "imageUrl": "/data/legislator_images/senate_member_37.jpg",
+      "imageUrl": "/data/legislator_images/sen_ezenwa_francis_onyewuchi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "92e4209a-f812-45b3-a514-3e7aac55d1a5",
@@ -5307,13 +5711,13 @@
       "latestBillDate": "2026-01-28"
     },
     {
-      "id": "38",
+      "id": "45",
       "name": "Sen Francis Adenigba Fadahunsi",
-      "officialName": "APC",
-      "party": "PDP",
+      "officialName": "Francis Adenigba Fadahunsi",
+      "party": "APC",
       "state": "Osun",
       "constituency": "Osun East",
-      "imageUrl": "/data/legislator_images/senate_member_38.jpg",
+      "imageUrl": "/data/legislator_images/sen_francis_adenigba_fadahunsi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "c757d4a6-e970-43e4-8d86-9830b85f3b50",
@@ -5411,13 +5815,13 @@
       "latestBillDate": "2026-07-22"
     },
     {
-      "id": "39",
+      "id": "46",
       "name": "Sen Garba Musa Maidoki",
-      "officialName": "APC",
-      "party": "PDP",
+      "officialName": "Garba Musa Maidoki",
+      "party": "ADC",
       "state": "Kebbi",
       "constituency": "Kebbi South",
-      "imageUrl": "/data/legislator_images/senate_member_39.jpg",
+      "imageUrl": "/data/legislator_images/sen_garba_musa_maidoki.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "11a9dfa5-e554-4092-b301-8980d7d64bc0",
@@ -5447,13 +5851,49 @@
       "latestBillDate": "2023-10-04"
     },
     {
-      "id": "40",
+      "id": "47",
+      "name": "Sen. Godiya Akwashiki",
+      "officialName": "Godiya Akwashiki",
+      "party": "SDP",
+      "state": "Nasarawa",
+      "constituency": "Nassarawa North",
+      "imageUrl": "/data/legislator_images/sen_godiya_akwashiki.jpg?v=4",
+      "sponsoredBills": [
+        {
+          "billId": "6552472b-e7dd-4035-99ea-c1ecc1642c9c",
+          "billNumber": "SB 264",
+          "title": "Federal University, Lafia Teaching Hospital (Establishment) Bill, 2023",
+          "category": "Education",
+          "dateFirstReading": "2023-11-15",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Godiya Akwashiki",
+          "sponsorsDetails": "Sen. Godiya Akwashiki (SDP, Nasarawa)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        }
+      ],
+      "cosponsoredBills": [],
+      "totalBills": 1,
+      "sponsoredCount": 1,
+      "cosponsoredCount": 0,
+      "conversionRate": 0,
+      "billsPassed": 0,
+      "firstBillDate": "2023-11-15",
+      "latestBillDate": "2023-11-15"
+    },
+    {
+      "id": "48",
       "name": "Sen Godswill Akpabio",
-      "officialName": "APC",
+      "officialName": "Godswill Akpabio",
       "party": "APC",
       "state": "Akwa Ibom",
       "constituency": "Akwa Ibom North-West",
-      "imageUrl": "/data/legislator_images/senate_member_40.jpg",
+      "imageUrl": "/data/legislator_images/sen_godswill_akpabio.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "36150a2a-8201-4b3b-8fca-2abeaf906b9f",
@@ -5568,13 +6008,13 @@
       "latestBillDate": "2025-11-18"
     },
     {
-      "id": "41",
+      "id": "49",
       "name": "Sen Ibrahim Dankwambo",
-      "officialName": "PDP",
+      "officialName": "Ibrahim Dankwambo",
       "party": "PDP",
       "state": "Gombe",
       "constituency": "Gombe North",
-      "imageUrl": "/data/legislator_images/senate_member_41.jpg",
+      "imageUrl": "/data/legislator_images/sen_ibrahim_dankwambo.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "dac2ede9-2d5d-44d3-b62a-b4aafeb808ea",
@@ -5672,13 +6112,13 @@
       "latestBillDate": "2026-05-06"
     },
     {
-      "id": "42",
+      "id": "50",
       "name": "Sen Ibrahim Jimoh Folorunsho",
-      "officialName": "APC",
+      "officialName": "Ibrahim Jimoh Folorunsho",
       "party": "APC",
       "state": "Ondo",
       "constituency": "Ondo South",
-      "imageUrl": "/data/legislator_images/senate_member_42.jpg",
+      "imageUrl": "/data/legislator_images/sen_ibrahim_jimoh_folorunsho.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "5a911552-66c9-4d89-893c-b0b27f15539b",
@@ -5861,13 +6301,49 @@
       "latestBillDate": "2025-05-15"
     },
     {
-      "id": "43",
+      "id": "51",
+      "name": "Sen. Ibrahim Lamido",
+      "officialName": "Ibrahim Lamido",
+      "party": "APC",
+      "state": "Sokoto",
+      "constituency": "Sokoto East",
+      "imageUrl": "/data/legislator_images/sen_ibrahim_lamido.jpg?v=4",
+      "sponsoredBills": [
+        {
+          "billId": "274f427c-de32-4492-9788-529e04ffd3d7",
+          "billNumber": "SB 902",
+          "title": "National Youth Service Corps Act (Amendment) Bill, 2025",
+          "category": "Youths",
+          "dateFirstReading": "2025-10-07",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Ibrahim Lamido",
+          "sponsorsDetails": "Ibrahim Lamido (APC, Sokoto)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        }
+      ],
+      "cosponsoredBills": [],
+      "totalBills": 1,
+      "sponsoredCount": 1,
+      "cosponsoredCount": 0,
+      "conversionRate": 0,
+      "billsPassed": 0,
+      "firstBillDate": "2025-10-07",
+      "latestBillDate": "2025-10-07"
+    },
+    {
+      "id": "52",
       "name": "Sen Ibrahim Mohammed Bomai",
-      "officialName": "APC",
+      "officialName": "Ibrahim Mohammed Bomai",
       "party": "APC",
       "state": "Yobe",
       "constituency": "Yobe South",
-      "imageUrl": "/data/legislator_images/senate_member_43.jpg",
+      "imageUrl": "/data/legislator_images/sen_ibrahim_mohammed_bomai.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "21e09d4b-1178-4cc0-82d7-0c7fa1605d8c",
@@ -5948,13 +6424,100 @@
       "latestBillDate": "2025-11-18"
     },
     {
-      "id": "44",
+      "id": "53",
+      "name": "Sen Ifeanyi Patrick Ubah",
+      "officialName": "Ifeanyi Patrick Ubah",
+      "party": "APC",
+      "state": "Anambra",
+      "constituency": "Anambra South",
+      "imageUrl": "/data/legislator_images/sen_ifeanyi_patrick_ubah.jpg?v=4",
+      "sponsoredBills": [
+        {
+          "billId": "b58da77a-cba2-47df-960b-e9b195ed740e",
+          "billNumber": "SB 216",
+          "title": "Erosion Control Commission Act (Establishment) Bill, 2023",
+          "category": "Emergency and Disaster Management",
+          "dateFirstReading": "2023-10-31",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Ifeanyi Patrick Ubah",
+          "sponsorsDetails": "Sen. Ifeanyi Patrick Ubah (YPP, Anambra)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "8470d24e-7a53-4246-8d37-868525604304",
+          "billNumber": "SB 473",
+          "title": "Federal Orthopedic Hospital Nnewi, Anambra State (Establishment) Bill, 2024",
+          "category": "Health",
+          "dateFirstReading": "2024-06-05",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Ifeanyi Patrick Ubah",
+          "sponsorsDetails": "Sen. Ifeanyi Patrick Ubah (YPP, Anambra)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "96e90637-958e-4876-bcee-d95daba1a10d",
+          "billNumber": "SB 293",
+          "title": "Petroleum Tankers Safety Bill, 2024",
+          "category": "Transportation",
+          "dateFirstReading": "2024-03-19",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Ifeanyi Patrick Ubah",
+          "sponsorsDetails": "Sen. Ifeanyi Patrick Ubah (YPP, Anambra)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "07dd3621-2ff5-4132-a30f-56e36c6c3b51",
+          "billNumber": "SB 129",
+          "title": "South East Development Commission (Establishment) Bill, 2023",
+          "category": "Government Operations and Institutions",
+          "dateFirstReading": "2023-10-04",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Ifeanyi Patrick Ubah",
+          "sponsorsDetails": "Sen. Ifeanyi Patrick Ubah (YPP, Anambra)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        }
+      ],
+      "cosponsoredBills": [],
+      "totalBills": 4,
+      "sponsoredCount": 4,
+      "cosponsoredCount": 0,
+      "conversionRate": 0,
+      "billsPassed": 0,
+      "firstBillDate": "2023-10-04",
+      "latestBillDate": "2024-06-05"
+    },
+    {
+      "id": "54",
       "name": "Sen Ikra Aliyu Bilbis",
-      "officialName": "APC",
+      "officialName": "Ikra Aliyu Bilbis",
       "party": "APC",
       "state": "Zamfara",
       "constituency": "Zamfara Central",
-      "imageUrl": "/data/legislator_images/senate_member_44.jpg",
+      "imageUrl": "/data/legislator_images/sen_ikra_aliyu_bilbis.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3a2ed609-e15a-40b0-96a6-761567d745af",
@@ -5984,13 +6547,13 @@
       "latestBillDate": "2023-10-17"
     },
     {
-      "id": "45",
+      "id": "55",
       "name": "Sen Imasuen Neda Bernards",
-      "officialName": "APC",
+      "officialName": "Imasuen Neda Bernards",
       "party": "LP",
       "state": "Edo",
       "constituency": "Edo South",
-      "imageUrl": "/data/legislator_images/senate_member_45.jpg",
+      "imageUrl": "/data/legislator_images/sen_imasuen_neda_bernards.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "fc91b0b8-9058-4a37-aa32-a93d5a154dd2",
@@ -6054,13 +6617,13 @@
       "latestBillDate": "2026-06-04"
     },
     {
-      "id": "46",
+      "id": "56",
       "name": "Sen Ipinsagba Emmanuel Olajide",
-      "officialName": "APC",
+      "officialName": "Ipinsagba Emmanuel Olajide",
       "party": "APC",
       "state": "Ondo",
       "constituency": "Ondo North",
-      "imageUrl": "/data/legislator_images/senate_member_46.jpg",
+      "imageUrl": "/data/legislator_images/sen_ipinsagba_emmanuel_olajide.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "bc1be7e8-8982-4a56-8d2a-fe2d9d5ff221",
@@ -6141,13 +6704,13 @@
       "latestBillDate": "2025-07-22"
     },
     {
-      "id": "47",
+      "id": "57",
       "name": "Sen Ireti Heebah Kingibe",
-      "officialName": "ADC",
+      "officialName": "Ireti Heebah Kingibe",
       "party": "ADC",
       "state": "Federal Capital Territory",
       "constituency": "FCT",
-      "imageUrl": "/data/legislator_images/senate_member_47.jpg",
+      "imageUrl": "/data/legislator_images/sen_ireti_heebah_kingibe.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "5231ae52-acf3-44d2-848d-43c34653ad0d",
@@ -6194,13 +6757,13 @@
       "latestBillDate": "2025-03-12"
     },
     {
-      "id": "48",
+      "id": "58",
       "name": "Sen Ishaku Elisha Cliff Abbo",
-      "officialName": "LP",
+      "officialName": "Ishaku Elisha Cliff Abbo",
       "party": "APC",
       "state": "Adamawa",
       "constituency": "Adamawa North",
-      "imageUrl": "/data/legislator_images/senate_member_48.jpg",
+      "imageUrl": "/data/legislator_images/sen_ishaku_elisha_cliff_abbo.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "5a1d9116-822c-47f4-9387-97a0cdcdd7f5",
@@ -6230,13 +6793,13 @@
       "latestBillDate": "2023-09-26"
     },
     {
-      "id": "49",
+      "id": "59",
       "name": "Sen Izunaso Osita Bonaventure",
-      "officialName": "APC",
+      "officialName": "Izunaso Osita Bonaventure",
       "party": "APC",
       "state": "Imo",
       "constituency": "imo west",
-      "imageUrl": "/data/legislator_images/senate_member_49.jpg",
+      "imageUrl": "/data/legislator_images/sen_izunaso_osita_bonaventure.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "1f46d932-940d-4b00-a898-c8f62f3c197f",
@@ -6436,13 +6999,13 @@
       "latestBillDate": "2026-03-11"
     },
     {
-      "id": "50",
+      "id": "60",
       "name": "Sen Jarigbe Agom Jarigbe",
-      "officialName": "APC",
+      "officialName": "Jarigbe Agom Jarigbe",
       "party": "PDP",
       "state": "Cross River",
       "constituency": "Cross River North",
-      "imageUrl": "/data/legislator_images/senate_member_50.jpg",
+      "imageUrl": "/data/legislator_images/sen_jarigbe_agom_jarigbe.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "657e5005-0b10-46d4-ac6b-70f7ac18bdfc",
@@ -6506,13 +7069,13 @@
       "latestBillDate": "2024-10-09"
     },
     {
-      "id": "51",
+      "id": "61",
       "name": "Sen Jibrin Isah",
-      "officialName": "APC",
+      "officialName": "Jibrin Isah",
       "party": "APC",
       "state": "Kogi",
       "constituency": "Kogi East",
-      "imageUrl": "/data/legislator_images/senate_member_51.jpg",
+      "imageUrl": "/data/legislator_images/sen_jibrin_isah.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3a3513ee-7908-42a7-8265-8b15cc62eace",
@@ -6695,13 +7258,13 @@
       "latestBillDate": "2025-05-22"
     },
     {
-      "id": "52",
+      "id": "62",
       "name": "Sen Joel Onowakpo Thomas",
       "officialName": "Joel Onowakpo Thomas",
       "party": "APC",
       "state": "Delta",
       "constituency": "Delta South",
-      "imageUrl": "/data/legislator_images/senate_member_52.jpg",
+      "imageUrl": "/data/legislator_images/sen_joel_onowakpo_thomas.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "392549ff-47fc-4ab1-98f4-67054cbb463a",
@@ -6850,13 +7413,13 @@
       "latestBillDate": "2025-10-14"
     },
     {
-      "id": "53",
+      "id": "63",
       "name": "Sen Joseph Ikpea",
-      "officialName": "APC",
+      "officialName": "Joseph Ikpea",
       "party": "APC",
       "state": "Edo",
       "constituency": "Edo Central",
-      "imageUrl": "/data/legislator_images/senate_member_53.jpg",
+      "imageUrl": "/data/legislator_images/sen_joseph_ikpea.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "b54fd6a7-91cc-496d-aee6-20a52cf0af67",
@@ -6886,13 +7449,13 @@
       "latestBillDate": "2025-12-03"
     },
     {
-      "id": "54",
+      "id": "64",
       "name": "Sen Justus Olugbenga Daniel",
-      "officialName": "APC",
+      "officialName": "Justus Olugbenga Daniel",
       "party": "APC",
       "state": "Ogun",
       "constituency": "Ogun East",
-      "imageUrl": "/data/legislator_images/senate_member_54.jpg",
+      "imageUrl": "/data/legislator_images/sen_justus_olugbenga_daniel.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "9a4e4bf2-5b80-4065-97ef-e3f574fc4c10",
@@ -7109,13 +7672,236 @@
       "latestBillDate": "2026-01-28"
     },
     {
-      "id": "55",
+      "id": "65",
+      "name": "Sen. Justus Olugbenga Daniel",
+      "officialName": "Justus Olugbenga Daniel",
+      "party": "APC",
+      "state": "Ogun",
+      "constituency": "Ogun East",
+      "imageUrl": "/data/legislator_images/sen_justus_olugbenga_daniel.jpg?v=4",
+      "sponsoredBills": [
+        {
+          "billId": "9a4e4bf2-5b80-4065-97ef-e3f574fc4c10",
+          "billNumber": "SB 350",
+          "title": "Border Communities Development Agency Act (Amendment) Bill, 2024",
+          "category": "Rural Development",
+          "dateFirstReading": "2024-06-04",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Justus Olugbenga Daniel",
+          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "df570752-9111-4d3e-909f-187e138fa63f",
+          "billNumber": "SB 61",
+          "title": "Constitution of the Federal Republic of Nigeria, 1999 (Alteration) (Local Government Autonomy) Bill, 2023",
+          "category": "Constitution",
+          "dateFirstReading": "",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Justus Olugbenga Daniel",
+          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
+          "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1746431522_SB61.pdf",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "4fc6c260-e9e9-4a0f-a4ae-3202e7664b29",
+          "billNumber": "SB 654",
+          "title": "Constitution of the Federal Republic of Nigeria, 1999 (Alteration) Bill, 2024",
+          "category": "Constitution",
+          "dateFirstReading": "2024-11-26",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Justus Olugbenga Daniel",
+          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "a842ce9c-1bf6-49b4-8c95-0350f307ba98",
+          "billNumber": "SB 52",
+          "title": "Federal College of Aviation Technology (Establishment) Bill, 2023",
+          "category": "Education",
+          "dateFirstReading": "2023-10-10",
+          "dateSecondReading": "2023-11-15",
+          "committee": "Tertiary Institutions and TETFund",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Justus Olugbenga Daniel",
+          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "e7aef1df-14b5-4b14-8d8d-bf6a193b12b0",
+          "billNumber": "SB 514",
+          "title": "Federal Medical Centre Ijebu-Ode, Ogun State (Establishment) Bill, 2024",
+          "category": "Health",
+          "dateFirstReading": "2024-07-09",
+          "dateSecondReading": "2024-10-22",
+          "committee": "Health Secondary & Tertiary",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Justus Olugbenga Daniel",
+          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "65e7757a-e227-418c-bbdc-97023ab2a00f",
+          "billNumber": "SB 349",
+          "title": "Media Practitioners Registration Council of Nigeria Bill, 2024",
+          "category": "Media, Film, Broadcasting",
+          "dateFirstReading": "2024-02-27",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Justus Olugbenga Daniel",
+          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "f9c824b4-1e4a-4edf-ad52-7353920008b3",
+          "billNumber": "SB 45",
+          "title": "National Agency For Science and Engineering Infrastructure Act (Amendment) Bill, 2024",
+          "category": "Information, Science and Technology",
+          "dateFirstReading": "2023-03-05",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Justus Olugbenga Daniel",
+          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "35307a96-5d0c-41a8-9c71-7faad5cd3221",
+          "billNumber": "SB 226",
+          "title": "National Economic Coordinating and Intelligence Committee Bill, 2026",
+          "category": "National Economic",
+          "dateFirstReading": "2026-01-28",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Justus Olugbenga Daniel",
+          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "fa9eee66-96c1-4f38-9654-153319fd6303",
+          "billNumber": "SB 106",
+          "title": "Nigeria Academy of Science (Establishment) Bill, 2025",
+          "category": "Education",
+          "dateFirstReading": "2025-12-16",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Justus Olugbenga Daniel",
+          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "e69af73c-56ff-4772-8cfc-967739e52db0",
+          "billNumber": "SB 770",
+          "title": "Nigerian Maritime Trust Fund (Establishment) Bill, 2025",
+          "category": "Maritime",
+          "dateFirstReading": "2025-05-06",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Justus Olugbenga Daniel",
+          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "efd67527-2738-44f0-a84f-d906f22fdd69",
+          "billNumber": "SB 730",
+          "title": "Nigerian Maritime Trust Fund (Establishment) Bill, 2025",
+          "category": "Maritime",
+          "dateFirstReading": "2025-05-06",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Justus Olugbenga Daniel",
+          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "46777573-fa51-418f-bd4e-9d6dfe695694",
+          "billNumber": "SB 223",
+          "title": "Terminal Illness Trust Fund (Establishment) Bill, 2023",
+          "category": "Health",
+          "dateFirstReading": "2023-11-02",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Justus Olugbenga Daniel",
+          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        }
+      ],
+      "cosponsoredBills": [],
+      "totalBills": 12,
+      "sponsoredCount": 12,
+      "cosponsoredCount": 0,
+      "conversionRate": 0,
+      "billsPassed": 0,
+      "firstBillDate": "2023-03-05",
+      "latestBillDate": "2026-01-28"
+    },
+    {
+      "id": "66",
       "name": "Sen Kaila Dahuwa Samaila",
-      "officialName": "APC",
+      "officialName": "Kaila Dahuwa Samaila",
       "party": "PDP",
       "state": "Bauchi",
       "constituency": "Bauchi North",
-      "imageUrl": "/data/legislator_images/senate_member_55.jpg",
+      "imageUrl": "/data/legislator_images/sen_kaila_dahuwa_samaila.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -7127,13 +7913,13 @@
       "latestBillDate": ""
     },
     {
-      "id": "56",
+      "id": "67",
       "name": "Sen Kaka Shehu Lawan",
-      "officialName": "APC",
+      "officialName": "Kaka Shehu Lawan",
       "party": "APC",
       "state": "Borno",
       "constituency": "Borno Central",
-      "imageUrl": "/data/legislator_images/senate_member_56.jpg",
+      "imageUrl": "/data/legislator_images/sen_kaka_shehu_lawan.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "feade79c-cb70-4864-ad27-1d9d2657fed5",
@@ -7418,13 +8204,31 @@
       "latestBillDate": "2026-01-28"
     },
     {
-      "id": "57",
+      "id": "68",
+      "name": "Sen. Kawu Sumaila  Abdulrahman",
+      "officialName": "Kawu Sumaila  Abdulrahman",
+      "party": "NNPP",
+      "state": "Kano",
+      "constituency": "Kano South",
+      "imageUrl": "/data/legislator_images/sen_kawu_sumaila_abdulrahman.jpg?v=4",
+      "sponsoredBills": [],
+      "cosponsoredBills": [],
+      "totalBills": 0,
+      "sponsoredCount": 0,
+      "cosponsoredCount": 0,
+      "conversionRate": 0,
+      "billsPassed": 0,
+      "firstBillDate": "",
+      "latestBillDate": ""
+    },
+    {
+      "id": "69",
       "name": "Sen Kelvin Chukwu",
-      "officialName": "APC",
+      "officialName": "Kelvin Chukwu",
       "party": "LP",
       "state": "Enugu",
       "constituency": "Enugu East",
-      "imageUrl": "/data/legislator_images/senate_member_57.jpg",
+      "imageUrl": "/data/legislator_images/sen_kelvin_chukwu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "100d566d-88d3-40a6-87f4-07c71c5c45c5",
@@ -7471,13 +8275,31 @@
       "latestBillDate": "2024-12-11"
     },
     {
-      "id": "58",
+      "id": "70",
+      "name": "Sen. Khabeeb Mustapha",
+      "officialName": "Khabeeb Mustapha",
+      "party": "PDP",
+      "state": "Jigawa",
+      "constituency": "jigawa South",
+      "imageUrl": "/data/legislator_images/sen_khabeeb_mustapha.jpg?v=4",
+      "sponsoredBills": [],
+      "cosponsoredBills": [],
+      "totalBills": 0,
+      "sponsoredCount": 0,
+      "cosponsoredCount": 0,
+      "conversionRate": 0,
+      "billsPassed": 0,
+      "firstBillDate": "",
+      "latestBillDate": ""
+    },
+    {
+      "id": "71",
       "name": "Sen Khalid Ibrahim Mustapha",
-      "officialName": "PDP",
+      "officialName": "Khalid Ibrahim Mustapha",
       "party": "PDP",
       "state": "Kaduna",
       "constituency": "Kaduna North",
-      "imageUrl": "/data/legislator_images/senate_member_58.jpg",
+      "imageUrl": "/data/legislator_images/sen_khalid_ibrahim_mustapha.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "1c21f0a6-9adb-4f4d-88f3-156ac583a591",
@@ -7660,13 +8482,13 @@
       "latestBillDate": "2024-10-03"
     },
     {
-      "id": "59",
+      "id": "72",
       "name": "Sen Konbowei Benson Friday",
-      "officialName": "APC",
+      "officialName": "Konbowei Benson Friday",
       "party": "PDP",
       "state": "Bayelsa",
       "constituency": "Bayelsa Central",
-      "imageUrl": "/data/legislator_images/senate_member_59.jpg",
+      "imageUrl": "/data/legislator_images/sen_konbowei_benson_friday.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "ad4a1454-5418-4a88-a6c2-cac547b6d483",
@@ -7747,13 +8569,13 @@
       "latestBillDate": "2025-12-03"
     },
     {
-      "id": "60",
+      "id": "73",
       "name": "Sen Lawal Adamu Usman",
-      "officialName": "ADC",
+      "officialName": "Lawal Adamu Usman",
       "party": "ADC",
       "state": "Kaduna",
       "constituency": "Kaduna Central",
-      "imageUrl": "/data/legislator_images/senate_member_60.jpg",
+      "imageUrl": "/data/legislator_images/sen_lawal_adamu_usman.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "a00684a7-ec74-4875-b792-af7635e5a2be",
@@ -7851,13 +8673,13 @@
       "latestBillDate": "2025-11-11"
     },
     {
-      "id": "61",
+      "id": "74",
       "name": "Sen Mallam-madori Ahmed Abdulhamid",
-      "officialName": "APC",
+      "officialName": "Mallam-madori Ahmed Abdulhamid",
       "party": "APC",
       "state": "Jigawa",
       "constituency": "North East",
-      "imageUrl": "/data/legislator_images/senate_member_61.jpg",
+      "imageUrl": "/data/legislator_images/sen_mallam_madori_ahmed_abdulhamid.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "743e99e9-59f1-487c-8aed-8521c2d8dabd",
@@ -8006,13 +8828,13 @@
       "latestBillDate": "2025-05-28"
     },
     {
-      "id": "62",
+      "id": "75",
       "name": "Sen Manu Haruna",
-      "officialName": "APC",
+      "officialName": "Manu Haruna",
       "party": "PDP",
       "state": "Taraba",
       "constituency": "Taraba Central",
-      "imageUrl": "/data/legislator_images/senate_member_62.jpg",
+      "imageUrl": "/data/legislator_images/sen_manu_haruna.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "50f87366-8830-4186-bff8-29994d27a08a",
@@ -8042,13 +8864,13 @@
       "latestBillDate": "2024-07-17"
     },
     {
-      "id": "63",
+      "id": "76",
       "name": "Sen Michael Opeyemi Bamidele",
-      "officialName": "APC",
+      "officialName": "Michael Opeyemi Bamidele",
       "party": "APC",
       "state": "Ekiti",
       "constituency": "Ekiti Central",
-      "imageUrl": "/data/legislator_images/senate_member_63.jpg",
+      "imageUrl": "/data/legislator_images/sen_michael_opeyemi_bamidele.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "103db25f-aa68-4a1a-85dc-3f344aa5abd5",
@@ -8187,57 +9009,6 @@
           "pdfCommitteeReport": ""
         },
         {
-          "billId": "af295a3b-aaff-4c1d-a82b-2d85c82be414",
-          "billNumber": "SB 397",
-          "title": "2024 Federal Capital Territory (FCT) Appropriation Bill, 2024",
-          "category": "Budget and Expenditure",
-          "dateFirstReading": "2024-03-14",
-          "dateSecondReading": "2024-03-14",
-          "committee": "FCT",
-          "thirdReadingStatus": "Senate: 2024-03-19",
-          "passedThirdReading": true,
-          "primarySponsor": "Sen. Michael Opeyemi Bamidele",
-          "sponsorsDetails": "Sen. Michael Opeyemi Bamidele (APC, Ekiti)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "1245fdd1-4997-4f02-85bf-122bad5346b4",
-          "billNumber": "SB 488",
-          "title": "2024 Supplementary Appropriation Act",
-          "category": "Budget and Expenditure",
-          "dateFirstReading": "2024-06-27",
-          "dateSecondReading": "2024-06-27",
-          "committee": "Supply",
-          "thirdReadingStatus": "Senate: 2024-06-27",
-          "passedThirdReading": true,
-          "primarySponsor": "Sen. Michael Opeyemi Bamidele",
-          "sponsorsDetails": "Sen. Michael Opeyemi Bamidele (APC, Ekiti)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "910ab15b-9430-4f33-9b0d-3829dae6e713",
-          "billNumber": "..",
-          "title": "2025 Budget Proposal of the Nigerian Custom Service",
-          "category": "Budget and Expenditure",
-          "dateFirstReading": "2025-06-26",
-          "dateSecondReading": "2025-06-26",
-          "committee": "the Whole",
-          "thirdReadingStatus": "Senate: 2025-06-26",
-          "passedThirdReading": true,
-          "primarySponsor": "Sen. Michael Opeyemi Bamidele",
-          "sponsorsDetails": "Sen. Michael Opeyemi Bamidele (APC, Ekiti)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
           "billId": "4aa4bdd3-65f9-401b-bfb7-a0937eab0e7c",
           "billNumber": "SB 538",
           "title": "2024 Appropriation Act (Amendment) Bill, 2024",
@@ -8280,6 +9051,57 @@
           "dateSecondReading": "2023-12-01",
           "committee": "Appropriations",
           "thirdReadingStatus": "Senate: 2023-12-30",
+          "passedThirdReading": true,
+          "primarySponsor": "Sen. Michael Opeyemi Bamidele",
+          "sponsorsDetails": "Sen. Michael Opeyemi Bamidele (APC, Ekiti)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "af295a3b-aaff-4c1d-a82b-2d85c82be414",
+          "billNumber": "SB 397",
+          "title": "2024 Federal Capital Territory (FCT) Appropriation Bill, 2024",
+          "category": "Budget and Expenditure",
+          "dateFirstReading": "2024-03-14",
+          "dateSecondReading": "2024-03-14",
+          "committee": "FCT",
+          "thirdReadingStatus": "Senate: 2024-03-19",
+          "passedThirdReading": true,
+          "primarySponsor": "Sen. Michael Opeyemi Bamidele",
+          "sponsorsDetails": "Sen. Michael Opeyemi Bamidele (APC, Ekiti)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "1245fdd1-4997-4f02-85bf-122bad5346b4",
+          "billNumber": "SB 488",
+          "title": "2024 Supplementary Appropriation Act",
+          "category": "Budget and Expenditure",
+          "dateFirstReading": "2024-06-27",
+          "dateSecondReading": "2024-06-27",
+          "committee": "Supply",
+          "thirdReadingStatus": "Senate: 2024-06-27",
+          "passedThirdReading": true,
+          "primarySponsor": "Sen. Michael Opeyemi Bamidele",
+          "sponsorsDetails": "Sen. Michael Opeyemi Bamidele (APC, Ekiti)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "910ab15b-9430-4f33-9b0d-3829dae6e713",
+          "billNumber": "..",
+          "title": "2025 Budget Proposal of the Nigerian Custom Service",
+          "category": "Budget and Expenditure",
+          "dateFirstReading": "2025-06-26",
+          "dateSecondReading": "2025-06-26",
+          "committee": "the Whole",
+          "thirdReadingStatus": "Senate: 2025-06-26",
           "passedThirdReading": true,
           "primarySponsor": "Sen. Michael Opeyemi Bamidele",
           "sponsorsDetails": "Sen. Michael Opeyemi Bamidele (APC, Ekiti)",
@@ -9252,13 +10074,13 @@
       "latestBillDate": "2026-05-06"
     },
     {
-      "id": "64",
+      "id": "77",
       "name": "Sen Mohammad Adamu Mainasara Aliero",
-      "officialName": "APC",
+      "officialName": "Mohammad Adamu Mainasara Aliero",
       "party": "PDP",
       "state": "Kebbi",
       "constituency": "Kebbi Central",
-      "imageUrl": "/data/legislator_images/senate_member_64.jpg",
+      "imageUrl": "/data/legislator_images/sen_mohammad_adamu_mainasara_aliero.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "a80aecd2-57a8-4575-9c8e-b579622806f3",
@@ -9322,13 +10144,13 @@
       "latestBillDate": "2026-06-04"
     },
     {
-      "id": "65",
+      "id": "78",
       "name": "Sen Mohammed Ali Ndume",
-      "officialName": "APC",
+      "officialName": "Mohammed Ali Ndume",
       "party": "APC",
       "state": "Borno",
       "constituency": "Borno South",
-      "imageUrl": "/data/legislator_images/senate_member_65.jpg",
+      "imageUrl": "/data/legislator_images/sen_mohammed_ali_ndume.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "c336eb70-fe4a-4d89-b1ae-f150387a246d",
@@ -9511,13 +10333,13 @@
       "latestBillDate": "2026-01-28"
     },
     {
-      "id": "66",
+      "id": "79",
       "name": "Sen Mohammed Sani Musa",
-      "officialName": "APC",
+      "officialName": "Mohammed Sani Musa",
       "party": "APC",
       "state": "Niger",
       "constituency": "Niger East",
-      "imageUrl": "/data/legislator_images/senate_member_66.jpg",
+      "imageUrl": "/data/legislator_images/sen_mohammed_sani_musa.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "8ae4d690-636d-4c57-a816-e6dfcaa6e4f6",
@@ -9956,13 +10778,13 @@
       "latestBillDate": "2026-03-11"
     },
     {
-      "id": "67",
+      "id": "80",
       "name": "Sen Mohammed Tahir Monguno",
-      "officialName": "APC",
+      "officialName": "Mohammed Tahir Monguno",
       "party": "APC",
       "state": "Borno",
       "constituency": "Borno North",
-      "imageUrl": "/data/legislator_images/senate_member_67.jpg",
+      "imageUrl": "/data/legislator_images/sen_mohammed_tahir_monguno.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3115e9e4-7ca7-45af-a4c3-75df5fae3921",
@@ -10162,13 +10984,102 @@
       "latestBillDate": "2026-06-03"
     },
     {
-      "id": "68",
+      "id": "81",
+      "name": "Sen Monday Okpebholo",
+      "officialName": "Monday Okpebholo",
+      "party": "APC",
+      "state": "Edo",
+      "constituency": "Edo Central",
+      "imageUrl": "/data/legislator_images/sen_monday_okpebholo.jpg?v=4",
+      "sponsoredBills": [
+        {
+          "billId": "55a3147d-9fd9-483c-8334-58804d691ccb",
+          "billNumber": "SB 184",
+          "title": "Agriculture Research Council of Nigeria Act (Amendment) Bill, 2023",
+          "category": "Agriculture",
+          "dateFirstReading": "2023-10-18",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Monday Okpebholo",
+          "sponsorsDetails": "Sen. Monday Okpebholo (APC, Edo)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        }
+      ],
+      "cosponsoredBills": [],
+      "totalBills": 1,
+      "sponsoredCount": 1,
+      "cosponsoredCount": 0,
+      "conversionRate": 0,
+      "billsPassed": 0,
+      "firstBillDate": "2023-10-18",
+      "latestBillDate": "2023-10-18"
+    },
+    {
+      "id": "82",
+      "name": "Sen. Mustapha Musa",
+      "officialName": "Mustapha Musa",
+      "party": "APC",
+      "state": "Yobe",
+      "constituency": "Yobe East",
+      "imageUrl": "/data/legislator_images/sen_mustapha_musa.jpg?v=4",
+      "sponsoredBills": [
+        {
+          "billId": "fe2d5a21-002d-4504-856f-75a057eead65",
+          "billNumber": "SB 632",
+          "title": "National Cohesion and Integration Bill, 2024",
+          "category": "National Unity",
+          "dateFirstReading": "2024-10-29",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Mustapha Musa",
+          "sponsorsDetails": "Sen. Mustapha Musa (APC, Yobe)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "36c3e006-9793-4fe3-b114-5a244a477d26",
+          "billNumber": "SB 642",
+          "title": "National Livestock (Protection, Control and Management) Bureau Bill, 2024",
+          "category": "Animals",
+          "dateFirstReading": "2024-11-20",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Mustapha Musa",
+          "sponsorsDetails": "Sen. Mustapha Musa (APC, Yobe)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        }
+      ],
+      "cosponsoredBills": [],
+      "totalBills": 2,
+      "sponsoredCount": 2,
+      "cosponsoredCount": 0,
+      "conversionRate": 0,
+      "billsPassed": 0,
+      "firstBillDate": "2024-10-29",
+      "latestBillDate": "2024-11-20"
+    },
+    {
+      "id": "83",
       "name": "Sen Nasiru Sani Zangon Daura",
-      "officialName": "APC",
+      "officialName": "Nasiru Sani Zangon Daura",
       "party": "APC",
       "state": "Katsina",
       "constituency": "Katsina North",
-      "imageUrl": "/data/legislator_images/senate_member_68.jpg",
+      "imageUrl": "/data/legislator_images/sen_nasiru_sani_zangon_daura.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "1db3b9bc-d1e8-461c-b489-92369a993288",
@@ -10249,13 +11160,13 @@
       "latestBillDate": "2025-12-10"
     },
     {
-      "id": "69",
+      "id": "84",
       "name": "Sen Ndubueze Patrick Chinwuba",
-      "officialName": "APC",
+      "officialName": "Ndubueze Patrick Chinwuba",
       "party": "APC",
       "state": "Imo",
       "constituency": "Imo North",
-      "imageUrl": "/data/legislator_images/senate_member_69.jpg",
+      "imageUrl": "/data/legislator_images/sen_ndubueze_patrick_chinwuba.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "362628a9-316a-4ae3-a0a7-f1976f5db2d4",
@@ -10387,13 +11298,13 @@
       "latestBillDate": "2024-10-16"
     },
     {
-      "id": "70",
+      "id": "85",
       "name": "Sen Ned Munir Nwoko",
-      "officialName": "APC",
+      "officialName": "Ned Munir Nwoko",
       "party": "PDP",
       "state": "Delta",
       "constituency": "Delta North",
-      "imageUrl": "/data/legislator_images/senate_member_70.jpg",
+      "imageUrl": "/data/legislator_images/sen_ned_munir_nwoko.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "88b69bc6-ee84-4f4b-bc60-351ec92ae10b",
@@ -10644,13 +11555,31 @@
       "latestBillDate": "2026-06-09"
     },
     {
-      "id": "71",
+      "id": "86",
+      "name": "Sen. Nwachukwu Emmanuel",
+      "officialName": "Nwachukwu Emmanuel",
+      "party": "APGA",
+      "state": "Anambra",
+      "constituency": "Anambra South",
+      "imageUrl": "/data/legislator_images/sen_nwachukwu_emmanuel.jpg?v=4",
+      "sponsoredBills": [],
+      "cosponsoredBills": [],
+      "totalBills": 0,
+      "sponsoredCount": 0,
+      "cosponsoredCount": 0,
+      "conversionRate": 0,
+      "billsPassed": 0,
+      "firstBillDate": "",
+      "latestBillDate": ""
+    },
+    {
+      "id": "87",
       "name": "Sen Ohere Abubakar",
-      "officialName": "APC",
+      "officialName": "Ohere Abubakar",
       "party": "APC",
       "state": "Kogi",
       "constituency": "Kogi Central",
-      "imageUrl": "/data/legislator_images/senate_member_71.jpg",
+      "imageUrl": "/data/legislator_images/sen_ohere_abubakar.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "19fd2a92-bf66-4863-88c9-2cea5c1a27d9",
@@ -10697,13 +11626,13 @@
       "latestBillDate": "2023-10-26"
     },
     {
-      "id": "72",
+      "id": "88",
       "name": "Sen Okechukwu Ezea",
-      "officialName": "LP",
+      "officialName": "Okechukwu Ezea",
       "party": "LP",
       "state": "Enugu",
       "constituency": "Enugu North",
-      "imageUrl": "/data/legislator_images/senate_member_72.jpg",
+      "imageUrl": "/data/legislator_images/sen_okechukwu_ezea.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "ecf956b3-a682-4de6-a0ec-9f66b3ed0167",
@@ -10733,13 +11662,13 @@
       "latestBillDate": "2024-04-30"
     },
     {
-      "id": "73",
+      "id": "89",
       "name": "Sen Olalere Oyewumi",
-      "officialName": "PDP",
-      "party": "PDP",
+      "officialName": "Olalere Oyewumi",
+      "party": "ACCORD",
       "state": "Osun",
       "constituency": "Osun West",
-      "imageUrl": "/data/legislator_images/senate_member_73.jpg",
+      "imageUrl": "/data/legislator_images/sen_olalere_oyewumi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "2e87e3b3-5c43-4b6f-85e8-4fca5b4b23f2",
@@ -10837,13 +11766,13 @@
       "latestBillDate": "2024-12-04"
     },
     {
-      "id": "74",
+      "id": "90",
       "name": "Sen Oluwole Fadeyi Olubiyi",
-      "officialName": "PDP",
-      "party": "PDP",
+      "officialName": "Oluwole Fadeyi Olubiyi",
+      "party": "APC",
       "state": "Osun",
       "constituency": "Osun Central",
-      "imageUrl": "/data/legislator_images/senate_member_74.jpg",
+      "imageUrl": "/data/legislator_images/sen_oluwole_fadeyi_olubiyi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "fcd508bc-2829-43c5-99b3-b42b7315e3b5",
@@ -11026,13 +11955,13 @@
       "latestBillDate": "2026-06-09"
     },
     {
-      "id": "75",
+      "id": "91",
       "name": "Sen Oluwole Fasuyi Cyril",
-      "officialName": "APC",
+      "officialName": "Oluwole Fasuyi Cyril",
       "party": "APC",
       "state": "Ekiti",
       "constituency": "Ekiti North",
-      "imageUrl": "/data/legislator_images/senate_member_75.jpg",
+      "imageUrl": "/data/legislator_images/sen_oluwole_fasuyi_cyril.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "ff4e860b-4289-49d4-a2e2-442c574d87a0",
@@ -11164,13 +12093,100 @@
       "latestBillDate": "2025-05-14"
     },
     {
-      "id": "76",
+      "id": "92",
+      "name": "Sen Omueya Dafinone Edeh",
+      "officialName": "Omueya Dafinone Edeh",
+      "party": "APC",
+      "state": "Delta",
+      "constituency": "Delta Central",
+      "imageUrl": "/data/legislator_images/sen_omueya_dafinone_edeh.jpg?v=4",
+      "sponsoredBills": [
+        {
+          "billId": "e894edc4-63e4-4f8f-8abc-032ccd490744",
+          "billNumber": "SB 846",
+          "title": "Chartered Institute of Planning of Nigeria (Establishment) Bill, 2025",
+          "category": "Professional Bodies",
+          "dateFirstReading": "2025-06-25",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Omueya Dafinone Edeh",
+          "sponsorsDetails": "Sen. Omueya Dafinone Edeh (APC, Delta)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "995aa53e-e419-429f-bf21-17405f357248",
+          "billNumber": "SB 899",
+          "title": "Federal Universities of Agriculture Act (Amendment) Bill, 2025",
+          "category": "Agriculture",
+          "dateFirstReading": "2025-07-22",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Omueya Dafinone Edeh",
+          "sponsorsDetails": "Sen. Omueya Dafinone Edeh (APC, Delta)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "81ce4b4a-b9f1-42c7-847e-c87ae2909c53",
+          "billNumber": "SB 269",
+          "title": "Federal University of Education Isiokolo Delta State (Establishment) Bill, 2023",
+          "category": "Education",
+          "dateFirstReading": "2023-11-22",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Omueya Dafinone Edeh",
+          "sponsorsDetails": "Sen. Omueya Dafinone Edeh (APC, Delta)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "35cbb798-5296-430d-b599-bdf8e09427ad",
+          "billNumber": "SB 722",
+          "title": "Nigerian Digital Sovereignty and Fair Data Compensation Bill, 2025",
+          "category": "Digital Economy",
+          "dateFirstReading": "2025-02-20",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Omueya Dafinone Edeh",
+          "sponsorsDetails": "Sen. Omueya Dafinone Edeh (APC, Delta)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        }
+      ],
+      "cosponsoredBills": [],
+      "totalBills": 4,
+      "sponsoredCount": 4,
+      "cosponsoredCount": 0,
+      "conversionRate": 0,
+      "billsPassed": 0,
+      "firstBillDate": "2023-11-22",
+      "latestBillDate": "2025-07-22"
+    },
+    {
+      "id": "93",
       "name": "Sen Onawo Mohammed Ogoshi",
       "officialName": "APM",
       "party": "ADC",
       "state": "Nassarawa",
       "constituency": "Nassarawa South",
-      "imageUrl": "/data/legislator_images/senate_member_76.jpg",
+      "imageUrl": "/data/legislator_images/sen_onawo_mohammed_ogoshi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "7828e681-10ca-4305-951c-e96999cca63e",
@@ -11268,13 +12284,13 @@
       "latestBillDate": "2025-07-22"
     },
     {
-      "id": "77",
+      "id": "94",
       "name": "Sen Onyekachi Nwaebonyi",
-      "officialName": "APC",
+      "officialName": "Onyekachi Nwaebonyi",
       "party": "APC",
       "state": "Ebonyi",
       "constituency": "Ebonyi North",
-      "imageUrl": "/data/legislator_images/senate_member_77.jpg",
+      "imageUrl": "/data/legislator_images/sen_onyekachi_nwaebonyi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "2dfae793-b27b-4913-bd7f-967d069cc183",
@@ -11424,13 +12440,13 @@
       "latestBillDate": "2026-06-09"
     },
     {
-      "id": "78",
+      "id": "95",
       "name": "Sen Orji Uzor Kalu",
-      "officialName": "APC",
+      "officialName": "Orji Uzor Kalu",
       "party": "APC",
       "state": "Abia",
       "constituency": "Abia North",
-      "imageUrl": "/data/legislator_images/senate_member_78.jpg",
+      "imageUrl": "/data/legislator_images/sen_orji_uzor_kalu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "8009b07a-9d6b-4e30-b450-8cb58b17c7fc",
@@ -11749,13 +12765,13 @@
       "latestBillDate": "2025-12-10"
     },
     {
-      "id": "79",
+      "id": "96",
       "name": "Sen Oshiomhole Adams Aliyu",
-      "officialName": "APC",
+      "officialName": "Oshiomhole Adams Aliyu",
       "party": "APC",
       "state": "Edo",
       "constituency": "Edo North",
-      "imageUrl": "/data/legislator_images/senate_member_79.jpg",
+      "imageUrl": "/data/legislator_images/sen_oshiomhole_adams_aliyu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "23a6e147-8d87-4881-bccd-2995daff065e",
@@ -11819,13 +12835,13 @@
       "latestBillDate": "2025-07-02"
     },
     {
-      "id": "80",
+      "id": "97",
       "name": "Sen Osita Ngwu",
-      "officialName": "APC",
+      "officialName": "Osita Ngwu",
       "party": "APC",
       "state": "Enugu",
       "constituency": "Enugu West",
-      "imageUrl": "/data/legislator_images/senate_member_80.jpg",
+      "imageUrl": "/data/legislator_images/sen_osita_ngwu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "f8719a2f-e464-4f1a-8b2d-51c6df041534",
@@ -12059,13 +13075,84 @@
       "latestBillDate": "2026-03-11"
     },
     {
-      "id": "81",
+      "id": "98",
+      "name": "Sen. Pam Dachungyang",
+      "officialName": "Pam Dachungyang",
+      "party": "ADP",
+      "state": "Plateau",
+      "constituency": "Plateau North",
+      "imageUrl": "/data/legislator_images/sen_pam_dachungyang.jpg?v=4",
+      "sponsoredBills": [
+        {
+          "billId": "e908649b-8e6a-45af-8157-1e02d18897b1",
+          "billNumber": "SB 737",
+          "title": "Federal University of Science and Technology Barkin-Ladi, Plateau State (Establishment) Bill, 2025",
+          "category": "Education",
+          "dateFirstReading": "2025-03-11",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Pam Dachungyang",
+          "sponsorsDetails": "Pam Dachungyang (ADP, Plateau)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "4b655ba0-c263-4228-a5d9-189cbbedbc0a",
+          "billNumber": "SB 718",
+          "title": "Federal University of Veterinary Medicine Vom, Plateau State (Establishment) Bill, 2025",
+          "category": "Education",
+          "dateFirstReading": "2025-02-19",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Pam Dachungyang",
+          "sponsorsDetails": "Pam Dachungyang (ADP, Plateau)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        }
+      ],
+      "cosponsoredBills": [],
+      "totalBills": 2,
+      "sponsoredCount": 2,
+      "cosponsoredCount": 0,
+      "conversionRate": 0,
+      "billsPassed": 0,
+      "firstBillDate": "2025-02-19",
+      "latestBillDate": "2025-03-11"
+    },
+    {
+      "id": "99",
+      "name": "Sen. Peter Ndalikali Jiya",
+      "officialName": "Peter Ndalikali Jiya",
+      "party": "PDP",
+      "state": "Niger",
+      "constituency": "Niger South",
+      "imageUrl": "/data/legislator_images/sen_peter_ndalikali_jiya.jpg?v=4",
+      "sponsoredBills": [],
+      "cosponsoredBills": [],
+      "totalBills": 0,
+      "sponsoredCount": 0,
+      "cosponsoredCount": 0,
+      "conversionRate": 0,
+      "billsPassed": 0,
+      "firstBillDate": "",
+      "latestBillDate": ""
+    },
+    {
+      "id": "100",
       "name": "Sen Rufai Hanga",
-      "officialName": "NDC",
-      "party": "NNPP",
+      "officialName": "Rufai Hanga",
+      "party": "NDC",
       "state": "Kano",
       "constituency": "Kano Central",
-      "imageUrl": "/data/legislator_images/senate_member_81.jpg",
+      "imageUrl": "/data/legislator_images/sen_rufai_hanga.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "4c5e4f51-75ae-49f8-a85e-cfb1c3767397",
@@ -12146,13 +13233,13 @@
       "latestBillDate": "2024-10-23"
     },
     {
-      "id": "82",
+      "id": "101",
       "name": "Sen Sadiq Suleiman Umar",
-      "officialName": "APC",
+      "officialName": "Sadiq Suleiman Umar",
       "party": "APC",
       "state": "Kwara",
       "constituency": "Kwara North",
-      "imageUrl": "/data/legislator_images/senate_member_82.jpg",
+      "imageUrl": "/data/legislator_images/sen_sadiq_suleiman_umar.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "4676bbe5-8397-4eb4-a511-2140c35faeb0",
@@ -12318,14 +13405,31 @@
       "latestBillDate": "2025-11-12"
     },
     {
-      "id": "83",
+      "id": "102",
       "name": "Sen Saliu Mustapha",
-      "officialName": "APC",
+      "officialName": "Saliu Mustapha",
       "party": "APC",
       "state": "Kwara",
       "constituency": "Kwara Central",
-      "imageUrl": "/data/legislator_images/senate_member_83.jpg",
+      "imageUrl": "/data/legislator_images/sen_saliu_mustapha.jpg?v=4",
       "sponsoredBills": [
+        {
+          "billId": "e66a5a70-d0c3-4b0b-b7d1-a7995fac36fc",
+          "billNumber": "SB 867",
+          "title": "Agricultural Research Council Act (Amendment) Bill, 2025",
+          "category": "Agriculture",
+          "dateFirstReading": "2025-06-26",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Saliu Mustapha",
+          "sponsorsDetails": "Sen. Saliu Mustapha (APC, Kwara)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
         {
           "billId": "dfaf28ef-6d24-4f83-83f9-a5db0be3a4d1",
           "billNumber": "SB 646",
@@ -12349,23 +13453,6 @@
           "title": "Agricultural Inputs Subsidy Bill, 2026",
           "category": "Agriculture",
           "dateFirstReading": "2026-06-11",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Saliu Mustapha",
-          "sponsorsDetails": "Sen. Saliu Mustapha (APC, Kwara)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "e66a5a70-d0c3-4b0b-b7d1-a7995fac36fc",
-          "billNumber": "SB 867",
-          "title": "Agricultural Research Council Act (Amendment) Bill, 2025",
-          "category": "Agriculture",
-          "dateFirstReading": "2025-06-26",
           "dateSecondReading": "",
           "committee": "Not Yet Referred",
           "thirdReadingStatus": "Not Started",
@@ -12592,13 +13679,66 @@
       "latestBillDate": "2026-06-11"
     },
     {
-      "id": "84",
+      "id": "103",
+      "name": "Sen. Samaila Dahuwa Kaila",
+      "officialName": "Samaila Dahuwa Kaila",
+      "party": "PDP",
+      "state": "Bauchi",
+      "constituency": "Bauchi North",
+      "imageUrl": "/data/legislator_images/sen_samaila_dahuwa_kaila.jpg?v=4",
+      "sponsoredBills": [
+        {
+          "billId": "4eee6bde-a1fa-45b2-8526-585bc18f0224",
+          "billNumber": "SB 861",
+          "title": "National Health Facility Regulatory Agency of Nigeria (Establishment) Bill, 2025",
+          "category": "Health",
+          "dateFirstReading": "2025-06-25",
+          "dateSecondReading": "2025-12-09",
+          "committee": "Health",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Samaila Dahuwa Kaila",
+          "sponsorsDetails": "Sen. Samaila Dahuwa Kaila (PDP, Bauchi)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "9e04bb39-0ef9-4884-b2bd-72bde63ad58d",
+          "billNumber": "SB 573",
+          "title": "National Obstetrics Fistula Centres (Establishment) Bill, 2024",
+          "category": "Health",
+          "dateFirstReading": "2024-10-03",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Sen. Samaila Dahuwa Kaila",
+          "sponsorsDetails": "Sen. Samaila Dahuwa Kaila (PDP, Bauchi)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        }
+      ],
+      "cosponsoredBills": [],
+      "totalBills": 2,
+      "sponsoredCount": 2,
+      "cosponsoredCount": 0,
+      "conversionRate": 0,
+      "billsPassed": 0,
+      "firstBillDate": "2024-10-03",
+      "latestBillDate": "2025-06-25"
+    },
+    {
+      "id": "104",
       "name": "Sen Sani Abubakar Bello",
-      "officialName": "APC",
+      "officialName": "Sani Abubakar Bello",
       "party": "APC",
       "state": "Niger",
       "constituency": "Niger North",
-      "imageUrl": "/data/legislator_images/senate_member_84.jpg",
+      "imageUrl": "/data/legislator_images/sen_sani_abubakar_bello.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "e79e0492-c980-4138-ada0-5b0cb9a9c63a",
@@ -12696,13 +13836,13 @@
       "latestBillDate": "2024-10-15"
     },
     {
-      "id": "85",
+      "id": "105",
       "name": "Sen Seriake Henry Dickson",
-      "officialName": "NDC",
-      "party": "PDP",
+      "officialName": "Seriake Henry Dickson",
+      "party": "NDC",
       "state": "Bayelsa",
       "constituency": "Bayelsa West",
-      "imageUrl": "/data/legislator_images/senate_member_85.jpg",
+      "imageUrl": "/data/legislator_images/sen_seriake_henry_dickson.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "4ae84145-d1fd-4d89-af74-23d1b9fe73bb",
@@ -12783,13 +13923,13 @@
       "latestBillDate": "2025-11-18"
     },
     {
-      "id": "86",
+      "id": "106",
       "name": "Sen Shuaibu Isa Lau",
-      "officialName": "APC",
+      "officialName": "Shuaibu Isa Lau",
       "party": "PDP",
       "state": "Taraba",
       "constituency": "Taraba North",
-      "imageUrl": "/data/legislator_images/senate_member_86.jpg",
+      "imageUrl": "/data/legislator_images/sen_shuaibu_isa_lau.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "07c8c426-fe28-4c3e-b4af-38b884a97ffe",
@@ -12853,13 +13993,13 @@
       "latestBillDate": "2025-11-18"
     },
     {
-      "id": "87",
+      "id": "107",
       "name": "Sen Simon Bako Lalong",
-      "officialName": "APC",
+      "officialName": "Simon Bako Lalong",
       "party": "APC",
       "state": "Plateau",
       "constituency": "Plateau South",
-      "imageUrl": "/data/legislator_images/senate_member_87.jpg",
+      "imageUrl": "/data/legislator_images/sen_simon_bako_lalong.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "100f4583-a6d7-45fb-8cd0-7b02d0e94b35",
@@ -12974,13 +14114,13 @@
       "latestBillDate": "2025-10-16"
     },
     {
-      "id": "88",
+      "id": "108",
       "name": "Sen Solomon Adeola Olamilekan",
-      "officialName": "APC",
+      "officialName": "Solomon Adeola Olamilekan",
       "party": "APC",
       "state": "Ogun",
       "constituency": "Ogun West",
-      "imageUrl": "/data/legislator_images/senate_member_88.jpg",
+      "imageUrl": "/data/legislator_images/sen_solomon_adeola_olamilekan.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "cc424eac-8a4e-40a2-b529-a27a60951b46",
@@ -13214,13 +14354,13 @@
       "latestBillDate": "2025-12-09"
     },
     {
-      "id": "89",
+      "id": "109",
       "name": "Sen Sunday Katung",
-      "officialName": "APC",
-      "party": "PDP",
+      "officialName": "Sunday Katung",
+      "party": "APC",
       "state": "Kaduna",
       "constituency": "Kaduna South",
-      "imageUrl": "/data/legislator_images/senate_member_89.jpg",
+      "imageUrl": "/data/legislator_images/sen_sunday_katung.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3e81f3a0-4036-46c8-9f20-1c5ad2f74398",
@@ -13301,13 +14441,13 @@
       "latestBillDate": "2025-11-18"
     },
     {
-      "id": "90",
+      "id": "110",
       "name": "Sen Sunday Steve Karimi",
-      "officialName": "APC",
+      "officialName": "Sunday Steve Karimi",
       "party": "APC",
       "state": "Kogi",
       "constituency": "Kogi West",
-      "imageUrl": "/data/legislator_images/senate_member_90.jpg",
+      "imageUrl": "/data/legislator_images/sen_sunday_steve_karimi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "c754b0f6-921b-4c02-9434-f6728e6a8d00",
@@ -13609,13 +14749,13 @@
       "latestBillDate": "2026-02-03"
     },
     {
-      "id": "91",
+      "id": "111",
       "name": "Sen Tambuwal Waziri Aminu",
-      "officialName": "ADC",
+      "officialName": "Tambuwal Waziri Aminu",
       "party": "ADC",
       "state": "Sokoto",
       "constituency": "Sokoto South",
-      "imageUrl": "/data/legislator_images/senate_member_91.jpg",
+      "imageUrl": "/data/legislator_images/sen_tambuwal_waziri_aminu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3b3f0441-942a-400e-92f0-9876c31dc22f",
@@ -13679,13 +14819,13 @@
       "latestBillDate": "2024-09-26"
     },
     {
-      "id": "92",
+      "id": "112",
       "name": "Sen Tony Nwoye",
-      "officialName": "NDC",
-      "party": "ADC",
+      "officialName": "Tony Nwoye",
+      "party": "NDC",
       "state": "Anambra",
       "constituency": "Anambra North",
-      "imageUrl": "/data/legislator_images/senate_member_92.jpg",
+      "imageUrl": "/data/legislator_images/sen_tony_nwoye.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "4b368cad-16de-4fb3-ad35-7bdc5079f0b3",
@@ -13919,13 +15059,13 @@
       "latestBillDate": "2025-11-18"
     },
     {
-      "id": "93",
+      "id": "113",
       "name": "Sen Umar Shehu Buba",
-      "officialName": "PRP",
+      "officialName": "Umar Shehu Buba",
       "party": "APC",
       "state": "Bauchi",
       "constituency": "Bauchi South",
-      "imageUrl": "/data/legislator_images/senate_member_93.jpg",
+      "imageUrl": "/data/legislator_images/sen_umar_shehu_buba.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "36ba6132-b06c-469c-93ce-a17312d81c34",
@@ -14006,13 +15146,13 @@
       "latestBillDate": "2024-02-28"
     },
     {
-      "id": "94",
+      "id": "114",
       "name": "Sen Victor Umeh Chukwuoyelu",
-      "officialName": "NDC",
-      "party": "ADC",
+      "officialName": "Victor Umeh Chukwuoyelu",
+      "party": "NDC",
       "state": "Anambra",
       "constituency": "Anambra Central",
-      "imageUrl": "/data/legislator_images/senate_member_94.jpg",
+      "imageUrl": "/data/legislator_images/sen_victor_umeh_chukwuoyelu.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -14024,13 +15164,13 @@
       "latestBillDate": ""
     },
     {
-      "id": "95",
+      "id": "115",
       "name": "Sen Wasiu Sanni Eshilokun",
-      "officialName": "APC",
+      "officialName": "Wasiu Sanni Eshilokun",
       "party": "APC",
       "state": "Lagos",
       "constituency": "Lagos Central",
-      "imageUrl": "/data/legislator_images/senate_member_95.jpg",
+      "imageUrl": "/data/legislator_images/sen_wasiu_sanni_eshilokun.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "65683418-5b4d-494d-ac9e-508299f0e3b0",
@@ -14179,13 +15319,13 @@
       "latestBillDate": "2025-12-09"
     },
     {
-      "id": "96",
+      "id": "116",
       "name": "Sen Williams Eteng Jonah",
-      "officialName": "APC",
+      "officialName": "Williams Eteng Jonah",
       "party": "APC",
       "state": "Cross River",
       "constituency": "Cross River Central",
-      "imageUrl": "/data/legislator_images/senate_member_96.jpg",
+      "imageUrl": "/data/legislator_images/sen_williams_eteng_jonah.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "179dadfc-e608-438e-ab57-2e8c3710a813",
@@ -14266,13 +15406,13 @@
       "latestBillDate": "2024-07-18"
     },
     {
-      "id": "97",
+      "id": "117",
       "name": "Sen Yahaya Abubakar Abdullahi",
-      "officialName": "APC",
+      "officialName": "Yahaya Abubakar Abdullahi",
       "party": "PDP",
       "state": "Kebbi",
       "constituency": "Kebbi North",
-      "imageUrl": "/data/legislator_images/senate_member_97.jpg",
+      "imageUrl": "/data/legislator_images/sen_yahaya_abubakar_abdullahi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "c1e67a62-f457-423d-bb5b-998578d460a5",
@@ -14336,13 +15476,13 @@
       "latestBillDate": "2025-07-09"
     },
     {
-      "id": "98",
+      "id": "118",
       "name": "Sen Yau Sahabi Alhaji",
-      "officialName": "APC",
+      "officialName": "Yau Sahabi Alhaji",
       "party": "APC",
       "state": "Zamfara",
       "constituency": "Zamfara North",
-      "imageUrl": "/data/legislator_images/senate_member_98.jpg",
+      "imageUrl": "/data/legislator_images/sen_yau_sahabi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "909e69d6-4435-4bd8-a6d8-2c056fc3705b",
@@ -14474,13 +15614,13 @@
       "latestBillDate": "2025-07-22"
     },
     {
-      "id": "99",
+      "id": "119",
       "name": "Sen Yohanna Amos Kumai",
-      "officialName": "PDP",
-      "party": "PDP",
+      "officialName": "Yohanna Amos Kumai",
+      "party": "APC",
       "state": "Adamawa",
       "constituency": "Adamawa North",
-      "imageUrl": "/data/legislator_images/senate_member_99.jpg",
+      "imageUrl": "/data/legislator_images/sen_yohanna_amos_kumai.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "2c109b52-c07b-4b66-978c-dac0ee212971",
@@ -14510,13 +15650,13 @@
       "latestBillDate": "2025-02-12"
     },
     {
-      "id": "100",
+      "id": "120",
       "name": "Sen Zam Titus Tartenger",
-      "officialName": "APC",
+      "officialName": "Zam Titus Tartenger",
       "party": "APC",
       "state": "Benue",
       "constituency": "Benue Northeast",
-      "imageUrl": "/data/legislator_images/senate_member_100.jpg",
+      "imageUrl": "/data/legislator_images/sen_zam_titus_tartenger.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "4365a033-f7e7-4c8b-a1d9-359c19fe1914",
@@ -14646,910 +15786,18 @@
       "billsPassed": 0,
       "firstBillDate": "2024-05-07",
       "latestBillDate": "2025-12-16"
-    },
-    {
-      "id": "101",
-      "name": "Sen.  Abdulaziz Yar'Adua",
-      "officialName": "APC",
-      "party": "APC",
-      "state": "Katsina",
-      "constituency": "Katsina Central",
-      "imageUrl": "/data/legislator_images/senate_member_101.jpg",
-      "sponsoredBills": [
-        {
-          "billId": "225947a6-42d5-49ba-841d-97eb3a74ec37",
-          "billNumber": "SB 773",
-          "title": "Armed Forces Trust Fund (Establishment) Bill, 2025",
-          "category": "Armed Forces and National Security",
-          "dateFirstReading": "2025-05-06",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Yar\u2019adua Abdulaziz Musa",
-          "sponsorsDetails": "Sen. Yar\u2019adua, Abdulaziz Musa (APC, Katsina)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "64f7b1e5-bdad-4763-a830-cb68fbf02796",
-          "billNumber": "SB 791",
-          "title": "Armed Forces Act (Repeal & Re-enactment) Bill, 2025",
-          "category": "Armed Forces and National Security",
-          "dateFirstReading": "2025-05-15",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Yar\u2019adua Abdulaziz Musa",
-          "sponsorsDetails": "Sen. Yar\u2019adua, Abdulaziz Musa (APC, Katsina)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "a5a75e6d-87fa-4e02-a4fe-f1fa24c5ca76",
-          "billNumber": "SB 412",
-          "title": "Electoral Act 2022 (Amendment) Bill, 2024",
-          "category": "Elections",
-          "dateFirstReading": "2024-05-15",
-          "dateSecondReading": "2025-03-13",
-          "committee": "Electoral Matters",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Yar\u2019adua Abdulaziz Musa",
-          "sponsorsDetails": "Sen. Yar\u2019adua, Abdulaziz Musa (APC, Katsina)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "9e421651-4cfc-4f90-aaa7-1e6dbdc32db5",
-          "billNumber": "SB 759",
-          "title": "National Health Act (Amendment) Bill, 2025",
-          "category": "Health",
-          "dateFirstReading": "2025-03-26",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Yar\u2019adua Abdulaziz Musa",
-          "sponsorsDetails": "Sen. Yar\u2019adua, Abdulaziz Musa (APC, Katsina)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "23cfc277-98cd-443e-ab91-80004b012819",
-          "billNumber": "SB 402",
-          "title": "Nationwide Toll Bill, 2024",
-          "category": "Infrastructure and Public Works",
-          "dateFirstReading": "2024-03-20",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Yar\u2019adua Abdulaziz Musa",
-          "sponsorsDetails": "Sen. Yar\u2019adua, Abdulaziz Musa (APC, Katsina)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        }
-      ],
-      "cosponsoredBills": [],
-      "totalBills": 5,
-      "sponsoredCount": 5,
-      "cosponsoredCount": 0,
-      "conversionRate": 0,
-      "billsPassed": 0,
-      "firstBillDate": "2024-03-20",
-      "latestBillDate": "2025-05-15"
-    },
-    {
-      "id": "102",
-      "name": "Sen. Abdulaziz Yari",
-      "officialName": "APC",
-      "party": "APC",
-      "state": "Zamfara",
-      "constituency": "Zamfara West",
-      "imageUrl": "/data/legislator_images/senate_member_102.jpg",
-      "sponsoredBills": [
-        {
-          "billId": "1a98acc9-d067-436b-9ccb-cce673b86509",
-          "billNumber": "SB 926",
-          "title": "National Assets and Infrastructure Agency (Establishment) Bill, 2025",
-          "category": "Infrastructure and Public Works",
-          "dateFirstReading": "2025-12-10",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Abdulaziz Yari",
-          "sponsorsDetails": "Sen. Abdulaziz Yari (APC, Zamfara)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        }
-      ],
-      "cosponsoredBills": [],
-      "totalBills": 1,
-      "sponsoredCount": 1,
-      "cosponsoredCount": 0,
-      "conversionRate": 0,
-      "billsPassed": 0,
-      "firstBillDate": "2025-12-10",
-      "latestBillDate": "2025-12-10"
-    },
-    {
-      "id": "103",
-      "name": "Sen. Afolabi Salisu",
-      "officialName": "APC",
-      "party": "APC",
-      "state": "Ogun",
-      "constituency": "Ogun Central",
-      "imageUrl": "/data/legislator_images/senate_member_103.jpg",
-      "sponsoredBills": [
-        {
-          "billId": "5ecdb82a-9291-4541-b1f4-c6c8d9ba6bff",
-          "billNumber": "SB 498",
-          "title": "National Digital Economy and E-Governance Bill, 2024",
-          "category": "Digital Economy",
-          "dateFirstReading": "2024-07-04",
-          "dateSecondReading": "2025-07-08",
-          "committee": "ICT and Cybercrimes",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Afolabi Salisu",
-          "sponsorsDetails": "Sen. Afolabi Salisu (APC, Ogun)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "de874467-79a0-4b3b-b14e-01ed28a7c54f",
-          "billNumber": "SB 258",
-          "title": "Nigeria National Internship and unemployment Benefits Scheme Bill, 2023",
-          "category": "Labour and Employment",
-          "dateFirstReading": "2023-11-14",
-          "dateSecondReading": "2023-05-08",
-          "committee": "Employment, Labour and Productivity",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Afolabi Salisu",
-          "sponsorsDetails": "Sen. Afolabi Salisu (APC, Ogun)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        }
-      ],
-      "cosponsoredBills": [],
-      "totalBills": 2,
-      "sponsoredCount": 2,
-      "cosponsoredCount": 0,
-      "conversionRate": 0,
-      "billsPassed": 0,
-      "firstBillDate": "2023-11-14",
-      "latestBillDate": "2024-07-04"
-    },
-    {
-      "id": "104",
-      "name": "Sen. Ahmad Ibrahim Lawan",
-      "officialName": "APC",
-      "party": "APC",
-      "state": "Yobe",
-      "constituency": "Yobe North",
-      "imageUrl": "/data/legislator_images/senate_member_104.jpg",
-      "sponsoredBills": [],
-      "cosponsoredBills": [],
-      "totalBills": 0,
-      "sponsoredCount": 0,
-      "cosponsoredCount": 0,
-      "conversionRate": 0,
-      "billsPassed": 0,
-      "firstBillDate": "",
-      "latestBillDate": ""
-    },
-    {
-      "id": "105",
-      "name": "Sen. Anthony Siyako Yaro",
-      "officialName": "PDP",
-      "party": "APC",
-      "state": "Gombe",
-      "constituency": "Gombe South",
-      "imageUrl": "/data/legislator_images/senate_member_105.jpg",
-      "sponsoredBills": [
-        {
-          "billId": "d97aef85-76c3-4aa0-b968-d5d85c95809f",
-          "billNumber": "SB 297",
-          "title": "Agricultural Research Council Act (Amendment) Bill, 2023",
-          "category": "Agriculture",
-          "dateFirstReading": "2023-12-12",
-          "dateSecondReading": "2024-10-17",
-          "committee": "Agriculture Production Services and Rural Development",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Anthony Siyako Yaro",
-          "sponsorsDetails": "Sen. Anthony Siyako Yaro (APC, Gombe)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "de740fd7-b008-40fb-9f67-bbe1f44b8132",
-          "billNumber": "SB 297.",
-          "title": "Federal College of Agriculture and Animal Husbandry (Establishment) Bill, 2024",
-          "category": "Agriculture",
-          "dateFirstReading": "2023-02-07",
-          "dateSecondReading": "2024-10-17",
-          "committee": "Tertiary",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Anthony Siyako Yaro",
-          "sponsorsDetails": "Sen. Anthony Siyako Yaro (APC, Gombe)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "8cc379c8-bcec-47fe-b588-d2b57b1267bb",
-          "billNumber": "SB 384",
-          "title": "Federal College of Medical Sciences and Laboratory Technology (Establishment) Bill, 2024",
-          "category": "Health",
-          "dateFirstReading": "2024-03-13",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Anthony Siyako Yaro",
-          "sponsorsDetails": "Sen. Anthony Siyako Yaro (APC, Gombe)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "6676b5e7-4e0c-4d58-af62-0fb2b4a05677",
-          "billNumber": "SB 866",
-          "title": "Federal Medical Centres Act (Amendment) Bill, 2025",
-          "category": "Health",
-          "dateFirstReading": "2025-06-26",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Anthony Siyako Yaro",
-          "sponsorsDetails": "Sen. Anthony Siyako Yaro (APC, Gombe)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        }
-      ],
-      "cosponsoredBills": [],
-      "totalBills": 4,
-      "sponsoredCount": 4,
-      "cosponsoredCount": 0,
-      "conversionRate": 0,
-      "billsPassed": 0,
-      "firstBillDate": "2023-02-07",
-      "latestBillDate": "2025-06-26"
-    },
-    {
-      "id": "106",
-      "name": "Sen. Ekong Sampson",
-      "officialName": "APC",
-      "party": "PDP",
-      "state": "Akwa Ibom",
-      "constituency": "Akwa Ibom South",
-      "imageUrl": "/data/legislator_images/senate_member_106.jpg",
-      "sponsoredBills": [
-        {
-          "billId": "c4573c1a-261b-41d1-9058-ff7537ddc0de",
-          "billNumber": "SB 714",
-          "title": "Child Rights Act (Amendment) Bill, 2025",
-          "category": "Children",
-          "dateFirstReading": "2025-02-18",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Se n Ekong Sampson",
-          "sponsorsDetails": "Sen, Ekong Sampson (PDP, Akwa Ibom)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "8a54c615-3a4c-4000-9837-e1e4a6b894eb",
-          "billNumber": "SB 530",
-          "title": "Federal Medical Centres Act (Amendment) Bill, 2024",
-          "category": "Health",
-          "dateFirstReading": "2024-07-17",
-          "dateSecondReading": "2024-10-22",
-          "committee": "Health Secondary & Tertiary",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Se n Ekong Sampson",
-          "sponsorsDetails": "Sen, Ekong Sampson (PDP, Akwa Ibom)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "f0e9efe5-7dcd-4276-ba83-272feb4c5656",
-          "billNumber": "SB 486",
-          "title": "Federal University of Medical Sciences Eket, Akwa-Ibom State (Establishment) Bill, 2024",
-          "category": "Education",
-          "dateFirstReading": "2024-09-26",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Se n Ekong Sampson",
-          "sponsorsDetails": "Sen, Ekong Sampson (PDP, Akwa Ibom)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "6e8e48dd-5e2c-4e82-b461-91edc1a623c8",
-          "billNumber": "SB 395",
-          "title": "Federal University of Technology, Ikot Abasi, Akwa-Ibom State (Establishment) Bill, 2024",
-          "category": "Education",
-          "dateFirstReading": "2024-03-14",
-          "dateSecondReading": "2024-10-17",
-          "committee": "Tertiary Institutions and TETFund",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Se n Ekong Sampson",
-          "sponsorsDetails": "Sen, Ekong Sampson (PDP, Akwa Ibom)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "8e51e647-78d4-4f9b-86e2-48c8fe172de6",
-          "billNumber": "SB 451",
-          "title": "Nigerian Mineral Development Corporation (Establishment) Bill, 2024",
-          "category": "Oil, Gas, and Solid Minerals",
-          "dateFirstReading": "2024-05-16",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Se n Ekong Sampson",
-          "sponsorsDetails": "Sen, Ekong Sampson (PDP, Akwa Ibom)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        }
-      ],
-      "cosponsoredBills": [],
-      "totalBills": 5,
-      "sponsoredCount": 5,
-      "cosponsoredCount": 0,
-      "conversionRate": 0,
-      "billsPassed": 0,
-      "firstBillDate": "2024-03-14",
-      "latestBillDate": "2025-02-18"
-    },
-    {
-      "id": "107",
-      "name": "Sen. Ibrahim Lamido",
-      "officialName": "ADC",
-      "party": "APC",
-      "state": "Sokoto",
-      "constituency": "Sokoto East",
-      "imageUrl": "/data/legislator_images/senate_member_107.jpg",
-      "sponsoredBills": [
-        {
-          "billId": "274f427c-de32-4492-9788-529e04ffd3d7",
-          "billNumber": "SB 902",
-          "title": "National Youth Service Corps Act (Amendment) Bill, 2025",
-          "category": "Youths",
-          "dateFirstReading": "2025-10-07",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Ibrahim Lamido",
-          "sponsorsDetails": "Ibrahim Lamido (APC, Sokoto)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        }
-      ],
-      "cosponsoredBills": [],
-      "totalBills": 1,
-      "sponsoredCount": 1,
-      "cosponsoredCount": 0,
-      "conversionRate": 0,
-      "billsPassed": 0,
-      "firstBillDate": "2025-10-07",
-      "latestBillDate": "2025-10-07"
-    },
-    {
-      "id": "108",
-      "name": "Sen. Justus Olugbenga Daniel",
-      "officialName": "APC",
-      "party": "APC",
-      "state": "Ogun",
-      "constituency": "Ogun East",
-      "imageUrl": "/data/legislator_images/senate_member_108.jpg",
-      "sponsoredBills": [
-        {
-          "billId": "9a4e4bf2-5b80-4065-97ef-e3f574fc4c10",
-          "billNumber": "SB 350",
-          "title": "Border Communities Development Agency Act (Amendment) Bill, 2024",
-          "category": "Rural Development",
-          "dateFirstReading": "2024-06-04",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Justus Olugbenga Daniel",
-          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "df570752-9111-4d3e-909f-187e138fa63f",
-          "billNumber": "SB 61",
-          "title": "Constitution of the Federal Republic of Nigeria, 1999 (Alteration) (Local Government Autonomy) Bill, 2023",
-          "category": "Constitution",
-          "dateFirstReading": "",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Justus Olugbenga Daniel",
-          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
-          "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1746431522_SB61.pdf",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "4fc6c260-e9e9-4a0f-a4ae-3202e7664b29",
-          "billNumber": "SB 654",
-          "title": "Constitution of the Federal Republic of Nigeria, 1999 (Alteration) Bill, 2024",
-          "category": "Constitution",
-          "dateFirstReading": "2024-11-26",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Justus Olugbenga Daniel",
-          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "a842ce9c-1bf6-49b4-8c95-0350f307ba98",
-          "billNumber": "SB 52",
-          "title": "Federal College of Aviation Technology (Establishment) Bill, 2023",
-          "category": "Education",
-          "dateFirstReading": "2023-10-10",
-          "dateSecondReading": "2023-11-15",
-          "committee": "Tertiary Institutions and TETFund",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Justus Olugbenga Daniel",
-          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "e7aef1df-14b5-4b14-8d8d-bf6a193b12b0",
-          "billNumber": "SB 514",
-          "title": "Federal Medical Centre Ijebu-Ode, Ogun State (Establishment) Bill, 2024",
-          "category": "Health",
-          "dateFirstReading": "2024-07-09",
-          "dateSecondReading": "2024-10-22",
-          "committee": "Health Secondary & Tertiary",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Justus Olugbenga Daniel",
-          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "65e7757a-e227-418c-bbdc-97023ab2a00f",
-          "billNumber": "SB 349",
-          "title": "Media Practitioners Registration Council of Nigeria Bill, 2024",
-          "category": "Media, Film, Broadcasting",
-          "dateFirstReading": "2024-02-27",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Justus Olugbenga Daniel",
-          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "f9c824b4-1e4a-4edf-ad52-7353920008b3",
-          "billNumber": "SB 45",
-          "title": "National Agency For Science and Engineering Infrastructure Act (Amendment) Bill, 2024",
-          "category": "Information, Science and Technology",
-          "dateFirstReading": "2023-03-05",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Justus Olugbenga Daniel",
-          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "35307a96-5d0c-41a8-9c71-7faad5cd3221",
-          "billNumber": "SB 226",
-          "title": "National Economic Coordinating and Intelligence Committee Bill, 2026",
-          "category": "National Economic",
-          "dateFirstReading": "2026-01-28",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Justus Olugbenga Daniel",
-          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "fa9eee66-96c1-4f38-9654-153319fd6303",
-          "billNumber": "SB 106",
-          "title": "Nigeria Academy of Science (Establishment) Bill, 2025",
-          "category": "Education",
-          "dateFirstReading": "2025-12-16",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Justus Olugbenga Daniel",
-          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "e69af73c-56ff-4772-8cfc-967739e52db0",
-          "billNumber": "SB 770",
-          "title": "Nigerian Maritime Trust Fund (Establishment) Bill, 2025",
-          "category": "Maritime",
-          "dateFirstReading": "2025-05-06",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Justus Olugbenga Daniel",
-          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "efd67527-2738-44f0-a84f-d906f22fdd69",
-          "billNumber": "SB 730",
-          "title": "Nigerian Maritime Trust Fund (Establishment) Bill, 2025",
-          "category": "Maritime",
-          "dateFirstReading": "2025-05-06",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Justus Olugbenga Daniel",
-          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "46777573-fa51-418f-bd4e-9d6dfe695694",
-          "billNumber": "SB 223",
-          "title": "Terminal Illness Trust Fund (Establishment) Bill, 2023",
-          "category": "Health",
-          "dateFirstReading": "2023-11-02",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Justus Olugbenga Daniel",
-          "sponsorsDetails": "Sen. Justus Olugbenga Daniel (APC, Ogun)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        }
-      ],
-      "cosponsoredBills": [],
-      "totalBills": 12,
-      "sponsoredCount": 12,
-      "cosponsoredCount": 0,
-      "conversionRate": 0,
-      "billsPassed": 0,
-      "firstBillDate": "2023-03-05",
-      "latestBillDate": "2026-01-28"
-    },
-    {
-      "id": "109",
-      "name": "Sen. Kawu Sumaila  Abdulrahman",
-      "officialName": "APC",
-      "party": "NNPP",
-      "state": "Kano",
-      "constituency": "Kano South",
-      "imageUrl": "/data/legislator_images/senate_member_109.jpg",
-      "sponsoredBills": [],
-      "cosponsoredBills": [],
-      "totalBills": 0,
-      "sponsoredCount": 0,
-      "cosponsoredCount": 0,
-      "conversionRate": 0,
-      "billsPassed": 0,
-      "firstBillDate": "",
-      "latestBillDate": ""
-    },
-    {
-      "id": "110",
-      "name": "Sen. Khabeeb Mustapha",
-      "officialName": "PDP",
-      "party": "",
-      "state": "Jigawa",
-      "constituency": "jigawa South",
-      "imageUrl": "/data/legislator_images/senate_member_110.jpg",
-      "sponsoredBills": [],
-      "cosponsoredBills": [],
-      "totalBills": 0,
-      "sponsoredCount": 0,
-      "cosponsoredCount": 0,
-      "conversionRate": 0,
-      "billsPassed": 0,
-      "firstBillDate": "",
-      "latestBillDate": ""
-    },
-    {
-      "id": "111",
-      "name": "Sen. Mustapha Musa",
-      "officialName": "APC",
-      "party": "APC",
-      "state": "Yobe",
-      "constituency": "Yobe East",
-      "imageUrl": "/data/legislator_images/senate_member_111.jpg",
-      "sponsoredBills": [
-        {
-          "billId": "fe2d5a21-002d-4504-856f-75a057eead65",
-          "billNumber": "SB 632",
-          "title": "National Cohesion and Integration Bill, 2024",
-          "category": "National Unity",
-          "dateFirstReading": "2024-10-29",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Mustapha Musa",
-          "sponsorsDetails": "Sen. Mustapha Musa (APC, Yobe)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "36c3e006-9793-4fe3-b114-5a244a477d26",
-          "billNumber": "SB 642",
-          "title": "National Livestock (Protection, Control and Management) Bureau Bill, 2024",
-          "category": "Animals",
-          "dateFirstReading": "2024-11-20",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Mustapha Musa",
-          "sponsorsDetails": "Sen. Mustapha Musa (APC, Yobe)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        }
-      ],
-      "cosponsoredBills": [],
-      "totalBills": 2,
-      "sponsoredCount": 2,
-      "cosponsoredCount": 0,
-      "conversionRate": 0,
-      "billsPassed": 0,
-      "firstBillDate": "2024-10-29",
-      "latestBillDate": "2024-11-20"
-    },
-    {
-      "id": "112",
-      "name": "Sen. Nwachukwu Emmanuel",
-      "officialName": "APGA",
-      "party": "",
-      "state": "Anambra",
-      "constituency": "Anambra South",
-      "imageUrl": "/data/legislator_images/senate_member_112.jpg",
-      "sponsoredBills": [],
-      "cosponsoredBills": [],
-      "totalBills": 0,
-      "sponsoredCount": 0,
-      "cosponsoredCount": 0,
-      "conversionRate": 0,
-      "billsPassed": 0,
-      "firstBillDate": "",
-      "latestBillDate": ""
-    },
-    {
-      "id": "113",
-      "name": "Sen. Pam Dachungyang",
-      "officialName": "APC",
-      "party": "ADP",
-      "state": "Plateau",
-      "constituency": "Plateau North",
-      "imageUrl": "/data/legislator_images/senate_member_113.jpg",
-      "sponsoredBills": [
-        {
-          "billId": "e908649b-8e6a-45af-8157-1e02d18897b1",
-          "billNumber": "SB 737",
-          "title": "Federal University of Science and Technology Barkin-Ladi, Plateau State (Establishment) Bill, 2025",
-          "category": "Education",
-          "dateFirstReading": "2025-03-11",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Pam Dachungyang",
-          "sponsorsDetails": "Pam Dachungyang (ADP, Plateau)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "4b655ba0-c263-4228-a5d9-189cbbedbc0a",
-          "billNumber": "SB 718",
-          "title": "Federal University of Veterinary Medicine Vom, Plateau State (Establishment) Bill, 2025",
-          "category": "Education",
-          "dateFirstReading": "2025-02-19",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Pam Dachungyang",
-          "sponsorsDetails": "Pam Dachungyang (ADP, Plateau)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        }
-      ],
-      "cosponsoredBills": [],
-      "totalBills": 2,
-      "sponsoredCount": 2,
-      "cosponsoredCount": 0,
-      "conversionRate": 0,
-      "billsPassed": 0,
-      "firstBillDate": "2025-02-19",
-      "latestBillDate": "2025-03-11"
-    },
-    {
-      "id": "114",
-      "name": "Sen. Peter Ndalikali Jiya",
-      "officialName": "PDP",
-      "party": "PDP",
-      "state": "Niger",
-      "constituency": "Niger South",
-      "imageUrl": "/data/legislator_images/senate_member_114.jpg",
-      "sponsoredBills": [],
-      "cosponsoredBills": [],
-      "totalBills": 0,
-      "sponsoredCount": 0,
-      "cosponsoredCount": 0,
-      "conversionRate": 0,
-      "billsPassed": 0,
-      "firstBillDate": "",
-      "latestBillDate": ""
-    },
-    {
-      "id": "115",
-      "name": "Sen. Samaila Dahuwa Kaila",
-      "officialName": "APC",
-      "party": "PDP",
-      "state": "Bauchi",
-      "constituency": "Bauchi North",
-      "imageUrl": "/data/legislator_images/senate_member_115.jpg",
-      "sponsoredBills": [
-        {
-          "billId": "4eee6bde-a1fa-45b2-8526-585bc18f0224",
-          "billNumber": "SB 861",
-          "title": "National Health Facility Regulatory Agency of Nigeria (Establishment) Bill, 2025",
-          "category": "Health",
-          "dateFirstReading": "2025-06-25",
-          "dateSecondReading": "2025-12-09",
-          "committee": "Health",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Samaila Dahuwa Kaila",
-          "sponsorsDetails": "Sen. Samaila Dahuwa Kaila (PDP, Bauchi)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "9e04bb39-0ef9-4884-b2bd-72bde63ad58d",
-          "billNumber": "SB 573",
-          "title": "National Obstetrics Fistula Centres (Establishment) Bill, 2024",
-          "category": "Health",
-          "dateFirstReading": "2024-10-03",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Sen. Samaila Dahuwa Kaila",
-          "sponsorsDetails": "Sen. Samaila Dahuwa Kaila (PDP, Bauchi)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        }
-      ],
-      "cosponsoredBills": [],
-      "totalBills": 2,
-      "sponsoredCount": 2,
-      "cosponsoredCount": 0,
-      "conversionRate": 0,
-      "billsPassed": 0,
-      "firstBillDate": "2024-10-03",
-      "latestBillDate": "2025-06-25"
     }
   ],
   "stats": {
-    "totalMembers": 114,
+    "totalMembers": 119,
     "totalBills": 791,
-    "membersWithBills": 104,
+    "membersWithBills": 109,
     "executiveBillCount": 13
   },
   "leaderboards": {
     "top20": [
       {
-        "id": "63",
+        "id": "76",
         "name": "Sen Michael Opeyemi Bamidele",
         "party": "APC",
         "state": "Ekiti",
@@ -15560,7 +15808,7 @@
         "conversionRate": 74
       },
       {
-        "id": "23",
+        "id": "28",
         "name": "Sen Barau Jibrin",
         "party": "APC",
         "state": "Kano",
@@ -15571,7 +15819,7 @@
         "conversionRate": 13
       },
       {
-        "id": "66",
+        "id": "79",
         "name": "Sen Mohammed Sani Musa",
         "party": "APC",
         "state": "Niger",
@@ -15582,7 +15830,7 @@
         "conversionRate": 0
       },
       {
-        "id": "19",
+        "id": "24",
         "name": "Sen Asuquo Ekpenyong",
         "party": "APC",
         "state": "Cross River",
@@ -15593,7 +15841,7 @@
         "conversionRate": 15
       },
       {
-        "id": "78",
+        "id": "95",
         "name": "Sen Orji Uzor Kalu",
         "party": "APC",
         "state": "Abia",
@@ -15604,7 +15852,7 @@
         "conversionRate": 6
       },
       {
-        "id": "8",
+        "id": "10",
         "name": "Sen Adetokunbo Mukhail Abiru",
         "party": "APC",
         "state": "Lagos",
@@ -15615,7 +15863,7 @@
         "conversionRate": 12
       },
       {
-        "id": "22",
+        "id": "27",
         "name": "Sen Banigo Ipalibo Harry",
         "party": "PDP",
         "state": "Rivers",
@@ -15626,7 +15874,7 @@
         "conversionRate": 12
       },
       {
-        "id": "90",
+        "id": "110",
         "name": "Sen Sunday Steve Karimi",
         "party": "APC",
         "state": "Kogi",
@@ -15637,7 +15885,7 @@
         "conversionRate": 6
       },
       {
-        "id": "56",
+        "id": "67",
         "name": "Sen Kaka Shehu Lawan",
         "party": "APC",
         "state": "Borno",
@@ -15648,7 +15896,7 @@
         "conversionRate": 6
       },
       {
-        "id": "83",
+        "id": "102",
         "name": "Sen Saliu Mustapha",
         "party": "APC",
         "state": "Kwara",
@@ -15659,7 +15907,7 @@
         "conversionRate": 13
       },
       {
-        "id": "70",
+        "id": "85",
         "name": "Sen Ned Munir Nwoko",
         "party": "PDP",
         "state": "Delta",
@@ -15670,7 +15918,7 @@
         "conversionRate": 0
       },
       {
-        "id": "6",
+        "id": "8",
         "name": "Sen Adebule Idiat Oluranti",
         "party": "APC",
         "state": "Lagos",
@@ -15681,7 +15929,7 @@
         "conversionRate": 0
       },
       {
-        "id": "80",
+        "id": "97",
         "name": "Sen Osita Ngwu",
         "party": "APC",
         "state": "Enugu",
@@ -15692,7 +15940,7 @@
         "conversionRate": 8
       },
       {
-        "id": "88",
+        "id": "108",
         "name": "Sen Solomon Adeola Olamilekan",
         "party": "APC",
         "state": "Ogun",
@@ -15703,9 +15951,9 @@
         "conversionRate": 23
       },
       {
-        "id": "92",
+        "id": "112",
         "name": "Sen Tony Nwoye",
-        "party": "ADC",
+        "party": "NDC",
         "state": "Anambra",
         "constituency": "Anambra North",
         "billCount": 13,
@@ -15725,7 +15973,7 @@
         "conversionRate": 25
       },
       {
-        "id": "54",
+        "id": "64",
         "name": "Sen Justus Olugbenga Daniel",
         "party": "APC",
         "state": "Ogun",
@@ -15736,7 +15984,7 @@
         "conversionRate": 0
       },
       {
-        "id": "108",
+        "id": "65",
         "name": "Sen. Justus Olugbenga Daniel",
         "party": "APC",
         "state": "Ogun",
@@ -15747,7 +15995,7 @@
         "conversionRate": 0
       },
       {
-        "id": "49",
+        "id": "59",
         "name": "Sen Izunaso Osita Bonaventure",
         "party": "APC",
         "state": "Imo",
@@ -15758,7 +16006,7 @@
         "conversionRate": 0
       },
       {
-        "id": "67",
+        "id": "80",
         "name": "Sen Mohammed Tahir Monguno",
         "party": "APC",
         "state": "Borno",
@@ -15771,31 +16019,9 @@
     ],
     "least20": [
       {
-        "id": "107",
-        "name": "Sen. Ibrahim Lamido",
-        "party": "APC",
-        "state": "Sokoto",
-        "constituency": "Sokoto East",
-        "billCount": 1,
-        "sponsoredCount": 1,
-        "cosponsoredCount": 0,
-        "conversionRate": 0
-      },
-      {
-        "id": "102",
-        "name": "Sen. Abdulaziz Yari",
-        "party": "APC",
-        "state": "Zamfara",
-        "constituency": "Zamfara West",
-        "billCount": 1,
-        "sponsoredCount": 1,
-        "cosponsoredCount": 0,
-        "conversionRate": 0
-      },
-      {
-        "id": "99",
+        "id": "119",
         "name": "Sen Yohanna Amos Kumai",
-        "party": "PDP",
+        "party": "APC",
         "state": "Adamawa",
         "constituency": "Adamawa North",
         "billCount": 1,
@@ -15804,7 +16030,7 @@
         "conversionRate": 0
       },
       {
-        "id": "72",
+        "id": "88",
         "name": "Sen Okechukwu Ezea",
         "party": "LP",
         "state": "Enugu",
@@ -15815,7 +16041,18 @@
         "conversionRate": 0
       },
       {
-        "id": "62",
+        "id": "81",
+        "name": "Sen Monday Okpebholo",
+        "party": "APC",
+        "state": "Edo",
+        "constituency": "Edo Central",
+        "billCount": 1,
+        "sponsoredCount": 1,
+        "cosponsoredCount": 0,
+        "conversionRate": 0
+      },
+      {
+        "id": "75",
         "name": "Sen Manu Haruna",
         "party": "PDP",
         "state": "Taraba",
@@ -15826,7 +16063,7 @@
         "conversionRate": 100
       },
       {
-        "id": "53",
+        "id": "63",
         "name": "Sen Joseph Ikpea",
         "party": "APC",
         "state": "Edo",
@@ -15837,7 +16074,7 @@
         "conversionRate": 0
       },
       {
-        "id": "48",
+        "id": "58",
         "name": "Sen Ishaku Elisha Cliff Abbo",
         "party": "APC",
         "state": "Adamawa",
@@ -15848,7 +16085,7 @@
         "conversionRate": 0
       },
       {
-        "id": "44",
+        "id": "54",
         "name": "Sen Ikra Aliyu Bilbis",
         "party": "APC",
         "state": "Zamfara",
@@ -15859,9 +16096,31 @@
         "conversionRate": 100
       },
       {
-        "id": "39",
+        "id": "51",
+        "name": "Sen. Ibrahim Lamido",
+        "party": "APC",
+        "state": "Sokoto",
+        "constituency": "Sokoto East",
+        "billCount": 1,
+        "sponsoredCount": 1,
+        "cosponsoredCount": 0,
+        "conversionRate": 0
+      },
+      {
+        "id": "47",
+        "name": "Sen. Godiya Akwashiki",
+        "party": "SDP",
+        "state": "Nasarawa",
+        "constituency": "Nassarawa North",
+        "billCount": 1,
+        "sponsoredCount": 1,
+        "cosponsoredCount": 0,
+        "conversionRate": 0
+      },
+      {
+        "id": "46",
         "name": "Sen Garba Musa Maidoki",
-        "party": "PDP",
+        "party": "ADC",
         "state": "Kebbi",
         "constituency": "Kebbi South",
         "billCount": 1,
@@ -15870,7 +16129,29 @@
         "conversionRate": 0
       },
       {
-        "id": "115",
+        "id": "37",
+        "name": "Sen David Umahi",
+        "party": "APC",
+        "state": "Ebonyi",
+        "constituency": "Ebonyi South",
+        "billCount": 1,
+        "sponsoredCount": 1,
+        "cosponsoredCount": 0,
+        "conversionRate": 0
+      },
+      {
+        "id": "4",
+        "name": "Sen. Abdulaziz Yari",
+        "party": "APC",
+        "state": "Zamfara",
+        "constituency": "Zamfara West",
+        "billCount": 1,
+        "sponsoredCount": 1,
+        "cosponsoredCount": 0,
+        "conversionRate": 0
+      },
+      {
+        "id": "103",
         "name": "Sen. Samaila Dahuwa Kaila",
         "party": "PDP",
         "state": "Bauchi",
@@ -15881,7 +16162,7 @@
         "conversionRate": 0
       },
       {
-        "id": "113",
+        "id": "98",
         "name": "Sen. Pam Dachungyang",
         "party": "ADP",
         "state": "Plateau",
@@ -15892,29 +16173,7 @@
         "conversionRate": 0
       },
       {
-        "id": "111",
-        "name": "Sen. Mustapha Musa",
-        "party": "APC",
-        "state": "Yobe",
-        "constituency": "Yobe East",
-        "billCount": 2,
-        "sponsoredCount": 2,
-        "cosponsoredCount": 0,
-        "conversionRate": 0
-      },
-      {
-        "id": "103",
-        "name": "Sen. Afolabi Salisu",
-        "party": "APC",
-        "state": "Ogun",
-        "constituency": "Ogun Central",
-        "billCount": 2,
-        "sponsoredCount": 2,
-        "cosponsoredCount": 0,
-        "conversionRate": 0
-      },
-      {
-        "id": "71",
+        "id": "87",
         "name": "Sen Ohere Abubakar",
         "party": "APC",
         "state": "Kogi",
@@ -15925,7 +16184,18 @@
         "conversionRate": 0
       },
       {
-        "id": "57",
+        "id": "82",
+        "name": "Sen. Mustapha Musa",
+        "party": "APC",
+        "state": "Yobe",
+        "constituency": "Yobe East",
+        "billCount": 2,
+        "sponsoredCount": 2,
+        "cosponsoredCount": 0,
+        "conversionRate": 0
+      },
+      {
+        "id": "69",
         "name": "Sen Kelvin Chukwu",
         "party": "LP",
         "state": "Enugu",
@@ -15936,7 +16206,7 @@
         "conversionRate": 0
       },
       {
-        "id": "47",
+        "id": "57",
         "name": "Sen Ireti Heebah Kingibe",
         "party": "ADC",
         "state": "Federal Capital Territory",
@@ -15947,48 +16217,26 @@
         "conversionRate": 0
       },
       {
-        "id": "97",
-        "name": "Sen Yahaya Abubakar Abdullahi",
-        "party": "PDP",
-        "state": "Kebbi",
-        "constituency": "Kebbi North",
-        "billCount": 3,
-        "sponsoredCount": 3,
+        "id": "35",
+        "name": "Sen Darlington Nwokocha",
+        "party": "LP",
+        "state": "Abia",
+        "constituency": "Abia Central",
+        "billCount": 2,
+        "sponsoredCount": 2,
         "cosponsoredCount": 0,
         "conversionRate": 0
       },
       {
-        "id": "91",
-        "name": "Sen Tambuwal Waziri Aminu",
-        "party": "ADC",
-        "state": "Sokoto",
-        "constituency": "Sokoto South",
-        "billCount": 3,
-        "sponsoredCount": 3,
-        "cosponsoredCount": 0,
-        "conversionRate": 33
-      },
-      {
-        "id": "86",
-        "name": "Sen Shuaibu Isa Lau",
-        "party": "PDP",
-        "state": "Taraba",
-        "constituency": "Taraba North",
-        "billCount": 3,
-        "sponsoredCount": 3,
-        "cosponsoredCount": 0,
-        "conversionRate": 0
-      },
-      {
-        "id": "79",
-        "name": "Sen Oshiomhole Adams Aliyu",
+        "id": "11",
+        "name": "Sen. Afolabi Salisu",
         "party": "APC",
-        "state": "Edo",
-        "constituency": "Edo North",
-        "billCount": 3,
-        "sponsoredCount": 3,
+        "state": "Ogun",
+        "constituency": "Ogun Central",
+        "billCount": 2,
+        "sponsoredCount": 2,
         "cosponsoredCount": 0,
-        "conversionRate": 33
+        "conversionRate": 0
       }
     ]
   },
@@ -16241,6 +16489,7 @@
     "Kogi",
     "Kwara",
     "Lagos",
+    "Nasarawa",
     "Nassarawa",
     "Niger",
     "Ogun",
@@ -16259,6 +16508,16 @@
       "Benue North East",
       "Benue Northeast",
       "Benue South"
+    ],
+    "Katsina": [
+      "Katsina Central",
+      "Katsina North",
+      "Katsina South"
+    ],
+    "Zamfara": [
+      "Zamfara Central",
+      "Zamfara North",
+      "Zamfara West"
     ],
     "Kano": [
       "Kano Central",
@@ -16284,6 +16543,16 @@
       "Ondo Central",
       "Ondo North",
       "Ondo South"
+    ],
+    "Ogun": [
+      "Ogun Central",
+      "Ogun East",
+      "Ogun West"
+    ],
+    "Yobe": [
+      "Yobe East",
+      "Yobe North",
+      "Yobe South"
     ],
     "Bauchi": [
       "Bauchi Central",
@@ -16324,6 +16593,11 @@
       "Ebonyi North",
       "Ebonyi South"
     ],
+    "Gombe": [
+      "Gombe Central",
+      "Gombe North",
+      "Gombe South"
+    ],
     "Kwara": [
       "Kwara Central",
       "Kwara North",
@@ -16348,21 +16622,6 @@
       "Bayelsa Central",
       "Bayelsa East",
       "Bayelsa West"
-    ],
-    "Delta": [
-      "Delta Central",
-      "Delta North",
-      "Delta South"
-    ],
-    "Katsina": [
-      "Katsina Central",
-      "Katsina North",
-      "Katsina South"
-    ],
-    "Gombe": [
-      "Gombe Central",
-      "Gombe North",
-      "Gombe South"
     ],
     "Taraba": [
       "Taraba Central",
@@ -16389,15 +16648,13 @@
       "Osun East",
       "Osun West"
     ],
-    "Yobe": [
-      "Yobe East",
-      "Yobe North",
-      "Yobe South"
+    "Nasarawa": [
+      "Nassarawa North"
     ],
-    "Zamfara": [
-      "Zamfara Central",
-      "Zamfara North",
-      "Zamfara West"
+    "Anambra": [
+      "Anambra Central",
+      "Anambra North",
+      "Anambra South"
     ],
     "Edo": [
       "Edo Central",
@@ -16407,10 +16664,10 @@
     "Federal Capital Territory": [
       "FCT"
     ],
-    "Ogun": [
-      "Ogun Central",
-      "Ogun East",
-      "Ogun West"
+    "Delta": [
+      "Delta Central",
+      "Delta North",
+      "Delta South"
     ],
     "Borno": [
       "Borno Central",
@@ -16431,11 +16688,6 @@
       "Niger East",
       "Niger North",
       "Niger South"
-    ],
-    "Anambra": [
-      "Anambra Central",
-      "Anambra North",
-      "Anambra South"
     ]
   }
 }

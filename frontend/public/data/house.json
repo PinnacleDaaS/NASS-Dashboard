@@ -8,7 +8,7 @@
       "party": "PDP",
       "state": "Oyo",
       "constituency": "Ibadan North-East/Ibadan South-East",
-      "imageUrl": "/data/legislator_images/house_rep_1.jpg",
+      "imageUrl": "/data/legislator_images/rep_abass_adekunle_adeogun.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "99d3bcb2-ee79-4a46-9793-a2df71c72cdb",
@@ -61,7 +61,7 @@
       "party": "NNPP",
       "state": "Kano",
       "constituency": "Wudil/Garko",
-      "imageUrl": "/data/legislator_images/house_rep_2.jpg",
+      "imageUrl": "/data/legislator_images/rep_abdulhakeem_kamilu_ado.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "df901ce5-2f91-4b99-b753-15f62f50ca96",
@@ -97,7 +97,7 @@
       "party": "APC",
       "state": "Niger",
       "constituency": "Agaie/Lapai",
-      "imageUrl": "/data/legislator_images/house_rep_3.jpg",
+      "imageUrl": "/data/legislator_images/rep_abdullahi_mamudu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "649c9d92-4d51-43e4-a4e3-c12499a2332b",
@@ -133,7 +133,7 @@
       "party": "APC",
       "state": "Zamfara",
       "constituency": "Bungudu/Maru",
-      "imageUrl": "/data/legislator_images/house_rep_4.jpg",
+      "imageUrl": "/data/legislator_images/rep_abdulmalik_zubairu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "1547de0e-7eac-457e-9470-344fdf23a7f8",
@@ -578,7 +578,7 @@
       "party": "APC",
       "state": "Nasarawa",
       "constituency": "Nasarawa/Toto",
-      "imageUrl": "/data/legislator_images/house_rep_5.jpg",
+      "imageUrl": "/data/legislator_images/rep_abdulmumin_ari_mohammed.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "255edaf5-caec-41a5-a20a-2e1f6e1034e8",
@@ -801,7 +801,7 @@
       "party": "PDP",
       "state": "Kogi",
       "constituency": "Adavi/Okehi",
-      "imageUrl": "/data/legislator_images/house_rep_6.jpg",
+      "imageUrl": "/data/legislator_images/rep_abdulraheem_abdulmaleek.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "a810b0e5-fa24-4601-9fe4-c79031633e1b",
@@ -871,7 +871,7 @@
       "party": "APC",
       "state": "Kwara",
       "constituency": "Ekiti/Isin/Irepodun/Oke-Ero",
-      "imageUrl": "/data/legislator_images/house_rep_7.jpg",
+      "imageUrl": "/data/legislator_images/rep_abdulraheem_olatunji_olawuyi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "9afdcf9e-8927-42b1-87df-c62547b33064",
@@ -1009,7 +1009,7 @@
       "party": "APC",
       "state": "Federal Capital Territory",
       "constituency": "Abaji/Gwagwalada/Kuje/Kwali",
-      "imageUrl": "/data/legislator_images/house_rep_8.jpg",
+      "imageUrl": "/data/legislator_images/rep_abdulrahman_ajiya.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "43d8102f-e7e6-47a3-911f-8dd1511ab47f",
@@ -1062,7 +1062,7 @@
       "party": "PDP",
       "state": "Sokoto",
       "constituency": "Kebbe/Tambuwal",
-      "imageUrl": "/data/legislator_images/9.jpg?v=7",
+      "imageUrl": "/data/legislator_images/rep_abdussamad_ibrahim_dasuki.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "f6ad0a52-9d40-419a-855c-70ef22c6c18b",
@@ -1235,7 +1235,7 @@
       "party": "APC",
       "state": "Ogun",
       "constituency": "Egbado South/Ipokia",
-      "imageUrl": "/data/legislator_images/house_rep_10.jpg",
+      "imageUrl": "/data/legislator_images/rep_abiodun_isiaq_akinlade.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "dd1af36d-d8cb-4244-9f89-8006e90b99c2",
@@ -1260,10 +1260,10 @@
           "title": "Federal Medical Centres Act (Amendment) Bill, 2024",
           "category": "Health",
           "dateFirstReading": "2024-05-07",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
+          "dateSecondReading": "2025-10-20",
+          "committee": "Health Institutions",
+          "thirdReadingStatus": "House: 2026-07-22",
+          "passedThirdReading": true,
           "primarySponsor": "Abiodun Isiaq Akinlade",
           "sponsorsDetails": "Abiodun Isiaq Akinlade (APC, Ogun, Constituency: Egbado South/Ipokia)",
           "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1758628789_HB1218.pdf",
@@ -1310,8 +1310,8 @@
       "totalBills": 4,
       "sponsoredCount": 4,
       "cosponsoredCount": 0,
-      "conversionRate": 0,
-      "billsPassed": 0,
+      "conversionRate": 25,
+      "billsPassed": 1,
       "firstBillDate": "2024-05-07",
       "latestBillDate": "2024-05-09"
     },
@@ -1322,7 +1322,7 @@
       "party": "APC",
       "state": "Lagos",
       "constituency": "Ikeja",
-      "imageUrl": "/data/legislator_images/house_rep_11.jpg",
+      "imageUrl": "/data/legislator_images/rep_abiodun_james_faleke.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "5cc65c62-d1df-4959-9a81-4617a119a1b4",
@@ -1478,7 +1478,7 @@
       "party": "APC",
       "state": "Ondo",
       "constituency": "Ondo East/Ondo West",
-      "imageUrl": "/data/legislator_images/house_rep_12.jpg",
+      "imageUrl": "/data/legislator_images/rep_abiola_peter_makinde.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "42b932cc-c060-4f0b-8c48-c5dc40d13193",
@@ -1643,8 +1643,8 @@
           "dateFirstReading": "2025-06-24",
           "dateSecondReading": "2025-12-11",
           "committee": "Human Rights",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
+          "thirdReadingStatus": "House: 2026-07-23",
+          "passedThirdReading": true,
           "primarySponsor": "Hon Lukman Mudashiru",
           "sponsorsDetails": "Hon Lukman Mudashiru (PDP, Osun, Constituency: Ayedire/Iwo/Ola-Oluwa); Hon Abiola Peter Makinde (APC, Ondo, Constituency: Ondo East/Ondo West)",
           "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1772520186_HB.2376.pdf",
@@ -1685,7 +1685,7 @@
       "party": "APC",
       "state": "Katsina",
       "constituency": "Dandume/Funtua",
-      "imageUrl": "/data/legislator_images/house_rep_13.jpg",
+      "imageUrl": "/data/legislator_images/rep_abubakar_ahmad_mohammad.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "99c0ea45-45b6-48ab-aca3-65b5dbea1611",
@@ -1721,7 +1721,7 @@
       "party": "APC",
       "state": "Nasarawa",
       "constituency": "Awe/Doma/Keana",
-      "imageUrl": "/data/legislator_images/house_rep_14.jpg",
+      "imageUrl": "/data/legislator_images/rep_abubakar_hassan_nafaraba.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "1adb46b9-eca1-4468-a1bc-76505549a77b",
@@ -1826,7 +1826,7 @@
       "party": "APC",
       "state": "Katsina",
       "constituency": "Kankia/Ingawa/Kusada",
-      "imageUrl": "/data/legislator_images/house_rep_15.jpg",
+      "imageUrl": "/data/legislator_images/rep_abubakar_yahaya_kusada.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "9f493458-2fcc-40a2-992d-7eb333eddb10",
@@ -1930,7 +1930,7 @@
       "party": "PDP",
       "state": "Bauchi",
       "constituency": "Ningi/Warji",
-      "imageUrl": "/data/legislator_images/house_rep_16.jpg",
+      "imageUrl": "/data/legislator_images/rep_adamu_hashimu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "f977dfd9-8bea-483b-8097-13717d02621d",
@@ -1983,7 +1983,7 @@
       "party": "APC",
       "state": "Bauchi",
       "constituency": "Gamawa",
-      "imageUrl": "/data/legislator_images/house_rep_17.jpg",
+      "imageUrl": "/data/legislator_images/rep_adamu_ibrahim_gamawa.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "242b5ae1-25f1-4a57-b886-7dbf02c79356",
@@ -2037,7 +2037,7 @@
       "party": "PDP",
       "state": "Niger",
       "constituency": "Gurara/Suleja/Tafa",
-      "imageUrl": "/data/legislator_images/house_rep_18.jpg",
+      "imageUrl": "/data/legislator_images/rep_adamu_tanko.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "1a3bcaed-057c-4de3-a1e5-fd7624927b62",
@@ -2107,7 +2107,7 @@
       "party": "APC",
       "state": "Lagos",
       "constituency": "Ibeju-Lekki",
-      "imageUrl": "/data/legislator_images/house_rep_19.jpg",
+      "imageUrl": "/data/legislator_images/rep_adebayo_olusegun_balogun.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "8547d0e1-bddd-46ef-8a5f-717c9ff2108a",
@@ -2382,7 +2382,7 @@
       "party": "APC",
       "state": "Lagos",
       "constituency": "Ajeromi Ifelodun",
-      "imageUrl": "/data/legislator_images/house_rep_20.jpg",
+      "imageUrl": "/data/legislator_images/rep_adeboye_paul_kalajaiye.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "8ff10f89-1f09-43c9-8b56-4a0b5fac4653",
@@ -2453,7 +2453,7 @@
       "party": "APC",
       "state": "Lagos",
       "constituency": "Apapa",
-      "imageUrl": "/data/legislator_images/house_rep_21.jpg",
+      "imageUrl": "/data/legislator_images/rep_adedayo_samuel_adesola.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "1b338d59-11ec-403a-978e-9100ab23903c",
@@ -2694,7 +2694,7 @@
       "party": "APC",
       "state": "Ondo",
       "constituency": "Akoko South East/South West",
-      "imageUrl": "/data/legislator_images/house_rep_22.jpg",
+      "imageUrl": "/data/legislator_images/rep_adefarati_adegboyega.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "a0c258b2-08b7-419d-abb1-57a34dfc8cbb",
@@ -2730,7 +2730,7 @@
       "party": "APC",
       "state": "Ondo",
       "constituency": "Owo/Ose",
-      "imageUrl": "/data/legislator_images/house_rep_23.jpg",
+      "imageUrl": "/data/legislator_images/rep_adelegbe_emmanuel_oluwatimehin.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "df9cd455-da04-4d9e-9779-4d7c7007844b",
@@ -2834,7 +2834,7 @@
       "party": "APC",
       "state": "Ogun",
       "constituency": "Ikenne/Sagamu/Remo North",
-      "imageUrl": "/data/legislator_images/house_rep_24.jpg",
+      "imageUrl": "/data/legislator_images/rep_adesola_ayoola_elegbeji.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "5c685b41-5c6b-4f77-8de9-ed7fe3efd84d",
@@ -2904,7 +2904,7 @@
       "party": "APC",
       "state": "Lagos",
       "constituency": "Kosofe",
-      "imageUrl": "/data/legislator_images/house_rep_25.jpg",
+      "imageUrl": "/data/legislator_images/rep_adetola_kafilat_ogbara.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "ac350559-753c-42b3-bb8d-faa8bb77003e",
@@ -3073,10 +3073,10 @@
       "id": "26",
       "name": "Hon Adetunji Abidemi Olusoji",
       "officialName": "Adetunji Abidemi Olusoji",
-      "party": "PDP",
+      "party": "ACCORD",
       "state": "Osun",
       "constituency": "Odo-Otin/Ifelodun/Boripe",
-      "imageUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUSExIVFRUXFRUVFxYWFRUVFxcVFRUXFhcVFRUYHSggGBolHRUVITEhJSkrLi4vFx8zODMsNygtLisBCgoKDg0OFRAQGC8dHSItLS0tLS0tLS0tKy0tLSstLS0tKy0tLS0tKy0tLSsrLS0uKy0rLS0tKy0tLS0tLS0tLf/AABEIAOEA4AMBIgACEQEDEQH/xAAcAAABBQEBAQ~~~~~~~~",
+      "imageUrl": "/data/legislator_images/rep_adetunji_abidemi_olusoji.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "f7960586-5f78-40b9-b088-3cc751745241",
@@ -3129,7 +3129,7 @@
       "party": "APC",
       "state": "Lagos",
       "constituency": "Agege",
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTgSAnhTL7Yg_9OLCxATIEn0Z0LrAP7CbFnjGjX_eD3w&s",
+      "imageUrl": "/data/legislator_images/rep_adewale_hameed.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "5637af48-11d7-4b26-ad47-880e10d411ef",
@@ -3438,7 +3438,7 @@
       "party": "APC",
       "state": "Ogun",
       "constituency": "Ikenne/Sagamu/Remo North",
-      "imageUrl": "/data/legislator_images/house_rep_28.jpg",
+      "imageUrl": "/data/legislator_images/rep_adewunmi_oriyomi_onanuga.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "dfcc5e92-63ac-44ea-839b-090385cd0018",
@@ -3611,7 +3611,7 @@
       "party": "APC",
       "state": "Lagos",
       "constituency": "Mushin 1",
-      "imageUrl": "/data/legislator_images/house_rep_29.jpg",
+      "imageUrl": "/data/legislator_images/rep_adeyemi_taofeek_alli.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "b30ee1b9-25ee-41a4-8b4c-130b7bf073dd",
@@ -3835,7 +3835,7 @@
       "party": "PDP",
       "state": "Oyo",
       "constituency": "Ibadan North West/South West",
-      "imageUrl": "/data/legislator_images/house_rep_30.jpg",
+      "imageUrl": "/data/legislator_images/rep_adedeji_stanley_olajide.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3d1f8b4f-25af-4a4b-be3a-5c83a9d29e09",
@@ -3922,7 +3922,7 @@
       "party": "APC",
       "state": "Oyo",
       "constituency": "Ibarapa East/Ido",
-      "imageUrl": "/data/legislator_images/house_rep_31.jpg",
+      "imageUrl": "/data/legislator_images/rep_adoremi_abasi_oseni.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "c43662ae-f021-4859-9723-aa91df342cd0",
@@ -3955,10 +3955,10 @@
       "id": "32",
       "name": "Hon Afam Ogene",
       "officialName": "Afam Ogene",
-      "party": "LP",
+      "party": "ADC",
       "state": "Anambra",
       "constituency": "Ogbaru",
-      "imageUrl": "/data/legislator_images/house_rep_32.jpg",
+      "imageUrl": "/data/legislator_images/rep_afam_ogene.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "ddef6ed5-e96c-499e-ab52-c150eb9e49c9",
@@ -4096,7 +4096,7 @@
       "party": "APC",
       "state": "Ogun",
       "constituency": "Abeokuta South",
-      "imageUrl": "/data/legislator_images/house_rep_33.jpg",
+      "imageUrl": "/data/legislator_images/rep_afolabi_moruf_afuape.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "2293be07-a819-48d8-a05e-66f6a2377a19",
@@ -4184,7 +4184,7 @@
       "party": "PDP",
       "state": "Bayelsa",
       "constituency": "Sagbama/Ekeremor",
-      "imageUrl": "/data/legislator_images/house_rep_34.jpg",
+      "imageUrl": "/data/legislator_images/rep_agbedi_yeitiemone_frederick.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "e5b22cd2-7c80-468f-a356-ac1636b178e9",
@@ -4356,7 +4356,7 @@
       "party": "APC",
       "state": "Sokoto",
       "constituency": "Kware/Wamakko",
-      "imageUrl": "/data/legislator_images/house_rep_35.jpg",
+      "imageUrl": "/data/legislator_images/rep_ahmad_abdullahi_kalambaina.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "30600d52-cf02-40ff-ac3a-a1624027a46a",
@@ -4410,7 +4410,7 @@
       "party": "APC",
       "state": "Borno",
       "constituency": "Damboa/Gwoza/Chibok",
-      "imageUrl": "/data/legislator_images/house_rep_36.jpg",
+      "imageUrl": "/data/legislator_images/rep_ahmadu_usman_jaha.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "425a7e89-542f-4cc6-8e6e-8eb6c2601a0e",
@@ -4515,7 +4515,7 @@
       "party": "APC",
       "state": "Kwara",
       "constituency": "Edu/Moro/Patigi",
-      "imageUrl": "/data/legislator_images/house_rep_37.jpg",
+      "imageUrl": "/data/legislator_images/rep_ahmed_adamu_saba.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "fa2e5c9d-e0de-401b-bb62-fb199ce80277",
@@ -4603,7 +4603,7 @@
       "party": "APC",
       "state": "Katsina",
       "constituency": "Bindawa/Mani",
-      "imageUrl": "/data/legislator_images/house_rep_38.jpg",
+      "imageUrl": "/data/legislator_images/rep_ahmed_doro_yusuf.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "82a8cb56-fba9-4546-8cb4-d159d5e8f320",
@@ -4691,7 +4691,7 @@
       "party": "APC",
       "state": "Plateau",
       "constituency": "Wase",
-      "imageUrl": "/data/legislator_images/house_rep_39.jpg",
+      "imageUrl": "/data/legislator_images/rep_ahmed_idris_wase.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "b30fd993-13a5-4946-80a3-69ce78560dbf",
@@ -4778,7 +4778,7 @@
       "party": "APC",
       "state": "Kaduna",
       "constituency": "Lere",
-      "imageUrl": "/data/legislator_images/house_rep_40.jpg",
+      "imageUrl": "/data/legislator_images/rep_ahmed_munir.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "17f2733e-25e5-427f-b628-51811ccad2cf",
@@ -4865,14 +4865,14 @@
       "party": "APC",
       "state": "Kwara",
       "constituency": "Ilorin East/Ilorin South",
-      "imageUrl": "/data/legislator_images/house_rep_41.jpg",
+      "imageUrl": "/data/legislator_images/rep_ahmed_yinka_aluko.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "a57b4e46-90c3-41b5-96e8-2788764e7a91",
           "billNumber": "HB 833",
           "title": "Federal Colleges of Education Act (Amendment) Bill, 2023",
           "category": "Education",
-          "dateFirstReading": "202-11-02",
+          "dateFirstReading": "0202-11-02",
           "dateSecondReading": "",
           "committee": "Not Yet Referred",
           "thirdReadingStatus": "Not Started",
@@ -4925,7 +4925,7 @@
       "cosponsoredCount": 0,
       "conversionRate": 0,
       "billsPassed": 0,
-      "firstBillDate": "202-11-02",
+      "firstBillDate": "0202-11-02",
       "latestBillDate": "2024-07-11"
     },
     {
@@ -4935,7 +4935,7 @@
       "party": "PDP",
       "state": "Kaduna",
       "constituency": "Makarfi/Kudan",
-      "imageUrl": "/data/legislator_images/house_rep_42.jpg",
+      "imageUrl": "/data/legislator_images/rep_ajilo_umar.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "a1ce5cbe-ea4e-4e86-81c1-5dac45c92a38",
@@ -4971,7 +4971,7 @@
       "party": "APC",
       "state": "Lagos",
       "constituency": "Lagos Island I",
-      "imageUrl": "/data/legislator_images/house_rep_43.jpg",
+      "imageUrl": "/data/legislator_images/rep_akanni_enitan_dolapo_badru.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "0e84f1f5-52a4-49cb-8790-2ad207a6a565",
@@ -5073,10 +5073,10 @@
       "id": "44",
       "name": "Hon Akanni Clement Ademola",
       "officialName": "Akanni Clement Ademola",
-      "party": "PDP",
+      "party": "ACCORD",
       "state": "Osun",
       "constituency": "Boluwaduro/Ifedayo/Ila",
-      "imageUrl": "/data/legislator_images/house_rep_44.jpg",
+      "imageUrl": "/data/legislator_images/rep_akanni_clement_ademola.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3c1b35f8-44dd-4e5e-8501-da75bd774355",
@@ -5163,7 +5163,7 @@
       "party": "APC",
       "state": "Oyo",
       "constituency": "Afijio/Oyo East/Oyo West/Atiba",
-      "imageUrl": "/data/legislator_images/house_rep_45.jpg",
+      "imageUrl": "/data/legislator_images/rep_honadeyemi_akeem_adeniyi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "becfcd43-c70b-4d9e-9bba-9c1e53e79328",
@@ -5199,7 +5199,7 @@
       "party": "APC",
       "state": "Imo",
       "constituency": "Mbaitoli/Ikeduru",
-      "imageUrl": "/data/legislator_images/house_rep_46.jpg",
+      "imageUrl": "/data/legislator_images/rep_akarachi_etinosa_tosan.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "dac3ccb7-ecff-4ce4-a843-dc05a0b6b397",
@@ -5507,7 +5507,7 @@
       "party": "LP",
       "state": "Cross River",
       "constituency": "Calabar Municipal/Odukpani",
-      "imageUrl": "/data/legislator_images/house_rep_47.jpg",
+      "imageUrl": "/data/legislator_images/rep_akiba_bassey_ekpenyong.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "449947df-e16a-4ea4-bcc7-f4464acb1746",
@@ -5560,7 +5560,7 @@
       "party": "APC",
       "state": "Ondo",
       "constituency": "Idanre/Ifedore",
-      "imageUrl": "/data/legislator_images/house_rep_48.jpg",
+      "imageUrl": "/data/legislator_images/rep_akingbaso_festus_olanrewaju.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "649a23ef-e2d5-4c63-90df-0c3f5b13811c",
@@ -5715,7 +5715,7 @@
       "party": "APC",
       "state": "Oyo",
       "constituency": "Egbeda/Ona-Ara",
-      "imageUrl": "/data/legislator_images/house_rep_49.jpg",
+      "imageUrl": "/data/legislator_images/rep_akinola_adekunle_alabi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "370c6fb0-9582-48ee-ba1f-49ac1adcc5fc",
@@ -5769,7 +5769,7 @@
       "party": "APC",
       "state": "Ekiti",
       "constituency": "Ikole/Oye",
-      "imageUrl": "/data/legislator_images/house_rep_50.jpg",
+      "imageUrl": "/data/legislator_images/rep_akintunde_rotimi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "405d55b6-2895-4856-be53-3f1c97fdda15",
@@ -6197,7 +6197,7 @@
       "party": "APC",
       "state": "Edo",
       "constituency": "Akoko-Edo",
-      "imageUrl": "/data/legislator_images/house_rep_51.jpg",
+      "imageUrl": "/data/legislator_images/rep_akpatason_ohiozojeh_peter.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3871a2c7-b3cd-4760-b335-65653e34f1b9",
@@ -6233,7 +6233,7 @@
       "party": "PDP",
       "state": "Cross River",
       "constituency": "Abi/Yakurr",
-      "imageUrl": "/data/legislator_images/house_rep_52.jpg",
+      "imageUrl": "/data/legislator_images/rep_alex_egbona.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3215cd47-f492-41ab-83bc-db0696248873",
@@ -6507,7 +6507,7 @@
       "party": "LP",
       "state": "Abia",
       "constituency": "Aba North/South",
-      "imageUrl": "/data/legislator_images/house_rep_53.jpg",
+      "imageUrl": "/data/legislator_images/rep_alexander_mascot_ikwechegh.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "ae0340cb-9028-460b-9c13-cdbb5a3624f4",
@@ -6543,7 +6543,7 @@
       "party": "APC",
       "state": "Kano",
       "constituency": "Doguwa/Tudun Wada",
-      "imageUrl": "/data/legislator_images/house_rep_54.jpg",
+      "imageUrl": "/data/legislator_images/rep_alhassan_ado_garba.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "9bcb4203-0f4f-4262-acec-4eb5dbfcb97c",
@@ -6631,7 +6631,7 @@
       "party": "APC",
       "state": "Kogi",
       "constituency": "Ankpa/Omala/Olamaboro",
-      "imageUrl": "/data/legislator_images/house_rep_55.jpg",
+      "imageUrl": "/data/legislator_images/rep_ali_ibrahim_abdullahi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "62ed30a8-40f9-479a-8fb9-458225e70def",
@@ -6667,7 +6667,7 @@
       "party": "PDP",
       "state": "Gombe",
       "constituency": "Balanga/Billiri",
-      "imageUrl": "/data/legislator_images/house_rep_56.jpg",
+      "imageUrl": "/data/legislator_images/rep_ali_isa.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "be9d3429-0317-473c-9fd6-07ebb7f1d0f3",
@@ -6856,7 +6856,7 @@
       "party": "APC",
       "state": "Lagos",
       "constituency": "Shomolu",
-      "imageUrl": "/data/legislator_images/house_rep_57.jpg",
+      "imageUrl": "/data/legislator_images/rep_aliu_ademorin_kuye.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "78d4f2e1-e8ce-4158-b0b0-db5569c2e84a",
@@ -7131,7 +7131,7 @@
       "party": "PDP",
       "state": "Bauchi",
       "constituency": "Misau/Dambam",
-      "imageUrl": "/data/legislator_images/house_rep_58.jpg",
+      "imageUrl": "/data/legislator_images/rep_aliyu_bappa_misau.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "139ec639-7f03-4df9-ab35-ee87bae1fc11",
@@ -7303,7 +7303,7 @@
       "party": "APC",
       "state": "Katsina",
       "constituency": "Batsari/Safana/Danmusa",
-      "imageUrl": "/data/legislator_images/house_rep_59.jpg",
+      "imageUrl": "/data/legislator_images/rep_aliyu_ilyasu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3de60ec1-82e2-41ec-a4e5-3f998d36ee34",
@@ -7339,7 +7339,7 @@
       "party": "APC",
       "state": "Kaduna",
       "constituency": "Ikara/Kubau",
-      "imageUrl": "/data/legislator_images/house_rep_60.jpg",
+      "imageUrl": "/data/legislator_images/rep_aliyu_mustapha_abdullahi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "fbda1a00-1854-4940-8724-492785175a30",
@@ -7392,7 +7392,7 @@
       "party": "NNPP",
       "state": "Kano",
       "constituency": "Dala",
-      "imageUrl": "/data/legislator_images/house_rep_61.jpg",
+      "imageUrl": "/data/legislator_images/rep_aliyu_sani_madakin.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "c44b8ac5-15f1-48da-9493-cf1fd720e388",
@@ -7513,7 +7513,7 @@
       "party": "APC",
       "state": "Adamawa",
       "constituency": "Fufore/Song",
-      "imageUrl": "/data/legislator_images/house_rep_62.jpg",
+      "imageUrl": "/data/legislator_images/rep_aliyu_wakili_boya.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "c2a5007d-ad74-4643-bbcf-bcf1db783c59",
@@ -7601,7 +7601,7 @@
       "party": "APC",
       "state": "Zamfara",
       "constituency": "Kaura-Namoda/Birnin-Magaji",
-      "imageUrl": "/data/legislator_images/house_rep_63.jpg",
+      "imageUrl": "/data/legislator_images/rep_aminu_jaji.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "d2f1d34c-e4ae-4837-9ebe-5688756c0cc9",
@@ -7757,7 +7757,7 @@
       "party": "APC",
       "state": "Katsina",
       "constituency": "Daura/MaiAdua/Sandamu",
-      "imageUrl": "/data/legislator_images/house_rep_64.jpg",
+      "imageUrl": "/data/legislator_images/rep_aminu_jamo_daura.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "148e3422-9257-4d69-b36b-3b2ceb2be19f",
@@ -7878,7 +7878,7 @@
       "party": "LP",
       "state": "Abia",
       "constituency": "Isuikwuato/Umunneochi",
-      "imageUrl": "/data/legislator_images/house_rep_65.jpg",
+      "imageUrl": "/data/legislator_images/rep_amobi_ogah.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "b5761e11-225f-4d8d-800f-26bee4ca0979",
@@ -8102,7 +8102,7 @@
       "party": "APC",
       "state": "Kaduna",
       "constituency": "Jaba/Zangon Kataf",
-      "imageUrl": "/data/legislator_images/house_rep_66.jpg",
+      "imageUrl": "/data/legislator_images/rep_amos_gwamna_magaji.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3513a66b-6a8e-483e-9612-f011c5ce9a5d",
@@ -8359,7 +8359,7 @@
       "party": "PDP",
       "state": "Ebonyi",
       "constituency": "Ezza North / Ishielu",
-      "imageUrl": "/data/legislator_images/house_rep_67.jpg",
+      "imageUrl": "/data/legislator_images/rep_anayo_edwin_nwonu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "2b3fe249-1085-43a7-9249-f7b901cfca14",
@@ -8395,7 +8395,7 @@
       "party": "PDP",
       "state": "Oyo",
       "constituency": "Ibarapa Central/Ibarapa North",
-      "imageUrl": "/data/legislator_images/house_rep_68.jpg",
+      "imageUrl": "/data/legislator_images/rep_anthony_adebayo_adepoju.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "368040be-548f-4eb9-97e6-19c8c96373e4",
@@ -8533,7 +8533,7 @@
       "party": "APC",
       "state": "Benue",
       "constituency": "Gwer East/Gwer West",
-      "imageUrl": "/data/legislator_images/house_rep_69.jpg",
+      "imageUrl": "/data/legislator_images/rep_austin_asema_achado.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "4d944467-97a5-4ada-b788-f5141e2d14bf",
@@ -8671,7 +8671,7 @@
       "party": "PDP",
       "state": "Bauchi",
       "constituency": "Katagum",
-      "imageUrl": "/data/legislator_images/house_rep_70.jpg",
+      "imageUrl": "/data/legislator_images/rep_auwalu_abdu_gwalabe.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "e2f53edf-54fc-429d-baed-b61278a0b854",
@@ -8724,25 +8724,8 @@
       "party": "PDP",
       "state": "Rivers",
       "constituency": "Andoni-Opobo/Nkoro",
-      "imageUrl": "/data/legislator_images/house_rep_71.jpg",
+      "imageUrl": "/data/legislator_images/rep_awaji_inombek_dagomie_abiante.jpg?v=4",
       "sponsoredBills": [
-        {
-          "billId": "78bea3f0-42a3-4736-9a61-519f7b20ccfe",
-          "billNumber": "HB 2189",
-          "title": "Agricultural Research Council of Nigeria Act (Amendment) Bill, 2025.",
-          "category": "Agriculture",
-          "dateFirstReading": "",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Hon Awaji-inombek Dagomie Abiante",
-          "sponsorsDetails": "Hon Awaji-inombek Dagomie Abiante (PDP, Rivers, Constituency: Opobo/Nkoro/Andoni)",
-          "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1770890897_HB2189.pdf",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
         {
           "billId": "c39bf67c-a476-436a-9e8b-bbeff6ac9b53",
           "billNumber": "HB 177",
@@ -8841,6 +8824,23 @@
           "primarySponsor": "Hon Awaji-inombek Dagomie Abiante",
           "sponsorsDetails": "Hon Awaji-inombek Dagomie Abiante (PDP, Rivers, Constituency: Opobo/Nkoro/Andoni)",
           "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "78bea3f0-42a3-4736-9a61-519f7b20ccfe",
+          "billNumber": "HB 2189",
+          "title": "Federal College of Fisheries Technology and Marine Engineering, Rivers State (Establishment) Bill",
+          "category": "Agriculture",
+          "dateFirstReading": "2025-03-13",
+          "dateSecondReading": "2025-05-07",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "House: 2026-07-23",
+          "passedThirdReading": true,
+          "primarySponsor": "Hon Awaji-inombek Dagomie Abiante",
+          "sponsorsDetails": "Hon Awaji-inombek Dagomie Abiante (PDP, Rivers, Constituency: Opobo/Nkoro/Andoni)",
+          "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1770890897_HB2189.pdf",
           "pdfPassedBill": "",
           "pdfSignedAct": "",
           "pdfCommitteeReport": ""
@@ -8987,8 +8987,8 @@
       "totalBills": 15,
       "sponsoredCount": 14,
       "cosponsoredCount": 1,
-      "conversionRate": 14,
-      "billsPassed": 2,
+      "conversionRate": 21,
+      "billsPassed": 3,
       "firstBillDate": "2023-07-19",
       "latestBillDate": "2025-11-12"
     },
@@ -8999,7 +8999,7 @@
       "party": "APC",
       "state": "Oyo",
       "constituency": "Ogbomoso North/Ogbomoso South/Oriire",
-      "imageUrl": "/data/legislator_images/house_rep_72.jpg",
+      "imageUrl": "/data/legislator_images/rep_ayodeji_alao.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "1fa5ae83-a5c8-49fc-bc7f-a194d9ff67b1",
@@ -9154,7 +9154,7 @@
       "party": "APC",
       "state": "Ondo",
       "constituency": "Ileoluji-Okeigbo/Odigbo",
-      "imageUrl": "/data/legislator_images/house_rep_73.jpg",
+      "imageUrl": "/data/legislator_images/rep_ayodele_adefiranye.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "68e1207d-d665-4b96-922b-be433904026d",
@@ -9224,7 +9224,7 @@
       "party": "APC",
       "state": "Taraba",
       "constituency": "Ibi/Wukari Federal Constituency",
-      "imageUrl": "/data/legislator_images/house_rep_74.jpg",
+      "imageUrl": "/data/legislator_images/rep_ayuba_dampar.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "98da9060-e4d1-4965-99cd-01412a8dbf24",
@@ -9260,7 +9260,7 @@
       "party": "APC",
       "state": "Lagos",
       "constituency": "Ikorodu",
-      "imageUrl": "/data/legislator_images/house_rep_75.jpg",
+      "imageUrl": "/data/legislator_images/rep_babajimi_adegoke_benson.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "de2950e5-948c-4188-860a-b30d0b49ee6a",
@@ -9450,6 +9450,23 @@
           "pdfCommitteeReport": ""
         },
         {
+          "billId": "e57d5572-f837-4a2d-b020-19e732ab6d90",
+          "billNumber": "HB 1408",
+          "title": "Constitution of the Federal Republic of Nigeria, 1999 (Sixth Alteration) Bill, 2024",
+          "category": "Constitution",
+          "dateFirstReading": "2024-05-23",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Hon Babajimi Adegoke Benson",
+          "sponsorsDetails": "Hon Babajimi Adegoke Benson (APC, Lagos, Constituency: Ikorodu)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
           "billId": "f18d4817-627e-44b5-9650-b361d97482ef",
           "billNumber": "HB 1402",
           "title": "Constitution of the Federal Republic of Nigeria, 1999 (Sixth Alteration) Bill, 2024",
@@ -9489,23 +9506,6 @@
           "title": "Constitution of the Federal Republic of Nigeria, 1999 (Sixth Alteration) Bill, 2024",
           "category": "Constitution",
           "dateFirstReading": "2024-05-22",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Hon Babajimi Adegoke Benson",
-          "sponsorsDetails": "Hon Babajimi Adegoke Benson (APC, Lagos, Constituency: Ikorodu)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "e57d5572-f837-4a2d-b020-19e732ab6d90",
-          "billNumber": "HB 1408",
-          "title": "Constitution of the Federal Republic of Nigeria, 1999 (Sixth Alteration) Bill, 2024",
-          "category": "Constitution",
-          "dateFirstReading": "2024-05-23",
           "dateSecondReading": "",
           "committee": "Not Yet Referred",
           "thirdReadingStatus": "Not Started",
@@ -9756,7 +9756,7 @@
       "party": "APC",
       "state": "Katsina",
       "constituency": "Dutsin-Ma/Kurfi",
-      "imageUrl": "/data/legislator_images/house_rep_76.jpg",
+      "imageUrl": "/data/legislator_images/rep_balele_aminu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3559f59b-ee0e-466f-abb9-07dc2399d72e",
@@ -9857,10 +9857,10 @@
       "id": "77",
       "name": "Hon Bamidele Salam",
       "officialName": "Salam Bamidele",
-      "party": "PDP",
+      "party": "ACCORD",
       "state": "Osun",
       "constituency": "Ede North/Ede South/Egbedore/Ejigbo",
-      "imageUrl": "/data/legislator_images/house_rep_77.jpg",
+      "imageUrl": "/data/legislator_images/rep_bamidele_salam.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "722970fb-7535-4d49-bd21-d67e4d446c42",
@@ -10066,7 +10066,7 @@
       "party": "APC",
       "state": "Kaduna",
       "constituency": "Birnin Gwari/Giwa",
-      "imageUrl": "/data/legislator_images/house_rep_78.jpg",
+      "imageUrl": "/data/legislator_images/rep_bashir_zubairu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "74c0f04a-c8f4-45ef-962a-05463b016fae",
@@ -10102,7 +10102,7 @@
       "party": "PDP",
       "state": "Lagos",
       "constituency": "Oshodi-Isolo I",
-      "imageUrl": "/data/legislator_images/house_rep_79.jpg",
+      "imageUrl": "/data/legislator_images/rep_bashiru_ayinla_dawodu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "a1b3254e-f3d9-404d-910d-f38bf098ea1e",
@@ -10156,7 +10156,7 @@
       "party": "PDP",
       "state": "Sokoto",
       "constituency": "Goronyo/Gada",
-      "imageUrl": "/data/legislator_images/house_rep_80.jpg",
+      "imageUrl": "/data/legislator_images/rep_bashiru_usman_gorau.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "7febb23d-880d-4160-84b8-9c7532388916",
@@ -10192,8 +10192,25 @@
       "party": "APC",
       "state": "Kebbi",
       "constituency": "Bagudo/Suru",
-      "imageUrl": "/data/legislator_images/house_rep_81.jpg",
+      "imageUrl": "/data/legislator_images/rep_bello_a_kaoje.jpg?v=4",
       "sponsoredBills": [
+        {
+          "billId": "6854e599-c0ff-4d36-8bfb-36e51517de7c",
+          "billNumber": "HB 1929",
+          "title": "Federal College of Animal Health and Production, Kaoje (Establishment) Bill",
+          "category": "Agriculture",
+          "dateFirstReading": "2024-11-21",
+          "dateSecondReading": "2024-12-03",
+          "committee": "Agricultural Colleges and Institutions",
+          "thirdReadingStatus": "House: 2026-07-22",
+          "passedThirdReading": true,
+          "primarySponsor": "Hon Bello A Kaoje",
+          "sponsorsDetails": "Hon Bello A Kaoje (APC, Kebbi, Constituency: Bagudo/Suru)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
         {
           "billId": "dc9082e5-04ca-4cb4-89b5-14bdb9c4173b",
           "billNumber": "HB 681",
@@ -10231,13 +10248,13 @@
           "pdfCommitteeReport": ""
         }
       ],
-      "totalBills": 2,
-      "sponsoredCount": 1,
+      "totalBills": 3,
+      "sponsoredCount": 2,
       "cosponsoredCount": 1,
-      "conversionRate": 0,
-      "billsPassed": 0,
+      "conversionRate": 50,
+      "billsPassed": 1,
       "firstBillDate": "2023-10-19",
-      "latestBillDate": "2023-10-19"
+      "latestBillDate": "2024-11-21"
     },
     {
       "id": "82",
@@ -10246,7 +10263,7 @@
       "party": "APC",
       "state": "Sokoto",
       "constituency": "Illela/Gwadabawa",
-      "imageUrl": "/data/legislator_images/house_rep_82.jpg",
+      "imageUrl": "/data/legislator_images/rep_bello_isa_ambarura.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "79af3318-34e2-4496-b726-eb2f391c9eae",
@@ -10317,6 +10334,23 @@
           "pdfCommitteeReport": ""
         },
         {
+          "billId": "bea75338-4ecb-4bc8-97b5-032826fd9b28",
+          "billNumber": "HB 2789",
+          "title": "North-West Development Commission (Establishment) Act (Amendment) Bill, 2026",
+          "category": "Rural Development",
+          "dateFirstReading": "2026-07-08",
+          "dateSecondReading": "2026-07-23",
+          "committee": "Committee on North-West Development Commission",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Hon Bello Ambarura Isah",
+          "sponsorsDetails": "Hon Bello Ambarura Isah (APC, Sokoto, Constituency: Illela/Gwadabawa); Hon Tajudeen Abbas (APC, Kaduna, Constituency: Zaria)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
           "billId": "e49d59f9-b08c-4322-9b35-dc7cd5b88539",
           "billNumber": "HB 2232",
           "title": "Yusuf Maitama Sule Federal University of Education, Kano (Establishment) Bill, 2025",
@@ -10353,13 +10387,13 @@
           "pdfCommitteeReport": ""
         }
       ],
-      "totalBills": 6,
-      "sponsoredCount": 5,
+      "totalBills": 7,
+      "sponsoredCount": 6,
       "cosponsoredCount": 1,
-      "conversionRate": 60,
+      "conversionRate": 50,
       "billsPassed": 3,
       "firstBillDate": "2023-10-24",
-      "latestBillDate": "2024-03-20"
+      "latestBillDate": "2026-07-08"
     },
     {
       "id": "83",
@@ -10368,7 +10402,7 @@
       "party": "PDP",
       "state": "Zamfara",
       "constituency": "Shinkafi/Zurmi",
-      "imageUrl": "/data/legislator_images/house_rep_83.jpg",
+      "imageUrl": "/data/legislator_images/rep_bello_shinkafi_hassan.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "5b63c287-b5a0-46c5-a853-4e39f1874095",
@@ -10421,7 +10455,7 @@
       "party": "LP",
       "state": "Delta",
       "constituency": "Okpe/Sapele/Uvwie",
-      "imageUrl": "/data/legislator_images/house_rep_84.jpg",
+      "imageUrl": "/data/legislator_images/rep_benedict_etanabene.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "8eeadc6e-fe2d-4814-8e49-c1bb1ba22140",
@@ -10559,7 +10593,7 @@
       "party": "APC",
       "state": "Abia",
       "constituency": "Bende",
-      "imageUrl": "/data/legislator_images/house_rep_85.jpg",
+      "imageUrl": "/data/legislator_images/rep_benjamin_kalu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "33ee9b83-2280-4002-aa73-f187b1193cd9",
@@ -11123,6 +11157,23 @@
           "pdfCommitteeReport": ""
         },
         {
+          "billId": "51ccb343-e4bb-4c42-b5be-288e67b42edd",
+          "billNumber": "HB 2808",
+          "title": "Federal College of Nursing and Midwifery, Nkpa Bende, Abia State (Establishment) Bill, 2026",
+          "category": "Health",
+          "dateFirstReading": "",
+          "dateSecondReading": "2026-07-23",
+          "committee": "Health Institutions",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Hon Benjamin Kalu",
+          "sponsorsDetails": "Hon Benjamin Kalu (APC, Abia, Constituency: Bende)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
           "billId": "70454f74-0a98-4b82-a836-197e12b56bb5",
           "billNumber": "HB 216",
           "title": "Federal Cooperative College, Ibadan (Est) Bill, 2023",
@@ -11332,10 +11383,10 @@
           "title": "High Court of the Federal Capital Territory, Abuja (Number of Judges) Act (Amendment) Bill, 2024",
           "category": "Judiciary",
           "dateFirstReading": "2024-07-23",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
+          "dateSecondReading": "2024-11-21",
+          "committee": "FCT Judiciary",
+          "thirdReadingStatus": "House: 2025-04-29, Senate: 2026-07-23",
+          "passedThirdReading": true,
           "primarySponsor": "Hon Benjamin Kalu",
           "sponsorsDetails": "Hon Benjamin Kalu (APC, Abia, Constituency: Bende)",
           "pdfInitialBill": "",
@@ -12621,11 +12672,11 @@
           "pdfCommitteeReport": ""
         }
       ],
-      "totalBills": 121,
-      "sponsoredCount": 99,
+      "totalBills": 122,
+      "sponsoredCount": 100,
       "cosponsoredCount": 22,
-      "conversionRate": 19,
-      "billsPassed": 19,
+      "conversionRate": 20,
+      "billsPassed": 20,
       "firstBillDate": "2023-07-05",
       "latestBillDate": "2026-06-04"
     },
@@ -12636,7 +12687,7 @@
       "party": "APC",
       "state": "Edo",
       "constituency": "Orhionmwon/Uhunmwode",
-      "imageUrl": "/data/legislator_images/house_rep_86.jpg",
+      "imageUrl": "/data/legislator_images/rep_billy_famous_osawaru.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "1c6b460d-42dc-4bfe-ac87-9eead4cb5767",
@@ -12758,7 +12809,7 @@
       "party": "PDP",
       "state": "Rivers",
       "constituency": "Port Harcourt II",
-      "imageUrl": "/data/legislator_images/house_rep_87.jpg",
+      "imageUrl": "/data/legislator_images/rep_blessing_chigeru_amadi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "46095872-6639-4973-ae42-6f2c63d90ef9",
@@ -12828,7 +12879,7 @@
       "party": "APGA",
       "state": "Benue",
       "constituency": "Ohimini/Otukpo",
-      "imageUrl": "/data/legislator_images/house_rep_88.jpg",
+      "imageUrl": "/data/legislator_images/rep_blessing_onyeche_onuh.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "34943be3-23de-459e-b83b-38b75272ec9f",
@@ -12933,7 +12984,7 @@
       "party": "APC",
       "state": "Enugu",
       "constituency": "Aninri/Awgu/Oji River",
-      "imageUrl": "/data/legislator_images/house_rep_89.jpg",
+      "imageUrl": "/data/legislator_images/rep_befford_onwuegbu_anayo.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "93381cb7-e87f-41a0-a243-75bc7f9b2185",
@@ -12987,7 +13038,7 @@
       "party": "PDP",
       "state": "Rivers",
       "constituency": "Akuku-Toru/Asari-Toru",
-      "imageUrl": "/data/legislator_images/house_rep_90.jpg",
+      "imageUrl": "/data/legislator_images/rep_boma_goodhead.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "d65d0035-90b2-4b90-8358-68728390f982",
@@ -13041,7 +13092,7 @@
       "party": "PDP",
       "state": "Rivers",
       "constituency": "Emohua/Ikwerre",
-      "imageUrl": "/data/legislator_images/house_rep_91.jpg",
+      "imageUrl": "/data/legislator_images/rep_boniface_sunday_emerengwa.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "f3151abe-dfea-400a-a12a-ca6c36bf9bb3",
@@ -13094,7 +13145,7 @@
       "party": "APC",
       "state": "Borno",
       "constituency": "Monguno/Marte/Nganzai",
-      "imageUrl": "/data/legislator_images/house_rep_92.jpg",
+      "imageUrl": "/data/legislator_images/rep_bukar_talba.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "0f69aa22-49f3-4c55-9ab6-12bd4083d932",
@@ -13119,8 +13170,8 @@
           "title": "Armed Forces Act (Amendment) Bill, 2023",
           "category": "Armed Forces and National Security",
           "dateFirstReading": "2023-11-23",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
+          "dateSecondReading": "2026-07-22",
+          "committee": "Defence",
           "thirdReadingStatus": "Not Started",
           "passedThirdReading": false,
           "primarySponsor": "Hon Bukar Talba",
@@ -13181,7 +13232,7 @@
       "party": "APC",
       "state": "Imo",
       "constituency": "Ehime Mbano/Ihitteuboma/Obowo",
-      "imageUrl": "/data/legislator_images/house_rep_93.jpg",
+      "imageUrl": "/data/legislator_images/rep_chike_john_okafor.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "6f6724a1-54e7-4cf3-963b-7b49bd2d4b84",
@@ -13319,7 +13370,7 @@
       "party": "LP",
       "state": "Enugu",
       "constituency": "Enugu North/Enugu South",
-      "imageUrl": "/data/legislator_images/house_rep_94.jpg",
+      "imageUrl": "/data/legislator_images/rep_chimaobi_sam_atu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "87d4f55c-1338-4c6c-8d82-02a120c4328c",
@@ -13645,7 +13696,7 @@
       "party": "APC",
       "state": "Ebonyi",
       "constituency": "Ikwo/Ezza South",
-      "imageUrl": "/data/legislator_images/house_rep_95.jpg",
+      "imageUrl": "/data/legislator_images/rep_chinedu_oke.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "b1a5291f-5a03-4e43-aba2-483e6756684d",
@@ -13801,11 +13852,11 @@
           "pdfCommitteeReport": ""
         },
         {
-          "billId": "461fdabc-23ca-4127-b8ba-cee7d350d184",
-          "billNumber": "HB 573",
-          "title": "National Oil Spill Detection and Response Agency Act (Amendment) Bill, 2023",
-          "category": "Oil, Gas, and Solid Minerals",
-          "dateFirstReading": "2023-10-10",
+          "billId": "ef79c69d-39d3-4bbf-9bee-3f84f9ed40e9",
+          "billNumber": "HB 597",
+          "title": "National Minimum Standards and Establishment of Institutions Act (Amendment) Bill, 2023",
+          "category": "Education",
+          "dateFirstReading": "2023-10-12",
           "dateSecondReading": "",
           "committee": "Not Yet Referred",
           "thirdReadingStatus": "Not Started",
@@ -13818,11 +13869,11 @@
           "pdfCommitteeReport": ""
         },
         {
-          "billId": "ef79c69d-39d3-4bbf-9bee-3f84f9ed40e9",
-          "billNumber": "HB 597",
-          "title": "National Minimum Standards and Establishment of Institutions Act (Amendment) Bill, 2023",
-          "category": "Education",
-          "dateFirstReading": "2023-10-12",
+          "billId": "461fdabc-23ca-4127-b8ba-cee7d350d184",
+          "billNumber": "HB 573",
+          "title": "National Oil Spill Detection and Response Agency Act (Amendment) Bill, 2023",
+          "category": "Oil, Gas, and Solid Minerals",
+          "dateFirstReading": "2023-10-10",
           "dateSecondReading": "",
           "committee": "Not Yet Referred",
           "thirdReadingStatus": "Not Started",
@@ -13953,7 +14004,7 @@
       "party": "APC",
       "state": "Imo",
       "constituency": "Owerri Municipal/North/West",
-      "imageUrl": "/data/legislator_images/house_rep_96.jpg",
+      "imageUrl": "/data/legislator_images/rep_chinedu_tochukwu_okere.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "1102d028-0c64-423c-a428-f42e65e75417",
@@ -14261,7 +14312,7 @@
       "party": "PDP",
       "state": "Abia",
       "constituency": "Isiala Ngwa South/Isiala Ngwa North",
-      "imageUrl": "/data/legislator_images/house_rep_97.jpg",
+      "imageUrl": "/data/legislator_images/rep_chris_nkwonta.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3438892a-d87d-471d-823b-db7fd9c72368",
@@ -14400,7 +14451,7 @@
       "party": "APC",
       "state": "Akwa Ibom",
       "constituency": "Abak/Etim Ekpo/Ika",
-      "imageUrl": "/data/legislator_images/house_rep_98.jpg",
+      "imageUrl": "/data/legislator_images/rep_clement_jimbo.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "efb8c143-675e-4a51-8a67-2e5af0e2967d",
@@ -14504,7 +14555,7 @@
       "party": "APC",
       "state": "Ondo",
       "constituency": "Akure North/South",
-      "imageUrl": "/data/legislator_images/house_rep_99.jpg",
+      "imageUrl": "/data/legislator_images/rep_cornelius_abiodun_adorin.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "2526bba8-7774-402a-acd7-0caad9f590fb",
@@ -14557,7 +14608,7 @@
       "party": "PDP",
       "state": "Rivers",
       "constituency": "Degema/Bonny",
-      "imageUrl": "/data/legislator_images/house_rep_100.jpg",
+      "imageUrl": "/data/legislator_images/rep_cryril_hart_godwin.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [
         {
@@ -14593,7 +14644,7 @@
       "party": "APC",
       "state": "Bauchi",
       "constituency": "Toro",
-      "imageUrl": "/data/legislator_images/house_rep_101.jpg",
+      "imageUrl": "/data/legislator_images/rep_dabo_ismaila_haruna.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "09d8619e-0d4d-48b5-82b0-4072547d2911",
@@ -14629,7 +14680,7 @@
       "party": "PDP",
       "state": "Plateau",
       "constituency": "Jos East",
-      "imageUrl": "/data/legislator_images/house_rep_102.jpg",
+      "imageUrl": "/data/legislator_images/rep_dachung_musa_bagos.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "9f5076d8-3c84-4e7d-a4c3-279b908a2b67",
@@ -15209,7 +15260,7 @@
       "party": "LP",
       "state": "Plateau",
       "constituency": "Barkin Ladi/Riyom",
-      "imageUrl": "/data/legislator_images/house_rep_103.jpg",
+      "imageUrl": "/data/legislator_images/rep_dalyop_chollom_fom.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "bd2c0c36-a8be-4dc2-ba8c-146cc10d1783",
@@ -15382,7 +15433,7 @@
       "party": "APC",
       "state": "Plateau",
       "constituency": "Bassa/Jos North",
-      "imageUrl": "/data/legislator_images/house_rep_104.jpg",
+      "imageUrl": "/data/legislator_images/rep_daniel_asama_ago.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "244f2fae-dfc6-4037-ad74-852dd184b639",
@@ -15657,7 +15708,7 @@
       "party": "APC",
       "state": "Benue",
       "constituency": "Obi/Oju",
-      "imageUrl": "/data/legislator_images/house_rep_105.jpg",
+      "imageUrl": "/data/legislator_images/rep_david_ogewu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "5c25ef61-29fd-47c0-8b74-62d13131c06d",
@@ -15710,7 +15761,7 @@
       "party": "APC",
       "state": "Edo",
       "constituency": "Ovia North-East/Ovia South-West",
-      "imageUrl": "/data/legislator_images/house_rep_106.jpg",
+      "imageUrl": "/data/legislator_images/rep_dennis_idahosa.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "2cca7a0a-e6e6-4421-b6f6-ad9b6a694b5a",
@@ -15848,7 +15899,7 @@
       "party": "APC",
       "state": "Imo",
       "constituency": "Ohaji/Egbema/Oguta/Oru West",
-      "imageUrl": "/data/legislator_images/house_rep_107.jpg",
+      "imageUrl": "/data/legislator_images/rep_dibiagwu_eugene_okechukwu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "2d152f1b-b333-4ec8-b4d2-e5cf98b59fc5",
@@ -15935,7 +15986,7 @@
       "party": "APGA",
       "state": "Anambra",
       "constituency": "Aguata",
-      "imageUrl": "/data/legislator_images/house_rep_108.jpg",
+      "imageUrl": "/data/legislator_images/rep_dominic_okafor.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "6faa6199-dc11-46cb-afe1-83cce3b98916",
@@ -16022,7 +16073,7 @@
       "party": "APC",
       "state": "Ondo",
       "constituency": "Ilaje/Ese-Odo",
-      "imageUrl": "/data/legislator_images/house_rep_109.jpg",
+      "imageUrl": "/data/legislator_images/rep_donald_ojogo.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "8c5cc317-9dbe-49e9-94b3-7de04ec877f1",
@@ -16075,7 +16126,7 @@
       "party": "PDP",
       "state": "Rivers",
       "constituency": "Gokana/Khana",
-      "imageUrl": "/data/legislator_images/house_rep_110.jpg",
+      "imageUrl": "/data/legislator_images/rep_dumnamena_robinson_dekor.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "18d82678-6885-4cf7-949f-bc03614cbcf3",
@@ -16193,10 +16244,10 @@
       "id": "111",
       "name": "Hon El-Rasheed Abdullahi",
       "officialName": "Abdullahi El Rasheed",
-      "party": "PDP",
+      "party": "ADC",
       "state": "Gombe",
       "constituency": "Dukku/Nafada",
-      "imageUrl": "/data/legislator_images/house_rep_111.jpg",
+      "imageUrl": "/data/legislator_images/rep_el_rasheed_abdullahi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "534e5f43-10ee-4c1d-b265-c9aebd474432",
@@ -16266,7 +16317,7 @@
       "party": "LP",
       "state": "Anambra",
       "constituency": "Onitsha North/Onitsha South",
-      "imageUrl": "/data/legislator_images/house_rep_112.jpg",
+      "imageUrl": "/data/legislator_images/rep_emeka_idu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "c84ef4f4-6240-4bc8-97bb-efdf3326858b",
@@ -16319,7 +16370,7 @@
       "party": "PDP",
       "state": "Imo",
       "constituency": "Ahiazu/Ezinihitte/Mbaise",
-      "imageUrl": "/data/legislator_images/house_rep_113.jpg",
+      "imageUrl": "/data/legislator_images/rep_emeka_martins_chinedu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "0569fa73-80f8-40ae-821f-5396ca3293a9",
@@ -16457,7 +16508,7 @@
       "party": "PDP",
       "state": "Akwa Ibom",
       "constituency": "Ikono/Ini",
-      "imageUrl": "/data/legislator_images/house_rep_114.jpg",
+      "imageUrl": "/data/legislator_images/rep_emmanuel_effiong_ukpong_udo.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "46ace1ae-7a96-4ce6-a7ce-8ddfca6b4fb0",
@@ -16595,7 +16646,7 @@
       "party": "PDP",
       "state": "Delta",
       "constituency": "Warri South/Warri West/Warri North",
-      "imageUrl": "/data/legislator_images/house_rep_115.jpg",
+      "imageUrl": "/data/legislator_images/rep_ereyitomi_thomas.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "cd54553f-ec20-4a2f-97e5-dd06a14961b0",
@@ -16733,7 +16784,7 @@
       "party": "LP",
       "state": "Edo",
       "constituency": "Oredo",
-      "imageUrl": "/data/legislator_images/house_rep_116.jpg",
+      "imageUrl": "/data/legislator_images/rep_esosa_iyawe.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "5579bcd2-266f-4cbe-a828-0a7d2e6f0216",
@@ -16956,7 +17007,7 @@
       "party": "PDP",
       "state": "Cross River",
       "constituency": "Obubra/Etung",
-      "imageUrl": "/data/legislator_images/house_rep_117.jpg",
+      "imageUrl": "/data/legislator_images/rep_etaba_michael_irom.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "db28501c-d4ba-4ed9-b7de-03d19e4a0c7d",
@@ -16992,7 +17043,7 @@
       "party": "APC",
       "state": "Ebonyi",
       "constituency": "Ebonyi/Ohaukwu",
-      "imageUrl": "/data/legislator_images/house_rep_118.jpg",
+      "imageUrl": "/data/legislator_images/rep_eze_nwachukwu_eze.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "402d6c27-70ce-4ca1-80bc-fa052d12b4d4",
@@ -17113,7 +17164,7 @@
       "party": "APC",
       "state": "Yobe",
       "constituency": "Nangere/Potiskum",
-      "imageUrl": "/data/legislator_images/house_rep_119.jpg",
+      "imageUrl": "/data/legislator_images/rep_fatima_talba.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "1f5e177c-c0cd-46bd-be0b-a89b4951fbee",
@@ -17167,7 +17218,7 @@
       "party": "APC",
       "state": "Kaduna",
       "constituency": "Chikun/Kajuru",
-      "imageUrl": "/data/legislator_images/house_rep_120.jpg",
+      "imageUrl": "/data/legislator_images/rep_fidelis_joseph_bagudu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3267c7d4-9cf4-4b66-b0ed-2c33e9e3e244",
@@ -17220,7 +17271,7 @@
       "party": "PDP",
       "state": "Oyo",
       "constituency": "Ibadan North",
-      "imageUrl": "/data/legislator_images/house_rep_121.jpg",
+      "imageUrl": "/data/legislator_images/rep_fola_oyekunle.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "c651647e-e1cc-40c8-8ec3-dff5af54017a",
@@ -17273,7 +17324,7 @@
       "party": "APC",
       "state": "Delta",
       "constituency": "Ughelli North/Ughelli South/Udu",
-      "imageUrl": "/data/legislator_images/house_rep_122.jpg",
+      "imageUrl": "/data/legislator_images/rep_francis_ejiroghene_waive.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "e70f338b-b7b5-4c1c-8c88-e98efe0a6a79",
@@ -17298,10 +17349,10 @@
           "title": "Agricultural Research Council of Nigeria Act (Amendment) Bill, 2026",
           "category": "Agriculture",
           "dateFirstReading": "2026-03-11",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
+          "dateSecondReading": "2026-03-12",
+          "committee": "Agriculture Production and Service",
+          "thirdReadingStatus": "House: 2026-07-22",
+          "passedThirdReading": true,
           "primarySponsor": "Hon Francis Ejiroghene Waive",
           "sponsorsDetails": "Hon Francis Ejiroghene Waive (APC, Delta, Constituency: Ughelli North, Ughelli South/Udu)",
           "pdfInitialBill": "",
@@ -17910,8 +17961,8 @@
       "totalBills": 37,
       "sponsoredCount": 33,
       "cosponsoredCount": 4,
-      "conversionRate": 21,
-      "billsPassed": 7,
+      "conversionRate": 24,
+      "billsPassed": 8,
       "firstBillDate": "2023-07-05",
       "latestBillDate": "2026-03-11"
     },
@@ -17922,7 +17973,7 @@
       "party": "APC",
       "state": "Lagos",
       "constituency": "Surulere I",
-      "imageUrl": "/data/legislator_images/house_rep_123.jpg",
+      "imageUrl": "/data/legislator_images/rep_fuad_kayode_laguda.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "d18c022b-b0c8-439f-a0c5-72eaeef5eea2",
@@ -17993,7 +18044,7 @@
       "party": "APC",
       "state": "Kaduna",
       "constituency": "Kachia/Kagarko",
-      "imageUrl": "/data/legislator_images/house_rep_124.jpg",
+      "imageUrl": "/data/legislator_images/rep_gabriel_saleh_zock.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "842d6a88-4aef-47c2-8879-70932a938ccd",
@@ -18046,7 +18097,7 @@
       "party": "APC",
       "state": "Plateau",
       "constituency": "Pankshin/Kanke/Kanam",
-      "imageUrl": "/data/legislator_images/house_rep_125.jpg",
+      "imageUrl": "/data/legislator_images/rep_gagdi_adamu_yusuf.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "eee1d729-913e-4872-b75b-12cf7cac222f",
@@ -18117,15 +18168,32 @@
           "pdfCommitteeReport": ""
         },
         {
+          "billId": "5484883e-ee0b-4c7b-8056-04b7965e282f",
+          "billNumber": "HB 2493",
+          "title": "Economic and Financial Crimes Commission (Establishment) Act (Amendment) Bill",
+          "category": "Crime and Law Enforcement",
+          "dateFirstReading": "2025-07-23",
+          "dateSecondReading": "2025-10-23",
+          "committee": "Financial Crimes",
+          "thirdReadingStatus": "House: 2026-07-23",
+          "passedThirdReading": true,
+          "primarySponsor": "Hon Gagdi Adamu Yusuf",
+          "sponsorsDetails": "Hon Gagdi Adamu Yusuf (APC, Plateau, Constituency: Kanke/Pankshin/Kanam)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
           "billId": "60747110-4942-421c-939c-276169405835",
           "billNumber": "HB 2396",
           "title": "Economic and Financial Crimes Commission Institute (Establishment) Bill, 2025",
           "category": "Crime and Law Enforcement",
-          "dateFirstReading": "",
-          "dateSecondReading": "2025-11-12",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
+          "dateFirstReading": "2025-06-26",
+          "dateSecondReading": "2025-11-04",
+          "committee": "Financial Crimes",
+          "thirdReadingStatus": "House: 2026-07-23",
+          "passedThirdReading": true,
           "primarySponsor": "Hon Gagdi Adamu Yusuf",
           "sponsorsDetails": "Hon Gagdi Adamu Yusuf (APC, Plateau, Constituency: Kanke/Pankshin/Kanam)",
           "pdfInitialBill": "",
@@ -18214,6 +18282,23 @@
           "primarySponsor": "Hon Gagdi Adamu Yusuf",
           "sponsorsDetails": "Hon Gagdi Adamu Yusuf (APC, Plateau, Constituency: Kanke/Pankshin/Kanam)",
           "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1768987569_HB42.pdf",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "fd5facb9-9e36-4f2e-8b37-80c59835b51e",
+          "billNumber": "HB 2450",
+          "title": "Money Laundering (Prevention and Prohibition) Act (Amendment) Bill",
+          "category": "Crime and Law Enforcement",
+          "dateFirstReading": "2025-07-23",
+          "dateSecondReading": "2025-10-29",
+          "committee": "Financial Crimes",
+          "thirdReadingStatus": "House: 2026-07-23",
+          "passedThirdReading": true,
+          "primarySponsor": "Hon Gagdi Adamu Yusuf",
+          "sponsorsDetails": "Hon Gagdi Adamu Yusuf (APC, Plateau, Constituency: Kanke/Pankshin/Kanam)",
+          "pdfInitialBill": "",
           "pdfPassedBill": "",
           "pdfSignedAct": "",
           "pdfCommitteeReport": ""
@@ -18406,6 +18491,23 @@
           "pdfCommitteeReport": ""
         },
         {
+          "billId": "2912d0d7-7f69-4e22-b595-90fe1661f532",
+          "billNumber": "HB 2447",
+          "title": "Proceeds of Crime (Recovery and Management) Act (Amendment) Bill",
+          "category": "Crime and Law Enforcement",
+          "dateFirstReading": "2025-07-23",
+          "dateSecondReading": "2025-10-28",
+          "committee": "Financial Crimes",
+          "thirdReadingStatus": "House: 2026-07-23",
+          "passedThirdReading": true,
+          "primarySponsor": "Hon Gagdi Adamu Yusuf",
+          "sponsorsDetails": "Hon Gagdi Adamu Yusuf (APC, Plateau, Constituency: Kanke/Pankshin/Kanam)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
           "billId": "17835e66-19c6-41ba-9704-ac6e4138c7d5",
           "billNumber": "HB 387",
           "title": "Regional Centre for Oral Health Research and Training Initiatives (Establishment, etc.) Bill, 2023",
@@ -18424,13 +18526,13 @@
         }
       ],
       "cosponsoredBills": [],
-      "totalBills": 22,
-      "sponsoredCount": 22,
+      "totalBills": 25,
+      "sponsoredCount": 25,
       "cosponsoredCount": 0,
-      "conversionRate": 0,
-      "billsPassed": 0,
+      "conversionRate": 16,
+      "billsPassed": 4,
       "firstBillDate": "2023-07-06",
-      "latestBillDate": "2023-07-27"
+      "latestBillDate": "2025-07-23"
     },
     {
       "id": "126",
@@ -18439,7 +18541,7 @@
       "party": "APC",
       "state": "Lagos",
       "constituency": "Alimosho",
-      "imageUrl": "/data/legislator_images/house_rep_126.jpg",
+      "imageUrl": "/data/legislator_images/rep_ganiyu_ayuba.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "2b97fdbf-cdcb-40cd-8965-1f540b8f79d3",
@@ -18527,7 +18629,7 @@
       "party": "NNPP",
       "state": "Kano",
       "constituency": "Gwale",
-      "imageUrl": "/data/legislator_images/house_rep_127.jpg",
+      "imageUrl": "/data/legislator_images/rep_garba_ibrahim_muhammad.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "d95da8dc-52df-4cba-bfc2-128d425f92b0",
@@ -18632,7 +18734,7 @@
       "party": "APC",
       "state": "Kebbi",
       "constituency": "Ngaski/Shanga/Yauri",
-      "imageUrl": "/data/legislator_images/house_rep_128.jpg",
+      "imageUrl": "/data/legislator_images/rep_garba_umar_uba.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "9bd02531-df1d-46fe-9480-07e3fbe65fac",
@@ -18685,7 +18787,7 @@
       "party": "PDP",
       "state": "Nasarawa",
       "constituency": "Karu/Keffi/Kokona",
-      "imageUrl": "/data/legislator_images/house_rep_129.jpg",
+      "imageUrl": "/data/legislator_images/rep_gaza_jonathan_gbefwi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "8f51f99d-62e3-429a-beef-321ec98c9bea",
@@ -18909,7 +19011,7 @@
       "party": "APC",
       "state": "Ogun",
       "constituency": "Egbado North/Imeko Afon",
-      "imageUrl": "/data/legislator_images/house_rep_130.jpg",
+      "imageUrl": "/data/legislator_images/rep_gboyega_nasir_isiaka.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "b275dd55-4b15-4a95-978b-b3de0c943ab2",
@@ -18997,7 +19099,7 @@
       "party": "LP",
       "state": "Anambra",
       "constituency": "Njikoka/Anaocha/Dunukofia",
-      "imageUrl": "/data/legislator_images/house_rep_131.jpg",
+      "imageUrl": "/data/legislator_images/rep_george_ozodinobi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "38289e65-0d74-40ed-999f-25b160d57846",
@@ -19033,7 +19135,7 @@
       "party": "NNPP",
       "state": "Kano",
       "constituency": "Albasu/Gaya/Ajingi",
-      "imageUrl": "/data/legislator_images/house_rep_132.jpg",
+      "imageUrl": "/data/legislator_images/rep_ghali_tijjani_mustapha.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "4242287f-b56c-470e-b9da-8636ac309954",
@@ -19222,7 +19324,7 @@
       "party": "APC",
       "state": "Imo",
       "constituency": "Nkwerre/Isu/Nwangele/Njaba",
-      "imageUrl": "/data/legislator_images/house_rep_133.jpg",
+      "imageUrl": "/data/legislator_images/rep_harrison_anozie_nwadike.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "99e7e738-2ca2-48c2-b9ea-96b00286d62e",
@@ -19297,11 +19399,11 @@
           "billNumber": "HB 2191",
           "title": "Federal College of Nursing, Midwifery, and Health Sciences, Ihebinowerre, Imo State (Est.) Bill, 2025",
           "category": "Health",
-          "dateFirstReading": "",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
+          "dateFirstReading": "2025-03-13",
+          "dateSecondReading": "2025-05-21",
+          "committee": "Health Institutions",
+          "thirdReadingStatus": "House: 2026-07-22",
+          "passedThirdReading": true,
           "primarySponsor": "Harrison Anozie Nwadike",
           "sponsorsDetails": "Harrison Anozie Nwadike (APC, Imo, Constituency: Isu/Njaba/Nkwerre/Nwangele)",
           "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1769688166_HB2191.pdf",
@@ -19314,10 +19416,10 @@
       "totalBills": 5,
       "sponsoredCount": 5,
       "cosponsoredCount": 0,
-      "conversionRate": 0,
-      "billsPassed": 0,
+      "conversionRate": 20,
+      "billsPassed": 1,
       "firstBillDate": "2024-07-02",
-      "latestBillDate": "2024-07-11"
+      "latestBillDate": "2025-03-13"
     },
     {
       "id": "134",
@@ -19326,7 +19428,7 @@
       "party": "NNPP",
       "state": "Kano",
       "constituency": "Dawakin Kudu/Warawa",
-      "imageUrl": "/data/legislator_images/house_rep_134.jpg",
+      "imageUrl": "/data/legislator_images/rep_hassan_mohammed.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "4fa994d1-5329-44ba-b644-f7860a9de12d",
@@ -19431,7 +19533,7 @@
       "party": "NNPP",
       "state": "Kano",
       "constituency": "Nassarawa",
-      "imageUrl": "/data/legislator_images/house_rep_135.jpg",
+      "imageUrl": "/data/legislator_images/rep_hassan_shehu_hussain.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "1797cc26-df76-4759-b1d0-39b60208d85b",
@@ -19535,7 +19637,7 @@
       "party": "APC",
       "state": "Edo",
       "constituency": "Esan North East/South East",
-      "imageUrl": "/data/legislator_images/house_rep_136.jpg",
+      "imageUrl": "/data/legislator_images/rep_henry_odianosen_okojie.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "313337b2-0c6c-4523-811b-df6b4a2d82b4",
@@ -19639,7 +19741,7 @@
       "party": "APC",
       "state": "Kaduna",
       "constituency": "Kaduna South",
-      "imageUrl": "/data/legislator_images/house_rep_137.jpg",
+      "imageUrl": "/data/legislator_images/rep_hussaini_ahmed_abdulkarim.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "6b1ae52b-b0de-43a8-a158-f4e12ecc3c76",
@@ -19675,7 +19777,7 @@
       "party": "LP",
       "state": "Abia",
       "constituency": "Arochukwu/Ohafia",
-      "imageUrl": "/data/legislator_images/house_rep_138.jpg",
+      "imageUrl": "/data/legislator_images/rep_ibe_okwara_osonwa.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "7487bf21-ceb1-4005-988b-4031ee653cce",
@@ -19780,7 +19882,7 @@
       "party": "APC",
       "state": "Sokoto",
       "constituency": "Wurno/Rabah",
-      "imageUrl": "/data/legislator_images/house_rep_139.jpg",
+      "imageUrl": "/data/legislator_images/rep_ibrahim_almustapha_aliyu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "e094cab5-f66d-4f45-8ca4-b2e7f6ea05b1",
@@ -20054,7 +20156,7 @@
       "party": "APC",
       "state": "Ogun",
       "constituency": "Ifo/Ewekoro",
-      "imageUrl": "/data/legislator_images/house_rep_140.jpg",
+      "imageUrl": "/data/legislator_images/rep_ibrahim_ayokunle_isiaka.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3fc026c0-4ccc-443b-80d1-4e0735bc25c0",
@@ -20107,7 +20209,7 @@
       "party": "APC",
       "state": "Kano",
       "constituency": "Dambatta/Makoda",
-      "imageUrl": "/data/legislator_images/house_rep_141.jpg",
+      "imageUrl": "/data/legislator_images/rep_ibrahim_hamisu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "4c2ff63a-1a15-491e-a3fc-68c6750796a0",
@@ -20143,7 +20245,7 @@
       "party": "APC",
       "state": "Borno",
       "constituency": "Dikwa/Mafa/Konduga",
-      "imageUrl": "/data/legislator_images/house_rep_142.jpg",
+      "imageUrl": "/data/legislator_images/rep_ibrahim_mohammed_bukar.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "22fea484-c0eb-4f7b-ad9e-a499afc4caac",
@@ -20247,7 +20349,7 @@
       "party": "APC",
       "state": "Ebonyi",
       "constituency": "Afikpo North/Afikpo South",
-      "imageUrl": "/data/legislator_images/house_rep_143.jpg",
+      "imageUrl": "/data/legislator_images/rep_iduma_enwo_igariwey.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "a8ab6b06-858d-4fa9-ac4b-dc9bc8b3f54f",
@@ -20334,7 +20436,7 @@
       "party": "APC",
       "state": "Ondo",
       "constituency": "Akoko North East/West",
-      "imageUrl": "/data/legislator_images/house_rep_144.jpg",
+      "imageUrl": "/data/legislator_images/rep_ifeoluwa_ehindero.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "01b9fcf1-0eaa-4d29-8a71-8c588850b06f",
@@ -20404,7 +20506,7 @@
       "party": "PDP",
       "state": "Akwa Ibom",
       "constituency": "Itu/Ibiono Ibom",
-      "imageUrl": "/data/legislator_images/house_rep_145.jpg",
+      "imageUrl": "/data/legislator_images/rep_ime_bassey_okon.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "74aaa814-9240-4f87-9f2e-18052b44dadd",
@@ -20509,7 +20611,7 @@
       "party": "PDP",
       "state": "Gombe",
       "constituency": "Yamaltu/Deba",
-      "imageUrl": "/data/legislator_images/house_rep_146.jpg",
+      "imageUrl": "/data/legislator_images/rep_inuwa_garba.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "9f1d28df-40ed-4e21-a303-211a671fc351",
@@ -20648,7 +20750,7 @@
       "party": "APC",
       "state": "Jigawa",
       "constituency": "Babura/Garki",
-      "imageUrl": "/data/legislator_images/house_rep_147.jpg",
+      "imageUrl": "/data/legislator_images/rep_isa_dogonyaro.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "532d6e7e-ff31-4d30-896f-72d5fb6167a2",
@@ -20718,7 +20820,7 @@
       "party": "APC",
       "state": "Zamfara",
       "constituency": "Anka/Talata Mafara",
-      "imageUrl": "/data/legislator_images/house_rep_148.jpg",
+      "imageUrl": "/data/legislator_images/rep_isa_mohammed_anka.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "12ffe930-78ee-4e2d-a37d-cd6917f4fcf9",
@@ -20771,7 +20873,7 @@
       "party": "APC",
       "state": "Niger",
       "constituency": "Shiroro/Rafi/Munya",
-      "imageUrl": "/data/legislator_images/house_rep_149.jpg",
+      "imageUrl": "/data/legislator_images/rep_ismail_modibo_musa.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "b70c349c-c776-44da-a2ef-04482f3c3b66",
@@ -20807,7 +20909,7 @@
       "party": "APC",
       "state": "Adamawa",
       "constituency": "Maiha/Mubi North/Mubi South",
-      "imageUrl": "/data/legislator_images/house_rep_150.jpg",
+      "imageUrl": "/data/legislator_images/rep_ja_afar_abubakar_magaji.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3bbc3f1e-8a98-480a-a1d0-9e02d441b0ce",
@@ -20877,7 +20979,7 @@
       "party": "PDP",
       "state": "Taraba",
       "constituency": "Bali/Gassol",
-      "imageUrl": "/data/legislator_images/house_rep_151.jpg",
+      "imageUrl": "/data/legislator_images/rep_jaafaru_yakubu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "6b182822-1168-4af2-bb40-d63248fc9eeb",
@@ -20930,7 +21032,7 @@
       "party": "APC",
       "state": "Bauchi",
       "constituency": "Bogoro/Dass/Tafawa Balewa",
-      "imageUrl": "/data/legislator_images/house_rep_152.jpg",
+      "imageUrl": "/data/legislator_images/rep_jafaru_gambo_leko.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "624cee61-3d2a-447f-b795-6c8857fc8bb5",
@@ -21052,7 +21154,7 @@
       "party": "APC",
       "state": "Niger",
       "constituency": "Agwara/Borgu",
-      "imageUrl": "/data/legislator_images/house_rep_153.jpg",
+      "imageUrl": "/data/legislator_images/rep_jafaru_mohammed.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "a46cdb99-08b1-4891-a195-f968d5911015",
@@ -21088,7 +21190,7 @@
       "party": "PDP",
       "state": "Kaduna",
       "constituency": "Igabi",
-      "imageUrl": "/data/legislator_images/house_rep_154.jpg",
+      "imageUrl": "/data/legislator_images/rep_jalio_hussaini_mohammed.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "82a30a1f-a48d-46c7-a40f-df4d34844342",
@@ -21175,7 +21277,7 @@
       "party": "APC",
       "state": "Nasarawa",
       "constituency": "Akwanga/Nasarawa Eggon/Wamba",
-      "imageUrl": "/data/legislator_images/house_rep_155.jpg",
+      "imageUrl": "/data/legislator_images/rep_jeremiah_umaru.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "9472f9d7-f21e-41ba-8ed7-f0f9897b8b53",
@@ -21263,6 +21365,23 @@
           "pdfCommitteeReport": ""
         },
         {
+          "billId": "1112c44f-fc81-49f7-87cb-8ce736421782",
+          "billNumber": "HB 2801",
+          "title": "Federal Polytechnics Act (Amendment) Bill, 2026",
+          "category": "Education",
+          "dateFirstReading": "",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Hon Jeremiah Umaru",
+          "sponsorsDetails": "Hon Jeremiah Umaru (APC, Nasarawa, Constituency: Akwanga/Nassarawa Eggon/ Wamba)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
           "billId": "c4df9315-8e0f-4b1f-ae4a-48d4123e6852",
           "billNumber": "HB 117",
           "title": "Federal University of Education Akwanga, Nasarawa State (Establishment) Bill, 2023",
@@ -21302,7 +21421,7 @@
           "title": "National Institute for Technical and Vocational Education Wamba, Nasarawa State (Establishment) Bill, 2023",
           "category": "Education",
           "dateFirstReading": "2023-07-18",
-          "dateSecondReading": "2002-10-24",
+          "dateSecondReading": "0024-10-02",
           "committee": "Federal Polytechnics",
           "thirdReadingStatus": "Not Started",
           "passedThirdReading": false,
@@ -21349,8 +21468,8 @@
         }
       ],
       "cosponsoredBills": [],
-      "totalBills": 10,
-      "sponsoredCount": 10,
+      "totalBills": 11,
+      "sponsoredCount": 11,
       "cosponsoredCount": 0,
       "conversionRate": 0,
       "billsPassed": 0,
@@ -21361,10 +21480,10 @@
       "id": "156",
       "name": "Hon Jesse Okey-Joe Onuakachi",
       "officialName": "Jesse Okey-Joe Onuakalusi",
-      "party": "LP",
+      "party": "ADC",
       "state": "Lagos",
       "constituency": "Oshodi-Isolo II",
-      "imageUrl": "/data/legislator_images/house_rep_156.jpg",
+      "imageUrl": "/data/legislator_images/rep_jesse_okey_joe_onuakachi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "793a7772-1687-4293-8eae-9ff01377bf1b",
@@ -21588,7 +21707,7 @@
       "party": "APC",
       "state": "Plateau",
       "constituency": "Mikang/Qua'n-Pan/Shendam",
-      "imageUrl": "/data/legislator_images/house_rep_157.jpg",
+      "imageUrl": "/data/legislator_images/rep_john_moenwul_dafaan.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "e29faa6f-ddd6-4046-b7a6-3336adf1977a",
@@ -21676,7 +21795,7 @@
       "party": "PDP",
       "state": "Delta",
       "constituency": "Isoko North/Isoko South",
-      "imageUrl": "/data/legislator_images/house_rep_158.jpg",
+      "imageUrl": "/data/legislator_images/rep_jonathan_ajirioghene_ukodhiko.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3a95fe01-eaa0-4ab3-8627-a87e01db0a82",
@@ -21917,7 +22036,7 @@
       "party": "APC",
       "state": "Cross River",
       "constituency": "Calabar South/Akpabuyo/Bakassi",
-      "imageUrl": "/data/legislator_images/house_rep_159.jpg",
+      "imageUrl": "/data/legislator_images/rep_joseph_bassey.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "fed8933a-230c-47cd-b7e6-121a9d27e5f6",
@@ -22039,7 +22158,7 @@
       "party": "APC",
       "state": "Ogun",
       "constituency": "Ijebu North/Ijebu East/Ogun Waterside",
-      "imageUrl": "/data/legislator_images/house_rep_160.jpg",
+      "imageUrl": "/data/legislator_images/rep_joseph_folorunsho_adegbesan.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "55b4897a-b076-4286-9fb3-5baa05ebde5d",
@@ -22194,7 +22313,7 @@
       "party": "LP",
       "state": "Federal Capital Territory",
       "constituency": "Abuja Municipal/Bwari",
-      "imageUrl": "/data/legislator_images/house_rep_161.jpg",
+      "imageUrl": "/data/legislator_images/rep_joshua_chinedu_obika.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "491d890d-db42-48d9-aed2-6d37abf73578",
@@ -22282,7 +22401,7 @@
       "party": "PDP",
       "state": "Niger",
       "constituency": "Lavun/Mokwa/Edati",
-      "imageUrl": "/data/legislator_images/house_rep_162.jpg",
+      "imageUrl": "/data/legislator_images/rep_joshua_gana.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "c6a1aaec-6e01-4e2b-b708-2cccdb92a3ab",
@@ -22421,7 +22540,7 @@
       "party": "APC",
       "state": "Kano",
       "constituency": "Bebeji/Kiru",
-      "imageUrl": "/data/legislator_images/house_rep_163.jpg",
+      "imageUrl": "/data/legislator_images/rep_jubrin_abdulmumin.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "7e15bec9-63b1-491c-8fae-bf5e383faa7c",
@@ -22525,7 +22644,7 @@
       "party": "PDP",
       "state": "Delta",
       "constituency": "Burutu",
-      "imageUrl": "/data/legislator_images/house_rep_164.jpg",
+      "imageUrl": "/data/legislator_images/rep_julius_gbabojor_pondi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "8bb6acca-8906-4e43-a9fd-7bffb62a2c09",
@@ -22612,7 +22731,7 @@
       "party": "APC",
       "state": "Edo",
       "constituency": "Owan East/Owan West",
-      "imageUrl": "/data/legislator_images/house_rep_165.jpg",
+      "imageUrl": "/data/legislator_images/rep_julius_ihonvbere.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "82f21da2-e35f-43a6-99e4-1ab466a4096e",
@@ -23788,7 +23907,7 @@
       "party": "APC",
       "state": "Kebbi",
       "constituency": "Fakai/Zuru/Sakaba/Danko-Wasagu",
-      "imageUrl": "/data/legislator_images/house_rep_166.jpg",
+      "imageUrl": "/data/legislator_images/rep_kabir_tukura_ibrahim.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3766bd7b-0eb4-45ab-a865-438404fb6344",
@@ -23858,7 +23977,7 @@
       "party": "NNPP",
       "state": "Kano",
       "constituency": "Rano/Bunkure/Kibiya",
-      "imageUrl": "/data/legislator_images/house_rep_167.jpg",
+      "imageUrl": "/data/legislator_images/rep_kabiru_alhassan_usman_rurum.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "f8d997a5-2267-4d36-bbd4-ee3c93b3e0af",
@@ -24031,7 +24150,7 @@
       "party": "PDP",
       "state": "Zamfara",
       "constituency": "Gusau/Tsafe",
-      "imageUrl": "/data/legislator_images/house_rep_168.jpg",
+      "imageUrl": "/data/legislator_images/rep_kabiru_amadu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "7650bd52-b3a1-4636-9f9f-8d7428fea5b7",
@@ -24101,7 +24220,7 @@
       "party": "PDP",
       "state": "Rivers",
       "constituency": "Etche/Omuma",
-      "imageUrl": "/data/legislator_images/house_rep_169.jpg",
+      "imageUrl": "/data/legislator_images/rep_kelechi_nwogu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "31f73c8a-9327-4a04-893b-552ea4208e38",
@@ -24240,7 +24359,7 @@
       "party": "PDP",
       "state": "Rivers",
       "constituency": "Obio/Akpor",
-      "imageUrl": "/data/legislator_images/house_rep_170.jpg",
+      "imageUrl": "/data/legislator_images/rep_kingsley_chinda.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "12e69271-52a7-42e1-84ed-b95122e0171d",
@@ -24549,7 +24668,7 @@
       "party": "APC",
       "state": "Ekiti",
       "constituency": "Moba/Ilejemeje/Ido Osi",
-      "imageUrl": "/data/legislator_images/house_rep_171.jpg",
+      "imageUrl": "/data/legislator_images/rep_kolawole_davidson_akinlayo.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3fd71c54-fab8-4144-b803-cf69004c780d",
@@ -24599,10 +24718,10 @@
       "id": "172",
       "name": "Hon Kwamoti Bitrus Laori",
       "officialName": "Kwamoti Bitrus Laori",
-      "party": "PDP",
+      "party": "APC",
       "state": "Adamawa",
       "constituency": "Demsa/Numan/Lamurde",
-      "imageUrl": "/data/legislator_images/house_rep_172.jpg",
+      "imageUrl": "/data/legislator_images/rep_kwamoti_bitrus_laori.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "6ba69d79-bb59-4615-a0d7-657a8a9f0472",
@@ -24689,7 +24808,7 @@
       "party": "APC",
       "state": "Plateau",
       "constituency": "Bokkos/Mangu",
-      "imageUrl": "/data/legislator_images/house_rep_173.jpg",
+      "imageUrl": "/data/legislator_images/rep_lalu_ishaya_david.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "d5e3f58b-c5c7-4579-ac55-5f81d9ed8f5e",
@@ -24742,7 +24861,7 @@
       "party": "APC",
       "state": "Lagos",
       "constituency": "Surulere II",
-      "imageUrl": "/data/legislator_images/house_rep_174.jpg",
+      "imageUrl": "/data/legislator_images/rep_lanre_okunlola.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "e164db66-1415-4471-a99a-28ec316b2cc2",
@@ -25017,7 +25136,7 @@
       "party": "APC",
       "state": "Yobe",
       "constituency": "Bursari/Geidam/Yunusari",
-      "imageUrl": "/data/legislator_images/house_rep_175.jpg",
+      "imageUrl": "/data/legislator_images/rep_lawan_shettima_ali.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "6e418499-5b56-499f-b5b1-77f80137cef1",
@@ -25071,7 +25190,7 @@
       "party": "PDP",
       "state": "Kogi",
       "constituency": "Yagba East/Yagba West/Mopamuro",
-      "imageUrl": "/data/legislator_images/house_rep_176.jpg",
+      "imageUrl": "/data/legislator_images/rep_leke_joseph_abejide.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "a5eb2c68-3172-4f6f-8a72-c6937c7a0652",
@@ -25142,7 +25261,7 @@
       "party": "PDP",
       "state": "Cross River",
       "constituency": "Akamkpa/Biase",
-      "imageUrl": "/data/legislator_images/house_rep_177.jpg",
+      "imageUrl": "/data/legislator_images/rep_lemke_emil_inyang.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "c0eaa050-5e2c-474f-ba57-d6a359aff7cb",
@@ -25226,10 +25345,10 @@
       "id": "178",
       "name": "Hon Lukman Mudashiru",
       "officialName": "Mudashiru Lukman Alani",
-      "party": "PDP",
+      "party": "ACCORD",
       "state": "Osun",
       "constituency": "Ayedire/Iwo/Ola-Oluwa",
-      "imageUrl": "/data/legislator_images/house_rep_178.jpg",
+      "imageUrl": "/data/legislator_images/rep_lukman_mudashiru.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "7ca1a5d3-c2b4-4907-a99f-fd32518a405f",
@@ -25290,8 +25409,8 @@
           "dateFirstReading": "2025-06-24",
           "dateSecondReading": "2025-12-11",
           "committee": "Human Rights",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
+          "thirdReadingStatus": "House: 2026-07-23",
+          "passedThirdReading": true,
           "primarySponsor": "Hon Lukman Mudashiru",
           "sponsorsDetails": "Hon Lukman Mudashiru (PDP, Osun, Constituency: Ayedire/Iwo/Ola-Oluwa); Hon Abiola Peter Makinde (APC, Ondo, Constituency: Ondo East/Ondo West)",
           "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1772520186_HB.2376.pdf",
@@ -25321,8 +25440,8 @@
       "totalBills": 5,
       "sponsoredCount": 5,
       "cosponsoredCount": 0,
-      "conversionRate": 0,
-      "billsPassed": 0,
+      "conversionRate": 20,
+      "billsPassed": 1,
       "firstBillDate": "2023-11-07",
       "latestBillDate": "2025-06-24"
     },
@@ -25333,7 +25452,7 @@
       "party": "APC",
       "state": "Jigawa",
       "constituency": "Malam Madori/Kaugama",
-      "imageUrl": "/data/legislator_images/house_rep_179.jpg",
+      "imageUrl": "/data/legislator_images/rep_makki_yalloman_abubakar.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "64969f85-8a09-43fe-8963-3c0d73609db5",
@@ -25403,7 +25522,7 @@
       "party": "APC",
       "state": "Borno",
       "constituency": "Kukawa/Mobbar/Abadam/Guzamala",
-      "imageUrl": "/data/legislator_images/house_rep_180.jpg",
+      "imageUrl": "/data/legislator_images/rep_mallam_bukar_gana.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "5dbd5257-c8f7-44be-ad6c-3a6fc77606e1",
@@ -25474,7 +25593,7 @@
       "party": "APC",
       "state": "Bauchi",
       "constituency": "Darazo/Ganjuwa",
-      "imageUrl": "/data/legislator_images/house_rep_181.jpg",
+      "imageUrl": "/data/legislator_images/rep_mansur_manu_soro.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "28bd746e-4c7a-42bb-abb1-0224d6204952",
@@ -25875,7 +25994,7 @@
           "dateFirstReading": "2024-03-13",
           "dateSecondReading": "",
           "committee": "Not Yet Referred",
-          "thirdReadingStatus": "House: 2025-05-21",
+          "thirdReadingStatus": "House: 2025-05-21, Senate: 2026-07-23",
           "passedThirdReading": true,
           "primarySponsor": "Hon Mansur Manu Soro",
           "sponsorsDetails": "Hon Mansur Manu Soro (APC, Bauchi, Constituency: Darazo/Gunjuwa)",
@@ -26035,10 +26154,10 @@
       "id": "182",
       "name": "Hon Mansur Musa",
       "officialName": "Mansur Musa",
-      "party": "PDP",
+      "party": "APC",
       "state": "Kebbi",
       "constituency": "Allero/Gwandu/Jega",
-      "imageUrl": "/data/legislator_images/house_rep_182.jpg",
+      "imageUrl": "/data/legislator_images/rep_mansur_musa.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "80b51e42-2c06-495a-b6c1-a39e7ba80d0c",
@@ -26142,7 +26261,7 @@
       "party": "PDP",
       "state": "Edo",
       "constituency": "Esan Central/Esan West/Igueben",
-      "imageUrl": "/data/legislator_images/house_rep_183.jpg",
+      "imageUrl": "/data/legislator_images/rep_marcus_onobun.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "e4937ace-e7e3-4b28-9dd0-384ee2a782ff",
@@ -26246,7 +26365,7 @@
       "party": "APC",
       "state": "Enugu",
       "constituency": "Nsukka/Igboeze South",
-      "imageUrl": "/data/legislator_images/house_rep_184.jpg",
+      "imageUrl": "/data/legislator_images/rep_mark_chidi_obetta.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "39eb6ab7-7d5a-4400-b19f-f91ca2359232",
@@ -26299,7 +26418,7 @@
       "party": "PDP",
       "state": "Akwa Ibom",
       "constituency": "Uyo/Uruan/Nsit Atai/Ibesikpo Asutan",
-      "imageUrl": "/data/legislator_images/house_rep_185.jpg",
+      "imageUrl": "/data/legislator_images/rep_mark_udo_esset.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "fe8669cf-c3b5-46a9-b7e9-5806f6401da8",
@@ -26352,7 +26471,7 @@
       "party": "PDP",
       "state": "Akwa Ibom",
       "constituency": "Oron/Mbo/Okobo/Udung Uko/Urue Offong/Oruko",
-      "imageUrl": "/data/legislator_images/house_rep_186.jpg",
+      "imageUrl": "/data/legislator_images/rep_martins_etim_esin.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "18055ced-4d9f-4991-94e7-2237e5d58bb1",
@@ -26456,7 +26575,7 @@
       "party": "LP",
       "state": "Imo",
       "constituency": "Aboh Mbaise/Ngor Okpala",
-      "imageUrl": "/data/legislator_images/house_rep_187.jpg",
+      "imageUrl": "/data/legislator_images/rep_mathew_nwogu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "401f6fe8-61b7-40a1-b415-eafc2efce9ed",
@@ -26625,10 +26744,10 @@
       "id": "188",
       "name": "Hon Midala Usman Balami",
       "officialName": "Midala Usman Balami",
-      "party": "PDP",
+      "party": "APC",
       "state": "Borno",
       "constituency": "Askira-Uba/Hawul",
-      "imageUrl": "/data/legislator_images/house_rep_188.jpg",
+      "imageUrl": "/data/legislator_images/rep_midala_usman_balami.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "96f09f74-c958-4c9e-bea7-118835575702",
@@ -26715,7 +26834,7 @@
       "party": "APC",
       "state": "Imo",
       "constituency": "Onuimo/Okigwe/Isiala Mbano",
-      "imageUrl": "/data/legislator_images/house_rep_189.jpg",
+      "imageUrl": "/data/legislator_images/rep_miriam_onuoha.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "379d4801-f398-440f-8a2c-b3e28588a506",
@@ -27126,7 +27245,7 @@
       "party": "PDP",
       "state": "Bayelsa",
       "constituency": "Ogbia",
-      "imageUrl": "/data/legislator_images/house_rep_190.jpg",
+      "imageUrl": "/data/legislator_images/rep_mitema_obordor.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "4618622a-0723-46a1-9d47-db0d1eafc594",
@@ -27247,7 +27366,7 @@
       "party": "PDP",
       "state": "Taraba",
       "constituency": "Lau/Karim Lamido/Ardo-Kola",
-      "imageUrl": "/data/legislator_images/house_rep_191.jpg",
+      "imageUrl": "/data/legislator_images/rep_mohammed_audu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3c87e07d-b9eb-420c-8360-d36ad60fa00f",
@@ -27283,7 +27402,7 @@
       "party": "APC",
       "state": "Kaduna",
       "constituency": "Kaduna North",
-      "imageUrl": "/data/legislator_images/house_rep_192.jpg",
+      "imageUrl": "/data/legislator_images/rep_mohammed_bello_el_rufai.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "2016ad55-38a2-4ca2-8f73-6f4c67f5ff71",
@@ -27473,7 +27592,7 @@
       "party": "NNPP",
       "state": "Kano",
       "constituency": "Fagge",
-      "imageUrl": "/data/legislator_images/house_rep_193.jpg",
+      "imageUrl": "/data/legislator_images/rep_mohammed_bello_shehu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "58d38477-31bd-437e-a018-a52670d27e12",
@@ -27628,7 +27747,7 @@
       "party": "NNPP",
       "state": "Kano",
       "constituency": "Gezawa/Gabasawa",
-      "imageUrl": "/data/legislator_images/house_rep_194.jpg",
+      "imageUrl": "/data/legislator_images/rep_mohammed_chiroma.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "a606b53a-9ed8-41eb-9a8c-f2316fb4d79c",
@@ -27681,7 +27800,7 @@
       "party": "PDP",
       "state": "Bauchi",
       "constituency": "Zaki",
-      "imageUrl": "/data/legislator_images/house_rep_195.jpg",
+      "imageUrl": "/data/legislator_images/rep_mohammed_dan_abba_shehu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "bef4af87-7d51-43f6-8164-1e410084dc06",
@@ -27751,7 +27870,7 @@
       "party": "PDP",
       "state": "Faskari/Kankara/Sabuwa",
       "constituency": "Katsina",
-      "imageUrl": "/data/legislator_images/house_rep_196.jpg",
+      "imageUrl": "/data/legislator_images/rep_mohammed_jamilu_katsina.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "35795e19-d3b7-4c5a-b7e0-218e5802410e",
@@ -27784,10 +27903,10 @@
       "id": "197",
       "name": "Hon Mohammed Saidu Bargaja",
       "officialName": "Mohammed Saidu Bargaja",
-      "party": "PDP",
+      "party": "APC",
       "state": "Sokoto",
       "constituency": "Isa/Sabon Birni",
-      "imageUrl": "/data/legislator_images/house_rep_197.jpg",
+      "imageUrl": "/data/legislator_images/rep_mohammed_saidu_bargaja.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "541f150b-bcbe-4561-9df8-99aefa719ec1",
@@ -27837,10 +27956,10 @@
       "id": "198",
       "name": "Hon Morufu Adewale Adebayo",
       "officialName": "Adewale Morufu Adebayo",
-      "party": "PDP",
+      "party": "ACCORD",
       "state": "Osun",
       "constituency": "Irepodun/Olorunda/Osogbo/Orolu",
-      "imageUrl": "/data/legislator_images/house_rep_198.jpg",
+      "imageUrl": "/data/legislator_images/rep_morufu_adewale_adebayo.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "71ceab20-ab7b-4bec-ab4e-26bcb5b7097c",
@@ -27927,7 +28046,7 @@
       "party": "APC",
       "state": "Lagos",
       "constituency": "Mushin II",
-      "imageUrl": "/data/legislator_images/house_rep_199.jpg",
+      "imageUrl": "/data/legislator_images/rep_moses_oluwatoyin_fayinka.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "4a192061-42ba-4ec0-8217-7eb1a42bbc83",
@@ -28031,7 +28150,7 @@
       "party": "APC",
       "state": "Lagos",
       "constituency": "Lagos Island II",
-      "imageUrl": "/data/legislator_images/house_rep_200.jpg",
+      "imageUrl": "/data/legislator_images/rep_moshood_kayode_akiolu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "731700ae-8527-471f-911b-17732bd34be0",
@@ -28204,7 +28323,7 @@
       "party": "APC",
       "state": "Lagos",
       "constituency": "Lagos Mainland",
-      "imageUrl": "/data/legislator_images/house_rep_201.jpg",
+      "imageUrl": "/data/legislator_images/rep_moshood_olanrewaju_oshun.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "457e6ef1-0c42-462b-9b60-fa70ab66aa9e",
@@ -28292,7 +28411,7 @@
       "party": "PDP",
       "state": "Yobe",
       "constituency": "Fika/Fune",
-      "imageUrl": "/data/legislator_images/house_rep_202.jpg",
+      "imageUrl": "/data/legislator_images/rep_muhammed_buba_jajere.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "d2d11d3a-42cc-497e-ad52-c36dd804eacf",
@@ -28345,7 +28464,7 @@
       "party": "NNPP",
       "state": "Kano",
       "constituency": "Tarauni",
-      "imageUrl": "/data/legislator_images/house_rep_203.jpg",
+      "imageUrl": "/data/legislator_images/rep_mukhtar_umar_zakari.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "1c19095a-d61f-429a-ac3d-4be25d8002ce",
@@ -28449,7 +28568,7 @@
       "party": "APC",
       "state": "Kwara",
       "constituency": "Ilorin West/Asa",
-      "imageUrl": "/data/legislator_images/house_rep_204.jpg",
+      "imageUrl": "/data/legislator_images/rep_muktar_tolani_shagaya.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "7b0996e8-4ba5-4aac-ac55-06938e07dab8",
@@ -28758,7 +28877,7 @@
       "party": "LP",
       "state": "Abia",
       "constituency": "Obingwa/Osisioma/Ugwunagbo",
-      "imageUrl": "/data/legislator_images/house_rep_205.jpg",
+      "imageUrl": "/data/legislator_images/rep_munachim_alozie.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3ed09acc-31d3-42c1-934c-4457820ed040",
@@ -28791,10 +28910,10 @@
       "id": "206",
       "name": "Hon Murphy Osaro Omoruyi",
       "officialName": "Omoruyi Murphy Osaro",
-      "party": "LP",
+      "party": "ADC",
       "state": "Edo",
       "constituency": "Egor/Ikpoba-Okha",
-      "imageUrl": "/data/legislator_images/house_rep_206.jpg",
+      "imageUrl": "/data/legislator_images/rep_murphy_osaro_omoruyi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "aa6d56e3-af95-44da-8731-9728a6cac5d9",
@@ -29068,7 +29187,7 @@
       "party": "APC",
       "state": "Delta",
       "constituency": "Aniocha/Oshimili",
-      "imageUrl": "/data/legislator_images/house_rep_207.jpg",
+      "imageUrl": "/data/legislator_images/rep_ngozi_okolie.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "99da28b2-0d0a-4953-9b42-a865d3736bbe",
@@ -29121,7 +29240,7 @@
       "party": "PDP",
       "state": "Delta",
       "constituency": "Bomadi/Patani",
-      "imageUrl": "/data/legislator_images/house_rep_208.jpg",
+      "imageUrl": "/data/legislator_images/rep_nicholas_ebomo_mutu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "1f129608-5e93-4355-9877-61f22618b959",
@@ -29260,7 +29379,7 @@
       "party": "APC",
       "state": "Enugu",
       "constituency": "Nkanu East/Nkanu West",
-      "imageUrl": "/data/legislator_images/house_rep_209.jpg",
+      "imageUrl": "/data/legislator_images/rep_ninolim_john_ninaji.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "5f8a2198-19a3-48b3-b27e-679f4c92b033",
@@ -29416,7 +29535,7 @@
       "party": "PDP",
       "state": "Delta",
       "constituency": "Ndokwa East/Ndokwa West/Ukwuani",
-      "imageUrl": "/data/legislator_images/house_rep_210.jpg",
+      "imageUrl": "/data/legislator_images/rep_nnamdi_ezechi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "d4423c38-5f1a-454e-8b5f-0f8e546e350f",
@@ -29690,7 +29809,7 @@
       "party": "PDP",
       "state": "Rivers",
       "constituency": "Eleme/Oyigbo/Tai",
-      "imageUrl": "/data/legislator_images/house_rep_211.jpg",
+      "imageUrl": "/data/legislator_images/rep_nwaeke_felix_uche.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "ba824215-60ff-4e83-9547-411452fbf6f1",
@@ -29778,7 +29897,7 @@
       "party": "PDP",
       "state": "Gombe",
       "constituency": "Kaltungo/Shongom",
-      "imageUrl": "/data/legislator_images/house_rep_212.jpg",
+      "imageUrl": "/data/legislator_images/rep_obeid_paul_shehu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "1ff96ccf-6379-45ea-a8c7-ad46b9d8e1b6",
@@ -29828,10 +29947,10 @@
       "id": "213",
       "name": "Hon Obiageli Lillian Orogbu",
       "officialName": "Orogwu Obiageli",
-      "party": "LP",
+      "party": "ADC",
       "state": "Anambra",
       "constituency": "Awka North/Awka South",
-      "imageUrl": "/data/legislator_images/house_rep_213.jpg",
+      "imageUrl": "/data/legislator_images/rep_obiageli_lillian_orogbu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "135690c1-cde0-405c-bcd6-81ca15d095b4",
@@ -29901,7 +30020,7 @@
       "party": "LP",
       "state": "Abia",
       "constituency": "Ikwuano/Umuahia North/South",
-      "imageUrl": "/data/legislator_images/house_rep_214.jpg",
+      "imageUrl": "/data/legislator_images/rep_obinna_aguocha.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "013a6533-06c1-439c-9853-f91e5cd8e3aa",
@@ -30158,7 +30277,7 @@
       "party": "LP",
       "state": "Abia",
       "constituency": "Isialangwa North/South",
-      "imageUrl": "/data/legislator_images/house_rep_215.jpg",
+      "imageUrl": "/data/legislator_images/rep_obinna_ginger_onwusibe.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "e3ff032e-7734-46fe-b7ae-01d505e6b816",
@@ -30228,7 +30347,7 @@
       "party": "PDP",
       "state": "Cross River",
       "constituency": "Ogoja/Yala",
-      "imageUrl": "/data/legislator_images/house_rep_216.jpg",
+      "imageUrl": "/data/legislator_images/rep_offiono_godwin.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "8bc7119d-9edf-4f13-8721-62b286324322",
@@ -30298,7 +30417,7 @@
       "party": "PDP",
       "state": "Benue",
       "constituency": "Apa/Agatu",
-      "imageUrl": "/data/legislator_images/house_rep_217.jpg",
+      "imageUrl": "/data/legislator_images/rep_ojema_ojotu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "53251603-624c-4787-bee1-c4abfefa903c",
@@ -30334,7 +30453,7 @@
       "party": "APC",
       "state": "Ekiti",
       "constituency": "Ekiti South West/Ikere/Ise/Orun",
-      "imageUrl": "/data/legislator_images/house_rep_218.jpg",
+      "imageUrl": "/data/legislator_images/rep_ojuawo_rufus_adeniyi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3e892bc2-9b6c-4f3a-8250-114950f64906",
@@ -30387,7 +30506,7 @@
       "party": "PDP",
       "state": "Akwa Ibom",
       "constituency": "Eket/Onna/Esit Eket/Ibeno",
-      "imageUrl": "/data/legislator_images/house_rep_219.jpg",
+      "imageUrl": "/data/legislator_images/rep_okpolupm_etteh.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "faa32b67-0177-4a2a-a3a6-6ed6b5d6018c",
@@ -30508,7 +30627,7 @@
       "party": "APC",
       "state": "Ondo",
       "constituency": "Okitipupa/Irele",
-      "imageUrl": "/data/legislator_images/house_rep_220.jpg",
+      "imageUrl": "/data/legislator_images/rep_okunjimi_john_odimayo.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "da143d21-48b8-4011-a4e1-dd9531b62c29",
@@ -30612,7 +30731,7 @@
       "party": "APC",
       "state": "Oyo",
       "constituency": "Irepo/Orelope/Olorunsogo",
-      "imageUrl": "/data/legislator_images/house_rep_221.jpg",
+      "imageUrl": "/data/legislator_images/rep_olaide_yusuf_mohammed.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "11f0a41c-1256-42b7-84b8-dd4ae060ed54",
@@ -30716,7 +30835,7 @@
       "party": "APC",
       "state": "Ogun",
       "constituency": "Ado-Odo/Ota",
-      "imageUrl": "/data/legislator_images/house_rep_222.jpg",
+      "imageUrl": "/data/legislator_images/rep_olatunji_akinosi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "36d6e06d-ee90-4de5-9523-389e00a4e9d6",
@@ -30803,7 +30922,7 @@
       "party": "APC",
       "state": "Ekiti",
       "constituency": "Emure/Gbonyin/Ekiti East",
-      "imageUrl": "/data/legislator_images/house_rep_223.jpg",
+      "imageUrl": "/data/legislator_images/rep_olufemi_richard_bamisile.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "7f75e0fd-6829-4a2b-b2b2-6c5e212ade09",
@@ -30873,7 +30992,7 @@
       "party": "APC",
       "state": "Ogun",
       "constituency": "Ijebu-Ode/Ijebu North East/Odogbolu",
-      "imageUrl": "/data/legislator_images/house_rep_224.jpg",
+      "imageUrl": "/data/legislator_images/rep_olufomi_ogunbanwo.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "ef1562d1-a949-405a-bf74-9a13f8cc902f",
@@ -30926,7 +31045,7 @@
       "party": "APC",
       "state": "Ogun",
       "constituency": "Abeokuta North/Obafemi-Owode/Odeda",
-      "imageUrl": "/data/legislator_images/house_rep_225.jpg",
+      "imageUrl": "/data/legislator_images/rep_olumide_babatunde_osoba.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3a812710-0a1d-4e01-82a6-bf22d235c1c9",
@@ -31030,7 +31149,7 @@
       "party": "APC",
       "state": "Ekiti",
       "constituency": "Ado Ekiti/Irepodun/Ifelodun",
-      "imageUrl": "/data/legislator_images/house_rep_226.jpg",
+      "imageUrl": "/data/legislator_images/rep_olusola_steve_fatoba.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "24742f5b-0992-4e00-972d-c81bad8efbd8",
@@ -31135,7 +31254,7 @@
       "party": "LP",
       "state": "Lagos",
       "constituency": "Ojo",
-      "imageUrl": "/data/legislator_images/house_rep_227.jpg",
+      "imageUrl": "/data/legislator_images/rep_oluwaseyi_sowumi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "1bb00635-5ebc-44ec-ae87-62ce3ec5c0e0",
@@ -31206,7 +31325,7 @@
       "party": "PDP",
       "state": "Osun",
       "constituency": "Obokun/Oriade",
-      "imageUrl": "/data/legislator_images/house_rep_228.jpg",
+      "imageUrl": "/data/legislator_images/rep_oluwole_oke.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "2d1d7e90-923e-4a68-8b6b-a876bb4a2334",
@@ -31668,7 +31787,7 @@
       "party": "LP",
       "state": "Ebonyi",
       "constituency": "Ivo/Ohaozara/Onicha",
-      "imageUrl": "/data/legislator_images/house_rep_229.jpg",
+      "imageUrl": "/data/legislator_images/rep_osi_kama_nkemkanma.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "ce3a7f86-8a0f-4e3e-8776-647784ff74b4",
@@ -31926,7 +32045,7 @@
       "party": "APC",
       "state": "Imo",
       "constituency": "Nkwerre/Nwangele/Isu/Njaba",
-      "imageUrl": "/data/legislator_images/house_rep_230.jpg",
+      "imageUrl": "/data/legislator_images/rep_ozurigbo_ugonna.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "9d483c00-1d9c-4451-90a1-ffa93cd9e88f",
@@ -32183,7 +32302,7 @@
       "party": "APGA",
       "state": "Anambra",
       "constituency": "Ihiala",
-      "imageUrl": "/data/legislator_images/house_rep_231.jpg",
+      "imageUrl": "/data/legislator_images/rep_pascal_agbodike.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "bd30c81e-3fb4-4b73-8eba-31b926d5067b",
@@ -32576,7 +32695,7 @@
       "party": "APC",
       "state": "Akwa Ibom",
       "constituency": "Ikot Ekpene/Essien Udim/Obot Akara",
-      "imageUrl": "/data/legislator_images/house_rep_232.jpg",
+      "imageUrl": "/data/legislator_images/rep_patrick_umoh.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "b5f129f2-013c-45d0-8cc1-4e5c10459677",
@@ -32839,8 +32958,8 @@
           "title": "Orthopaedic Hospitals Management Board Act (Amendment) Bill, 2026",
           "category": "Health",
           "dateFirstReading": "2026-06-04",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
+          "dateSecondReading": "2026-07-22",
+          "committee": "Health",
           "thirdReadingStatus": "Not Started",
           "passedThirdReading": false,
           "primarySponsor": "Patrick Umoh",
@@ -32902,7 +33021,7 @@
       "party": "PDP",
       "state": "Akwa Ibom",
       "constituency": "Etinan/Nsit Ibom/Nsit Ubium",
-      "imageUrl": "/data/legislator_images/house_rep_233.jpg",
+      "imageUrl": "/data/legislator_images/rep_paul_asuquo_ekpo.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "929fc9fc-e689-4e88-8b79-4254680386e1",
@@ -33074,7 +33193,7 @@
       "party": "LP",
       "state": "Enugu",
       "constituency": "Enugu East/Isi-Uzo",
-      "imageUrl": "/data/legislator_images/house_rep_234.jpg",
+      "imageUrl": "/data/legislator_images/rep_paul_nnamchi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "30da598c-2cc2-4cb9-b883-2673d0c2f3c1",
@@ -33390,8 +33509,8 @@
           "dateFirstReading": "2023-10-31",
           "dateSecondReading": "2024-06-06",
           "committee": "the Whole",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
+          "thirdReadingStatus": "House: 2024-10-31, Senate: 2026-07-23",
+          "passedThirdReading": true,
           "primarySponsor": "Hon Paul Nnamchi",
           "sponsorsDetails": "Hon Paul Nnamchi (LP, Enugu, Constituency: Enugu East/Isi Uzo)",
           "pdfInitialBill": "",
@@ -33643,8 +33762,8 @@
       "totalBills": 33,
       "sponsoredCount": 29,
       "cosponsoredCount": 4,
-      "conversionRate": 0,
-      "billsPassed": 0,
+      "conversionRate": 3,
+      "billsPassed": 1,
       "firstBillDate": "2023-10-03",
       "latestBillDate": "2025-12-10"
     },
@@ -33655,7 +33774,7 @@
       "party": "PDP",
       "state": "Cross River",
       "constituency": "Obanliku/Obudu/Bekwarra",
-      "imageUrl": "/data/legislator_images/house_rep_235.jpg",
+      "imageUrl": "/data/legislator_images/rep_peter_akpanko.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "47696022-dfb2-4bde-8c56-075018ac8ba1",
@@ -33708,7 +33827,7 @@
       "party": "PDP",
       "state": "Plateau",
       "constituency": "Barkin Ladi/ Riyom",
-      "imageUrl": "/data/legislator_images/house_rep_236.jpg",
+      "imageUrl": "/data/legislator_images/rep_peter_gyendeng.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "167ffd14-2e7a-4f7a-aad7-05da9f2181f6",
@@ -33761,7 +33880,7 @@
       "party": "APC",
       "state": "Benue",
       "constituency": "Ado/Ogbadibo/Okpokwu",
-      "imageUrl": "/data/legislator_images/house_rep_237.jpg",
+      "imageUrl": "/data/legislator_images/rep_philip_agbese.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "12dbd5eb-8304-48a7-8a61-68e1ecd08891",
@@ -33984,7 +34103,7 @@
       "party": "APC",
       "state": "Benue",
       "constituency": "Katsina Ala/Ukum/Logo",
-      "imageUrl": "/data/legislator_images/house_rep_238.jpg",
+      "imageUrl": "/data/legislator_images/rep_prince_solomon_wombo.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "5c25d7ae-a7bf-4fba-8a50-f160ad82358e",
@@ -34054,7 +34173,7 @@
       "party": "APC",
       "state": "Kebbi",
       "constituency": "Arewa/Dandi",
-      "imageUrl": "/data/legislator_images/house_rep_239.jpg",
+      "imageUrl": "/data/legislator_images/rep_rabiu_garba_kamba.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "4197fb79-f61e-4078-a112-5a891564ed5f",
@@ -34090,7 +34209,7 @@
       "party": "NNPP",
       "state": "Kano",
       "constituency": "Sumaila/Takai",
-      "imageUrl": "/data/legislator_images/house_rep_240.jpg",
+      "imageUrl": "/data/legislator_images/rep_rabiu_yusuf.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "f46ceeaa-ea14-4c21-9678-795f9faf2d58",
@@ -34245,7 +34364,7 @@
       "party": "PDP",
       "state": "Bayelsa",
       "constituency": "Southern Ijaw",
-      "imageUrl": "/data/legislator_images/house_rep_241.jpg",
+      "imageUrl": "/data/legislator_images/rep_rodney_ebikebina_ambiowei.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "37caf98c-02f6-4f1d-b3d0-86c7d048d007",
@@ -34350,7 +34469,7 @@
       "party": "APC",
       "state": "Katsina",
       "constituency": "Jibia/Kaita",
-      "imageUrl": "/data/legislator_images/house_rep_242.jpg",
+      "imageUrl": "/data/legislator_images/rep_sada_soli.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "96221866-6739-4bf4-bb16-963a5c340704",
@@ -34642,6 +34761,23 @@
           "pdfCommitteeReport": ""
         },
         {
+          "billId": "368160df-c4b1-4e4d-9346-de00f810fe77",
+          "billNumber": "HB 2779",
+          "title": "Nigerian Airspace Management Agency (Establishment) Act (Amendment) Bill",
+          "category": "Aviation",
+          "dateFirstReading": "",
+          "dateSecondReading": "2026-07-22",
+          "committee": "Aviation",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Hon Sada Soli",
+          "sponsorsDetails": "Hon Sada Soli (APC, Katsina, Constituency: Jibia/Kaita)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
           "billId": "3270940a-9005-46a4-bf82-be26b2d4ba85",
           "billNumber": "HB 2152",
           "title": "Nigerian Educational Research and Development Council Act (Amendment) Bill, 2025",
@@ -34762,8 +34898,8 @@
         }
       ],
       "cosponsoredBills": [],
-      "totalBills": 24,
-      "sponsoredCount": 24,
+      "totalBills": 25,
+      "sponsoredCount": 25,
       "cosponsoredCount": 0,
       "conversionRate": 0,
       "billsPassed": 0,
@@ -34777,7 +34913,7 @@
       "party": "PDP",
       "state": "Taraba",
       "constituency": "Jalingo/Yorro/Zing",
-      "imageUrl": "/data/legislator_images/house_rep_243.jpg",
+      "imageUrl": "/data/legislator_images/rep_sadiq_abbas_tafida.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "fa7e5779-3a70-4693-96ba-1177e0d3fc6c",
@@ -34830,7 +34966,7 @@
       "party": "APC",
       "state": "Kaduna",
       "constituency": "Sabon Gari",
-      "imageUrl": "/data/legislator_images/house_rep_244.jpg",
+      "imageUrl": "/data/legislator_images/rep_sadiq_ango_abdullahi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "d8c8dd15-3ffb-43bf-aecc-03f02a640d99",
@@ -34952,7 +35088,7 @@
       "party": "APC",
       "state": "Kano",
       "constituency": "Municipal",
-      "imageUrl": "/data/legislator_images/house_rep_245.jpg",
+      "imageUrl": "/data/legislator_images/rep_sagir_koki.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "87751285-c33e-485b-9777-92c9cb690694",
@@ -35209,7 +35345,7 @@
       "party": "APC",
       "state": "Niger",
       "constituency": "Bida/Gbako/Katcha",
-      "imageUrl": "/data/legislator_images/house_rep_246.jpg",
+      "imageUrl": "/data/legislator_images/rep_saidu_musa_abdullahi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "9030f7f1-c1db-4ff9-8d54-e5b84bce944e",
@@ -35535,6 +35671,23 @@
           "pdfCommitteeReport": ""
         },
         {
+          "billId": "c8a61a34-0d3a-46c7-aacd-8a84cda3e1b8",
+          "billNumber": "HB 2795",
+          "title": "National Commission for Rural Infrastructure and Development (Establishment) Bill",
+          "category": "Infrastructure and Public Works",
+          "dateFirstReading": "2025-07-09",
+          "dateSecondReading": "2026-07-22",
+          "committee": "Rural Development",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Hon Saidu Musa Abdullahi",
+          "sponsorsDetails": "Hon Saidu Musa Abdullahi (APC, Niger, Constituency: Bida/Gbako/Katcha)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
           "billId": "f3fe589f-f954-4935-b7d4-79bac9d205b3",
           "billNumber": "HB 262",
           "title": "National Rice Development Council Bill, 2023",
@@ -35706,8 +35859,8 @@
         }
       ],
       "cosponsoredBills": [],
-      "totalBills": 29,
-      "sponsoredCount": 29,
+      "totalBills": 30,
+      "sponsoredCount": 30,
       "cosponsoredCount": 0,
       "conversionRate": 0,
       "billsPassed": 0,
@@ -35721,7 +35874,7 @@
       "party": "PDP",
       "state": "Katsina",
       "constituency": "Mashi/Dutsi",
-      "imageUrl": "/data/legislator_images/house_rep_247.jpg",
+      "imageUrl": "/data/legislator_images/rep_salisu_yusuf.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "aa8fd8e7-b76b-47f1-90d7-3dd9408cfa59",
@@ -35774,7 +35927,7 @@
       "party": "APC",
       "state": "Kogi",
       "constituency": "Ijumu/Kabba-Bunu",
-      "imageUrl": "/data/legislator_images/house_rep_248.jpg",
+      "imageUrl": "/data/legislator_images/rep_salman_idris.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "62abed81-b979-4051-8271-563ff75feeef",
@@ -35782,8 +35935,8 @@
           "title": "Agricultural Research Council of Nigeria Act (Amendment) Bill, 2024",
           "category": "Agriculture",
           "dateFirstReading": "2024-06-06",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
+          "dateSecondReading": "2026-05-05",
+          "committee": "Agricultural Colleges and Institutions",
           "thirdReadingStatus": "Not Started",
           "passedThirdReading": false,
           "primarySponsor": "Salman Idris",
@@ -35827,7 +35980,7 @@
       "party": "NNPP",
       "state": "Kano",
       "constituency": "Minjibir/Ungogo",
-      "imageUrl": "/data/legislator_images/house_rep_249.jpg",
+      "imageUrl": "/data/legislator_images/rep_sani_adamu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "93ff946f-1cfd-42d6-944e-6e60d1dc3c56",
@@ -35880,7 +36033,7 @@
       "party": "APC",
       "state": "Zamfara",
       "constituency": "Bakura/Maradun",
-      "imageUrl": "/data/legislator_images/house_rep_250.jpg",
+      "imageUrl": "/data/legislator_images/rep_sani_muhammad_ahmad.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "cadbc82b-491f-4ba0-983a-a8df87b01115",
@@ -35933,7 +36086,7 @@
       "party": "APC",
       "state": "Kano",
       "constituency": "Tsanyawa/Kunchi",
-      "imageUrl": "/data/legislator_images/house_rep_251.jpg",
+      "imageUrl": "/data/legislator_images/rep_sani_umar_bala.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "284dcc3f-c132-457c-a7ab-c7dadb82cbff",
@@ -35969,7 +36122,7 @@
       "party": "APC",
       "state": "Kogi",
       "constituency": "Ajaokuta",
-      "imageUrl": "/data/legislator_images/house_rep_252.jpg",
+      "imageUrl": "/data/legislator_images/rep_sanni_abdulraheem.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "af33c03e-145d-4d5e-8117-903e19687a3c",
@@ -36039,7 +36192,7 @@
       "party": "APC",
       "state": "Borno",
       "constituency": "Jere",
-      "imageUrl": "/data/legislator_images/house_rep_253.jpg",
+      "imageUrl": "/data/legislator_images/rep_satomi_ahmad.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "cae8ad3f-8a21-47b8-90d1-20c5167a4952",
@@ -36161,7 +36314,7 @@
       "party": "APC",
       "state": "Benue",
       "constituency": "Buruku",
-      "imageUrl": "/data/legislator_images/house_rep_254.jpg",
+      "imageUrl": "/data/legislator_images/rep_sekav_dzua_iyortyom.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "ef19fca7-009e-4bdb-894b-ac7afb845e41",
@@ -36248,7 +36401,7 @@
       "party": "APC",
       "state": "Lagos",
       "constituency": "Badagry",
-      "imageUrl": "/data/legislator_images/house_rep_255.jpg",
+      "imageUrl": "/data/legislator_images/rep_sesi_whingan.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "f9abe3bd-9ef2-40b8-a59a-e7b522a53bdd",
@@ -36285,11 +36438,11 @@
           "pdfCommitteeReport": ""
         },
         {
-          "billId": "3fe3b593-a921-44da-8e97-3b9b83dc787f",
-          "billNumber": "HB 532",
-          "title": "Central Bank of Nigeria Act (Amendment) Bill, 2023",
-          "category": "Banking and Finance",
-          "dateFirstReading": "2023-10-05",
+          "billId": "22595b73-c89a-4cbf-83b9-9f41745ae9cc",
+          "billNumber": "HB 338",
+          "title": "Cancer Registry Bill (Establishment) Bill, 2023",
+          "category": "Health",
+          "dateFirstReading": "2023-07-27",
           "dateSecondReading": "",
           "committee": "Not Yet Referred",
           "thirdReadingStatus": "Not Started",
@@ -36302,11 +36455,11 @@
           "pdfCommitteeReport": ""
         },
         {
-          "billId": "22595b73-c89a-4cbf-83b9-9f41745ae9cc",
-          "billNumber": "HB 338",
-          "title": "Cancer Registry Bill (Establishment) Bill, 2023",
-          "category": "Health",
-          "dateFirstReading": "2023-07-27",
+          "billId": "3fe3b593-a921-44da-8e97-3b9b83dc787f",
+          "billNumber": "HB 532",
+          "title": "Central Bank of Nigeria Act (Amendment) Bill, 2023",
+          "category": "Banking and Finance",
+          "dateFirstReading": "2023-10-05",
           "dateSecondReading": "",
           "committee": "Not Yet Referred",
           "thirdReadingStatus": "Not Started",
@@ -36659,7 +36812,7 @@
       "party": "APC",
       "state": "Benue",
       "constituency": "Konshisha/Vandeikya",
-      "imageUrl": "/data/legislator_images/house_rep_256.jpg",
+      "imageUrl": "/data/legislator_images/rep_sesoo_ikpagher.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "b84c16da-6866-48e1-a13c-f4c937cdc111",
@@ -36746,7 +36899,7 @@
       "party": "APC",
       "state": "Katsina",
       "constituency": "Faskari/Kankara/Sabuwa",
-      "imageUrl": "/data/legislator_images/house_rep_257.jpg",
+      "imageUrl": "/data/legislator_images/rep_shehu_dalhatu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "ad1f03e2-d15a-455f-acdf-bbfb85ed5ae8",
@@ -36833,7 +36986,7 @@
       "party": "APC",
       "state": "Niger",
       "constituency": "Magama/Rijau",
-      "imageUrl": "/data/legislator_images/house_rep_258.jpg",
+      "imageUrl": "/data/legislator_images/rep_shehu_saleh_rijau.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "523a4cc0-41c1-458a-ae78-36e8ee33d510",
@@ -36886,7 +37039,7 @@
       "party": "PDP",
       "state": "Enugu",
       "constituency": "Igboeze North /Udenu",
-      "imageUrl": "/data/legislator_images/house_rep_259.jpg",
+      "imageUrl": "/data/legislator_images/rep_simon_chukwuemeka_atigwe.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "d8d0ba37-9d84-4c8f-a412-ff3c20077cff",
@@ -36922,7 +37075,7 @@
       "party": "PDP",
       "state": "Rivers",
       "constituency": "Abua-Odual/Ahoada East",
-      "imageUrl": "/data/legislator_images/house_rep_260.jpg",
+      "imageUrl": "/data/legislator_images/rep_solomon_t_bob.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "86502f1e-6b91-40c1-97c5-50e6c8fd9684",
@@ -37025,16 +37178,33 @@
           "pdfPassedBill": "",
           "pdfSignedAct": "",
           "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "c13ecc10-2c1b-465c-bb58-f3dca911e696",
+          "billNumber": "HB 2762",
+          "title": "Trustee Investment Act (Repeal and Enactment) Bill, 2026",
+          "category": "Business, Trade, Investment",
+          "dateFirstReading": "2026-05-05",
+          "dateSecondReading": "2026-07-23",
+          "committee": "Capital Market",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Hon Solomon T Bob",
+          "sponsorsDetails": "Hon Solomon T Bob (PDP, Rivers, Constituency: Ahoada West/Ogba Egbema)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
         }
       ],
       "cosponsoredBills": [],
-      "totalBills": 6,
-      "sponsoredCount": 6,
+      "totalBills": 7,
+      "sponsoredCount": 7,
       "cosponsoredCount": 0,
       "conversionRate": 0,
       "billsPassed": 0,
       "firstBillDate": "2024-04-30",
-      "latestBillDate": "2024-07-23"
+      "latestBillDate": "2026-05-05"
     },
     {
       "id": "261",
@@ -37043,7 +37213,7 @@
       "party": "PDP",
       "state": "Zamfara",
       "constituency": "Gummi/Bukkuyum",
-      "imageUrl": "/data/legislator_images/house_rep_261.jpg",
+      "imageUrl": "/data/legislator_images/rep_sulaiman_gumi_abubakar.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "2083c18c-bf94-4dbf-b77d-6ab2feb3a433",
@@ -37317,7 +37487,7 @@
       "party": "APC",
       "state": "Edo",
       "constituency": "Etsako East/West/Central",
-      "imageUrl": "/data/legislator_images/house_rep_262.jpg",
+      "imageUrl": "/data/legislator_images/rep_sunday_anamero_dekeri.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "308b6fbe-a6b0-4cdd-b817-87deacd16de8",
@@ -37421,7 +37591,7 @@
       "party": "LP",
       "state": "Enugu",
       "constituency": "Ezeagu/Udi",
-      "imageUrl": "/data/legislator_images/house_rep_263.jpg",
+      "imageUrl": "/data/legislator_images/rep_sunday_umeha.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "aded8f96-1ab1-4f4a-bf2e-2ba75c6806e0",
@@ -37525,25 +37695,8 @@
       "party": "APC",
       "state": "Kaduna",
       "constituency": "Zaria",
-      "imageUrl": "/data/legislator_images/house_rep_264.jpg",
+      "imageUrl": "/data/legislator_images/rep_tajudeen_abbas.jpg?v=4",
       "sponsoredBills": [
-        {
-          "billId": "ea3d4d0a-255c-4596-be9b-e870695591ea",
-          "billNumber": "HB 2117",
-          "title": "Agricultural Research Council of Nigeria (Amendment) Bill, 2025",
-          "category": "Agriculture",
-          "dateFirstReading": "",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Hon Tajudeen Abbas",
-          "sponsorsDetails": "Hon Tajudeen Abbas (APC, Kaduna, Constituency: Zaria)",
-          "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1770375212_HB2117.pdf",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
         {
           "billId": "32417d54-2bc9-413b-951b-5da58cbd25da",
           "billNumber": "HB 2116",
@@ -37557,6 +37710,23 @@
           "primarySponsor": "Hon Tajudeen Abbas",
           "sponsorsDetails": "Hon Tajudeen Abbas (APC, Kaduna, Constituency: Zaria)",
           "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1770375163_HB2116.pdf",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "ea3d4d0a-255c-4596-be9b-e870695591ea",
+          "billNumber": "HB 2117",
+          "title": "Agricultural Research Council of Nigeria (Amendment) Bill, 2025",
+          "category": "Agriculture",
+          "dateFirstReading": "",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Hon Tajudeen Abbas",
+          "sponsorsDetails": "Hon Tajudeen Abbas (APC, Kaduna, Constituency: Zaria)",
+          "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1770375212_HB2117.pdf",
           "pdfPassedBill": "",
           "pdfSignedAct": "",
           "pdfCommitteeReport": ""
@@ -37822,10 +37992,10 @@
           "title": "Department of State Service Research and Development Bureau (Establishment) Bill, 2026",
           "category": "Security",
           "dateFirstReading": "2026-03-11",
-          "dateSecondReading": "",
+          "dateSecondReading": "2026-04-23",
           "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
+          "thirdReadingStatus": "House: 2026-07-23",
+          "passedThirdReading": true,
           "primarySponsor": "Hon Tajudeen Abbas",
           "sponsorsDetails": "Hon Tajudeen Abbas (APC, Kaduna, Constituency: Zaria)",
           "pdfInitialBill": "",
@@ -38482,6 +38652,23 @@
           "pdfCommitteeReport": ""
         },
         {
+          "billId": "bea75338-4ecb-4bc8-97b5-032826fd9b28",
+          "billNumber": "HB 2789",
+          "title": "North-West Development Commission (Establishment) Act (Amendment) Bill, 2026",
+          "category": "Rural Development",
+          "dateFirstReading": "2026-07-08",
+          "dateSecondReading": "2026-07-23",
+          "committee": "Committee on North-West Development Commission",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Hon Bello Ambarura Isah",
+          "sponsorsDetails": "Hon Bello Ambarura Isah (APC, Sokoto, Constituency: Illela/Gwadabawa); Hon Tajudeen Abbas (APC, Kaduna, Constituency: Zaria)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
           "billId": "e49d59f9-b08c-4322-9b35-dc7cd5b88539",
           "billNumber": "HB 2232",
           "title": "Yusuf Maitama Sule Federal University of Education, Kano (Establishment) Bill, 2025",
@@ -38499,13 +38686,13 @@
           "pdfCommitteeReport": ""
         }
       ],
-      "totalBills": 57,
+      "totalBills": 58,
       "sponsoredCount": 49,
-      "cosponsoredCount": 8,
-      "conversionRate": 10,
-      "billsPassed": 5,
+      "cosponsoredCount": 9,
+      "conversionRate": 12,
+      "billsPassed": 6,
       "firstBillDate": "2023-07-05",
-      "latestBillDate": "2026-05-06"
+      "latestBillDate": "2026-07-08"
     },
     {
       "id": "265",
@@ -38514,7 +38701,7 @@
       "party": "APC",
       "state": "Oyo",
       "constituency": "Saki East/Saki West/Atisbo",
-      "imageUrl": "/data/legislator_images/house_rep_265.jpg",
+      "imageUrl": "/data/legislator_images/rep_tajudeen_kareem.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "2af15178-7400-4793-bdab-8f4c34a6bd60",
@@ -38635,7 +38822,7 @@
       "party": "APC",
       "state": "Osun",
       "constituency": "Ife Central/Ife East/Ife North/Ife South",
-      "imageUrl": "/data/legislator_images/house_rep_266.jpg",
+      "imageUrl": "/data/legislator_images/rep_taofeek_abimbola_ajilesoro.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "074b2b69-6511-4102-b9ea-3eef6cc18b8a",
@@ -38756,7 +38943,7 @@
       "party": "APGA",
       "state": "Benue",
       "constituency": "Makurdi/Guma",
-      "imageUrl": "/data/legislator_images/house_rep_267.jpg",
+      "imageUrl": "/data/legislator_images/rep_tarkighir_dickson_dominic.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "68aae28e-8886-47f9-86e1-f475b503e91a",
@@ -38809,7 +38996,7 @@
       "party": "APC",
       "state": "Lagos",
       "constituency": "Epe",
-      "imageUrl": "/data/legislator_images/house_rep_268.jpg",
+      "imageUrl": "/data/legislator_images/rep_tasir_olawale_raji.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "65f04fc8-447c-40e7-b63c-0e8387bd0bce",
@@ -38982,7 +39169,7 @@
       "party": "APC",
       "state": "Benue",
       "constituency": "Kwande/Ushongo",
-      "imageUrl": "/data/legislator_images/house_rep_269.jpg",
+      "imageUrl": "/data/legislator_images/rep_terseer_ugbor.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "40e0b086-19a9-4085-9351-0a3e3bd8fee8",
@@ -39087,7 +39274,7 @@
       "party": "APC",
       "state": "Yobe",
       "constituency": "Machina/Nguru/Karasuwa/Yusufari",
-      "imageUrl": "/data/legislator_images/house_rep_270.jpg",
+      "imageUrl": "/data/legislator_images/rep_tijiani_zannah_zakariya.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "4a5d563c-7c41-4354-bcce-48144c6a0ec5",
@@ -39140,7 +39327,7 @@
       "party": "NNPP",
       "state": "Kano",
       "constituency": "Dawakin Tofa/Tofa/Rimin Gado",
-      "imageUrl": "/data/legislator_images/house_rep_271.jpg",
+      "imageUrl": "/data/legislator_images/rep_tijjani_abdulkadir_jobe.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "092b8349-5991-412a-ad06-85d240d96409",
@@ -39193,7 +39380,7 @@
       "party": "APC",
       "state": "Oyo",
       "constituency": "Oluyole",
-      "imageUrl": "/data/legislator_images/house_rep_272.jpg",
+      "imageUrl": "/data/legislator_images/rep_tolulope_tiwalola_akande_sadipe.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "6a82f3c0-cd65-429a-ad45-7b8909f9f69d",
@@ -39246,7 +39433,7 @@
       "party": "LP",
       "state": "Anambra",
       "constituency": "Idemili North/Idemili South",
-      "imageUrl": "/data/legislator_images/house_rep_273.jpg",
+      "imageUrl": "/data/legislator_images/rep_uchenna_okonkwo.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "72aad2fc-589f-432c-b274-c0019a4d1f7a",
@@ -39538,7 +39725,7 @@
       "party": "PDP",
       "state": "Akwa Ibom",
       "constituency": "Ikot Abasi/Mkpat Enin/Eastern Obolo",
-      "imageUrl": "/data/legislator_images/house_rep_274.jpg",
+      "imageUrl": "/data/legislator_images/rep_uduak_alphonsus_odudoh.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "f2615548-116e-4cb8-8469-144979e7363a",
@@ -39608,7 +39795,7 @@
       "party": "PDP",
       "state": "Imo",
       "constituency": "Ideato North/Ideato South",
-      "imageUrl": "/data/legislator_images/house_rep_275.jpg",
+      "imageUrl": "/data/legislator_images/rep_ugochinyere_onyinye_ikeagwuonu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "12b05694-8f43-48a0-b9cf-d7525042ac5f",
@@ -40206,7 +40393,7 @@
       "party": "PDP",
       "state": "Akwa Ibom",
       "constituency": "Ukanafun/Oruk Anam",
-      "imageUrl": "/data/legislator_images/house_rep_276.jpg",
+      "imageUrl": "/data/legislator_images/rep_unyime_josiah_idem.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "7da0bf75-19b0-4d88-9685-815e2d8ab831",
@@ -40310,7 +40497,7 @@
       "party": "APC",
       "state": "Taraba",
       "constituency": "Donga/Ussa/Takum",
-      "imageUrl": "/data/legislator_images/house_rep_277.jpg",
+      "imageUrl": "/data/legislator_images/rep_useni_mark_bako.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "4ffa89a2-d663-438e-87c9-21e2f29a5610",
@@ -40414,7 +40601,7 @@
       "party": "APC",
       "state": "Jigawa",
       "constituency": "Hadejia/Kafin Hausa/Auyo",
-      "imageUrl": "/data/legislator_images/house_rep_278.jpg",
+      "imageUrl": "/data/legislator_images/rep_usman_ibrahim_auyo.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "06cb3266-67dc-4a81-8663-91ca03639ba9",
@@ -40450,7 +40637,7 @@
       "party": "APC",
       "state": "Borno",
       "constituency": "Abadam/Mobbar",
-      "imageUrl": "/data/legislator_images/house_rep_279.jpg",
+      "imageUrl": "/data/legislator_images/rep_usman_zannah.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "5f197a4a-19e8-4352-9a5b-14e8d7accb64",
@@ -40520,7 +40707,7 @@
       "party": "APC",
       "state": "Cross River",
       "constituency": "Boki/Ikom",
-      "imageUrl": "/data/legislator_images/house_rep_280.jpg",
+      "imageUrl": "/data/legislator_images/rep_victor_abang.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "64d65925-846a-45da-b5f0-744b37926259",
@@ -40607,7 +40794,7 @@
       "party": "PDP",
       "state": "Rivers",
       "constituency": "Ahoada West/Ogba/Egbema/Ndoni",
-      "imageUrl": "/data/legislator_images/house_rep_281.jpg",
+      "imageUrl": "/data/legislator_images/rep_victor_obuzor.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "a9d43b8a-5b4c-4d64-ac63-d1b148087788",
@@ -40779,7 +40966,7 @@
       "party": "APC",
       "state": "Bauchi",
       "constituency": "Alkaleri/Kirfi",
-      "imageUrl": "/data/legislator_images/house_rep_282.jpg",
+      "imageUrl": "/data/legislator_images/rep_yusuf_kabiru.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "fa0ff0c6-6e76-4fd5-b956-c90ec9871b16",
@@ -40849,7 +41036,7 @@
       "party": "NNPP",
       "state": "Kano",
       "constituency": "Kura/Madobi/Garun Mallam",
-      "imageUrl": "/data/legislator_images/house_rep_283.jpg",
+      "imageUrl": "/data/legislator_images/rep_yusuf_datti.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "cca464aa-5bc2-4bb3-bb77-3152d255767c",
@@ -40902,7 +41089,7 @@
       "party": "NNPP",
       "state": "Jigawa",
       "constituency": "Gwaram",
-      "imageUrl": "/data/legislator_images/house_rep_284.jpg",
+      "imageUrl": "/data/legislator_images/rep_yusuf_shitu_galambi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "275d8235-46b4-49f2-91c1-44d8842fd6bc",
@@ -40955,7 +41142,7 @@
       "party": "APC",
       "state": "Borno",
       "constituency": "Bama/Ngala/Kalabalge",
-      "imageUrl": "/data/legislator_images/house_rep_285.jpg",
+      "imageUrl": "/data/legislator_images/rep_zainab_gimba.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "4f3f4c26-9e3a-420c-b083-a4614b6a98ea",
@@ -41005,10 +41192,10 @@
       "id": "286",
       "name": "Hon Zakaria Dauda Nyampa",
       "officialName": "Zakari Dauda Nyampa",
-      "party": "PDP",
+      "party": "APC",
       "state": "Adamawa",
       "constituency": "Madagali/Michika",
-      "imageUrl": "/data/legislator_images/house_rep_286.jpg",
+      "imageUrl": "/data/legislator_images/rep_zakaria_dauda_nyampa.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "a827caa9-09eb-46ab-808e-1deed4e782e1",
@@ -41215,6 +41402,23 @@
           "pdfCommitteeReport": ""
         },
         {
+          "billId": "4b60fade-a347-4c2d-945b-622bb018da5b",
+          "billNumber": "HB 2806",
+          "title": "National Systems Resilience Bill, 2026 (HB. 2806)",
+          "category": "Terrorism",
+          "dateFirstReading": "2026-07-21",
+          "dateSecondReading": "2026-07-23",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Hon Zakaria Dauda Nyampa",
+          "sponsorsDetails": "Hon Zakaria Dauda Nyampa (PDP, Adamawa, Constituency: Madagali/Michika)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
           "billId": "660f553a-107a-4c13-b825-48b6be18b2f3",
           "billNumber": "HB 431",
           "title": "Oil and Gas Investment and Free Zones Bill, 2023",
@@ -41233,22 +41437,22 @@
         }
       ],
       "cosponsoredBills": [],
-      "totalBills": 13,
-      "sponsoredCount": 13,
+      "totalBills": 14,
+      "sponsoredCount": 14,
       "cosponsoredCount": 0,
       "conversionRate": 0,
       "billsPassed": 0,
       "firstBillDate": "2023-07-05",
-      "latestBillDate": "2025-07-22"
+      "latestBillDate": "2026-07-21"
     },
     {
       "id": "287",
       "name": "Hon James Barka",
       "officialName": "James Shuaibu Barka",
-      "party": "PDP",
+      "party": "APC",
       "state": "Adamawa",
       "constituency": "Gombi/Hong",
-      "imageUrl": "/data/legislator_images/house_rep_287.jpg",
+      "imageUrl": "/data/legislator_images/rep_james_barka.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41266,7 +41470,7 @@
       "party": "PDP",
       "state": "Adamawa",
       "constituency": "Mayo Belwa/Ganye/Jada/Toungo",
-      "imageUrl": "/data/legislator_images/house_rep_288.jpg",
+      "imageUrl": "/data/legislator_images/rep_mohammed_inuwa_bassi.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41281,10 +41485,10 @@
       "id": "289",
       "name": "Hon Kobis Thimnu",
       "officialName": "Kobis Ari Thimnu",
-      "party": "",
+      "party": "APC",
       "state": "Adamawa",
       "constituency": "Guyuk/Shelleng",
-      "imageUrl": "/data/legislator_images/house_rep_289.jpg",
+      "imageUrl": "/data/legislator_images/rep_kobis_thimnu.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41299,10 +41503,10 @@
       "id": "290",
       "name": "Hon Abubakar Baba Zango",
       "officialName": "Abubakar Babazango",
-      "party": "",
+      "party": "ADC",
       "state": "Adamawa",
       "constituency": "Yola North/Yola South/Girei",
-      "imageUrl": "/data/legislator_images/house_rep_290.jpg",
+      "imageUrl": "/data/legislator_images/rep_abubakar_baba_zango.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41317,10 +41521,10 @@
       "id": "291",
       "name": "Hon Aniekwe Peter",
       "officialName": "Aniekwe Peter",
-      "party": "LP",
+      "party": "ADC",
       "state": "Anambra",
       "constituency": "Anambra East/Anambra West",
-      "imageUrl": "/data/legislator_images/house_rep_291.jpg",
+      "imageUrl": "/data/legislator_images/rep_aniekwe_peter.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41338,7 +41542,7 @@
       "party": "YPP",
       "state": "Anambra",
       "constituency": "Orumba North/South",
-      "imageUrl": "/data/legislator_images/house_rep_292.jpg",
+      "imageUrl": "/data/legislator_images/rep_chinwe_nnabuife.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [
         {
@@ -41371,10 +41575,10 @@
       "id": "293",
       "name": "Peter Ifeanyi Uzokwe",
       "officialName": "Peter Ifeanyi Uzokwe",
-      "party": "",
+      "party": "YPP",
       "state": "Anambra",
       "constituency": "Nnewi North/South/Ekwusigo",
-      "imageUrl": "/data/legislator_images/house_rep_293.jpg",
+      "imageUrl": "/data/legislator_images/rep_peter_ifeanyi_uzokwe.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41389,10 +41593,10 @@
       "id": "294",
       "name": "Hon Gwacham Maureen",
       "officialName": "Gwacham Maureen Chinwe",
-      "party": "",
+      "party": "APGA",
       "state": "Anambra",
       "constituency": "Oyi/Ayamelum",
-      "imageUrl": "/data/legislator_images/house_rep_294.jpg",
+      "imageUrl": "/data/legislator_images/rep_gwacham_maureen.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41410,7 +41614,7 @@
       "party": "PDP",
       "state": "Bauchi",
       "constituency": "Bauchi",
-      "imageUrl": "/data/legislator_images/house_rep_295.jpg",
+      "imageUrl": "/data/legislator_images/rep_aliyu_aminu_garu.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41425,10 +41629,10 @@
       "id": "296",
       "name": "Hon Bala Rabilu",
       "officialName": "Bala Rabilu",
-      "party": "",
+      "party": "PRP",
       "state": "Bauchi",
       "constituency": "Jama'are/Itas/Gadau",
-      "imageUrl": "/data/legislator_images/house_rep_296.jpg",
+      "imageUrl": "/data/legislator_images/rep_bala_rabilu.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41446,7 +41650,7 @@
       "party": "PDP",
       "state": "Bauchi",
       "constituency": "Shira/Giade",
-      "imageUrl": "/data/legislator_images/house_rep_297.jpg",
+      "imageUrl": "/data/legislator_images/rep_sani_tanko.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41464,7 +41668,7 @@
       "party": "PDP",
       "state": "Bayelsa",
       "constituency": "Brass/Nembe",
-      "imageUrl": "/data/legislator_images/house_rep_298.jpg",
+      "imageUrl": "/data/legislator_images/rep_ebikake_enenimiete.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41482,7 +41686,7 @@
       "party": "PDP",
       "state": "Bayelsa",
       "constituency": "Yenagoa/Kolokuma/Opokuma",
-      "imageUrl": "/data/legislator_images/house_rep_299.jpg",
+      "imageUrl": "/data/legislator_images/rep_oboku_abonsizibe_oforji.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41497,10 +41701,10 @@
       "id": "300",
       "name": "Hon Regina Akume",
       "officialName": "Akume Regina",
-      "party": "",
+      "party": "APC",
       "state": "Benue",
       "constituency": "Gboko/Tarka",
-      "imageUrl": "/data/legislator_images/house_rep_300.jpg",
+      "imageUrl": "/data/legislator_images/rep_regina_akume.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41518,7 +41722,7 @@
       "party": "APC",
       "state": "Borno",
       "constituency": "Maiduguri Metropolitan",
-      "imageUrl": "/data/legislator_images/house_rep_301.jpg",
+      "imageUrl": "/data/legislator_images/rep_abdulkadir_rahis.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41536,7 +41740,7 @@
       "party": "APC",
       "state": "Borno",
       "constituency": "Biu/Bayo/Shani/Kwaya Kusar",
-      "imageUrl": "/data/legislator_images/house_rep_302.jpg",
+      "imageUrl": "/data/legislator_images/rep_muktar_aliyu_betara.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41554,7 +41758,7 @@
       "party": "PDP",
       "state": "Delta",
       "constituency": "Ika North East/Ika South",
-      "imageUrl": "/data/legislator_images/house_rep_303.jpg",
+      "imageUrl": "/data/legislator_images/rep_victor_nwokolo.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41572,7 +41776,7 @@
       "party": "PDP",
       "state": "Delta",
       "constituency": "Ethiope East/Ethiope West",
-      "imageUrl": "/data/legislator_images/house_rep_304.jpg",
+      "imageUrl": "/data/legislator_images/rep_erhiatake_ibori_suenu.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [
         {
@@ -41605,10 +41809,10 @@
       "id": "305",
       "name": "Hon Nwobasi Joseph",
       "officialName": "Nwobasi Joseph",
-      "party": "",
+      "party": "APC",
       "state": "Ebonyi",
       "constituency": "Ezza-North/Ishielu",
-      "imageUrl": "/data/legislator_images/house_rep_305.jpg",
+      "imageUrl": "/data/legislator_images/rep_nwobasi_joseph.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41623,10 +41827,10 @@
       "id": "306",
       "name": "Hon Emmanuel Uguru",
       "officialName": "Uguru Nwibo Emmanuel",
-      "party": "",
+      "party": "APC",
       "state": "Ebonyi",
       "constituency": "Abakaliki/Izzi",
-      "imageUrl": "/data/legislator_images/house_rep_306.jpg",
+      "imageUrl": "/data/legislator_images/rep_emmanuel_uguru.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41641,10 +41845,10 @@
       "id": "307",
       "name": "Hon Omosede Igbinedion",
       "officialName": "Igbinedion Omosede Gabriella",
-      "party": "",
+      "party": "APC",
       "state": "Edo",
       "constituency": "Ovia North East/South West",
-      "imageUrl": "/data/legislator_images/house_rep_307.jpg",
+      "imageUrl": "/data/legislator_images/rep_omosede_igbinedion.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41659,10 +41863,10 @@
       "id": "308",
       "name": "Hon Biodun Omoleye",
       "officialName": "Omoleye Abiodun Francis",
-      "party": "",
+      "party": "APC",
       "state": "Ekiti",
       "constituency": "Ijero/Ekiti West/Efon",
-      "imageUrl": "/data/legislator_images/house_rep_308.jpg",
+      "imageUrl": "/data/legislator_images/rep_biodun_omoleye.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41677,10 +41881,10 @@
       "id": "309",
       "name": "Hon Martins Oke",
       "officialName": "Martins George Oke",
-      "party": "",
+      "party": "PDP",
       "state": "Enugu",
       "constituency": "Igbo-Etiti/Uzo-Uwani",
-      "imageUrl": "/data/legislator_images/house_rep_309.jpg",
+      "imageUrl": "/data/legislator_images/rep_martins_oke.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41695,10 +41899,10 @@
       "id": "310",
       "name": "Hon Dennis Nnamdi Agbo",
       "officialName": "Dennis Nnamdi Agbo",
-      "party": "",
+      "party": "LP",
       "state": "Enugu",
       "constituency": "Igbo-Eze North/Udenu",
-      "imageUrl": "/data/legislator_images/house_rep_310.jpg",
+      "imageUrl": "/data/legislator_images/rep_dennis_nnamdi_agbo.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41716,8 +41920,25 @@
       "party": "APC",
       "state": "Gombe",
       "constituency": "Akko",
-      "imageUrl": "/data/legislator_images/house_rep_311.jpg",
+      "imageUrl": "/data/legislator_images/rep_usman_bello_kumo.jpg?v=4",
       "sponsoredBills": [
+        {
+          "billId": "62a63ccc-65f9-4d14-8407-1fc4b53c2a23",
+          "billNumber": "HB 2810",
+          "title": "Federal College of Nursing Sciences, Kumo, Gombe State (Establishment) Bill, 2026",
+          "category": "Health",
+          "dateFirstReading": "2026-07-22",
+          "dateSecondReading": "2026-07-23",
+          "committee": "Health Institutions",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Hon Usman Bello Kumo",
+          "sponsorsDetails": "Hon Usman Bello Kumo (APC, Gombe, Constituency: Akko)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
         {
           "billId": "96836cc2-f576-444a-93a9-3c6b89132718",
           "billNumber": "HB 2807",
@@ -41772,8 +41993,8 @@
           "pdfCommitteeReport": ""
         }
       ],
-      "totalBills": 3,
-      "sponsoredCount": 1,
+      "totalBills": 4,
+      "sponsoredCount": 2,
       "cosponsoredCount": 2,
       "conversionRate": 0,
       "billsPassed": 0,
@@ -41787,7 +42008,7 @@
       "party": "PDP",
       "state": "Gombe",
       "constituency": "Kwami/Funakaye/Gombe",
-      "imageUrl": "/data/legislator_images/house_rep_312.jpg",
+      "imageUrl": "/data/legislator_images/rep_yaya_bauchi_tongo.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41805,7 +42026,7 @@
       "party": "APC",
       "state": "Imo",
       "constituency": "Orlu/Orsu/Oru East",
-      "imageUrl": "/data/legislator_images/house_rep_313.jpg",
+      "imageUrl": "/data/legislator_images/rep_chukwugozie_nwachukwu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "5bb43176-5d5d-48ed-bef8-05f82bc05947",
@@ -41838,10 +42059,10 @@
       "id": "314",
       "name": "Hon Dahiru Madawaki",
       "officialName": "Madawaki Dahiru",
-      "party": "",
+      "party": "PDP",
       "state": "Jigawa",
       "constituency": "Dutse/Kiyawa",
-      "imageUrl": "/data/legislator_images/house_rep_314.jpg",
+      "imageUrl": "/data/legislator_images/rep_dahiru_madawaki.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41859,7 +42080,7 @@
       "party": "APC",
       "state": "Jigawa",
       "constituency": "Birnin Kudu/Buji",
-      "imageUrl": "/data/legislator_images/house_rep_315.jpg",
+      "imageUrl": "/data/legislator_images/rep_adamu_yakubu.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41877,7 +42098,7 @@
       "party": "APC",
       "state": "Jigawa",
       "constituency": "Kazaure/Roni/Gwiwa/Yankashi",
-      "imageUrl": "/data/legislator_images/house_rep_316.jpg",
+      "imageUrl": "/data/legislator_images/rep_muktar_muhhammad.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41895,7 +42116,7 @@
       "party": "APC",
       "state": "Jigawa",
       "constituency": "Birniwa/Guri/Kiri-Kasamma",
-      "imageUrl": "/data/legislator_images/house_rep_317.jpg",
+      "imageUrl": "/data/legislator_images/rep_fulata_hassan.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41913,7 +42134,7 @@
       "party": "APC",
       "state": "Jigawa",
       "constituency": "Ringim/Taura",
-      "imageUrl": "/data/legislator_images/house_rep_318.jpg",
+      "imageUrl": "/data/legislator_images/rep_saad_taura.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41931,7 +42152,7 @@
       "party": "APC",
       "state": "Jigawa",
       "constituency": "Gumel/Maigatari/Taura/Gagarawa",
-      "imageUrl": "/data/legislator_images/house_rep_319.jpg",
+      "imageUrl": "/data/legislator_images/rep_sani_nazifi.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41949,7 +42170,7 @@
       "party": "APC",
       "state": "Jigawa",
       "constituency": "Jahun/Miga",
-      "imageUrl": "/data/legislator_images/house_rep_320.jpg",
+      "imageUrl": "/data/legislator_images/rep_yusuf_sa_idu_miga.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41964,10 +42185,10 @@
       "id": "321",
       "name": "Hon Mukhtar Rabiu Garki",
       "officialName": "Mukhtar Rabiu Garki",
-      "party": "",
+      "party": "APC",
       "state": "Jigawa",
       "constituency": "Babura/Garki",
-      "imageUrl": "/data/legislator_images/house_rep_321.jpg",
+      "imageUrl": "/data/legislator_images/rep_mukhtar_rabiu_garki.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -41985,7 +42206,7 @@
       "party": "APC",
       "state": "Kaduna",
       "constituency": "Jema\u00e2\u20ac\u2122a/Sanga",
-      "imageUrl": "/data/legislator_images/house_rep_322.jpg",
+      "imageUrl": "/data/legislator_images/rep_amos_daniel.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "3e4c8370-a95a-40ca-b93f-8da8d6465b33",
@@ -42018,10 +42239,10 @@
       "id": "323",
       "name": "Hon Mathew Donatus",
       "officialName": "Mathew Donatus Kuzalio",
-      "party": "",
+      "party": "APC",
       "state": "Kaduna",
       "constituency": "Kaura",
-      "imageUrl": "/data/legislator_images/house_rep_323.jpg",
+      "imageUrl": "/data/legislator_images/rep_mathew_donatus.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42036,10 +42257,10 @@
       "id": "324",
       "name": "Hon Mukhtar Zakari Chawai",
       "officialName": "Mukhtar Zakari Chawai",
-      "party": "",
+      "party": "APC",
       "state": "Kaduna",
       "constituency": "Kauru",
-      "imageUrl": "/data/legislator_images/house_rep_324.jpg",
+      "imageUrl": "/data/legislator_images/rep_mukhtar_zakari_chawai.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42057,7 +42278,7 @@
       "party": "PDP",
       "state": "Kaduna",
       "constituency": "Soba",
-      "imageUrl": "/data/legislator_images/house_rep_325.jpg",
+      "imageUrl": "/data/legislator_images/rep_yahaya_suleiman_richifa.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42075,7 +42296,7 @@
       "party": "APC",
       "state": "Kano",
       "constituency": "Shanono/Bagwai",
-      "imageUrl": "/data/legislator_images/house_rep_326.jpg",
+      "imageUrl": "/data/legislator_images/rep_yusuf_badau.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "dd6807e9-8a01-4a6d-b767-506809ba0749",
@@ -42111,7 +42332,7 @@
       "party": "APC",
       "state": "Kano",
       "constituency": "Bichi",
-      "imageUrl": "/data/legislator_images/house_rep_327.jpg",
+      "imageUrl": "/data/legislator_images/rep_abubakar_abubakar_kabir.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42126,10 +42347,10 @@
       "id": "328",
       "name": "Hon Dankawu Idris",
       "officialName": "Dankawu Idris",
-      "party": "",
+      "party": "APC",
       "state": "Kano",
       "constituency": "Kumbotso",
-      "imageUrl": "/data/legislator_images/house_rep_328.jpg",
+      "imageUrl": "/data/legislator_images/rep_dankawu_idris.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42144,10 +42365,10 @@
       "id": "329",
       "name": "Abdullahi Tijjani Gwarzo",
       "officialName": "Abdullahi Gwarzo",
-      "party": "",
+      "party": "APC",
       "state": "Kano",
       "constituency": "Gwarzo/Kabo",
-      "imageUrl": "/data/legislator_images/house_rep_329.jpg",
+      "imageUrl": "/data/legislator_images/rep_abdullahi_tijjani_gwarzo.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42165,7 +42386,7 @@
       "party": "NNPP",
       "state": "Kano",
       "constituency": "Karaye/Rogo",
-      "imageUrl": "/data/legislator_images/house_rep_330.jpg",
+      "imageUrl": "/data/legislator_images/rep_rogo_abdullahi_sani.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42180,10 +42401,10 @@
       "id": "331",
       "name": "Hon Sani Lawal Garki",
       "officialName": "Sani Lawal Garki",
-      "party": "",
+      "party": "APC",
       "state": "Katsina",
       "constituency": "Zango/Baure",
-      "imageUrl": "/data/legislator_images/house_rep_331.jpg",
+      "imageUrl": "/data/legislator_images/rep_sani_lawal_garki.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42198,10 +42419,10 @@
       "id": "332",
       "name": "Hon Sani Danlami",
       "officialName": "Sani Danlami",
-      "party": "",
+      "party": "APC",
       "state": "Katsina",
       "constituency": "Katsina",
-      "imageUrl": "/data/legislator_images/house_rep_332.jpg",
+      "imageUrl": "/data/legislator_images/rep_sani_danlami.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42219,7 +42440,7 @@
       "party": "APC",
       "state": "Katsina",
       "constituency": "Musawa/Matazu",
-      "imageUrl": "/data/legislator_images/house_rep_333.jpg",
+      "imageUrl": "/data/legislator_images/rep_ahmed_aliyu_abdullahi.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42234,10 +42455,10 @@
       "id": "334",
       "name": "Hon Mohammad Aminu Ibrahim",
       "officialName": "Muhammad Aminu Ibrahim",
-      "party": "",
+      "party": "APC",
       "state": "Katsina",
       "constituency": "Kafur/Malumfashi",
-      "imageUrl": "/data/legislator_images/house_rep_334.jpg",
+      "imageUrl": "/data/legislator_images/rep_mohammad_aminu_ibrahim.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42255,7 +42476,7 @@
       "party": "APC",
       "state": "Katsina",
       "constituency": "Batagarawa/Charanchi/Rimi",
-      "imageUrl": "/data/legislator_images/house_rep_335.jpg",
+      "imageUrl": "/data/legislator_images/rep_murtala_usman_banye.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42273,7 +42494,7 @@
       "party": "PDP",
       "state": "Katsina",
       "constituency": "Bakori/Danja",
-      "imageUrl": "/data/legislator_images/house_rep_336.jpg",
+      "imageUrl": "/data/legislator_images/rep_abdullahi_balarabe_dabai.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42288,10 +42509,10 @@
       "id": "337",
       "name": "Hon Gowon Paul",
       "officialName": "Haruna Gowon Paul",
-      "party": "",
+      "party": "APC",
       "state": "Kogi",
       "constituency": "Bassa/Dekina",
-      "imageUrl": "/data/legislator_images/house_rep_337.jpg",
+      "imageUrl": "/data/legislator_images/rep_gowon_paul.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42306,10 +42527,10 @@
       "id": "338",
       "name": "Hon Aguye Suleiman Danladi",
       "officialName": "Aguye Suleiman Danladi",
-      "party": "",
+      "party": "APC",
       "state": "Kogi",
       "constituency": "Lokoja/Kogi",
-      "imageUrl": "/data/legislator_images/house_rep_338.jpg",
+      "imageUrl": "/data/legislator_images/rep_aguye_suleiman_danladi.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42327,7 +42548,7 @@
       "party": "APC",
       "state": "Kogi",
       "constituency": "Okene/Ogori-Magogo",
-      "imageUrl": "/data/legislator_images/house_rep_339.jpg",
+      "imageUrl": "/data/legislator_images/rep_ozigi_tijani.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42345,7 +42566,7 @@
       "party": "APC",
       "state": "Kogi",
       "constituency": "Idah/Igalamela/Ibaji/Ofu",
-      "imageUrl": "/data/legislator_images/house_rep_340.jpg",
+      "imageUrl": "/data/legislator_images/rep_david_idris_zacharias.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "5fcaa547-8e74-461d-99e8-912788c93c6d",
@@ -42413,10 +42634,10 @@
       "id": "341",
       "name": "Hon Ibrahim Mohammed",
       "officialName": "Ibrahim Mohammed",
-      "party": "",
+      "party": "APC",
       "state": "Kebbi",
       "constituency": "Birnin Kebbi/Bunza/Kalgo",
-      "imageUrl": "/data/legislator_images/house_rep_341.jpg",
+      "imageUrl": "/data/legislator_images/rep_ibrahim_mohammed.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42431,10 +42652,10 @@
       "id": "342",
       "name": "Hon Salisu Koko",
       "officialName": "Garba Koko Salisu",
-      "party": "",
+      "party": "APC",
       "state": "Kebbi",
       "constituency": "Koko-Besse/Maiyama",
-      "imageUrl": "/data/legislator_images/house_rep_342.jpg",
+      "imageUrl": "/data/legislator_images/rep_salisu_koko.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42449,10 +42670,10 @@
       "id": "343",
       "name": "Hon Sani Yakubu Noma",
       "officialName": "Sani Yakubu Noma",
-      "party": "",
+      "party": "ADC",
       "state": "Kebbi",
       "constituency": "Argungu/Augie",
-      "imageUrl": "/data/legislator_images/house_rep_343.jpg",
+      "imageUrl": "/data/legislator_images/rep_sani_yakubu_noma.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42470,7 +42691,7 @@
       "party": "APC",
       "state": "Lagos",
       "constituency": "Ifako Ijaiye",
-      "imageUrl": "/data/legislator_images/house_rep_344.jpg",
+      "imageUrl": "/data/legislator_images/rep_olabinjo_benjamin_adeyemi.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "63912dd5-9e4d-4bdc-85e9-fe1fd9a3669e",
@@ -42575,7 +42796,7 @@
       "party": "LP",
       "state": "Lagos",
       "constituency": "Eti-Osa",
-      "imageUrl": "/data/legislator_images/house_rep_345.jpg",
+      "imageUrl": "/data/legislator_images/rep_thaddeus_attah.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42593,7 +42814,7 @@
       "party": "LP",
       "state": "Lagos",
       "constituency": "Amuwo Odofin",
-      "imageUrl": "/data/legislator_images/house_rep_346.jpg",
+      "imageUrl": "/data/legislator_images/rep_oluwande_george.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42611,7 +42832,7 @@
       "party": "APC",
       "state": "Kwara",
       "constituency": "Baruten/Kaiama",
-      "imageUrl": "/data/legislator_images/house_rep_347.jpg",
+      "imageUrl": "/data/legislator_images/rep_mohammed_bio.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42629,7 +42850,7 @@
       "party": "APC",
       "state": "Kwara",
       "constituency": "Ekiti/Isin/Irepodun/Oke-Ero",
-      "imageUrl": "/data/legislator_images/house_rep_348.jpg",
+      "imageUrl": "/data/legislator_images/rep_olawuyi_abdulraheem_tunji.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42647,7 +42868,7 @@
       "party": "APC",
       "state": "Kwara",
       "constituency": "Ifelodun/Offa/Oyun",
-      "imageUrl": "/data/legislator_images/house_rep_349.jpg",
+      "imageUrl": "/data/legislator_images/rep_ismail_kayode_tijani.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42665,7 +42886,7 @@
       "party": "SDP",
       "state": "Nasarawa",
       "constituency": "Lafia/Obi",
-      "imageUrl": "/data/legislator_images/house_rep_350.jpg",
+      "imageUrl": "/data/legislator_images/rep_abubakar_dahiru.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42683,7 +42904,7 @@
       "party": "APC",
       "state": "Niger",
       "constituency": "Kontagora/Wushishi/Mariga/Mashegu",
-      "imageUrl": "/data/legislator_images/house_rep_351.jpg",
+      "imageUrl": "/data/legislator_images/rep_abdullahi_idris_garba.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42698,10 +42919,10 @@
       "id": "352",
       "name": "Hon Abubakar Abdul Buba Abubakar",
       "officialName": "Abubakar Abdul Buba Abubakar",
-      "party": "",
+      "party": "APC",
       "state": "Niger",
       "constituency": "Chanchaga",
-      "imageUrl": "/data/legislator_images/house_rep_352.jpg",
+      "imageUrl": "/data/legislator_images/rep_abubakar_abdul_buba_abubakar.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42716,10 +42937,10 @@
       "id": "353",
       "name": "Hon Baraje Yusuf Kure",
       "officialName": "Baraje Yusuf Kure",
-      "party": "",
+      "party": "APC",
       "state": "Niger",
       "constituency": "Bosso/Paikoro",
-      "imageUrl": "/data/legislator_images/house_rep_353.jpg",
+      "imageUrl": "/data/legislator_images/rep_baraje_yusuf_kure.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42734,10 +42955,10 @@
       "id": "354",
       "name": "Hon Oladebo Lanre Olomololaye",
       "officialName": "Oladebo Lanre Omoleye",
-      "party": "PDP",
+      "party": "ACCORD",
       "state": "Osun",
       "constituency": "Ayedaade/Irewole/Isokan",
-      "imageUrl": "/data/legislator_images/house_rep_354.jpg",
+      "imageUrl": "/data/legislator_images/rep_oladebo_lanre_olomololaye.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42752,10 +42973,10 @@
       "id": "355",
       "name": "Hon Omirin Emmanuel Olusanya",
       "officialName": "Omirin Emmanuel Olusanya",
-      "party": "",
+      "party": "APC",
       "state": "Osun",
       "constituency": "Atakumosa East/Atakumosa West/Ilesa East/Ilesa West",
-      "imageUrl": "/data/legislator_images/house_rep_355.jpg",
+      "imageUrl": "/data/legislator_images/rep_omirin_emmanuel_olusanya.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42773,7 +42994,7 @@
       "party": "APC",
       "state": "Oyo",
       "constituency": "Akinyele/Lagelu",
-      "imageUrl": "/data/legislator_images/house_rep_356.jpg",
+      "imageUrl": "/data/legislator_images/rep_akinmoyede_olafisoye_wasiu.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42791,7 +43012,7 @@
       "party": "PDP",
       "state": "Oyo",
       "constituency": "Ogo-Oluwa/Surulere",
-      "imageUrl": "/data/legislator_images/house_rep_357.jpg",
+      "imageUrl": "/data/legislator_images/rep_ojo_makanjuola.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42809,7 +43030,7 @@
       "party": "PDP",
       "state": "Oyo",
       "constituency": "Iseyin/Itesiwaju/Kajola/Iwajowa",
-      "imageUrl": "/data/legislator_images/house_rep_358.jpg",
+      "imageUrl": "/data/legislator_images/rep_oyedeji_najimdeen_oyeshina.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42827,7 +43048,7 @@
       "party": "",
       "state": "Oyo",
       "constituency": "Ibadan North",
-      "imageUrl": "/data/legislator_images/359.jpg?v=7",
+      "imageUrl": "",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42842,10 +43063,10 @@
       "id": "360",
       "name": "Hon Vincent Bulus Venman",
       "officialName": "Vincent Bulus Venman",
-      "party": "",
+      "party": "APC",
       "state": "Plateau",
       "constituency": "Langtang North/Langtang South",
-      "imageUrl": "/data/legislator_images/house_rep_360.jpg",
+      "imageUrl": "/data/legislator_images/rep_vincent_bulus_venman.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42863,7 +43084,7 @@
       "party": "APC",
       "state": "Plateau",
       "constituency": "Jos South/Jos East",
-      "imageUrl": "/data/legislator_images/house_rep_361.jpg",
+      "imageUrl": "/data/legislator_images/rep_ajang_iliya.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "bbe59b01-209a-4aae-8715-1ea7dcd181be",
@@ -42934,7 +43155,7 @@
       "party": "APC",
       "state": "Rivers",
       "constituency": "Okrika/Ogu/Bolo",
-      "imageUrl": "/data/legislator_images/house_rep_362.jpg",
+      "imageUrl": "/data/legislator_images/rep_allison_igbiks_anderson.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42949,10 +43170,10 @@
       "id": "363",
       "name": "Hon  Umezuruike Manuchim",
       "officialName": "Umezuruike Manuchim",
-      "party": "",
+      "party": "ADC",
       "state": "Rivers",
       "constituency": "Port Harcourt I",
-      "imageUrl": "/data/legislator_images/house_rep_363.jpg",
+      "imageUrl": "/data/legislator_images/rep_umezuruike_manuchim.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42967,10 +43188,10 @@
       "id": "364",
       "name": "Hon Mani Maishinko Katami",
       "officialName": "Mani Maishinko Katami",
-      "party": "",
+      "party": "ADC",
       "state": "Sokoto",
       "constituency": "Binji/Silame",
-      "imageUrl": "/data/legislator_images/house_rep_364.jpg",
+      "imageUrl": "/data/legislator_images/rep_mani_maishinko_katami.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -42988,7 +43209,7 @@
       "party": "APC",
       "state": "Sokoto",
       "constituency": "Bodinga/Tureta/Dange-Shuni",
-      "imageUrl": "/data/legislator_images/house_rep_365.jpg",
+      "imageUrl": "/data/legislator_images/rep_nasiru_shehu_bodinga.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -43003,10 +43224,10 @@
       "id": "366",
       "name": "Hon Umar Yusuf Yabo",
       "officialName": "Umar Yusuf Yabo",
-      "party": "",
+      "party": "ADC",
       "state": "Sokoto",
       "constituency": "Yabo/Shagari",
-      "imageUrl": "/data/legislator_images/house_rep_366.jpg",
+      "imageUrl": "/data/legislator_images/rep_umar_yusuf_yabo.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -43021,10 +43242,10 @@
       "id": "367",
       "name": "Hon Hassan Abubakar",
       "officialName": "Hassan Bala Abubakar",
-      "party": "",
+      "party": "APC",
       "state": "Sokoto",
       "constituency": "Sokoto North/Sokoto South",
-      "imageUrl": "/data/legislator_images/house_rep_367.jpg",
+      "imageUrl": "/data/legislator_images/rep_hassan_abubakar.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -43039,10 +43260,10 @@
       "id": "368",
       "name": "Hon Yakubu Sani Alhaji",
       "officialName": "Yakubu Sani Alhaji",
-      "party": "",
+      "party": "APC",
       "state": "Sokoto",
       "constituency": "Tangaza/Gudu",
-      "imageUrl": "/data/legislator_images/house_rep_368.jpg",
+      "imageUrl": "/data/legislator_images/rep_yakubu_sani.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -43057,10 +43278,10 @@
       "id": "369",
       "name": "Hon David Fuoh",
       "officialName": "Abel David Fuoh",
-      "party": "APC",
+      "party": "PDP",
       "state": "Taraba",
       "constituency": "Gashaka/Kurmi/Sardauna",
-      "imageUrl": "/data/legislator_images/house_rep_369.jpg",
+      "imageUrl": "/data/legislator_images/rep_david_fuoh.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -43078,7 +43299,7 @@
       "party": "APC",
       "state": "Taraba",
       "constituency": "Ibi/Wukari",
-      "imageUrl": "/data/legislator_images/house_rep_370.jpg",
+      "imageUrl": "/data/legislator_images/rep_ayuba_aboki_zaku_dampar.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -43096,7 +43317,7 @@
       "party": "APC",
       "state": "Yobe",
       "constituency": "Damaturu/Gujba/Gulani/Tarmuwa",
-      "imageUrl": "/data/legislator_images/house_rep_371.jpg",
+      "imageUrl": "/data/legislator_images/rep_khadija_bukar_abba_ibrahim.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -43111,10 +43332,10 @@
       "id": "372",
       "name": "Hon Hassan Jakduwa Kaikaku",
       "officialName": "Jakduwa Hassan Kaikaku",
-      "party": "",
+      "party": "APC",
       "state": "Yobe",
       "constituency": "Bade/Jakusko",
-      "imageUrl": "/data/legislator_images/house_rep_372.jpg",
+      "imageUrl": "/data/legislator_images/rep_hassan_jakduwa_kaikaku.jpg?v=4",
       "sponsoredBills": [],
       "cosponsoredBills": [],
       "totalBills": 0,
@@ -43132,7 +43353,7 @@
       "party": "APC",
       "state": "Kogi",
       "constituency": "Ankpa / Omala/Olamabor",
-      "imageUrl": "/data/legislator_images/373.jpg?v=7",
+      "imageUrl": "/data/legislator_images/rep_ibrahim_abdullahi_ali.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "c362c1d1-b175-49da-80f5-6326e52f3052",
@@ -43236,7 +43457,7 @@
       "party": "APGA",
       "state": "Anambra",
       "constituency": "Nnewi North/Nnewi South/Ekwusigo",
-      "imageUrl": "/data/legislator_images/374.jpg?v=7",
+      "imageUrl": "/data/legislator_images/rep_uchenna_clement_nwachukwu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "d4c23df9-41b3-42af-8472-62927b4e0655",
@@ -43272,7 +43493,7 @@
       "party": "PDP",
       "state": "Plateau",
       "constituency": "Mikang/Qua'an-Pan/Shendam",
-      "imageUrl": "/data/legislator_images/375.jpg?v=7",
+      "imageUrl": "/data/legislator_images/rep_isaac_kyale_kwallu.jpg?v=4",
       "sponsoredBills": [
         {
           "billId": "9e45f8dc-bdab-440f-b8a9-7ab07d547c21",
@@ -43304,9 +43525,9 @@
   ],
   "stats": {
     "totalMembers": 375,
-    "totalBills": 1918,
+    "totalBills": 1932,
     "membersWithBills": 298,
-    "executiveBillCount": 50
+    "executiveBillCount": 51
   },
   "leaderboards": {
     "top20": [
@@ -43316,10 +43537,10 @@
         "party": "APC",
         "state": "Abia",
         "constituency": "Bende",
-        "billCount": 121,
-        "sponsoredCount": 99,
+        "billCount": 122,
+        "sponsoredCount": 100,
         "cosponsoredCount": 22,
-        "conversionRate": 19
+        "conversionRate": 20
       },
       {
         "id": "165",
@@ -43338,10 +43559,10 @@
         "party": "APC",
         "state": "Kaduna",
         "constituency": "Zaria",
-        "billCount": 57,
+        "billCount": 58,
         "sponsoredCount": 49,
-        "cosponsoredCount": 8,
-        "conversionRate": 10
+        "cosponsoredCount": 9,
+        "conversionRate": 12
       },
       {
         "id": "122",
@@ -43352,7 +43573,7 @@
         "billCount": 37,
         "sponsoredCount": 33,
         "cosponsoredCount": 4,
-        "conversionRate": 21
+        "conversionRate": 24
       },
       {
         "id": "275",
@@ -43385,7 +43606,7 @@
         "billCount": 33,
         "sponsoredCount": 29,
         "cosponsoredCount": 4,
-        "conversionRate": 0
+        "conversionRate": 3
       },
       {
         "id": "181",
@@ -43404,8 +43625,8 @@
         "party": "APC",
         "state": "Niger",
         "constituency": "Bida/Gbako/Katcha",
-        "billCount": 29,
-        "sponsoredCount": 29,
+        "billCount": 30,
+        "sponsoredCount": 30,
         "cosponsoredCount": 0,
         "conversionRate": 0
       },
@@ -43443,6 +43664,28 @@
         "conversionRate": 4
       },
       {
+        "id": "125",
+        "name": "Hon Gagdi Adamu Yusuf",
+        "party": "APC",
+        "state": "Plateau",
+        "constituency": "Pankshin/Kanke/Kanam",
+        "billCount": 25,
+        "sponsoredCount": 25,
+        "cosponsoredCount": 0,
+        "conversionRate": 16
+      },
+      {
+        "id": "242",
+        "name": "Hon Sada Soli",
+        "party": "APC",
+        "state": "Katsina",
+        "constituency": "Jibia/Kaita",
+        "billCount": 25,
+        "sponsoredCount": 25,
+        "cosponsoredCount": 0,
+        "conversionRate": 0
+      },
+      {
         "id": "50",
         "name": "Hon Akintunde Rotimi",
         "party": "APC",
@@ -43451,17 +43694,6 @@
         "billCount": 24,
         "sponsoredCount": 22,
         "cosponsoredCount": 2,
-        "conversionRate": 0
-      },
-      {
-        "id": "242",
-        "name": "Hon Sada Soli",
-        "party": "APC",
-        "state": "Katsina",
-        "constituency": "Jibia/Kaita",
-        "billCount": 24,
-        "sponsoredCount": 24,
-        "cosponsoredCount": 0,
         "conversionRate": 0
       },
       {
@@ -43484,17 +43716,6 @@
         "billCount": 23,
         "sponsoredCount": 22,
         "cosponsoredCount": 1,
-        "conversionRate": 0
-      },
-      {
-        "id": "125",
-        "name": "Hon Gagdi Adamu Yusuf",
-        "party": "APC",
-        "state": "Plateau",
-        "constituency": "Pankshin/Kanke/Kanam",
-        "billCount": 22,
-        "sponsoredCount": 22,
-        "cosponsoredCount": 0,
         "conversionRate": 0
       },
       {
@@ -43850,6 +44071,23 @@
       "committee": "Not Yet Referred",
       "thirdReadingStatus": "Not Started",
       "passedThirdReading": false,
+      "primarySponsor": "Executive",
+      "sponsorsDetails": "Executive (APC, N/A, Constituency: .)",
+      "pdfInitialBill": "",
+      "pdfPassedBill": "",
+      "pdfSignedAct": "",
+      "pdfCommitteeReport": ""
+    },
+    {
+      "billId": "1d322469-928e-45ec-b526-4b4eccd334e4",
+      "billNumber": "HB 2797",
+      "title": "Constitution of the Federal Republic of Nigeria, 1999 (Alteration) Bill",
+      "category": "Constitution",
+      "dateFirstReading": "2026-07-14",
+      "dateSecondReading": "2026-07-14",
+      "committee": "Constitution Review",
+      "thirdReadingStatus": "House: 2026-07-23",
+      "passedThirdReading": true,
       "primarySponsor": "Executive",
       "sponsorsDetails": "Executive (APC, N/A, Constituency: .)",
       "pdfInitialBill": "",
