@@ -4,6 +4,7 @@ import { useTheme } from './hooks/useTheme';
 import { useData } from './hooks/useData';
 
 import { Header } from './components/Header';
+import { EmbedToolbar } from './components/EmbedToolbar';
 import { Sidebar } from './components/Sidebar';
 import { KPICards } from './components/KPICards';
 import { Leaderboard } from './components/Leaderboard';
@@ -16,6 +17,7 @@ import { Footer } from './components/Footer';
 import { RefreshCw, AlertCircle } from 'lucide-react';
 
 export function App() {
+  const isEmbed = new URLSearchParams(window.location.search).get('embed') === '1';
   const { theme, toggleTheme } = useTheme();
   const [chamber, setChamber] = useState<Chamber>('house');
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState<boolean>(false);
@@ -87,21 +89,38 @@ export function App() {
   return (
     <div className="min-h-screen flex flex-col bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors duration-300">
       
-      {/* Header with Chamber Switcher & Theme Toggle */}
-      <Header
-        chamber={chamber}
-        onChamberChange={setChamber}
-        theme={theme}
-        onThemeToggle={toggleTheme}
-        isSidebarCollapsed={isSidebarCollapsed}
-        onToggleSidebar={() => {
-          if (window.innerWidth < 1024) {
-            setIsMobileSidebarOpen(prev => !prev);
-          } else {
-            setIsSidebarCollapsed(prev => !prev);
-          }
-        }}
-      />
+      {/* Header with Chamber Switcher & Theme Toggle (full chrome only outside embeds) */}
+      {isEmbed ? (
+        <EmbedToolbar
+          chamber={chamber}
+          onChamberChange={setChamber}
+          theme={theme}
+          onThemeToggle={toggleTheme}
+          isSidebarCollapsed={isSidebarCollapsed}
+          onToggleSidebar={() => {
+            if (window.innerWidth < 1024) {
+              setIsMobileSidebarOpen(prev => !prev);
+            } else {
+              setIsSidebarCollapsed(prev => !prev);
+            }
+          }}
+        />
+      ) : (
+        <Header
+          chamber={chamber}
+          onChamberChange={setChamber}
+          theme={theme}
+          onThemeToggle={toggleTheme}
+          isSidebarCollapsed={isSidebarCollapsed}
+          onToggleSidebar={() => {
+            if (window.innerWidth < 1024) {
+              setIsMobileSidebarOpen(prev => !prev);
+            } else {
+              setIsSidebarCollapsed(prev => !prev);
+            }
+          }}
+        />
+      )}
 
       {/* Main Body Layout (Sidebar + Main Content Area) */}
       <div className="flex-1 flex flex-col lg:flex-row min-w-0">
@@ -218,7 +237,7 @@ export function App() {
           </main>
 
           {/* Slim Single-Line Footer */}
-          <Footer chamber={chamber} lastUpdated={data?.lastUpdated || 'July 27, 2026'} />
+          {!isEmbed && <Footer chamber={chamber} lastUpdated={data?.lastUpdated || 'July 27, 2026'} />}
 
         </div>
 
