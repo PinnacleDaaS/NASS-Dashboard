@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "August 05, 2026",
+  "lastUpdated": "August 11, 2026",
   "members": [
     {
       "id": "1",
@@ -1260,10 +1260,10 @@
           "title": "Federal Medical Centres Act (Amendment) Bill, 2024",
           "category": "Health",
           "dateFirstReading": "2024-05-07",
-          "dateSecondReading": "2025-10-20",
-          "committee": "Health Institutions",
-          "thirdReadingStatus": "House: 2026-07-22",
-          "passedThirdReading": true,
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
           "primarySponsor": "Abiodun Isiaq Akinlade",
           "sponsorsDetails": "Abiodun Isiaq Akinlade (APC, Ogun, Constituency: Egbado South/Ipokia)",
           "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1758628789_HB1218.pdf",
@@ -1310,8 +1310,8 @@
       "totalBills": 4,
       "sponsoredCount": 4,
       "cosponsoredCount": 0,
-      "conversionRate": 25,
-      "billsPassed": 1,
+      "conversionRate": 0,
+      "billsPassed": 0,
       "firstBillDate": "2024-05-07",
       "latestBillDate": "2024-05-09"
     },
@@ -1643,8 +1643,8 @@
           "dateFirstReading": "2025-06-24",
           "dateSecondReading": "2025-12-11",
           "committee": "Human Rights",
-          "thirdReadingStatus": "House: 2026-07-23",
-          "passedThirdReading": true,
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
           "primarySponsor": "Hon Lukman Mudashiru",
           "sponsorsDetails": "Hon Lukman Mudashiru (PDP, Osun, Constituency: Ayedire/Iwo/Ola-Oluwa); Hon Abiola Peter Makinde (APC, Ondo, Constituency: Ondo East/Ondo West)",
           "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1772520186_HB.2376.pdf",
@@ -4872,7 +4872,7 @@
           "billNumber": "HB 833",
           "title": "Federal Colleges of Education Act (Amendment) Bill, 2023",
           "category": "Education",
-          "dateFirstReading": "0202-11-02",
+          "dateFirstReading": "202-11-02",
           "dateSecondReading": "",
           "committee": "Not Yet Referred",
           "thirdReadingStatus": "Not Started",
@@ -4925,7 +4925,7 @@
       "cosponsoredCount": 0,
       "conversionRate": 0,
       "billsPassed": 0,
-      "firstBillDate": "0202-11-02",
+      "firstBillDate": "202-11-02",
       "latestBillDate": "2024-07-11"
     },
     {
@@ -8727,6 +8727,23 @@
       "imageUrl": "/data/legislator_images/house_rep_71.jpg",
       "sponsoredBills": [
         {
+          "billId": "78bea3f0-42a3-4736-9a61-519f7b20ccfe",
+          "billNumber": "HB 2189",
+          "title": "Agricultural Research Council of Nigeria Act (Amendment) Bill, 2025.",
+          "category": "Agriculture",
+          "dateFirstReading": "",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Hon Awaji-inombek Dagomie Abiante",
+          "sponsorsDetails": "Hon Awaji-inombek Dagomie Abiante (PDP, Rivers, Constituency: Opobo/Nkoro/Andoni)",
+          "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1770890897_HB2189.pdf",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
           "billId": "c39bf67c-a476-436a-9e8b-bbeff6ac9b53",
           "billNumber": "HB 177",
           "title": "Close circuit Television (Compulsory Installation) Bill, 2023",
@@ -8824,23 +8841,6 @@
           "primarySponsor": "Hon Awaji-inombek Dagomie Abiante",
           "sponsorsDetails": "Hon Awaji-inombek Dagomie Abiante (PDP, Rivers, Constituency: Opobo/Nkoro/Andoni)",
           "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "78bea3f0-42a3-4736-9a61-519f7b20ccfe",
-          "billNumber": "HB 2189",
-          "title": "Federal College of Fisheries Technology and Marine Engineering, Rivers State (Establishment) Bill",
-          "category": "Agriculture",
-          "dateFirstReading": "2025-03-13",
-          "dateSecondReading": "2025-05-07",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "House: 2026-07-23",
-          "passedThirdReading": true,
-          "primarySponsor": "Hon Awaji-inombek Dagomie Abiante",
-          "sponsorsDetails": "Hon Awaji-inombek Dagomie Abiante (PDP, Rivers, Constituency: Opobo/Nkoro/Andoni)",
-          "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1770890897_HB2189.pdf",
           "pdfPassedBill": "",
           "pdfSignedAct": "",
           "pdfCommitteeReport": ""
@@ -8987,8 +8987,8 @@
       "totalBills": 15,
       "sponsoredCount": 14,
       "cosponsoredCount": 1,
-      "conversionRate": 21,
-      "billsPassed": 3,
+      "conversionRate": 14,
+      "billsPassed": 2,
       "firstBillDate": "2023-07-19",
       "latestBillDate": "2025-11-12"
     },
@@ -9450,23 +9450,6 @@
           "pdfCommitteeReport": ""
         },
         {
-          "billId": "e57d5572-f837-4a2d-b020-19e732ab6d90",
-          "billNumber": "HB 1408",
-          "title": "Constitution of the Federal Republic of Nigeria, 1999 (Sixth Alteration) Bill, 2024",
-          "category": "Constitution",
-          "dateFirstReading": "2024-05-23",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Hon Babajimi Adegoke Benson",
-          "sponsorsDetails": "Hon Babajimi Adegoke Benson (APC, Lagos, Constituency: Ikorodu)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
           "billId": "f18d4817-627e-44b5-9650-b361d97482ef",
           "billNumber": "HB 1402",
           "title": "Constitution of the Federal Republic of Nigeria, 1999 (Sixth Alteration) Bill, 2024",
@@ -9506,6 +9489,23 @@
           "title": "Constitution of the Federal Republic of Nigeria, 1999 (Sixth Alteration) Bill, 2024",
           "category": "Constitution",
           "dateFirstReading": "2024-05-22",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Hon Babajimi Adegoke Benson",
+          "sponsorsDetails": "Hon Babajimi Adegoke Benson (APC, Lagos, Constituency: Ikorodu)",
+          "pdfInitialBill": "",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "e57d5572-f837-4a2d-b020-19e732ab6d90",
+          "billNumber": "HB 1408",
+          "title": "Constitution of the Federal Republic of Nigeria, 1999 (Sixth Alteration) Bill, 2024",
+          "category": "Constitution",
+          "dateFirstReading": "2024-05-23",
           "dateSecondReading": "",
           "committee": "Not Yet Referred",
           "thirdReadingStatus": "Not Started",
@@ -10195,23 +10195,6 @@
       "imageUrl": "/data/legislator_images/house_rep_81.jpg",
       "sponsoredBills": [
         {
-          "billId": "6854e599-c0ff-4d36-8bfb-36e51517de7c",
-          "billNumber": "HB 1929",
-          "title": "Federal College of Animal Health and Production, Kaoje (Establishment) Bill",
-          "category": "Agriculture",
-          "dateFirstReading": "2024-11-21",
-          "dateSecondReading": "2024-12-03",
-          "committee": "Agricultural Colleges and Institutions",
-          "thirdReadingStatus": "House: 2026-07-22",
-          "passedThirdReading": true,
-          "primarySponsor": "Hon Bello A Kaoje",
-          "sponsorsDetails": "Hon Bello A Kaoje (APC, Kebbi, Constituency: Bagudo/Suru)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
           "billId": "dc9082e5-04ca-4cb4-89b5-14bdb9c4173b",
           "billNumber": "HB 681",
           "title": "Federal Teaching Hospital Birnin-Kebbi (Establishment) Bill, 2023",
@@ -10248,13 +10231,13 @@
           "pdfCommitteeReport": ""
         }
       ],
-      "totalBills": 3,
-      "sponsoredCount": 2,
+      "totalBills": 2,
+      "sponsoredCount": 1,
       "cosponsoredCount": 1,
-      "conversionRate": 50,
-      "billsPassed": 1,
+      "conversionRate": 0,
+      "billsPassed": 0,
       "firstBillDate": "2023-10-19",
-      "latestBillDate": "2024-11-21"
+      "latestBillDate": "2023-10-19"
     },
     {
       "id": "82",
@@ -10334,23 +10317,6 @@
           "pdfCommitteeReport": ""
         },
         {
-          "billId": "bea75338-4ecb-4bc8-97b5-032826fd9b28",
-          "billNumber": "HB 2789",
-          "title": "North-West Development Commission (Establishment) Act (Amendment) Bill, 2026",
-          "category": "Rural Development",
-          "dateFirstReading": "2026-07-08",
-          "dateSecondReading": "2026-07-23",
-          "committee": "Committee on North-West Development Commission",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Hon Bello Ambarura Isah",
-          "sponsorsDetails": "Hon Bello Ambarura Isah (APC, Sokoto, Constituency: Illela/Gwadabawa); Hon Tajudeen Abbas (APC, Kaduna, Constituency: Zaria)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
           "billId": "e49d59f9-b08c-4322-9b35-dc7cd5b88539",
           "billNumber": "HB 2232",
           "title": "Yusuf Maitama Sule Federal University of Education, Kano (Establishment) Bill, 2025",
@@ -10387,13 +10353,13 @@
           "pdfCommitteeReport": ""
         }
       ],
-      "totalBills": 7,
-      "sponsoredCount": 6,
+      "totalBills": 6,
+      "sponsoredCount": 5,
       "cosponsoredCount": 1,
-      "conversionRate": 50,
+      "conversionRate": 60,
       "billsPassed": 3,
       "firstBillDate": "2023-10-24",
-      "latestBillDate": "2026-07-08"
+      "latestBillDate": "2024-03-20"
     },
     {
       "id": "83",
@@ -11157,23 +11123,6 @@
           "pdfCommitteeReport": ""
         },
         {
-          "billId": "51ccb343-e4bb-4c42-b5be-288e67b42edd",
-          "billNumber": "HB 2808",
-          "title": "Federal College of Nursing and Midwifery, Nkpa Bende, Abia State (Establishment) Bill, 2026",
-          "category": "Health",
-          "dateFirstReading": "",
-          "dateSecondReading": "2026-07-23",
-          "committee": "Health Institutions",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Hon Benjamin Kalu",
-          "sponsorsDetails": "Hon Benjamin Kalu (APC, Abia, Constituency: Bende)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
           "billId": "70454f74-0a98-4b82-a836-197e12b56bb5",
           "billNumber": "HB 216",
           "title": "Federal Cooperative College, Ibadan (Est) Bill, 2023",
@@ -11383,10 +11332,10 @@
           "title": "High Court of the Federal Capital Territory, Abuja (Number of Judges) Act (Amendment) Bill, 2024",
           "category": "Judiciary",
           "dateFirstReading": "2024-07-23",
-          "dateSecondReading": "2024-11-21",
-          "committee": "FCT Judiciary",
-          "thirdReadingStatus": "House: 2025-04-29, Senate: 2026-07-23",
-          "passedThirdReading": true,
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
           "primarySponsor": "Hon Benjamin Kalu",
           "sponsorsDetails": "Hon Benjamin Kalu (APC, Abia, Constituency: Bende)",
           "pdfInitialBill": "",
@@ -12672,11 +12621,11 @@
           "pdfCommitteeReport": ""
         }
       ],
-      "totalBills": 122,
-      "sponsoredCount": 100,
+      "totalBills": 121,
+      "sponsoredCount": 99,
       "cosponsoredCount": 22,
-      "conversionRate": 20,
-      "billsPassed": 20,
+      "conversionRate": 19,
+      "billsPassed": 19,
       "firstBillDate": "2023-07-05",
       "latestBillDate": "2026-06-04"
     },
@@ -13170,8 +13119,8 @@
           "title": "Armed Forces Act (Amendment) Bill, 2023",
           "category": "Armed Forces and National Security",
           "dateFirstReading": "2023-11-23",
-          "dateSecondReading": "2026-07-22",
-          "committee": "Defence",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
           "thirdReadingStatus": "Not Started",
           "passedThirdReading": false,
           "primarySponsor": "Hon Bukar Talba",
@@ -13852,11 +13801,11 @@
           "pdfCommitteeReport": ""
         },
         {
-          "billId": "ef79c69d-39d3-4bbf-9bee-3f84f9ed40e9",
-          "billNumber": "HB 597",
-          "title": "National Minimum Standards and Establishment of Institutions Act (Amendment) Bill, 2023",
-          "category": "Education",
-          "dateFirstReading": "2023-10-12",
+          "billId": "461fdabc-23ca-4127-b8ba-cee7d350d184",
+          "billNumber": "HB 573",
+          "title": "National Oil Spill Detection and Response Agency Act (Amendment) Bill, 2023",
+          "category": "Oil, Gas, and Solid Minerals",
+          "dateFirstReading": "2023-10-10",
           "dateSecondReading": "",
           "committee": "Not Yet Referred",
           "thirdReadingStatus": "Not Started",
@@ -13869,11 +13818,11 @@
           "pdfCommitteeReport": ""
         },
         {
-          "billId": "461fdabc-23ca-4127-b8ba-cee7d350d184",
-          "billNumber": "HB 573",
-          "title": "National Oil Spill Detection and Response Agency Act (Amendment) Bill, 2023",
-          "category": "Oil, Gas, and Solid Minerals",
-          "dateFirstReading": "2023-10-10",
+          "billId": "ef79c69d-39d3-4bbf-9bee-3f84f9ed40e9",
+          "billNumber": "HB 597",
+          "title": "National Minimum Standards and Establishment of Institutions Act (Amendment) Bill, 2023",
+          "category": "Education",
+          "dateFirstReading": "2023-10-12",
           "dateSecondReading": "",
           "committee": "Not Yet Referred",
           "thirdReadingStatus": "Not Started",
@@ -17349,10 +17298,10 @@
           "title": "Agricultural Research Council of Nigeria Act (Amendment) Bill, 2026",
           "category": "Agriculture",
           "dateFirstReading": "2026-03-11",
-          "dateSecondReading": "2026-03-12",
-          "committee": "Agriculture Production and Service",
-          "thirdReadingStatus": "House: 2026-07-22",
-          "passedThirdReading": true,
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
           "primarySponsor": "Hon Francis Ejiroghene Waive",
           "sponsorsDetails": "Hon Francis Ejiroghene Waive (APC, Delta, Constituency: Ughelli North, Ughelli South/Udu)",
           "pdfInitialBill": "",
@@ -17961,8 +17910,8 @@
       "totalBills": 37,
       "sponsoredCount": 33,
       "cosponsoredCount": 4,
-      "conversionRate": 24,
-      "billsPassed": 8,
+      "conversionRate": 21,
+      "billsPassed": 7,
       "firstBillDate": "2023-07-05",
       "latestBillDate": "2026-03-11"
     },
@@ -18168,32 +18117,15 @@
           "pdfCommitteeReport": ""
         },
         {
-          "billId": "5484883e-ee0b-4c7b-8056-04b7965e282f",
-          "billNumber": "HB 2493",
-          "title": "Economic and Financial Crimes Commission (Establishment) Act (Amendment) Bill",
-          "category": "Crime and Law Enforcement",
-          "dateFirstReading": "2025-07-23",
-          "dateSecondReading": "2025-10-23",
-          "committee": "Financial Crimes",
-          "thirdReadingStatus": "House: 2026-07-23",
-          "passedThirdReading": true,
-          "primarySponsor": "Hon Gagdi Adamu Yusuf",
-          "sponsorsDetails": "Hon Gagdi Adamu Yusuf (APC, Plateau, Constituency: Kanke/Pankshin/Kanam)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
           "billId": "60747110-4942-421c-939c-276169405835",
           "billNumber": "HB 2396",
           "title": "Economic and Financial Crimes Commission Institute (Establishment) Bill, 2025",
           "category": "Crime and Law Enforcement",
-          "dateFirstReading": "2025-06-26",
-          "dateSecondReading": "2025-11-04",
-          "committee": "Financial Crimes",
-          "thirdReadingStatus": "House: 2026-07-23",
-          "passedThirdReading": true,
+          "dateFirstReading": "",
+          "dateSecondReading": "2025-11-12",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
           "primarySponsor": "Hon Gagdi Adamu Yusuf",
           "sponsorsDetails": "Hon Gagdi Adamu Yusuf (APC, Plateau, Constituency: Kanke/Pankshin/Kanam)",
           "pdfInitialBill": "",
@@ -18282,23 +18214,6 @@
           "primarySponsor": "Hon Gagdi Adamu Yusuf",
           "sponsorsDetails": "Hon Gagdi Adamu Yusuf (APC, Plateau, Constituency: Kanke/Pankshin/Kanam)",
           "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1768987569_HB42.pdf",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "fd5facb9-9e36-4f2e-8b37-80c59835b51e",
-          "billNumber": "HB 2450",
-          "title": "Money Laundering (Prevention and Prohibition) Act (Amendment) Bill",
-          "category": "Crime and Law Enforcement",
-          "dateFirstReading": "2025-07-23",
-          "dateSecondReading": "2025-10-29",
-          "committee": "Financial Crimes",
-          "thirdReadingStatus": "House: 2026-07-23",
-          "passedThirdReading": true,
-          "primarySponsor": "Hon Gagdi Adamu Yusuf",
-          "sponsorsDetails": "Hon Gagdi Adamu Yusuf (APC, Plateau, Constituency: Kanke/Pankshin/Kanam)",
-          "pdfInitialBill": "",
           "pdfPassedBill": "",
           "pdfSignedAct": "",
           "pdfCommitteeReport": ""
@@ -18491,23 +18406,6 @@
           "pdfCommitteeReport": ""
         },
         {
-          "billId": "2912d0d7-7f69-4e22-b595-90fe1661f532",
-          "billNumber": "HB 2447",
-          "title": "Proceeds of Crime (Recovery and Management) Act (Amendment) Bill",
-          "category": "Crime and Law Enforcement",
-          "dateFirstReading": "2025-07-23",
-          "dateSecondReading": "2025-10-28",
-          "committee": "Financial Crimes",
-          "thirdReadingStatus": "House: 2026-07-23",
-          "passedThirdReading": true,
-          "primarySponsor": "Hon Gagdi Adamu Yusuf",
-          "sponsorsDetails": "Hon Gagdi Adamu Yusuf (APC, Plateau, Constituency: Kanke/Pankshin/Kanam)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
           "billId": "17835e66-19c6-41ba-9704-ac6e4138c7d5",
           "billNumber": "HB 387",
           "title": "Regional Centre for Oral Health Research and Training Initiatives (Establishment, etc.) Bill, 2023",
@@ -18526,13 +18424,13 @@
         }
       ],
       "cosponsoredBills": [],
-      "totalBills": 25,
-      "sponsoredCount": 25,
+      "totalBills": 22,
+      "sponsoredCount": 22,
       "cosponsoredCount": 0,
-      "conversionRate": 16,
-      "billsPassed": 4,
+      "conversionRate": 0,
+      "billsPassed": 0,
       "firstBillDate": "2023-07-06",
-      "latestBillDate": "2025-07-23"
+      "latestBillDate": "2023-07-27"
     },
     {
       "id": "126",
@@ -19399,11 +19297,11 @@
           "billNumber": "HB 2191",
           "title": "Federal College of Nursing, Midwifery, and Health Sciences, Ihebinowerre, Imo State (Est.) Bill, 2025",
           "category": "Health",
-          "dateFirstReading": "2025-03-13",
-          "dateSecondReading": "2025-05-21",
-          "committee": "Health Institutions",
-          "thirdReadingStatus": "House: 2026-07-22",
-          "passedThirdReading": true,
+          "dateFirstReading": "",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
           "primarySponsor": "Harrison Anozie Nwadike",
           "sponsorsDetails": "Harrison Anozie Nwadike (APC, Imo, Constituency: Isu/Njaba/Nkwerre/Nwangele)",
           "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1769688166_HB2191.pdf",
@@ -19416,10 +19314,10 @@
       "totalBills": 5,
       "sponsoredCount": 5,
       "cosponsoredCount": 0,
-      "conversionRate": 20,
-      "billsPassed": 1,
+      "conversionRate": 0,
+      "billsPassed": 0,
       "firstBillDate": "2024-07-02",
-      "latestBillDate": "2025-03-13"
+      "latestBillDate": "2024-07-11"
     },
     {
       "id": "134",
@@ -21365,23 +21263,6 @@
           "pdfCommitteeReport": ""
         },
         {
-          "billId": "1112c44f-fc81-49f7-87cb-8ce736421782",
-          "billNumber": "HB 2801",
-          "title": "Federal Polytechnics Act (Amendment) Bill, 2026",
-          "category": "Education",
-          "dateFirstReading": "",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Hon Jeremiah Umaru",
-          "sponsorsDetails": "Hon Jeremiah Umaru (APC, Nasarawa, Constituency: Akwanga/Nassarawa Eggon/ Wamba)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
           "billId": "c4df9315-8e0f-4b1f-ae4a-48d4123e6852",
           "billNumber": "HB 117",
           "title": "Federal University of Education Akwanga, Nasarawa State (Establishment) Bill, 2023",
@@ -21421,7 +21302,7 @@
           "title": "National Institute for Technical and Vocational Education Wamba, Nasarawa State (Establishment) Bill, 2023",
           "category": "Education",
           "dateFirstReading": "2023-07-18",
-          "dateSecondReading": "0024-10-02",
+          "dateSecondReading": "2002-10-24",
           "committee": "Federal Polytechnics",
           "thirdReadingStatus": "Not Started",
           "passedThirdReading": false,
@@ -21468,8 +21349,8 @@
         }
       ],
       "cosponsoredBills": [],
-      "totalBills": 11,
-      "sponsoredCount": 11,
+      "totalBills": 10,
+      "sponsoredCount": 10,
       "cosponsoredCount": 0,
       "conversionRate": 0,
       "billsPassed": 0,
@@ -25409,8 +25290,8 @@
           "dateFirstReading": "2025-06-24",
           "dateSecondReading": "2025-12-11",
           "committee": "Human Rights",
-          "thirdReadingStatus": "House: 2026-07-23",
-          "passedThirdReading": true,
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
           "primarySponsor": "Hon Lukman Mudashiru",
           "sponsorsDetails": "Hon Lukman Mudashiru (PDP, Osun, Constituency: Ayedire/Iwo/Ola-Oluwa); Hon Abiola Peter Makinde (APC, Ondo, Constituency: Ondo East/Ondo West)",
           "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1772520186_HB.2376.pdf",
@@ -25440,8 +25321,8 @@
       "totalBills": 5,
       "sponsoredCount": 5,
       "cosponsoredCount": 0,
-      "conversionRate": 20,
-      "billsPassed": 1,
+      "conversionRate": 0,
+      "billsPassed": 0,
       "firstBillDate": "2023-11-07",
       "latestBillDate": "2025-06-24"
     },
@@ -25994,7 +25875,7 @@
           "dateFirstReading": "2024-03-13",
           "dateSecondReading": "",
           "committee": "Not Yet Referred",
-          "thirdReadingStatus": "House: 2025-05-21, Senate: 2026-07-23",
+          "thirdReadingStatus": "House: 2025-05-21",
           "passedThirdReading": true,
           "primarySponsor": "Hon Mansur Manu Soro",
           "sponsorsDetails": "Hon Mansur Manu Soro (APC, Bauchi, Constituency: Darazo/Gunjuwa)",
@@ -32958,8 +32839,8 @@
           "title": "Orthopaedic Hospitals Management Board Act (Amendment) Bill, 2026",
           "category": "Health",
           "dateFirstReading": "2026-06-04",
-          "dateSecondReading": "2026-07-22",
-          "committee": "Health",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
           "thirdReadingStatus": "Not Started",
           "passedThirdReading": false,
           "primarySponsor": "Patrick Umoh",
@@ -33509,8 +33390,8 @@
           "dateFirstReading": "2023-10-31",
           "dateSecondReading": "2024-06-06",
           "committee": "the Whole",
-          "thirdReadingStatus": "House: 2024-10-31, Senate: 2026-07-23",
-          "passedThirdReading": true,
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
           "primarySponsor": "Hon Paul Nnamchi",
           "sponsorsDetails": "Hon Paul Nnamchi (LP, Enugu, Constituency: Enugu East/Isi Uzo)",
           "pdfInitialBill": "",
@@ -33762,8 +33643,8 @@
       "totalBills": 33,
       "sponsoredCount": 29,
       "cosponsoredCount": 4,
-      "conversionRate": 3,
-      "billsPassed": 1,
+      "conversionRate": 0,
+      "billsPassed": 0,
       "firstBillDate": "2023-10-03",
       "latestBillDate": "2025-12-10"
     },
@@ -34761,23 +34642,6 @@
           "pdfCommitteeReport": ""
         },
         {
-          "billId": "368160df-c4b1-4e4d-9346-de00f810fe77",
-          "billNumber": "HB 2779",
-          "title": "Nigerian Airspace Management Agency (Establishment) Act (Amendment) Bill",
-          "category": "Aviation",
-          "dateFirstReading": "",
-          "dateSecondReading": "2026-07-22",
-          "committee": "Aviation",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Hon Sada Soli",
-          "sponsorsDetails": "Hon Sada Soli (APC, Katsina, Constituency: Jibia/Kaita)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
           "billId": "3270940a-9005-46a4-bf82-be26b2d4ba85",
           "billNumber": "HB 2152",
           "title": "Nigerian Educational Research and Development Council Act (Amendment) Bill, 2025",
@@ -34898,8 +34762,8 @@
         }
       ],
       "cosponsoredBills": [],
-      "totalBills": 25,
-      "sponsoredCount": 25,
+      "totalBills": 24,
+      "sponsoredCount": 24,
       "cosponsoredCount": 0,
       "conversionRate": 0,
       "billsPassed": 0,
@@ -35671,23 +35535,6 @@
           "pdfCommitteeReport": ""
         },
         {
-          "billId": "c8a61a34-0d3a-46c7-aacd-8a84cda3e1b8",
-          "billNumber": "HB 2795",
-          "title": "National Commission for Rural Infrastructure and Development (Establishment) Bill",
-          "category": "Infrastructure and Public Works",
-          "dateFirstReading": "2025-07-09",
-          "dateSecondReading": "2026-07-22",
-          "committee": "Rural Development",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Hon Saidu Musa Abdullahi",
-          "sponsorsDetails": "Hon Saidu Musa Abdullahi (APC, Niger, Constituency: Bida/Gbako/Katcha)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
           "billId": "f3fe589f-f954-4935-b7d4-79bac9d205b3",
           "billNumber": "HB 262",
           "title": "National Rice Development Council Bill, 2023",
@@ -35859,8 +35706,8 @@
         }
       ],
       "cosponsoredBills": [],
-      "totalBills": 30,
-      "sponsoredCount": 30,
+      "totalBills": 29,
+      "sponsoredCount": 29,
       "cosponsoredCount": 0,
       "conversionRate": 0,
       "billsPassed": 0,
@@ -35935,8 +35782,8 @@
           "title": "Agricultural Research Council of Nigeria Act (Amendment) Bill, 2024",
           "category": "Agriculture",
           "dateFirstReading": "2024-06-06",
-          "dateSecondReading": "2026-05-05",
-          "committee": "Agricultural Colleges and Institutions",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
           "thirdReadingStatus": "Not Started",
           "passedThirdReading": false,
           "primarySponsor": "Salman Idris",
@@ -36438,11 +36285,11 @@
           "pdfCommitteeReport": ""
         },
         {
-          "billId": "22595b73-c89a-4cbf-83b9-9f41745ae9cc",
-          "billNumber": "HB 338",
-          "title": "Cancer Registry Bill (Establishment) Bill, 2023",
-          "category": "Health",
-          "dateFirstReading": "2023-07-27",
+          "billId": "3fe3b593-a921-44da-8e97-3b9b83dc787f",
+          "billNumber": "HB 532",
+          "title": "Central Bank of Nigeria Act (Amendment) Bill, 2023",
+          "category": "Banking and Finance",
+          "dateFirstReading": "2023-10-05",
           "dateSecondReading": "",
           "committee": "Not Yet Referred",
           "thirdReadingStatus": "Not Started",
@@ -36455,11 +36302,11 @@
           "pdfCommitteeReport": ""
         },
         {
-          "billId": "3fe3b593-a921-44da-8e97-3b9b83dc787f",
-          "billNumber": "HB 532",
-          "title": "Central Bank of Nigeria Act (Amendment) Bill, 2023",
-          "category": "Banking and Finance",
-          "dateFirstReading": "2023-10-05",
+          "billId": "22595b73-c89a-4cbf-83b9-9f41745ae9cc",
+          "billNumber": "HB 338",
+          "title": "Cancer Registry Bill (Establishment) Bill, 2023",
+          "category": "Health",
+          "dateFirstReading": "2023-07-27",
           "dateSecondReading": "",
           "committee": "Not Yet Referred",
           "thirdReadingStatus": "Not Started",
@@ -37178,33 +37025,16 @@
           "pdfPassedBill": "",
           "pdfSignedAct": "",
           "pdfCommitteeReport": ""
-        },
-        {
-          "billId": "c13ecc10-2c1b-465c-bb58-f3dca911e696",
-          "billNumber": "HB 2762",
-          "title": "Trustee Investment Act (Repeal and Enactment) Bill, 2026",
-          "category": "Business, Trade, Investment",
-          "dateFirstReading": "2026-05-05",
-          "dateSecondReading": "2026-07-23",
-          "committee": "Capital Market",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Hon Solomon T Bob",
-          "sponsorsDetails": "Hon Solomon T Bob (PDP, Rivers, Constituency: Ahoada West/Ogba Egbema)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
         }
       ],
       "cosponsoredBills": [],
-      "totalBills": 7,
-      "sponsoredCount": 7,
+      "totalBills": 6,
+      "sponsoredCount": 6,
       "cosponsoredCount": 0,
       "conversionRate": 0,
       "billsPassed": 0,
       "firstBillDate": "2024-04-30",
-      "latestBillDate": "2026-05-05"
+      "latestBillDate": "2024-07-23"
     },
     {
       "id": "261",
@@ -37698,23 +37528,6 @@
       "imageUrl": "/data/legislator_images/house_rep_264.jpg",
       "sponsoredBills": [
         {
-          "billId": "32417d54-2bc9-413b-951b-5da58cbd25da",
-          "billNumber": "HB 2116",
-          "title": "Agricultural Research Council of Nigeria (Amendment) Bill, 2025",
-          "category": "Agriculture",
-          "dateFirstReading": "",
-          "dateSecondReading": "",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Hon Tajudeen Abbas",
-          "sponsorsDetails": "Hon Tajudeen Abbas (APC, Kaduna, Constituency: Zaria)",
-          "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1770375163_HB2116.pdf",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
           "billId": "ea3d4d0a-255c-4596-be9b-e870695591ea",
           "billNumber": "HB 2117",
           "title": "Agricultural Research Council of Nigeria (Amendment) Bill, 2025",
@@ -37727,6 +37540,23 @@
           "primarySponsor": "Hon Tajudeen Abbas",
           "sponsorsDetails": "Hon Tajudeen Abbas (APC, Kaduna, Constituency: Zaria)",
           "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1770375212_HB2117.pdf",
+          "pdfPassedBill": "",
+          "pdfSignedAct": "",
+          "pdfCommitteeReport": ""
+        },
+        {
+          "billId": "32417d54-2bc9-413b-951b-5da58cbd25da",
+          "billNumber": "HB 2116",
+          "title": "Agricultural Research Council of Nigeria (Amendment) Bill, 2025",
+          "category": "Agriculture",
+          "dateFirstReading": "",
+          "dateSecondReading": "",
+          "committee": "Not Yet Referred",
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
+          "primarySponsor": "Hon Tajudeen Abbas",
+          "sponsorsDetails": "Hon Tajudeen Abbas (APC, Kaduna, Constituency: Zaria)",
+          "pdfInitialBill": "https://admin.placbillstrack.org/bill-uploads/1770375163_HB2116.pdf",
           "pdfPassedBill": "",
           "pdfSignedAct": "",
           "pdfCommitteeReport": ""
@@ -37992,10 +37822,10 @@
           "title": "Department of State Service Research and Development Bureau (Establishment) Bill, 2026",
           "category": "Security",
           "dateFirstReading": "2026-03-11",
-          "dateSecondReading": "2026-04-23",
+          "dateSecondReading": "",
           "committee": "Not Yet Referred",
-          "thirdReadingStatus": "House: 2026-07-23",
-          "passedThirdReading": true,
+          "thirdReadingStatus": "Not Started",
+          "passedThirdReading": false,
           "primarySponsor": "Hon Tajudeen Abbas",
           "sponsorsDetails": "Hon Tajudeen Abbas (APC, Kaduna, Constituency: Zaria)",
           "pdfInitialBill": "",
@@ -38652,23 +38482,6 @@
           "pdfCommitteeReport": ""
         },
         {
-          "billId": "bea75338-4ecb-4bc8-97b5-032826fd9b28",
-          "billNumber": "HB 2789",
-          "title": "North-West Development Commission (Establishment) Act (Amendment) Bill, 2026",
-          "category": "Rural Development",
-          "dateFirstReading": "2026-07-08",
-          "dateSecondReading": "2026-07-23",
-          "committee": "Committee on North-West Development Commission",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Hon Bello Ambarura Isah",
-          "sponsorsDetails": "Hon Bello Ambarura Isah (APC, Sokoto, Constituency: Illela/Gwadabawa); Hon Tajudeen Abbas (APC, Kaduna, Constituency: Zaria)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
           "billId": "e49d59f9-b08c-4322-9b35-dc7cd5b88539",
           "billNumber": "HB 2232",
           "title": "Yusuf Maitama Sule Federal University of Education, Kano (Establishment) Bill, 2025",
@@ -38686,13 +38499,13 @@
           "pdfCommitteeReport": ""
         }
       ],
-      "totalBills": 58,
+      "totalBills": 57,
       "sponsoredCount": 49,
-      "cosponsoredCount": 9,
-      "conversionRate": 12,
-      "billsPassed": 6,
+      "cosponsoredCount": 8,
+      "conversionRate": 10,
+      "billsPassed": 5,
       "firstBillDate": "2023-07-05",
-      "latestBillDate": "2026-07-08"
+      "latestBillDate": "2026-05-06"
     },
     {
       "id": "265",
@@ -41402,23 +41215,6 @@
           "pdfCommitteeReport": ""
         },
         {
-          "billId": "4b60fade-a347-4c2d-945b-622bb018da5b",
-          "billNumber": "HB 2806",
-          "title": "National Systems Resilience Bill, 2026 (HB. 2806)",
-          "category": "Terrorism",
-          "dateFirstReading": "2026-07-21",
-          "dateSecondReading": "2026-07-23",
-          "committee": "Not Yet Referred",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Hon Zakaria Dauda Nyampa",
-          "sponsorsDetails": "Hon Zakaria Dauda Nyampa (PDP, Adamawa, Constituency: Madagali/Michika)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
           "billId": "660f553a-107a-4c13-b825-48b6be18b2f3",
           "billNumber": "HB 431",
           "title": "Oil and Gas Investment and Free Zones Bill, 2023",
@@ -41437,13 +41233,13 @@
         }
       ],
       "cosponsoredBills": [],
-      "totalBills": 14,
-      "sponsoredCount": 14,
+      "totalBills": 13,
+      "sponsoredCount": 13,
       "cosponsoredCount": 0,
       "conversionRate": 0,
       "billsPassed": 0,
       "firstBillDate": "2023-07-05",
-      "latestBillDate": "2026-07-21"
+      "latestBillDate": "2025-07-22"
     },
     {
       "id": "287",
@@ -41923,23 +41719,6 @@
       "imageUrl": "/data/legislator_images/house_rep_311.jpg",
       "sponsoredBills": [
         {
-          "billId": "62a63ccc-65f9-4d14-8407-1fc4b53c2a23",
-          "billNumber": "HB 2810",
-          "title": "Federal College of Nursing Sciences, Kumo, Gombe State (Establishment) Bill, 2026",
-          "category": "Health",
-          "dateFirstReading": "2026-07-22",
-          "dateSecondReading": "2026-07-23",
-          "committee": "Health Institutions",
-          "thirdReadingStatus": "Not Started",
-          "passedThirdReading": false,
-          "primarySponsor": "Hon Usman Bello Kumo",
-          "sponsorsDetails": "Hon Usman Bello Kumo (APC, Gombe, Constituency: Akko)",
-          "pdfInitialBill": "",
-          "pdfPassedBill": "",
-          "pdfSignedAct": "",
-          "pdfCommitteeReport": ""
-        },
-        {
           "billId": "96836cc2-f576-444a-93a9-3c6b89132718",
           "billNumber": "HB 2807",
           "title": "Federal College of Nursing Sciences, Kumo, Gombe State Bill, 2026",
@@ -41993,8 +41772,8 @@
           "pdfCommitteeReport": ""
         }
       ],
-      "totalBills": 4,
-      "sponsoredCount": 2,
+      "totalBills": 3,
+      "sponsoredCount": 1,
       "cosponsoredCount": 2,
       "conversionRate": 0,
       "billsPassed": 0,
@@ -43525,9 +43304,9 @@
   ],
   "stats": {
     "totalMembers": 375,
-    "totalBills": 1932,
+    "totalBills": 1918,
     "membersWithBills": 298,
-    "executiveBillCount": 51
+    "executiveBillCount": 50
   },
   "leaderboards": {
     "top20": [
@@ -43537,10 +43316,10 @@
         "party": "APC",
         "state": "Abia",
         "constituency": "Bende",
-        "billCount": 122,
-        "sponsoredCount": 100,
+        "billCount": 121,
+        "sponsoredCount": 99,
         "cosponsoredCount": 22,
-        "conversionRate": 20
+        "conversionRate": 19
       },
       {
         "id": "165",
@@ -43559,10 +43338,10 @@
         "party": "APC",
         "state": "Kaduna",
         "constituency": "Zaria",
-        "billCount": 58,
+        "billCount": 57,
         "sponsoredCount": 49,
-        "cosponsoredCount": 9,
-        "conversionRate": 12
+        "cosponsoredCount": 8,
+        "conversionRate": 10
       },
       {
         "id": "122",
@@ -43573,7 +43352,7 @@
         "billCount": 37,
         "sponsoredCount": 33,
         "cosponsoredCount": 4,
-        "conversionRate": 24
+        "conversionRate": 21
       },
       {
         "id": "275",
@@ -43606,7 +43385,7 @@
         "billCount": 33,
         "sponsoredCount": 29,
         "cosponsoredCount": 4,
-        "conversionRate": 3
+        "conversionRate": 0
       },
       {
         "id": "181",
@@ -43625,8 +43404,8 @@
         "party": "APC",
         "state": "Niger",
         "constituency": "Bida/Gbako/Katcha",
-        "billCount": 30,
-        "sponsoredCount": 30,
+        "billCount": 29,
+        "sponsoredCount": 29,
         "cosponsoredCount": 0,
         "conversionRate": 0
       },
@@ -43664,28 +43443,6 @@
         "conversionRate": 4
       },
       {
-        "id": "125",
-        "name": "Hon Gagdi Adamu Yusuf",
-        "party": "APC",
-        "state": "Plateau",
-        "constituency": "Pankshin/Kanke/Kanam",
-        "billCount": 25,
-        "sponsoredCount": 25,
-        "cosponsoredCount": 0,
-        "conversionRate": 16
-      },
-      {
-        "id": "242",
-        "name": "Hon Sada Soli",
-        "party": "APC",
-        "state": "Katsina",
-        "constituency": "Jibia/Kaita",
-        "billCount": 25,
-        "sponsoredCount": 25,
-        "cosponsoredCount": 0,
-        "conversionRate": 0
-      },
-      {
         "id": "50",
         "name": "Hon Akintunde Rotimi",
         "party": "APC",
@@ -43694,6 +43451,17 @@
         "billCount": 24,
         "sponsoredCount": 22,
         "cosponsoredCount": 2,
+        "conversionRate": 0
+      },
+      {
+        "id": "242",
+        "name": "Hon Sada Soli",
+        "party": "APC",
+        "state": "Katsina",
+        "constituency": "Jibia/Kaita",
+        "billCount": 24,
+        "sponsoredCount": 24,
+        "cosponsoredCount": 0,
         "conversionRate": 0
       },
       {
@@ -43716,6 +43484,17 @@
         "billCount": 23,
         "sponsoredCount": 22,
         "cosponsoredCount": 1,
+        "conversionRate": 0
+      },
+      {
+        "id": "125",
+        "name": "Hon Gagdi Adamu Yusuf",
+        "party": "APC",
+        "state": "Plateau",
+        "constituency": "Pankshin/Kanke/Kanam",
+        "billCount": 22,
+        "sponsoredCount": 22,
+        "cosponsoredCount": 0,
         "conversionRate": 0
       },
       {
@@ -44071,23 +43850,6 @@
       "committee": "Not Yet Referred",
       "thirdReadingStatus": "Not Started",
       "passedThirdReading": false,
-      "primarySponsor": "Executive",
-      "sponsorsDetails": "Executive (APC, N/A, Constituency: .)",
-      "pdfInitialBill": "",
-      "pdfPassedBill": "",
-      "pdfSignedAct": "",
-      "pdfCommitteeReport": ""
-    },
-    {
-      "billId": "1d322469-928e-45ec-b526-4b4eccd334e4",
-      "billNumber": "HB 2797",
-      "title": "Constitution of the Federal Republic of Nigeria, 1999 (Alteration) Bill",
-      "category": "Constitution",
-      "dateFirstReading": "2026-07-14",
-      "dateSecondReading": "2026-07-14",
-      "committee": "Constitution Review",
-      "thirdReadingStatus": "House: 2026-07-23",
-      "passedThirdReading": true,
       "primarySponsor": "Executive",
       "sponsorsDetails": "Executive (APC, N/A, Constituency: .)",
       "pdfInitialBill": "",
