@@ -47,6 +47,21 @@ export const EmbedToolbar: React.FC<EmbedToolbarProps> = ({
           >
             <Filter className={`w-5 h-5 ${isHouse ? 'text-emerald-600 dark:text-emerald-400' : 'text-rose-600 dark:text-rose-400'}`} />
           </button>
+
+          {/* Logo & Title */}
+          <div className="flex items-center gap-2.5">
+            <div className={`p-2 rounded-xl text-white shadow-md transition-colors duration-300 ${isHouse ? 'bg-emerald-600' : 'bg-rose-600'}`}>
+              <Landmark className="w-5 h-5" />
+            </div>
+            <div>
+              <h1 className="text-lg font-extrabold tracking-tight text-slate-900 dark:text-white leading-tight">
+                NASS<span className={isHouse ? 'text-emerald-500' : 'text-rose-500'}>Track</span>
+              </h1>
+              <p className="text-[11px] text-slate-500 dark:text-slate-400 font-medium hidden sm:block">
+                10th National Assembly Dashboard
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="bg-slate-100 dark:bg-slate-800/90 p-1.5 rounded-2xl border border-slate-200 dark:border-slate-700/80 flex items-center shadow-inner">
