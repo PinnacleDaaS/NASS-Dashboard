@@ -1,5 +1,11 @@
 export type Chamber = 'house' | 'senate';
 
+export function isValidParty(value?: string | null): boolean {
+  if (!value) return false;
+  const v = value.trim().toLowerCase();
+  return v !== '' && v !== 'nan' && v !== 'none' && v !== 'n/a' && v !== 'na';
+}
+
 export interface Bill {
   billId: string;
   billNumber: string;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Member, Bill, Chamber } from '../types';
+import { Member, Bill, Chamber, isValidParty } from '../types';
 import { Avatar } from './Avatar';
 import { X, FileText, Calendar, CheckCircle2, Clock, Users, Building, ExternalLink, Tag } from 'lucide-react';
 
@@ -43,7 +43,7 @@ export const BillDetailsModal: React.FC<BillDetailsModalProps> = ({
                 <span className="px-2.5 py-0.5 rounded-full text-xs font-extrabold uppercase bg-white/20 backdrop-blur-sm tracking-wider">
                   {member.state} • {member.constituency}
                 </span>
-                {member.party && (
+                {isValidParty(member.party) && (
                   <span className="px-2.5 py-0.5 rounded-full text-xs font-extrabold bg-white/20 backdrop-blur-sm">
                     {member.party}
                   </span>

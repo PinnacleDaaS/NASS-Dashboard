@@ -1,5 +1,5 @@
 import React from 'react';
-import { Member, Chamber } from '../types';
+import { Member, Chamber, isValidParty } from '../types';
 import { Avatar } from './Avatar';
 import { ConversionGauge } from './ConversionGauge';
 import { FileText, Calendar, Eye, MapPin, Award } from 'lucide-react';
@@ -41,7 +41,7 @@ export const LegislatorCard: React.FC<LegislatorCardProps> = ({
               <h3 className="font-extrabold text-base truncate text-white leading-snug">
                 {member.name}
               </h3>
-              {member.party && (
+              {isValidParty(member.party) && (
                 <p className="text-xs text-white/80 truncate font-semibold uppercase tracking-wider">
                   {member.party}
                 </p>
@@ -75,7 +75,7 @@ export const LegislatorCard: React.FC<LegislatorCardProps> = ({
               </div>
 
               {/* Party Badge */}
-              {member.party && (
+              {isValidParty(member.party) && (
                 <div className="inline-flex items-center px-2.5 py-1 rounded-lg text-xs font-bold bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-200 max-w-full truncate">
                   {member.party}
                 </div>

@@ -2,12 +2,16 @@ import json
 import csv
 import os
 import re
+import sys
 import requests
 from datetime import datetime
 
 # Resolve paths relative to project root (one level up from pipeline/)
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(PROJECT_ROOT, "data")
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from export_data import normalize_house_sponsor_name, normalize_senate_sponsor_name
 
 CACHE_FILE = os.path.join(DATA_DIR, "temp_bills_cache.json")
 PDF_BASE_URL = "https://admin.placbillstrack.org/bill-uploads/"
@@ -75,6 +79,30 @@ def parse_date(date_str):
             continue
     return None
 
+def _normalize_sponsor_key(name, chamber_type):
+    """Normalize a sponsor name the same way export_data.py keys its party lookup."""
+    if str(chamber_type).strip().lower() == 'senate':
+        return normalize_senate_sponsor_name(name)
+    return normalize_house_sponsor_name(name)
+
+
+def load_committed_parties(sponsors_file):
+    """Load (chamber, normalized-name) -> party from the existing committed sponsors
+    CSV. These are reviewed/correct values and MUST win over live PLAC data, so the
+    pipeline never overwrites already-correct party info with blank/NaN scraps."""
+    if not os.path.exists(sponsors_file):
+        return {}
+    existing = {}
+    with open(sponsors_file, encoding='utf-8-sig', newline='') as f:
+        for row in csv.DictReader(f):
+            chamber = str(row.get('chamber_type') or '').strip().lower()
+            key = _normalize_sponsor_key(row.get('sponsor_name') or '', chamber)
+            party = str(row.get('sponsor_party') or '').strip()
+            if key and party:
+                existing.setdefault((chamber, key), party)
+    return existing
+
+
 def main():
     if not os.path.exists(CACHE_FILE):
         print(f"[Error] Raw cache file '{CACHE_FILE}' not found! Please run the scraper first.")
@@ -89,6 +117,8 @@ def main():
 
     # Fetch lookup maps
     categories_map, parties_map, states_map = fetch_lookups()
+
+    committed_parties = load_committed_parties(os.path.join(DATA_DIR, "plac_10th_assembly_bills_sponsors.csv"))
 
     cleaned_bills = []
     sponsors_records = []
@@ -184,6 +214,14 @@ def main():
             elif parties_map and sp.get("party_id"):
                 party_acronym = parties_map.get(sp["party_id"], "")
             party_acronym = clean_text(party_acronym).upper()
+
+            # Committed party wins: live PLAC data must never overwrite the
+            # reviewed/correct party values already in the sponsors CSV.
+            sponsor_chamber = str(sp['chamber_type']).strip().lower()
+            saved_party = committed_parties.get(
+                (sponsor_chamber, _normalize_sponsor_key(full_name, sponsor_chamber)))
+            if saved_party:
+                party_acronym = saved_party
 
             # Resolve state title
             state_title = ""

@@ -409,7 +409,7 @@ def build_party_lookup(chamber_type):
     if not os.path.exists(path):
         return lookup
 
-    df = pd.read_csv(path)
+    df = pd.read_csv(path, keep_default_na=False)
     df.columns = df.columns.str.strip()
     df = df[df['chamber_type'].str.strip().str.lower() == str(chamber_type).lower()]
     if df.empty:
@@ -423,6 +423,9 @@ def build_party_lookup(chamber_type):
     for _, row in df.iterrows():
         key = str(row['norm']).strip()
         party = str(row['sponsor_party']).strip()
+        # Pandas NaN / literal junk must never be treated as a real party.
+        if party.lower() in ('nan', 'none', 'n/a', 'na'):
+            party = ''
         if key and party and key not in lookup:
             lookup[key] = party
     return lookup

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { LeaderboardEntry, Chamber } from '../types';
+import { LeaderboardEntry, Chamber, isValidParty } from '../types';
 import { Trophy, TrendingDown, ChevronDown, ChevronUp, Award } from 'lucide-react';
 
 interface LeaderboardProps {
@@ -123,7 +123,7 @@ export const Leaderboard: React.FC<LeaderboardProps> = ({
                         <h4 className="font-extrabold text-sm text-slate-900 dark:text-white truncate">
                           {entry.name}
                         </h4>
-                        {entry.party && (
+                        {isValidParty(entry.party) && (
                           <span className="px-1.5 py-0.5 rounded text-[10px] font-extrabold bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 flex-shrink-0">
                             {entry.party}
                           </span>
