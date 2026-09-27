@@ -10,7 +10,9 @@ export function useData(chamber: Chamber) {
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [selectedState, setSelectedState] = useState<string>('All');
   const [selectedConstituency, setSelectedConstituency] = useState<string>('All');
-  const [selectedCategory, setSelectedCategory] = useState<string>('All');
+  const [selectedCategory, setSelectedCategory] = useState<string[]>(['All']);
+
+  // Pagination states
 
   // Pagination states
   const [currentPage, setCurrentPage] = useState<number>(1);
@@ -41,20 +43,20 @@ export function useData(chamber: Chamber) {
     setSearchQuery('');
     setSelectedState('All');
     setSelectedConstituency('All');
-    setSelectedCategory('All');
+    setSelectedCategory(['All']);
     setCurrentPage(1);
   }, [chamber]);
 
   // Reset constituency & category when state changes
   useEffect(() => {
     setSelectedConstituency('All');
-    setSelectedCategory('All');
+    setSelectedCategory(['All']);
     setCurrentPage(1);
   }, [selectedState]);
 
   // Reset category when constituency changes
   useEffect(() => {
-    setSelectedCategory('All');
+    setSelectedCategory(['All']);
     setCurrentPage(1);
   }, [selectedConstituency]);
 
@@ -74,7 +76,7 @@ export function useData(chamber: Chamber) {
     return data.constituencies[selectedState] || [];
   }, [data, selectedState]);
 
-  // Members filtered by search + state + constituency (excludes category — used for cascading category options)
+  // Members filtered by search + state + constituency
   const membersBeforeCategory = useMemo(() => {
     if (!data || !data.members) return [];
     return data.members.filter(m => {
@@ -101,13 +103,29 @@ export function useData(chamber: Chamber) {
     return Array.from(cats).sort();
   }, [membersBeforeCategory]);
 
-  // Filtered members — applies all filters including category
+  // Filtered members — applies state/constituency/search filters, and now category
   const filteredMembers = useMemo(() => {
-    if (selectedCategory === 'All') return membersBeforeCategory;
+    if (selectedCategory.includes('All')) return membersBeforeCategory;
     return membersBeforeCategory.filter(m => {
       const allBills = [...m.sponsoredBills, ...m.cosponsoredBills];
-      return allBills.some(b => b.category === selectedCategory);
+      return allBills.some(b => selectedCategory.includes(b.category));
     });
+  }, [membersBeforeCategory, selectedCategory]);
+
+  // Bills per member filtered by selected category
+  const filteredBillsPerMember = useMemo(() => {
+    const map: Record<string, string[]> = {};
+    membersBeforeCategory.forEach(m => {
+      const allBills = [...m.sponsoredBills, ...m.cosponsoredBills];
+      if (selectedCategory.includes('All')) {
+        map[m.id] = allBills.map(b => b.billId);
+      } else {
+        map[m.id] = allBills
+          .filter(b => selectedCategory.includes(b.category))
+          .map(b => b.billId);
+      }
+    });
+    return map;
   }, [membersBeforeCategory, selectedCategory]);
 
   // Paginated members calculation
@@ -123,7 +141,7 @@ export function useData(chamber: Chamber) {
     setSearchQuery('');
     setSelectedState('All');
     setSelectedConstituency('All');
-    setSelectedCategory('All');
+    setSelectedCategory(['All']);
     setCurrentPage(1);
   };
 
@@ -149,6 +167,7 @@ export function useData(chamber: Chamber) {
     setCurrentPage,
     pageSize,
     setPageSize,
-    clearFilters
+    clearFilters,
+    filteredBillsPerMember
   };
 }

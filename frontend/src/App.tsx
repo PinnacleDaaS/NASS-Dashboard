@@ -45,46 +45,60 @@ export function App() {
     setCurrentPage,
     pageSize,
     setPageSize,
-    clearFilters
+    clearFilters,
+    filteredBillsPerMember
   } = useData(chamber);
 
   const [selectedMember, setSelectedMember] = useState<Member | null>(null);
 
-  const isFiltered = searchQuery.trim() !== '' || selectedState !== 'All' || selectedConstituency !== 'All' || selectedCategory !== 'All';
+  const isFiltered = searchQuery.trim() !== '' || selectedState !== 'All' || selectedConstituency !== 'All' || selectedCategory.some(c => c !== 'All');
 
-  const totalLinkedBills = filteredMembers.reduce((sum, m) => sum + m.totalBills, 0);
-  const activeCount = filteredMembers.filter(m => m.sponsoredCount > 0).length;
+  // Category-filtered bills per member
+  const filteredBillsMap = filteredBillsPerMember;
 
-  // Dynamic leaderboard from filtered results
+  // Total bills in selected category across filtered members
+  const totalLinkedBills = filteredMembers.reduce((sum, m) => 
+    sum + (filteredBillsMap[m.id]?.length || 0), 0);
+  
+  // Active legislators with ≥1 bill in selected category
+  const activeCount = filteredMembers.filter(m => 
+    (filteredBillsMap[m.id]?.length || 0) > 0
+  ).length;
+
+  // Dynamic leaderboard from filtered results (using category-filtered bill counts)
   const leaderboardTop20 = useMemo(() => {
-    const sorted = [...filteredMembers].sort((a, b) => b.totalBills - a.totalBills);
+    const sorted = [...filteredMembers].sort((a, b) => 
+      (filteredBillsMap[b.id]?.length || 0) - (filteredBillsMap[a.id]?.length || 0)
+    );
     return sorted.slice(0, 20).map((m, i) => ({
       id: m.id,
       name: m.name,
       party: m.party,
       state: m.state,
       constituency: m.constituency,
-      billCount: m.totalBills,
-      sponsoredCount: m.sponsoredCount,
-      cosponsoredCount: m.cosponsoredCount,
+      billCount: filteredBillsMap[m.id]?.length || 0,
+      sponsoredCount: (selectedCategory.includes('All') ? m.sponsoredBills : m.sponsoredBills.filter(b => selectedCategory.includes(b.category))).length,
+      cosponsoredCount: (selectedCategory.includes('All') ? m.cosponsoredBills : m.cosponsoredBills.filter(b => selectedCategory.includes(b.category))).length,
       conversionRate: 0
     }));
-  }, [filteredMembers]);
+  }, [filteredMembers, selectedCategory, filteredBillsMap]);
 
   const leaderboardLeast20 = useMemo(() => {
-    const sorted = [...filteredMembers].sort((a, b) => a.totalBills - b.totalBills);
+    const sorted = [...filteredMembers].sort((a, b) => 
+      (filteredBillsMap[a.id]?.length || 0) - (filteredBillsMap[b.id]?.length || 0)
+    );
     return sorted.slice(0, 20).map((m, i) => ({
       id: m.id,
       name: m.name,
       party: m.party,
       state: m.state,
       constituency: m.constituency,
-      billCount: m.totalBills,
-      sponsoredCount: m.sponsoredCount,
-      cosponsoredCount: m.cosponsoredCount,
+      billCount: filteredBillsMap[m.id]?.length || 0,
+      sponsoredCount: (selectedCategory.includes('All') ? m.sponsoredBills : m.sponsoredBills.filter(b => selectedCategory.includes(b.category))).length,
+      cosponsoredCount: (selectedCategory.includes('All') ? m.cosponsoredBills : m.cosponsoredBills.filter(b => selectedCategory.includes(b.category))).length,
       conversionRate: 0
     }));
-  }, [filteredMembers]);
+  }, [filteredMembers, selectedCategory, filteredBillsMap]);
 
   return (
     <div className="min-h-screen flex flex-col bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors duration-300">
@@ -219,6 +233,8 @@ export function App() {
                   chamber={chamber}
                   onViewBills={setSelectedMember}
                   onClearFilters={clearFilters}
+                  selectedCategory={selectedCategory}
+                  filteredBillsPerMember={filteredBillsPerMember}
                 />
 
                 {/* Pagination Controls Bottom */}
@@ -249,6 +265,7 @@ export function App() {
           member={selectedMember}
           chamber={chamber}
           onClose={() => setSelectedMember(null)}
+          selectedCategory={selectedCategory}
         />
       )}
 

@@ -7,12 +7,14 @@ interface BillDetailsModalProps {
   member: Member | null;
   chamber: Chamber;
   onClose: () => void;
+  selectedCategory: string[];
 }
 
 export const BillDetailsModal: React.FC<BillDetailsModalProps> = ({
   member,
   chamber,
-  onClose
+  onClose,
+  selectedCategory
 }) => {
   const [activeTab, setActiveTab] = useState<'sponsored' | 'cosponsored'>('sponsored');
 
@@ -22,7 +24,17 @@ export const BillDetailsModal: React.FC<BillDetailsModalProps> = ({
   const accentBg = isHouse ? 'bg-emerald-600' : 'bg-rose-600';
   const accentText = isHouse ? 'text-emerald-500' : 'text-rose-500';
 
-  const billsToShow: Bill[] = activeTab === 'sponsored' ? member.sponsoredBills : member.cosponsoredBills;
+  const sponsoredBills = selectedCategory.includes('All') 
+    ? member.sponsoredBills 
+    : member.sponsoredBills.filter(b => selectedCategory.includes(b.category));
+  const cosponsoredBills = selectedCategory.includes('All') 
+    ? member.cosponsoredBills 
+    : member.cosponsoredBills.filter(b => selectedCategory.includes(b.category));
+
+  const allBills = activeTab === 'sponsored' ? member.sponsoredBills : member.cosponsoredBills;
+  const billsToShow = selectedCategory.includes('All') 
+    ? allBills 
+    : allBills.filter(b => selectedCategory.includes(b.category));
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-md animate-fadeIn">
@@ -74,7 +86,7 @@ export const BillDetailsModal: React.FC<BillDetailsModalProps> = ({
             }`}
           >
             <FileText className="w-4 h-4" />
-            <span>Sponsored Bills ({member.sponsoredBills.length})</span>
+            <span>Sponsored Bills ({sponsoredBills.length})</span>
           </button>
           <button
             onClick={() => setActiveTab('cosponsored')}
@@ -85,7 +97,7 @@ export const BillDetailsModal: React.FC<BillDetailsModalProps> = ({
             }`}
           >
             <Users className="w-4 h-4" />
-            <span>Co-Sponsored Bills ({member.cosponsoredBills.length})</span>
+            <span>Co-Sponsored Bills ({cosponsoredBills.length})</span>
           </button>
         </div>
 
@@ -95,7 +107,8 @@ export const BillDetailsModal: React.FC<BillDetailsModalProps> = ({
             <div className="text-center py-12 text-slate-400">
               <FileText className="w-12 h-12 mx-auto opacity-30 mb-3" />
               <p className="text-sm font-medium">
-                No {activeTab === 'sponsored' ? 'sponsored' : 'co-sponsored'} bills found for this legislator.
+                No {activeTab === 'sponsored' ? 'sponsored' : 'co-sponsored'} bills found for this legislator
+                {selectedCategory.some(c => c !== 'All') ? ` in ${selectedCategory.join(', ')}` : ''}.
               </p>
             </div>
           ) : (

@@ -8,12 +8,20 @@ interface LegislatorCardProps {
   member: Member;
   chamber: Chamber;
   onViewBills: (member: Member) => void;
+  selectedCategory?: string[];
+  filteredSponsoredCount?: number;
+  filteredCosponsoredCount?: number;
+  filteredTotalBills?: number;
 }
 
 export const LegislatorCard: React.FC<LegislatorCardProps> = ({
   member,
   chamber,
-  onViewBills
+  onViewBills,
+  selectedCategory,
+  filteredSponsoredCount,
+  filteredCosponsoredCount,
+  filteredTotalBills
 }) => {
   const isHouse = chamber === 'house';
   const labelConstituency = isHouse ? 'Constituency' : 'District';
@@ -29,6 +37,13 @@ export const LegislatorCard: React.FC<LegislatorCardProps> = ({
   const btnBg = isHouse
     ? 'bg-emerald-600 hover:bg-emerald-700 shadow-emerald-900/20'
     : 'bg-rose-600 hover:bg-rose-700 shadow-rose-900/20';
+
+  // Use filtered counts when category is selected, otherwise use member totals
+  const isFiltered = selectedCategory && selectedCategory.length > 0 && !selectedCategory.includes('All');
+  const displayTotalBills = isFiltered && filteredTotalBills !== undefined ? filteredTotalBills : member.totalBills;
+  const displaySponsoredCount = isFiltered && filteredSponsoredCount !== undefined ? filteredSponsoredCount : member.sponsoredCount;
+  const displayCosponsoredCount = isFiltered && filteredCosponsoredCount !== undefined ? filteredCosponsoredCount : member.cosponsoredCount;
+  const displayTotalBillsForBtn = isFiltered && filteredTotalBills !== undefined ? filteredTotalBills : member.totalBills;
 
   return (
     <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
@@ -50,7 +65,7 @@ export const LegislatorCard: React.FC<LegislatorCardProps> = ({
 
             {/* Total Bills Badge */}
             <span className="px-2.5 py-1 rounded-full text-xs font-extrabold bg-white/20 backdrop-blur-md text-white whitespace-nowrap">
-              {member.totalBills} {member.totalBills === 1 ? 'Bill' : 'Bills'}
+              {displayTotalBills} {displayTotalBills === 1 ? 'Bill' : 'Bills'}
             </span>
           </div>
         </div>
@@ -92,7 +107,7 @@ export const LegislatorCard: React.FC<LegislatorCardProps> = ({
                 Sponsored
               </span>
               <span className="text-lg font-extrabold text-slate-900 dark:text-white">
-                {member.sponsoredCount}
+                {displaySponsoredCount}
               </span>
             </div>
 
@@ -102,7 +117,7 @@ export const LegislatorCard: React.FC<LegislatorCardProps> = ({
                 Co-Sponsor
               </span>
               <span className="text-lg font-extrabold text-slate-900 dark:text-white">
-                {member.cosponsoredCount}
+                {displayCosponsoredCount}
               </span>
             </div>
 
@@ -141,15 +156,15 @@ export const LegislatorCard: React.FC<LegislatorCardProps> = ({
       <div className="p-4 border-t border-slate-100 dark:border-slate-800/80 bg-slate-50/50 dark:bg-slate-900/50">
         <button
           onClick={() => onViewBills(member)}
-          disabled={member.totalBills === 0}
+          disabled={displayTotalBillsForBtn === 0}
           className={`w-full py-2.5 px-4 rounded-xl text-xs font-bold text-white transition-all flex items-center justify-center gap-2 shadow-md ${
-            member.totalBills > 0
+            displayTotalBillsForBtn > 0
               ? `${btnBg} cursor-pointer`
               : 'bg-slate-300 dark:bg-slate-800 text-slate-500 cursor-not-allowed shadow-none'
           }`}
         >
           <Eye className="w-4 h-4" />
-          <span>{member.totalBills > 0 ? 'View Bill Details' : 'No Bills Linked'}</span>
+          <span>{displayTotalBillsForBtn > 0 ? 'View Bill Details' : 'No Bills Linked'}</span>
         </button>
       </div>
 

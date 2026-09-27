@@ -10,8 +10,8 @@ interface SidebarProps {
   onStateChange: (state: string) => void;
   selectedConstituency: string;
   onConstituencyChange: (c: string) => void;
-  selectedCategory: string;
-  onCategoryChange: (c: string) => void;
+  selectedCategory: string[];
+  onCategoryChange: (c: string[]) => void;
   statesList: string[];
   constituenciesList: string[];
   categoriesList: string[];
@@ -45,7 +45,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
   const labelConstituency = isHouse ? 'Constituency' : 'District';
   const accentRing = isHouse ? 'focus:ring-emerald-500/50' : 'focus:ring-rose-500/50';
   const accentIcon = isHouse ? 'text-emerald-500' : 'text-rose-500';
-  const hasActiveFilters = searchQuery !== '' || selectedState !== 'All' || selectedConstituency !== 'All' || selectedCategory !== 'All';
+  const hasActiveFilters = searchQuery !== '' || selectedState !== 'All' || selectedConstituency !== 'All' || selectedCategory.some(c => c !== 'All');
 
   const sidebarInner = (
     <div className="flex flex-col h-full space-y-6 p-6">
@@ -153,22 +153,57 @@ export const Sidebar: React.FC<SidebarProps> = ({
         </div>
       </div>
 
-      {/* 4. Category Filter Dropdown */}
+{/* 4. Category Filter — Multi-select with Chips */}
       <div className="space-y-2">
         <label className="text-xs font-extrabold uppercase tracking-wider text-slate-500 dark:text-slate-400">
           Filter by Category
         </label>
+
+        {/* Selected Category Chips */}
+        {!selectedCategory.includes('All') && selectedCategory.length > 0 && (
+          <div className="flex flex-wrap gap-1.5">
+            {selectedCategory.map(cat => (
+              <span key={cat} className="inline-flex items-center gap-1 px-2 py-1 rounded-lg text-[10px] font-bold bg-emerald-100 dark:bg-emerald-900/40 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-700/50">
+                {cat}
+                <button
+                  onClick={() => onCategoryChange(selectedCategory.filter(c => c !== cat))}
+                  className="p-0.5 rounded-full hover:bg-emerald-200 dark:hover:bg-emerald-700 transition-colors"
+                >
+                  <X className="w-2.5 h-2.5" />
+                </button>
+              </span>
+            ))}
+            <button
+              onClick={() => onCategoryChange(['All'])}
+              className="inline-flex items-center px-2 py-1 rounded-lg text-[10px] font-bold text-slate-500 dark:text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700/50 transition-colors"
+            >
+              Clear all
+            </button>
+          </div>
+        )}
+
+        {/* Category Dropdown */}
         <div className="relative">
           <select
-            value={selectedCategory}
-            onChange={e => onCategoryChange(e.target.value)}
-            className="w-full px-3 py-2.5 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700/80 rounded-xl text-xs font-medium text-slate-800 dark:text-slate-200 focus:outline-none focus:ring-2 ${accentRing} transition-all appearance-none cursor-pointer"
+            value=""
+            onChange={e => {
+              const cat = e.target.value;
+              if (cat && cat !== 'All' && !selectedCategory.includes(cat)) {
+                onCategoryChange([...selectedCategory.filter(c => c !== 'All'), cat]);
+              } else if (cat === 'All') {
+                onCategoryChange(['All']);
+              }
+            }}
+            className="w-full px-3 py-2.5 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700/80 rounded-xl text-xs font-medium text-slate-800 dark:text-slate-200 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 transition-all appearance-none cursor-pointer"
           >
-            <option value="All">All Categories</option>
-            {categoriesList.map(cat => (
-              <option key={cat} value={cat}>
-                {cat}
-              </option>
+            <option value="" disabled>
+              {selectedCategory.includes('All') ? 'Select categories...' : `Add category (${selectedCategory.length} selected)`}
+            </option>
+            {selectedCategory.includes('All') && (
+              <option value="All">All Categories</option>
+            )}
+            {categoriesList.filter(c => !selectedCategory.includes(c)).map(cat => (
+              <option key={cat} value={cat}>{cat}</option>
             ))}
           </select>
           <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none text-slate-400">

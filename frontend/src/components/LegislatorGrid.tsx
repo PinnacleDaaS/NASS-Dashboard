@@ -8,13 +8,17 @@ interface LegislatorGridProps {
   chamber: Chamber;
   onViewBills: (m: Member) => void;
   onClearFilters: () => void;
+  selectedCategory: string[];
+  filteredBillsPerMember: Record<string, string[]>;
 }
 
 export const LegislatorGrid: React.FC<LegislatorGridProps> = ({
   members,
   chamber,
   onViewBills,
-  onClearFilters
+  onClearFilters,
+  selectedCategory,
+  filteredBillsPerMember
 }) => {
   if (members.length === 0) {
     return (
@@ -38,14 +42,29 @@ export const LegislatorGrid: React.FC<LegislatorGridProps> = ({
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-6">
-      {members.map(m => (
-        <LegislatorCard
-          key={m.id}
-          member={m}
-          chamber={chamber}
-          onViewBills={onViewBills}
-        />
-      ))}
+      {members.map(m => {
+        const filteredBillIds = filteredBillsPerMember[m.id] || [];
+        const isFiltered = selectedCategory.length > 0 && !selectedCategory.includes('All');
+        const filteredSponsored = isFiltered
+          ? m.sponsoredBills.filter(b => filteredBillIds.includes(b.billId)).length
+          : m.sponsoredCount;
+        const filteredCosponsored = isFiltered
+          ? m.cosponsoredBills.filter(b => filteredBillIds.includes(b.billId)).length
+          : m.cosponsoredCount;
+
+        return (
+          <LegislatorCard
+            key={m.id}
+            member={m}
+            chamber={chamber}
+            onViewBills={onViewBills}
+            selectedCategory={selectedCategory}
+            filteredSponsoredCount={filteredSponsored}
+            filteredCosponsoredCount={filteredCosponsored}
+            filteredTotalBills={filteredBillIds.length}
+          />
+        );
+      })}
     </div>
   );
 };
