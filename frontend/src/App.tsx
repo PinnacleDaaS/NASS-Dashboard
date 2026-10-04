@@ -56,9 +56,19 @@ export function App() {
   // Category-filtered bills per member
   const filteredBillsMap = filteredBillsPerMember;
 
-  // Total bills in selected category across filtered members
-  const totalLinkedBills = filteredMembers.reduce((sum, m) => 
-    sum + (filteredBillsMap[m.id]?.length || 0), 0);
+  // Total UNIQUE bills in view (dedupe by billId — a co-sponsored bill
+  // linked to several members must count once, not once per member)
+  const totalLinkedBills = useMemo(() => {
+    const ids = new Set<string>();
+    filteredMembers.forEach(m => {
+      const all = [...m.sponsoredBills, ...m.cosponsoredBills];
+      const list = selectedCategory.includes('All')
+        ? all
+        : all.filter(b => selectedCategory.includes(b.category));
+      list.forEach(b => ids.add(b.billId));
+    });
+    return ids.size;
+  }, [filteredMembers, selectedCategory]);
   
   // Active legislators with ≥1 bill in selected category
   const activeCount = filteredMembers.filter(m => 
